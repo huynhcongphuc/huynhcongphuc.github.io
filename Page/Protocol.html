@@ -13,6 +13,7 @@
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
         </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/JS\\navbar.JS" type="text/javascript"></script>
     <script>
         document.addEventListener('scroll', function (e) {
 
@@ -24,30 +25,6 @@
                 document.getElementById("navtop").style.position = "relative";
                 document.getElementById("navtop").style.zIndex = 0;
             }
-        });
-
-
-        $(document).ready(function () {
-            $("#footer").load("\\Layout\\layout_footer.html");
-
-            $("#porfolio").click(function () {
-                window.location = "/index.html";
-            })
-            $("#programing").click(function () {
-                window.location = "/Page\\Programing.html";
-            })
-            $("#automation").click(function () {
-                window.location = "/Page\\automation.html";
-            })
-            $("#electrical").click(function () {
-                window.location = "/Page\\electrical.html";
-            })
-            $("#network").click(function () {
-                window.location = "/Page\\network.html";
-            })
-            $("#protocol").click(function () {
-                window.location = "/Page\\protocol.html";
-            })
         });
     </script>
     <style>

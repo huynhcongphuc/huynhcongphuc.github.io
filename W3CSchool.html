@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
+    <style>
+        .fakeimg {
+            background-color: greenyellow;
+            min-height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-color: rgb(10, 92, 65); min-height: 150px">
+                    <img src="..." class="d-block w-100" alt="slide 1">
+                </div>
+                <div class="carousel-item" style="background-color: rgb(10, 92, 65); min-height: 150px">
+                    <img src="..." class="d-block w-100" alt="slide 2">
+                </div>
+                <div class="carousel-item" style="background-color: rgb(10, 92, 65); min-height: 150px">
+                    <img src="..." class="d-block w-100" alt="slide 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a href="#" class="navbar-brand ms-2">
+                <span class="fw-bold text-secondary">Trung tâm Điều độ TPHCM</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end me-2" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">PHÒNG BAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">ĐOÀN THỂ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-secondary" href="#">ĐỐI NGOẠI</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="container-fluid mt-3">
+        <div class="row me-2 ms-2">
+            <div class="col-sm-3">
+                <h2 class="text-danger">Thông tin trang</h2>
+                <h5>Photo of me:</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                <h3>Các đường dẫn báo cáo</h3>
+                <p>Lorem ipsum dolor sit ame.</p>
+                <div class="btn-group-vertical" role="group" aria-label="Basic mixed styles example">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-primary" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-info" type="button"
+                            id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle btn-danger" type="button"
+                            id="dropdownMenuButton3" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="d-sm-none">
+            </div>
+            <div class="col-sm-9">
+                <h2 class="text-info">TRANG CHỦ</h2>
+                <h5>Title description, Dec 7, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+                <br>
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Sep 2, 2017</h5>
+                <div class="fakeimg">Fake Image</div>
+                <p>Some text..</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="card-group">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="..."
+                    style="background-color: rgb(10, 92, 65); min-height: 100px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="..."
+                    style="background-color: rgb(10, 92, 65); min-height: 100px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="..." class="card-img-top" alt="..."
+                    style="background-color: rgb(10, 92, 65); min-height: 100px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function () {
+            $("#testp").click(function () {
+                $(this).toggle(3000);
+            });
+            $("button").dblclick(function () {
+                $("#testp").show();
+            });
+
+            $("#btn1").click(function () {
+                var newinfo = $("<p id='newinfo'></p>").html("<p>New paragraph</p>");
+                $("#test").after(newinfo);
+            })
+
+            $("#btn2").click(function () {
+                $.get("", function (data, status) {
+                    alert("Data: " + data + "\nStatus: " + status);
+                });
+            })
+        })
+    </script>
+</body>
+
+</html>

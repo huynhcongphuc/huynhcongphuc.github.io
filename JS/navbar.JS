@@ -5,18 +5,18 @@ $(document).ready(function () {
         window.location = "/index.html";
     })
     $("#programing").click(function () {
-        window.location = "/Page\\Programing.html";
+        window.location = "/page\\programing.html";
     })
     $("#automation").click(function () {
-        window.location = "/Page\\Automation.html";
+        window.location = "/page\\automation.html";
     })
     $("#electrical").click(function () {
-        window.location = "/Page\\Electrical.html";
+        window.location = "/page\\electrical.html";
     })
     $("#network").click(function () {
-        window.location = "/Page\\Network.html";
+        window.location = "/page\\network.html";
     })
     $("#protocol").click(function () {
-        window.location = "/Page\\Protocol.html";
+        window.location = "/page\\protocol.html";
     })
 });

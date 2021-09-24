@@ -19,4 +19,7 @@ $(document).ready(function () {
     $("#protocol").click(function () {
         window.location = "/page\\protocol.html";
     })
+    $("#slogan").click(function () {
+        window.location = "/index.html";
+    })
 });

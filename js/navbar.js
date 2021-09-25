@@ -4,9 +4,6 @@ $(document).ready(function () {
     $("#porfolio").click(function () {
         window.location = "/index.html";
     })
-    $("#sharing").click(function () {
-        window.location = "/page\\sharing.html";
-    })
     $("#savingurl").click(function () {
         window.location = "/page\\savingurl.html";
     })

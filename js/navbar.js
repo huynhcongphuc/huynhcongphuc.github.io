@@ -4,20 +4,11 @@ $(document).ready(function () {
     $("#porfolio").click(function () {
         window.location = "/index.html";
     })
-    $("#programing").click(function () {
-        window.location = "/page\\programing.html";
+    $("#sharing").click(function () {
+        window.location = "/page\\sharing.html";
     })
-    $("#automation").click(function () {
-        window.location = "/page\\automation.html";
-    })
-    $("#electrical").click(function () {
-        window.location = "/page\\electrical.html";
-    })
-    $("#network").click(function () {
-        window.location = "/page\\network.html";
-    })
-    $("#protocol").click(function () {
-        window.location = "/page\\protocol.html";
+    $("#savingurl").click(function () {
+        window.location = "/page\\savingurl.html";
     })
     $("#slogan").click(function () {
         window.location = "/index.html";

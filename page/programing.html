@@ -14,19 +14,7 @@
         </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/js\\navbar.js" type="text/javascript"></script>
-    <script>
-        document.addEventListener('scroll', function (e) {
-
-            if (window.scrollY > 200) {
-                document.getElementById("navtop").style.position = "fixed";
-                document.getElementById("navtop").style.top = 0;
-                document.getElementById("navtop").style.zIndex = 1;
-            } else {
-                document.getElementById("navtop").style.position = "relative";
-                document.getElementById("navtop").style.zIndex = 0;
-            }
-        });
-    </script>
+    <script src="/js\\programpost.js" type="text/javascript"></script>
     <style>
         .navhover:hover {
             font-size: 150%
@@ -71,21 +59,23 @@
 
     <div class="container-fluid mt-3">
         <div class="row me-2 ms-2">
-            <div class="col-md-8">
+            <div class="col-md-8" style="text-align: justify">
+                <div id="post1"></div>
 
             </div>
             <div class="col-md-4">
-                <h2 class="text-info">POSTS</h2>
                 <div class="row px-5">
-                    <h5>#.Net #Socket #TCP/IP #HTTP</h5>
-                    <img src="\picture\image15.jpg" class="img-thumbnail" alt="Portrait Photo"
-                        style="max-height:500px"></img>
-                    <p class="text-danger mb-3" style="font-size: 20px">Brief: <span>Socket Programing</span></p>
+                    <h2 class="text-info"><i class="fa-solid fa-envelopes-bulk"></i> POSTS: </h2>
+                    <div id="subpost1" class="my-2"></div>
                 </div>
             </div>
+
         </div>
     </div>
-    <div id="footer"></div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div id="footer"></div>
+    </div>
 </body>
 
 </html>

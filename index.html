@@ -8,7 +8,7 @@
     <meta name="author" content="Huỳnh Công Phúc">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "icon" type = "image/png" href = "/picture\LOGO3.png">
+    <link rel="icon" type="image/png" href="/picture\LOGO3.png">
     <title>Huỳnh Công Phúc</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -37,6 +37,9 @@
         .navhover:hover {
             font-size: 150%
         }
+        .navhoverdropdown:hover {
+            color:red
+        }
     </style>
 </head>
 
@@ -52,19 +55,21 @@
             <div class="collapse navbar-collapse justify-content-end me-2" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <audio controls>
-                            <source src="/mp3/cobadiva.mp3" type="audio/mpeg" />
-                            Your browser does not support the audio element.
-                        </audio>
+                        <a id="porfolio" class="nav-link text-danger navhover" href="#">PORFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a id="porfolio" class="nav-link text-danger navhover" href="#"  style="padding-top: 15%; margin-left: 10px;">PORFOLIO</a>
+                        <a id="savingurl" class="nav-link text-secondary navhover" href="#">GOOD-URL</a>
                     </li>
                     <li class="nav-item">
-                        <a id="savingurl" class="nav-link text-secondary navhover" href="#"  style="padding-top: 15%;">GOOD-URL</a>
-                    </li>
-                    <li class="nav-item">
-                        <a id="savingurl" class="nav-link text-success navhover" href="./React_todolist"  style="padding-top: 15%;" target="_blank">PRODUCTS</a>
+                        <div class="dropdown">
+                            <button class="btn text-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                data-bs-toggle="dropdown" aria-expanded="false"><span class="navhover">PRODUCTS</span></button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <a class="dropdown-item text-secondary" href="./React_todolist" target="_blank">App Todo List</a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -187,6 +192,10 @@
                         2021 -
                         Member</li>
                 </ul>
+                <audio controls style="width: 100%">
+                    <source src="/mp3/cobadiva.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
             </div>
             <div class="col-md-9">
                 <h2 class="text-info"><i class="fa-solid fa-book"></i><span style="margin: 30px;">GRADUATION</span></h2>
@@ -202,7 +211,8 @@
                                 hardware
                                 and
                                 software
-                                with PLC AB Rockwell CompactLogix 5000 series and HMIs (Rockwell HMI, Web .Net interface, Android App)</li>
+                                with PLC AB Rockwell CompactLogix 5000 series and HMIs (Rockwell HMI, Web .Net
+                                interface, Android App)</li>
                         </ul>
                         <p class="text-danger mt-3" style="font-size: 20px">Master:</p>
                         <ul style="padding-left: 5%; text-align: justify">

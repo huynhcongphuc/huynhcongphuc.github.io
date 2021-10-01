@@ -1,8 +1,7 @@
 .navhover:hover {
-    font-size: 150%;
+    color: red
 }
 
 .navhoverdropdown:hover {
-    font-size: 150%;
     color: red
 }

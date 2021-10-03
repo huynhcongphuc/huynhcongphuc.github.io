@@ -10,4 +10,7 @@ $(document).ready(function () {
     $("#slogan").click(function () {
         window.location = "/index.html";
     })
+    $("#blogs").click(function () {
+        window.location = "https://phucexpressapp.herokuapp.com/";
+    })
 });

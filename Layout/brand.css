@@ -1,5 +1,6 @@
 .brand-mark{width:44px;height:44px;overflow:hidden;border-radius:50%;box-shadow:0 4px 16px rgba(11,31,51,.16)}
-.brand-mark img{width:100%;height:100%;object-fit:cover}
+.brand-mark{background:#fff;padding:3px}
+.brand-mark img{width:100%;height:100%;object-fit:contain;border-radius:50%}
 .site-header nav .active{color:var(--blue)}
 .memory-hero{padding-block:96px 64px}
 .memory-hero .back-link{display:inline-flex;align-items:center;gap:.45rem;margin-bottom:4rem;color:var(--muted);font-size:.82rem;font-weight:700}
@@ -18,4 +19,5 @@
 .memory-card figcaption p{margin:.3rem 0 0;color:#c5d1da;font-size:.8rem}
 .memory-card-logo{background:#061a2d}
 .memory-card-logo img{object-fit:contain;padding:3rem}
-@media(max-width:640px){.memory-hero{padding-block:64px 44px}.memory-hero .back-link{margin-bottom:2.8rem}.memory-gallery{grid-template-columns:1fr;padding-bottom:80px}.memory-card-wide{grid-column:auto}.memory-card,.memory-card-wide{min-height:430px}.memory-card-logo img{padding:1.5rem}}
+.memory-collection{padding-top:1rem}.collection-heading{display:grid;grid-template-columns:.6fr 1fr;gap:2rem;align-items:end;margin-bottom:2.4rem}.collection-heading h2{margin:0;font-size:clamp(2rem,4vw,3.8rem);line-height:1.08;letter-spacing:-.05em}.collection-heading>p:last-child{grid-column:2;color:var(--muted)}.memory-gallery-compact{grid-template-columns:repeat(3,minmax(0,1fr));padding-bottom:110px}.memory-card-compact{min-height:320px;box-shadow:none}.memory-card-compact figcaption{padding:.75rem .85rem}.memory-card-compact figcaption strong{font-size:.9rem}
+@media(max-width:900px){.memory-gallery-compact{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:640px){.memory-hero{padding-block:64px 44px}.memory-hero .back-link{margin-bottom:2.8rem}.memory-gallery{grid-template-columns:1fr;padding-bottom:80px}.memory-card-wide{grid-column:auto}.memory-card,.memory-card-wide{min-height:430px}.memory-card-logo img{padding:1.5rem}.collection-heading{grid-template-columns:1fr}.collection-heading>p:last-child{grid-column:1}.memory-gallery-compact{grid-template-columns:1fr}.memory-card-compact{min-height:360px}}

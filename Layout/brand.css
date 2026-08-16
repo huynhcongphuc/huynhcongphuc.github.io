@@ -1,0 +1,21 @@
+.brand-mark{width:44px;height:44px;overflow:hidden;border-radius:50%;box-shadow:0 4px 16px rgba(11,31,51,.16)}
+.brand-mark img{width:100%;height:100%;object-fit:cover}
+.site-header nav .active{color:var(--blue)}
+.memory-hero{padding-block:96px 64px}
+.memory-hero .back-link{display:inline-flex;align-items:center;gap:.45rem;margin-bottom:4rem;color:var(--muted);font-size:.82rem;font-weight:700}
+.memory-hero .back-link svg{width:17px}
+.memory-hero h1{margin-bottom:1.5rem}
+.memory-hero>p:last-child{max-width:620px;color:var(--muted);font-size:1.08rem}
+.memory-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem;padding-bottom:110px}
+.memory-card{position:relative;overflow:hidden;min-height:520px;margin:0;border-radius:var(--radius);background:var(--navy);box-shadow:var(--shadow)}
+.memory-card-wide{grid-column:1/-1;min-height:650px}
+.memory-card img{width:100%;height:100%;object-fit:cover;transition:transform .55s ease}
+.memory-card:hover img{transform:scale(1.025)}
+.memory-card figcaption{position:absolute;right:16px;bottom:16px;left:16px;padding:1rem 1.1rem;border:1px solid rgba(255,255,255,.16);border-radius:16px;background:rgba(11,31,51,.84);color:var(--white);backdrop-filter:blur(12px)}
+.memory-card figcaption span,.memory-card figcaption strong{display:block}
+.memory-card figcaption span{color:#9ccce3;font-size:.68rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.memory-card figcaption strong{margin-top:.25rem;font-size:1.05rem}
+.memory-card figcaption p{margin:.3rem 0 0;color:#c5d1da;font-size:.8rem}
+.memory-card-logo{background:#061a2d}
+.memory-card-logo img{object-fit:contain;padding:3rem}
+@media(max-width:640px){.memory-hero{padding-block:64px 44px}.memory-hero .back-link{margin-bottom:2.8rem}.memory-gallery{grid-template-columns:1fr;padding-bottom:80px}.memory-card-wide{grid-column:auto}.memory-card,.memory-card-wide{min-height:430px}.memory-card-logo img{padding:1.5rem}}

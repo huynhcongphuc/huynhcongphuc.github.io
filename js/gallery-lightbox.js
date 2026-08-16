@@ -1,5 +1,5 @@
 (() => {
-  const galleryImages = [...document.querySelectorAll('main img')];
+  const galleryImages = [...document.querySelectorAll('main img, .memory-collection img')];
   if (!galleryImages.length) return;
 
   const lightbox = document.createElement('div');

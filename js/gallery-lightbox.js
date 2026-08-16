@@ -1,5 +1,5 @@
 (() => {
-  const galleryImages = [...document.querySelectorAll('.memory-gallery .memory-card img')];
+  const galleryImages = [...document.querySelectorAll('main img')];
   if (!galleryImages.length) return;
 
   const lightbox = document.createElement('div');
@@ -50,12 +50,12 @@
   };
 
   galleryImages.forEach((image, index) => {
-    const card = image.closest('.memory-card');
-    card.tabIndex = 0;
-    card.setAttribute('role', 'button');
-    card.setAttribute('aria-label', `Phóng lớn ${image.alt || `ảnh ${index + 1}`}`);
-    card.addEventListener('click', () => openLightbox(index));
-    card.addEventListener('keydown', (event) => {
+    image.classList.add('zoomable-image');
+    image.tabIndex = 0;
+    image.setAttribute('role', 'button');
+    image.setAttribute('aria-label', `Phóng lớn ${image.alt || `ảnh ${index + 1}`}`);
+    image.addEventListener('click', () => openLightbox(index));
+    image.addEventListener('keydown', (event) => {
       if (event.key === 'Enter' || event.key === ' ') {
         event.preventDefault();
         openLightbox(index);

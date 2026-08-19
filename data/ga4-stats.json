@@ -2,31 +2,21 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T05:34:51.332486+00:00",
+  "updated_at": "2026-08-19T05:46:32.135918+00:00",
   "realtime": {
-    "active_users": 4,
-    "views": 16,
+    "active_users": 6,
+    "views": 14,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 4
+        "users": 6
       }
     ],
     "pages": [
       {
         "page": "Thống kê GA4 | Huỳnh Công Phúc",
-        "users": 4,
-        "views": 15
-      },
-      {
-        "page": "(other)",
-        "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 0
+        "users": 5,
+        "views": 12
       }
     ]
   },

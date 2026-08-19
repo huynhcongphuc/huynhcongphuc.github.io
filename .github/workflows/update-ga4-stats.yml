@@ -8,11 +8,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ga4-public-statistics
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -29,4 +35,5 @@ jobs:
           git add data/ga4-stats.json
           git diff --cached --quiet && exit 0
           git commit -m "Update public GA4 statistics"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main

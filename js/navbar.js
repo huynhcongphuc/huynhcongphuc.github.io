@@ -1,3 +1,17 @@
+// Google Analytics 4 - Huynh Cong Phuc website
+const GA_MEASUREMENT_ID='G-GT3E67GPJM';
+window.dataLayer=window.dataLayer||[];
+function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());
+gtag('config',GA_MEASUREMENT_ID);
+
+if(!document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`)){
+  const ga=document.createElement('script');
+  ga.async=true;
+  ga.src=`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+  document.head.appendChild(ga);
+}
+
 document.addEventListener('DOMContentLoaded',()=>{
   if(window.lucide)window.lucide.createIcons();
 
@@ -9,9 +23,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     const statsLink=document.createElement('a');
     statsLink.href='stats.html';
     statsLink.textContent='Thống kê';
-    if(location.pathname.endsWith('/stats.html') || location.pathname.endsWith('stats.html')){
-      statsLink.classList.add('active');
-    }
+    if(location.pathname.endsWith('/stats.html') || location.pathname.endsWith('stats.html')) statsLink.classList.add('active');
     const languageToggle=nav.querySelector('[data-language-toggle]');
     if(languageToggle) nav.insertBefore(statsLink,languageToggle);
     else nav.appendChild(statsLink);
@@ -35,41 +47,38 @@ document.addEventListener('DOMContentLoaded',()=>{
   const year=document.querySelector('#year');
   if(year)year.textContent=new Date().getFullYear();
 
-  // Lightweight public counters for this static GitHub Pages site.
-  // No IP address is stored. IP geolocation is used only to classify VN / abroad.
-  const COUNTER_BASE='https://api.counterapi.dev/v1/huynhcongphuc-site';
-  const counterUp=(name)=>fetch(`${COUNTER_BASE}/${encodeURIComponent(name)}/up`,{mode:'cors',cache:'no-store'}).catch(()=>null);
+  // Track each software/document download as its own GA4 event.
+  const downloads=[
+    {match:'IgBq6U7hVxl5RJuDTA6EJ_ahAXFAtLfmY8CHGajxg9ZjMy0',event:'download_secureapp',name:'SecureApp - Ung dung ma hoa du lieu',type:'software'},
+    {match:'IgCWzBpvcoqLT4XENDOsrvIUAU-Cq-ESSLyOE2bAD3Pwq2s',event:'download_master_server',name:'Master Server Protocol',type:'software'},
+    {match:'IgApTsr0fURrQ5VzGEA222H4AZa4rPLGAMoSnHB6vAfKTdM',event:'download_der_simulator',name:'DER Simulator',type:'software'},
+    {match:'IgD3GSNESb9yRphUKp21307vAbuuXWulCUgH3GJR2e8iTis',event:'download_microgrid_simulator',name:'Microgrid Simulator',type:'software'}
+  ];
 
-  // Count one visit per browser tab/session instead of every page navigation.
-  if(!sessionStorage.getItem('hcp_visit_counted')){
-    sessionStorage.setItem('hcp_visit_counted','1');
-    counterUp('visits-total');
-
-    fetch('https://ipwho.is/?fields=success,country_code',{mode:'cors',cache:'no-store'})
-      .then(r=>r.ok?r.json():Promise.reject())
-      .then(data=>{
-        if(data && data.success){
-          counterUp(data.country_code==='VN'?'visits-vietnam':'visits-abroad');
-        }else{
-          counterUp('visits-unknown');
-        }
-      })
-      .catch(()=>counterUp('visits-unknown'));
-  }
-
-  // Track all current and future download buttons.
   document.querySelectorAll('.product-download,[data-track-download]').forEach((link,index)=>{
     link.addEventListener('click',()=>{
+      const href=link.href||'';
       const card=link.closest('.product-card,.research-card');
-      const title=card?.querySelector('h2')?.textContent?.trim() || link.textContent.trim() || `download-${index+1}`;
-      const slug=title.toLowerCase()
-        .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
-        .replace(/đ/g,'d')
-        .replace(/[^a-z0-9]+/g,'-')
-        .replace(/^-|-$/g,'')
-        .slice(0,60) || `download-${index+1}`;
-      counterUp('downloads-total');
-      counterUp(`download-${slug}`);
+      const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||`Download ${index+1}`;
+      const known=downloads.find(item=>href.includes(item.match));
+      const eventName=known?.event||'download_document';
+      const softwareName=known?.name||title;
+      gtag('event',eventName,{
+        software_name:softwareName,
+        download_type:known?.type||'document',
+        link_url:href,
+        link_text:link.textContent.trim(),
+        page_path:location.pathname,
+        page_title:document.title
+      });
+      // One common event makes total-download reporting and software comparison easy.
+      gtag('event','file_download_click',{
+        software_name:softwareName,
+        download_event:eventName,
+        download_type:known?.type||'document',
+        link_url:href,
+        page_path:location.pathname
+      });
     },{passive:true});
   });
 });

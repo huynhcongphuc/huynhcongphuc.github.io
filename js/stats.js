@@ -1,36 +1,18 @@
 document.addEventListener('DOMContentLoaded',()=>{
-  const BASE='https://api.counterapi.dev/v1/huynhcongphuc-site';
-  const names=['visits-total','visits-vietnam','visits-abroad','downloads-total'];
-  const number=new Intl.NumberFormat('vi-VN');
-
-  async function getCounter(name){
-    try{
-      const r=await fetch(`${BASE}/${encodeURIComponent(name)}`,{mode:'cors',cache:'no-store'});
-      if(!r.ok) return 0;
-      const data=await r.json();
-      return Number(data.count ?? data.value ?? 0) || 0;
-    }catch{return 0;}
+  const nf=new Intl.NumberFormat('vi-VN');
+  let stats=null,range='7d';
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function render(){
+    if(!stats)return; const d=stats.periods[range];
+    document.getElementById('sessions').textContent=nf.format(d.sessions||0);
+    document.getElementById('users').textContent=nf.format(d.users||0);
+    document.getElementById('vietnam').textContent=nf.format(d.vietnam||0);
+    document.getElementById('downloads').textContent=nf.format(d.downloads||0);
+    const max=Math.max(1,...(d.countries||[]).map(x=>x.users));
+    document.getElementById('country-rows').innerHTML=(d.countries||[]).length?(d.countries||[]).map(x=>`<tr><td>${esc(x.country)}<div class="geo-bar"><i style="width:${Math.round(x.users*100/max)}%"></i></div></td><td>${nf.format(x.users)}</td></tr>`).join(''):'<tr><td>Chưa có dữ liệu</td><td>0</td></tr>';
+    document.getElementById('software-rows').innerHTML=(d.software||[]).map(x=>`<tr><td>${esc(x.name)}</td><td>${nf.format(x.downloads)}</td></tr>`).join('');
+    document.getElementById('updated-at').textContent=`Nguồn: Google Analytics 4 · cập nhật ${new Date(stats.updated_at).toLocaleString('vi-VN')}`;
   }
-
-  Promise.all(names.map(getCounter)).then(values=>{
-    const data=Object.fromEntries(names.map((name,i)=>[name,values[i]]));
-    names.forEach(name=>{
-      const el=document.getElementById(name);
-      if(el){el.textContent=number.format(data[name]);el.classList.remove('loading');}
-    });
-
-    const vn=data['visits-vietnam'];
-    const abroad=data['visits-abroad'];
-    const known=vn+abroad;
-    const vnPct=known?Math.round(vn*1000/known)/10:0;
-    const abroadPct=known?Math.round(abroad*1000/known)/10:0;
-    const vnBar=document.getElementById('bar-vietnam');
-    const abroadBar=document.getElementById('bar-abroad');
-    const vnText=document.getElementById('pct-vietnam');
-    const abroadText=document.getElementById('pct-abroad');
-    if(vnBar)vnBar.style.width=`${vnPct}%`;
-    if(abroadBar)abroadBar.style.width=`${abroadPct}%`;
-    if(vnText)vnText.textContent=`${vnPct}%`;
-    if(abroadText)abroadText.textContent=`${abroadPct}%`;
-  });
+  document.querySelectorAll('[data-range]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));b.classList.add('active');range=b.dataset.range;render();}));
+  fetch(`data/ga4-stats.json?t=${Date.now()}`,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{stats=d;render()}).catch(()=>{document.getElementById('stats-error').style.display='block';['sessions','users','vietnam','downloads'].forEach(id=>document.getElementById(id).textContent='—');document.getElementById('country-rows').innerHTML='<tr><td>Đang chờ dữ liệu GA4</td><td>—</td></tr>';document.getElementById('software-rows').innerHTML='<tr><td>Đang chờ dữ liệu GA4</td><td>—</td></tr>';});
 });

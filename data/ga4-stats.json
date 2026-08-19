@@ -2,23 +2,12 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T15:02:49.433351+00:00",
+  "updated_at": "2026-08-19T15:39:18.074897+00:00",
   "realtime": {
-    "active_users": 1,
-    "views": 1,
-    "countries": [
-      {
-        "country": "United States",
-        "users": 1
-      }
-    ],
-    "pages": [
-      {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 1,
-        "views": 1
-      }
-    ],
+    "active_users": 0,
+    "views": 0,
+    "countries": [],
+    "pages": [],
     "downloads": 0,
     "software": [
       {
@@ -45,23 +34,23 @@
   },
   "periods": {
     "today": {
-      "sessions": 20,
-      "users": 13,
-      "views": 78,
+      "sessions": 21,
+      "users": 14,
+      "views": 79,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 2,
+      "abroad": 3,
       "countries": [
         {
           "country": "Vietnam",
           "users": 11
         },
         {
-          "country": "Unknown",
-          "users": 1
+          "country": "United States",
+          "users": 2
         },
         {
-          "country": "United States",
+          "country": "Unknown",
           "users": 1
         }
       ],
@@ -89,23 +78,23 @@
       ]
     },
     "7d": {
-      "sessions": 20,
-      "users": 13,
-      "views": 78,
+      "sessions": 21,
+      "users": 14,
+      "views": 79,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 2,
+      "abroad": 3,
       "countries": [
         {
           "country": "Vietnam",
           "users": 11
         },
         {
-          "country": "Unknown",
-          "users": 1
+          "country": "United States",
+          "users": 2
         },
         {
-          "country": "United States",
+          "country": "Unknown",
           "users": 1
         }
       ],
@@ -133,23 +122,23 @@
       ]
     },
     "30d": {
-      "sessions": 20,
-      "users": 13,
-      "views": 78,
+      "sessions": 21,
+      "users": 14,
+      "views": 79,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 2,
+      "abroad": 3,
       "countries": [
         {
           "country": "Vietnam",
           "users": 11
         },
         {
-          "country": "Unknown",
-          "users": 1
+          "country": "United States",
+          "users": 2
         },
         {
-          "country": "United States",
+          "country": "Unknown",
           "users": 1
         }
       ],
@@ -177,23 +166,23 @@
       ]
     },
     "all": {
-      "sessions": 20,
-      "users": 13,
-      "views": 78,
+      "sessions": 21,
+      "users": 14,
+      "views": 79,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 2,
+      "abroad": 3,
       "countries": [
         {
           "country": "Vietnam",
           "users": 11
         },
         {
-          "country": "Unknown",
-          "users": 1
+          "country": "United States",
+          "users": 2
         },
         {
-          "country": "United States",
+          "country": "Unknown",
           "users": 1
         }
       ],
@@ -224,9 +213,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 20,
-      "users": 13,
-      "events": 244
+      "sessions": 21,
+      "users": 14,
+      "events": 247
     }
   ]
 }

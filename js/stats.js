@@ -14,13 +14,20 @@ document.addEventListener('DOMContentLoaded',()=>{
     const realtimeVietnam=(rt.countries||[]).find(x=>String(x.country).toLowerCase()==='vietnam')?.users||0;
     const vietnamValue=(d.vietnam||0)>0?(d.vietnam||0):realtimeVietnam;
     document.getElementById('vietnam').textContent=nf.format(vietnamValue);
-    document.getElementById('downloads').textContent=nf.format(d.downloads||0);
+
+    const downloadValue=(d.downloads||0)>0?(d.downloads||0):(rt.downloads||0);
+    document.getElementById('downloads').textContent=nf.format(downloadValue);
 
     const countryData=(d.countries||[]).length?(d.countries||[]):(rt.countries||[]);
     const max=Math.max(1,...countryData.map(x=>x.users));
     document.getElementById('country-rows').innerHTML=countryData.length?countryData.map(x=>`<tr><td>${esc(x.country)}<div class="geo-bar"><i style="width:${Math.round(x.users*100/max)}%"></i></div></td><td>${nf.format(x.users)}</td></tr>`).join(''):'<tr><td>Chưa có dữ liệu</td><td>0</td></tr>';
 
-    document.getElementById('software-rows').innerHTML=(d.software||[]).map(x=>`<tr><td>${esc(x.name)}</td><td>${nf.format(x.downloads)}</td></tr>`).join('');
+    const realtimeSoftware=rt.software||[];
+    const standardSoftware=d.software||[];
+    const hasStandard=standardSoftware.some(x=>(x.downloads||0)>0);
+    const softwareData=hasStandard?standardSoftware:(realtimeSoftware.length?realtimeSoftware:standardSoftware);
+    document.getElementById('software-rows').innerHTML=softwareData.map(x=>`<tr><td>${esc(x.name)}</td><td>${nf.format(x.downloads||0)}</td></tr>`).join('');
+
     const updated=document.getElementById('updated-at');
     if(updated&&stats.updated_at)updated.textContent=`Cập nhật lúc ${new Date(stats.updated_at).toLocaleString('vi-VN')}`;
   }

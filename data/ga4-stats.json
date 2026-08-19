@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T12:20:04.421742+00:00",
+  "updated_at": "2026-08-19T13:14:32.563838+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -34,16 +34,16 @@
   },
   "periods": {
     "today": {
-      "sessions": 16,
-      "users": 11,
-      "views": 57,
+      "sessions": 19,
+      "users": 13,
+      "views": 63,
       "downloads": 4,
-      "vietnam": 9,
+      "vietnam": 11,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 9
+          "users": 11
         },
         {
           "country": "Unknown",
@@ -78,16 +78,16 @@
       ]
     },
     "7d": {
-      "sessions": 16,
-      "users": 11,
-      "views": 57,
+      "sessions": 19,
+      "users": 13,
+      "views": 63,
       "downloads": 4,
-      "vietnam": 9,
+      "vietnam": 11,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 9
+          "users": 11
         },
         {
           "country": "Unknown",
@@ -122,16 +122,16 @@
       ]
     },
     "30d": {
-      "sessions": 16,
-      "users": 11,
-      "views": 57,
+      "sessions": 19,
+      "users": 13,
+      "views": 63,
       "downloads": 4,
-      "vietnam": 9,
+      "vietnam": 11,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 9
+          "users": 11
         },
         {
           "country": "Unknown",
@@ -166,16 +166,16 @@
       ]
     },
     "all": {
-      "sessions": 16,
-      "users": 11,
-      "views": 57,
+      "sessions": 19,
+      "users": 13,
+      "views": 63,
       "downloads": 4,
-      "vietnam": 9,
+      "vietnam": 11,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 9
+          "users": 11
         },
         {
           "country": "Unknown",
@@ -213,9 +213,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 16,
-      "users": 11,
-      "events": 170
+      "sessions": 19,
+      "users": 13,
+      "events": 189
     }
   ]
 }

@@ -2,23 +2,12 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T11:54:43.278549+00:00",
+  "updated_at": "2026-08-19T12:20:04.421742+00:00",
   "realtime": {
-    "active_users": 1,
-    "views": 1,
-    "countries": [
-      {
-        "country": "Vietnam",
-        "users": 1
-      }
-    ],
-    "pages": [
-      {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
-      }
-    ],
+    "active_users": 0,
+    "views": 0,
+    "countries": [],
+    "pages": [],
     "downloads": 0,
     "software": [
       {
@@ -45,16 +34,16 @@
   },
   "periods": {
     "today": {
-      "sessions": 12,
-      "users": 9,
-      "views": 30,
-      "downloads": 1,
-      "vietnam": 7,
+      "sessions": 16,
+      "users": 11,
+      "views": 57,
+      "downloads": 4,
+      "vietnam": 9,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 7
+          "users": 9
         },
         {
           "country": "Unknown",
@@ -69,12 +58,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 1
+          "downloads": 3
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",
@@ -89,16 +78,16 @@
       ]
     },
     "7d": {
-      "sessions": 12,
-      "users": 9,
-      "views": 30,
-      "downloads": 1,
-      "vietnam": 7,
+      "sessions": 16,
+      "users": 11,
+      "views": 57,
+      "downloads": 4,
+      "vietnam": 9,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 7
+          "users": 9
         },
         {
           "country": "Unknown",
@@ -113,12 +102,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 1
+          "downloads": 3
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",
@@ -133,16 +122,16 @@
       ]
     },
     "30d": {
-      "sessions": 12,
-      "users": 9,
-      "views": 30,
-      "downloads": 1,
-      "vietnam": 7,
+      "sessions": 16,
+      "users": 11,
+      "views": 57,
+      "downloads": 4,
+      "vietnam": 9,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 7
+          "users": 9
         },
         {
           "country": "Unknown",
@@ -157,12 +146,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 1
+          "downloads": 3
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",
@@ -177,16 +166,16 @@
       ]
     },
     "all": {
-      "sessions": 12,
-      "users": 9,
-      "views": 30,
-      "downloads": 1,
-      "vietnam": 7,
+      "sessions": 16,
+      "users": 11,
+      "views": 57,
+      "downloads": 4,
+      "vietnam": 9,
       "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 7
+          "users": 9
         },
         {
           "country": "Unknown",
@@ -201,12 +190,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 1
+          "downloads": 3
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",
@@ -224,9 +213,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 12,
-      "users": 9,
-      "events": 91
+      "sessions": 16,
+      "users": 11,
+      "events": 170
     }
   ]
 }

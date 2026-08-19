@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: ga4-public-statistics
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -18,22 +18,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install google-analytics-data google-auth
-      - name: Export aggregate GA4 data
+      - name: Export aggregate and realtime GA4 data
         env:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
           GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
-        run: python scripts/export_ga4.py
+        run: |
+          python scripts/export_ga4.py
+          python - <<'PY'
+          import json
+          with open('data/ga4-stats.json', encoding='utf-8') as f:
+              d=json.load(f)
+          assert d.get('property_id') == '287327003', 'Wrong or missing property_id'
+          assert 'realtime' in d, 'Realtime block missing; refusing to publish stale schema'
+          assert 'active_users' in d['realtime'], 'realtime.active_users missing'
+          assert 'views' in d['realtime'], 'realtime.views missing'
+          print('GA4 export OK:', d['updated_at'], d['realtime'])
+          PY
       - name: Publish refreshed statistics
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           cp data/ga4-stats.json /tmp/ga4-stats.json
 
           for attempt in 1 2 3; do
@@ -54,7 +65,6 @@ jobs:
               echo "Statistics published successfully."
               exit 0
             fi
-
             echo "Remote changed during push; retrying..."
           done
 

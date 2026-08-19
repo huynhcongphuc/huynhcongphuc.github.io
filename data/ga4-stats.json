@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T11:04:12.268089+00:00",
+  "updated_at": "2026-08-19T11:34:19.317991+00:00",
   "realtime": {
     "active_users": 1,
-    "views": 0,
+    "views": 1,
     "countries": [
       {
         "country": "Vietnam",
@@ -16,7 +16,7 @@
       {
         "page": "Thống kê truy cập | Huỳnh Công Phúc",
         "users": 1,
-        "views": 0
+        "views": 1
       }
     ],
     "downloads": 0,
@@ -45,12 +45,12 @@
   },
   "periods": {
     "today": {
-      "sessions": 10,
-      "users": 7,
-      "views": 27,
+      "sessions": 11,
+      "users": 8,
+      "views": 28,
       "downloads": 1,
       "vietnam": 6,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
@@ -58,6 +58,10 @@
         },
         {
           "country": "Unknown",
+          "users": 1
+        },
+        {
+          "country": "United States",
           "users": 1
         }
       ],
@@ -85,12 +89,12 @@
       ]
     },
     "7d": {
-      "sessions": 10,
-      "users": 7,
-      "views": 27,
+      "sessions": 11,
+      "users": 8,
+      "views": 28,
       "downloads": 1,
       "vietnam": 6,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
@@ -98,6 +102,10 @@
         },
         {
           "country": "Unknown",
+          "users": 1
+        },
+        {
+          "country": "United States",
           "users": 1
         }
       ],
@@ -125,12 +133,12 @@
       ]
     },
     "30d": {
-      "sessions": 10,
-      "users": 7,
-      "views": 27,
+      "sessions": 11,
+      "users": 8,
+      "views": 28,
       "downloads": 1,
       "vietnam": 6,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
@@ -138,6 +146,10 @@
         },
         {
           "country": "Unknown",
+          "users": 1
+        },
+        {
+          "country": "United States",
           "users": 1
         }
       ],
@@ -165,12 +177,12 @@
       ]
     },
     "all": {
-      "sessions": 10,
-      "users": 7,
-      "views": 27,
+      "sessions": 11,
+      "users": 8,
+      "views": 28,
       "downloads": 1,
       "vietnam": 6,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
         {
           "country": "Vietnam",
@@ -178,6 +190,10 @@
         },
         {
           "country": "Unknown",
+          "users": 1
+        },
+        {
+          "country": "United States",
           "users": 1
         }
       ],
@@ -208,9 +224,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 10,
-      "users": 7,
-      "events": 81
+      "sessions": 11,
+      "users": 8,
+      "events": 84
     }
   ]
 }

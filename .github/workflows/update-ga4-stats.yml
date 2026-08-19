@@ -3,7 +3,7 @@ name: Update GA4 public statistics
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: write

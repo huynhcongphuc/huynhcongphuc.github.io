@@ -2,54 +2,24 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T09:18:29.962922+00:00",
+  "updated_at": "2026-08-19T09:52:18.545615+00:00",
   "realtime": {
-    "active_users": 4,
-    "views": 15,
+    "active_users": 1,
+    "views": 0,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 4
+        "users": 1
       }
     ],
     "pages": [
       {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
-        "users": 4,
-        "views": 7
-      },
-      {
-        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
-        "users": 2,
-        "views": 2
-      },
-      {
-        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 1,
-        "views": 2
-      },
-      {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 3,
-        "views": 1
-      },
-      {
         "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 3,
-        "views": 1
-      },
-      {
-        "page": "(not set)",
         "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
+        "views": 0
       }
     ],
-    "downloads": 1,
+    "downloads": 0,
     "software": [
       {
         "event": "download_secureapp",
@@ -59,7 +29,7 @@
       {
         "event": "download_master_server",
         "name": "Master Server Protocol",
-        "downloads": 1
+        "downloads": 0
       },
       {
         "event": "download_der_simulator",
@@ -75,16 +45,16 @@
   },
   "periods": {
     "today": {
-      "sessions": 7,
-      "users": 4,
-      "views": 22,
+      "sessions": 10,
+      "users": 7,
+      "views": 27,
       "downloads": 1,
-      "vietnam": 3,
+      "vietnam": 6,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 3
+          "users": 6
         },
         {
           "country": "Unknown",
@@ -115,16 +85,16 @@
       ]
     },
     "7d": {
-      "sessions": 7,
-      "users": 4,
-      "views": 22,
+      "sessions": 10,
+      "users": 7,
+      "views": 27,
       "downloads": 1,
-      "vietnam": 3,
+      "vietnam": 6,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 3
+          "users": 6
         },
         {
           "country": "Unknown",
@@ -155,16 +125,16 @@
       ]
     },
     "30d": {
-      "sessions": 7,
-      "users": 4,
-      "views": 22,
+      "sessions": 10,
+      "users": 7,
+      "views": 27,
       "downloads": 1,
-      "vietnam": 3,
+      "vietnam": 6,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 3
+          "users": 6
         },
         {
           "country": "Unknown",
@@ -195,16 +165,16 @@
       ]
     },
     "all": {
-      "sessions": 7,
-      "users": 4,
-      "views": 22,
+      "sessions": 10,
+      "users": 7,
+      "views": 27,
       "downloads": 1,
-      "vietnam": 3,
+      "vietnam": 6,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 3
+          "users": 6
         },
         {
           "country": "Unknown",
@@ -238,9 +208,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 7,
-      "users": 4,
-      "events": 64
+      "sessions": 10,
+      "users": 7,
+      "events": 81
     }
   ]
 }

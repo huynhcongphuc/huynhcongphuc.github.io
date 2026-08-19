@@ -31,21 +31,37 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   const year=document.querySelector('#year');
   if(year)year.textContent=new Date().getFullYear();
-
-  // Generic tracking remains available for document links on other pages.
-  document.querySelectorAll('[data-track-download]').forEach((link,index)=>{
-    if(link.hasAttribute('data-inline-track')) return;
-    link.addEventListener('click',()=>{
-      if(typeof window.gtag!=='function') return;
-      const card=link.closest('.product-card,.research-card');
-      const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||`Download ${index+1}`;
-      window.gtag('event','download_document',{
-        document_name:title,
-        link_url:link.href||'',
-        link_text:link.textContent.trim(),
-        page_path:location.pathname,
-        transport_type:'beacon'
-      });
-    });
-  });
 });
+
+// Delegated tracking survives language/content DOM updates and catches every download click.
+const DOWNLOAD_MAP=[
+  {match:'IgBq6U7hVxl5RJuDTA6EJ_ahAXFAtLfmY8CHGajxg9ZjMy0',event:'download_secureapp',name:'SecureApp'},
+  {match:'IgCWzBpvcoqLT4XENDOsrvIUAU-Cq-ESSLyOE2bAD3Pwq2s',event:'download_master_server',name:'Master Server Protocol'},
+  {match:'IgApTsr0fURrQ5VzGEA222H4AZa4rPLGAMoSnHB6vAfKTdM',event:'download_der_simulator',name:'DER Simulator'},
+  {match:'IgD3GSNESb9yRphUKp21307vAbuuXWulCUgH3GJR2e8iTis',event:'download_microgrid_simulator',name:'Microgrid Simulator'}
+];
+
+document.addEventListener('click',event=>{
+  const link=event.target.closest?.('.product-download,[data-track-download]');
+  if(!link || typeof window.gtag!=='function')return;
+
+  const href=link.href||'';
+  const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
+  const card=link.closest('.product-card,.research-card');
+  const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||'Download';
+  const eventName=known?.event||'download_document';
+  const itemName=known?.name||title;
+
+  const params={
+    item_name:itemName,
+    software_name:itemName,
+    link_url:href,
+    link_text:link.textContent.trim(),
+    page_path:location.pathname,
+    page_title:document.title,
+    transport_type:'beacon'
+  };
+
+  window.gtag('event',eventName,params);
+  window.gtag('event','file_download_click',{...params,download_event:eventName});
+},true);

@@ -30,6 +30,15 @@ def realtime_report(dimensions,metrics):
 def metric_value(resp,idx=0):
     return int(float(resp.rows[0].metric_values[idx].value)) if resp.rows else 0
 
+def realtime_download_counts():
+    counts={ev:0 for ev in SOFTWARE_EVENTS}
+    r=realtime_report(['eventName'],['eventCount'])
+    for row in r.rows:
+        ev=row.dimension_values[0].value
+        if ev in counts:
+            counts[ev]=int(float(row.metric_values[0].value))
+    return counts
+
 def period(start,end='today'):
     sessions=metric_value(report(start,end,[],['sessions']))
     users=metric_value(report(start,end,[],['activeUsers']))
@@ -59,7 +68,9 @@ def realtime():
     r=realtime_report(['unifiedScreenName'],['activeUsers','screenPageViews'])
     for row in r.rows:
         pages.append({'page':row.dimension_values[0].value or '(not set)','users':int(float(row.metric_values[0].value)),'views':int(float(row.metric_values[1].value))})
-    return {'active_users':active,'views':views,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'pages':sorted(pages,key=lambda x:x['views'],reverse=True)[:10]}
+    download_counts=realtime_download_counts()
+    software=[{'event':ev,'name':label,'downloads':download_counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
+    return {'active_users':active,'views':views,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'pages':sorted(pages,key=lambda x:x['views'],reverse=True)[:10],'downloads':sum(download_counts.values()),'software':software}
 
 daily=[]
 r=report('29daysAgo','today',['date'],['sessions','activeUsers','eventCount'])

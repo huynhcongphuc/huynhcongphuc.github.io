@@ -2,21 +2,21 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T05:51:15.132125+00:00",
+  "updated_at": "2026-08-19T06:00:47.937746+00:00",
   "realtime": {
-    "active_users": 5,
-    "views": 14,
+    "active_users": 4,
+    "views": 10,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 5
+        "users": 4
       }
     ],
     "pages": [
       {
         "page": "Thống kê GA4 | Huỳnh Công Phúc",
-        "users": 5,
-        "views": 13
+        "users": 4,
+        "views": 9
       },
       {
         "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
@@ -32,6 +32,34 @@
         "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
         "users": 1,
         "views": 0
+      },
+      {
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 0
+      }
+    ],
+    "downloads": 0,
+    "software": [
+      {
+        "event": "download_secureapp",
+        "name": "SecureApp",
+        "downloads": 0
+      },
+      {
+        "event": "download_master_server",
+        "name": "Master Server Protocol",
+        "downloads": 0
+      },
+      {
+        "event": "download_der_simulator",
+        "name": "DER Simulator",
+        "downloads": 0
+      },
+      {
+        "event": "download_microgrid_simulator",
+        "name": "Microgrid Simulator",
+        "downloads": 0
       }
     ]
   },

@@ -9,6 +9,7 @@ CREDS=json.loads(os.environ['GA4_SERVICE_ACCOUNT_JSON'])
 credentials=service_account.Credentials.from_service_account_info(CREDS,scopes=['https://www.googleapis.com/auth/analytics.readonly'])
 client=BetaAnalyticsDataClient(credentials=credentials)
 PROP=f'properties/{PROPERTY_ID}'
+ALL_TIME_START='2020-01-01'
 
 SOFTWARE_EVENTS={
  'download_secureapp':'SecureApp',
@@ -35,13 +36,13 @@ def realtime_download_counts():
     r=realtime_report(['eventName'],['eventCount'])
     for row in r.rows:
         ev=row.dimension_values[0].value
-        if ev in counts:
-            counts[ev]=int(float(row.metric_values[0].value))
+        if ev in counts: counts[ev]=int(float(row.metric_values[0].value))
     return counts
 
 def period(start,end='today'):
     sessions=metric_value(report(start,end,[],['sessions']))
     users=metric_value(report(start,end,[],['activeUsers']))
+    views=metric_value(report(start,end,[],['screenPageViews']))
     downloads=metric_value(report(start,end,[],['eventCount'],list(SOFTWARE_EVENTS)))
     countries=[]; vn=0; abroad=0
     r=report(start,end,['country'],['activeUsers'])
@@ -50,24 +51,20 @@ def period(start,end='today'):
         countries.append({'country':country,'users':value})
         if country=='Vietnam': vn+=value
         else: abroad+=value
-    sw=[]
     r=report(start,end,['eventName'],['eventCount'],list(SOFTWARE_EVENTS))
     counts={row.dimension_values[0].value:int(float(row.metric_values[0].value)) for row in r.rows}
-    for ev,label in SOFTWARE_EVENTS.items(): sw.append({'event':ev,'name':label,'downloads':counts.get(ev,0)})
-    return {'sessions':sessions,'users':users,'downloads':downloads,'vietnam':vn,'abroad':abroad,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'software':sw}
+    sw=[{'event':ev,'name':label,'downloads':counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
+    return {'sessions':sessions,'users':users,'views':views,'downloads':downloads,'vietnam':vn,'abroad':abroad,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'software':sw}
 
 def realtime():
     active=0; views=0; countries=[]; pages=[]
     r=realtime_report([],['activeUsers','screenPageViews'])
     if r.rows:
-        active=int(float(r.rows[0].metric_values[0].value))
-        views=int(float(r.rows[0].metric_values[1].value))
+        active=int(float(r.rows[0].metric_values[0].value)); views=int(float(r.rows[0].metric_values[1].value))
     r=realtime_report(['country'],['activeUsers'])
-    for row in r.rows:
-        countries.append({'country':row.dimension_values[0].value or 'Unknown','users':int(float(row.metric_values[0].value))})
+    for row in r.rows: countries.append({'country':row.dimension_values[0].value or 'Unknown','users':int(float(row.metric_values[0].value))})
     r=realtime_report(['unifiedScreenName'],['activeUsers','screenPageViews'])
-    for row in r.rows:
-        pages.append({'page':row.dimension_values[0].value or '(not set)','users':int(float(row.metric_values[0].value)),'views':int(float(row.metric_values[1].value))})
+    for row in r.rows: pages.append({'page':row.dimension_values[0].value or '(not set)','users':int(float(row.metric_values[0].value)),'views':int(float(row.metric_values[1].value))})
     download_counts=realtime_download_counts()
     software=[{'event':ev,'name':label,'downloads':download_counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
     return {'active_users':active,'views':views,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'pages':sorted(pages,key=lambda x:x['views'],reverse=True)[:10],'downloads':sum(download_counts.values()),'software':software}
@@ -77,6 +74,6 @@ r=report('29daysAgo','today',['date'],['sessions','activeUsers','eventCount'])
 for row in r.rows:
     daily.append({'date':row.dimension_values[0].value,'sessions':int(float(row.metric_values[0].value)),'users':int(float(row.metric_values[1].value)),'events':int(float(row.metric_values[2].value))})
 
-out={'source':'Google Analytics 4','property_id':PROPERTY_ID,'measurement_id':'G-GT3E67GPJM','updated_at':datetime.now(timezone.utc).isoformat(),'realtime':realtime(),'periods':{'today':period('today'),'7d':period('6daysAgo'),'30d':period('29daysAgo')},'daily':sorted(daily,key=lambda x:x['date'])}
+out={'source':'Google Analytics 4','property_id':PROPERTY_ID,'measurement_id':'G-GT3E67GPJM','updated_at':datetime.now(timezone.utc).isoformat(),'realtime':realtime(),'periods':{'today':period('today'),'7d':period('6daysAgo'),'30d':period('29daysAgo'),'all':period(ALL_TIME_START)},'daily':sorted(daily,key=lambda x:x['date'])}
 os.makedirs('data',exist_ok=True)
 with open('data/ga4-stats.json','w',encoding='utf-8') as f: json.dump(out,f,ensure_ascii=False,indent=2)

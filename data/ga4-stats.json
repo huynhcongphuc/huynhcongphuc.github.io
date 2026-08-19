@@ -2,19 +2,24 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T08:50:55.671123+00:00",
+  "updated_at": "2026-08-19T09:18:29.962922+00:00",
   "realtime": {
-    "active_users": 2,
-    "views": 4,
+    "active_users": 4,
+    "views": 15,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 2
+        "users": 4
       }
     ],
     "pages": [
       {
         "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 4,
+        "views": 7
+      },
+      {
+        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
         "users": 2,
         "views": 2
       },
@@ -25,11 +30,26 @@
       },
       {
         "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 2,
-        "views": 0
+        "users": 3,
+        "views": 1
+      },
+      {
+        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
+        "users": 3,
+        "views": 1
+      },
+      {
+        "page": "(not set)",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
       }
     ],
-    "downloads": 0,
+    "downloads": 1,
     "software": [
       {
         "event": "download_secureapp",
@@ -39,7 +59,7 @@
       {
         "event": "download_master_server",
         "name": "Master Server Protocol",
-        "downloads": 0
+        "downloads": 1
       },
       {
         "event": "download_der_simulator",
@@ -55,16 +75,16 @@
   },
   "periods": {
     "today": {
-      "sessions": 4,
-      "users": 3,
-      "views": 8,
-      "downloads": 0,
-      "vietnam": 2,
+      "sessions": 7,
+      "users": 4,
+      "views": 22,
+      "downloads": 1,
+      "vietnam": 3,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Unknown",
@@ -75,7 +95,7 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_master_server",
@@ -95,16 +115,16 @@
       ]
     },
     "7d": {
-      "sessions": 4,
-      "users": 3,
-      "views": 8,
-      "downloads": 0,
-      "vietnam": 2,
+      "sessions": 7,
+      "users": 4,
+      "views": 22,
+      "downloads": 1,
+      "vietnam": 3,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Unknown",
@@ -115,7 +135,7 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_master_server",
@@ -135,16 +155,16 @@
       ]
     },
     "30d": {
-      "sessions": 4,
-      "users": 3,
-      "views": 8,
-      "downloads": 0,
-      "vietnam": 2,
+      "sessions": 7,
+      "users": 4,
+      "views": 22,
+      "downloads": 1,
+      "vietnam": 3,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Unknown",
@@ -155,7 +175,7 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_master_server",
@@ -175,16 +195,16 @@
       ]
     },
     "all": {
-      "sessions": 4,
-      "users": 3,
-      "views": 8,
-      "downloads": 0,
-      "vietnam": 2,
+      "sessions": 7,
+      "users": 4,
+      "views": 22,
+      "downloads": 1,
+      "vietnam": 3,
       "abroad": 1,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Unknown",
@@ -195,7 +215,7 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_master_server",
@@ -218,9 +238,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 4,
-      "users": 3,
-      "events": 22
+      "sessions": 7,
+      "users": 4,
+      "events": 64
     }
   ]
 }

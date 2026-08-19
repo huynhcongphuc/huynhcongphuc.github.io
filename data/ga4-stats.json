@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T13:14:32.563838+00:00",
+  "updated_at": "2026-08-19T13:58:00.664172+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -36,8 +36,8 @@
     "today": {
       "sessions": 19,
       "users": 13,
-      "views": 63,
-      "downloads": 4,
+      "views": 70,
+      "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
       "countries": [
@@ -58,12 +58,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 1
+          "downloads": 2
         },
         {
           "event": "download_der_simulator",
@@ -80,8 +80,8 @@
     "7d": {
       "sessions": 19,
       "users": 13,
-      "views": 63,
-      "downloads": 4,
+      "views": 70,
+      "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
       "countries": [
@@ -102,12 +102,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 1
+          "downloads": 2
         },
         {
           "event": "download_der_simulator",
@@ -124,8 +124,8 @@
     "30d": {
       "sessions": 19,
       "users": 13,
-      "views": 63,
-      "downloads": 4,
+      "views": 70,
+      "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
       "countries": [
@@ -146,12 +146,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 1
+          "downloads": 2
         },
         {
           "event": "download_der_simulator",
@@ -168,8 +168,8 @@
     "all": {
       "sessions": 19,
       "users": 13,
-      "views": 63,
-      "downloads": 4,
+      "views": 70,
+      "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
       "countries": [
@@ -190,12 +190,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 1
+          "downloads": 2
         },
         {
           "event": "download_der_simulator",
@@ -215,7 +215,7 @@
       "date": "20260819",
       "sessions": 19,
       "users": 13,
-      "events": 189
+      "events": 214
     }
   ]
 }

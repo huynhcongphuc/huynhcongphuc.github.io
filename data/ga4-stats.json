@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T06:59:42.418995+00:00",
+  "updated_at": "2026-08-19T07:39:33.019588+00:00",
   "realtime": {
     "active_users": 1,
-    "views": 0,
+    "views": 1,
     "countries": [
       {
         "country": "Vietnam",
@@ -13,6 +13,11 @@
       }
     ],
     "pages": [
+      {
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
       {
         "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
         "users": 1,
@@ -45,12 +50,21 @@
   },
   "periods": {
     "today": {
-      "sessions": 0,
-      "users": 0,
+      "sessions": 4,
+      "users": 3,
       "downloads": 0,
-      "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
+      "vietnam": 2,
+      "abroad": 1,
+      "countries": [
+        {
+          "country": "Vietnam",
+          "users": 2
+        },
+        {
+          "country": "Unknown",
+          "users": 1
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -75,12 +89,21 @@
       ]
     },
     "7d": {
-      "sessions": 0,
-      "users": 0,
+      "sessions": 4,
+      "users": 3,
       "downloads": 0,
-      "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
+      "vietnam": 2,
+      "abroad": 1,
+      "countries": [
+        {
+          "country": "Vietnam",
+          "users": 2
+        },
+        {
+          "country": "Unknown",
+          "users": 1
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -105,12 +128,21 @@
       ]
     },
     "30d": {
-      "sessions": 0,
-      "users": 0,
+      "sessions": 4,
+      "users": 3,
       "downloads": 0,
-      "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
+      "vietnam": 2,
+      "abroad": 1,
+      "countries": [
+        {
+          "country": "Vietnam",
+          "users": 2
+        },
+        {
+          "country": "Unknown",
+          "users": 1
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -135,5 +167,12 @@
       ]
     }
   },
-  "daily": []
+  "daily": [
+    {
+      "date": "20260819",
+      "sessions": 4,
+      "users": 3,
+      "events": 22
+    }
+  ]
 }

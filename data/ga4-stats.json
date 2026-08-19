@@ -2,49 +2,29 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T06:04:38.767173+00:00",
+  "updated_at": "2026-08-19T06:59:42.418995+00:00",
   "realtime": {
-    "active_users": 4,
-    "views": 11,
+    "active_users": 1,
+    "views": 0,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 4
+        "users": 1
       }
     ],
     "pages": [
       {
-        "page": "Thống kê GA4 | Huỳnh Công Phúc",
-        "users": 4,
-        "views": 8
-      },
-      {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 2
-      },
-      {
-        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 1,
-        "views": 1
-      },
-      {
         "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
         "users": 1,
         "views": 0
       }
     ],
-    "downloads": 1,
+    "downloads": 0,
     "software": [
       {
         "event": "download_secureapp",
         "name": "SecureApp",
-        "downloads": 1
+        "downloads": 0
       },
       {
         "event": "download_master_server",

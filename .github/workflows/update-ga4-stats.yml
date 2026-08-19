@@ -7,6 +7,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: ga4-public-statistics
@@ -14,6 +16,9 @@ concurrency:
 
 jobs:
   update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -57,16 +62,27 @@ jobs:
             git add data/ga4-stats.json
             if git diff --cached --quiet; then
               echo "Statistics are already up to date."
-              exit 0
+              break
             fi
 
             git commit -m "Update public GA4 statistics"
             if git push origin HEAD:main; then
               echo "Statistics published successfully."
-              exit 0
+              break
             fi
             echo "Remote changed during push; retrying..."
+            if [ "$attempt" -eq 3 ]; then
+              echo "Failed to publish statistics after 3 attempts."
+              exit 1
+            fi
           done
 
-          echo "Failed to publish statistics after 3 attempts."
-          exit 1
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload current site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy refreshed site to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

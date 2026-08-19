@@ -2,12 +2,23 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T14:30:01.989703+00:00",
+  "updated_at": "2026-08-19T15:02:49.433351+00:00",
   "realtime": {
-    "active_users": 0,
-    "views": 0,
-    "countries": [],
-    "pages": [],
+    "active_users": 1,
+    "views": 1,
+    "countries": [
+      {
+        "country": "United States",
+        "users": 1
+      }
+    ],
+    "pages": [
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 1,
+        "views": 1
+      }
+    ],
     "downloads": 0,
     "software": [
       {
@@ -34,9 +45,9 @@
   },
   "periods": {
     "today": {
-      "sessions": 19,
+      "sessions": 20,
       "users": 13,
-      "views": 70,
+      "views": 78,
       "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
@@ -78,9 +89,9 @@
       ]
     },
     "7d": {
-      "sessions": 19,
+      "sessions": 20,
       "users": 13,
-      "views": 70,
+      "views": 78,
       "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
@@ -122,9 +133,9 @@
       ]
     },
     "30d": {
-      "sessions": 19,
+      "sessions": 20,
       "users": 13,
-      "views": 70,
+      "views": 78,
       "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
@@ -166,9 +177,9 @@
       ]
     },
     "all": {
-      "sessions": 19,
+      "sessions": 20,
       "users": 13,
-      "views": 70,
+      "views": 78,
       "downloads": 6,
       "vietnam": 11,
       "abroad": 2,
@@ -213,9 +224,9 @@
   "daily": [
     {
       "date": "20260819",
-      "sessions": 19,
+      "sessions": 20,
       "users": 13,
-      "events": 214
+      "events": 244
     }
   ]
 }

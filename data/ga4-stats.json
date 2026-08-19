@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T16:39:21.066438+00:00",
+  "updated_at": "2026-08-19T17:00:44.820909+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -34,36 +34,23 @@
   },
   "periods": {
     "today": {
-      "sessions": 21,
-      "users": 14,
-      "views": 80,
-      "downloads": 6,
-      "vietnam": 11,
-      "abroad": 3,
-      "countries": [
-        {
-          "country": "Vietnam",
-          "users": 11
-        },
-        {
-          "country": "United States",
-          "users": 2
-        },
-        {
-          "country": "Unknown",
-          "users": 1
-        }
-      ],
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
+      "downloads": 0,
+      "vietnam": 0,
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 4
+          "downloads": 0
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 2
+          "downloads": 0
         },
         {
           "event": "download_der_simulator",

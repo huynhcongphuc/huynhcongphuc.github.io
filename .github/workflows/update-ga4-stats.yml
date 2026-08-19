@@ -30,10 +30,33 @@ jobs:
         run: python scripts/export_ga4.py
       - name: Publish refreshed statistics
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ga4-stats.json
-          git diff --cached --quiet && exit 0
-          git commit -m "Update public GA4 statistics"
-          git pull --rebase origin main
-          git push origin HEAD:main
+
+          cp data/ga4-stats.json /tmp/ga4-stats.json
+
+          for attempt in 1 2 3; do
+            echo "Publish attempt ${attempt}"
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p data
+            cp /tmp/ga4-stats.json data/ga4-stats.json
+
+            git add data/ga4-stats.json
+            if git diff --cached --quiet; then
+              echo "Statistics are already up to date."
+              exit 0
+            fi
+
+            git commit -m "Update public GA4 statistics"
+            if git push origin HEAD:main; then
+              echo "Statistics published successfully."
+              exit 0
+            fi
+
+            echo "Remote changed during push; retrying..."
+          done
+
+          echo "Failed to publish statistics after 3 attempts."
+          exit 1

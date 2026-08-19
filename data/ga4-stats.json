@@ -2,23 +2,12 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T09:52:18.545615+00:00",
+  "updated_at": "2026-08-19T10:14:09.291817+00:00",
   "realtime": {
-    "active_users": 1,
+    "active_users": 0,
     "views": 0,
-    "countries": [
-      {
-        "country": "Vietnam",
-        "users": 1
-      }
-    ],
-    "pages": [
-      {
-        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 0
-      }
-    ],
+    "countries": [],
+    "pages": [],
     "downloads": 0,
     "software": [
       {

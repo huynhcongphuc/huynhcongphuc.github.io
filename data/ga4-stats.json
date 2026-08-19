@@ -1,0 +1,98 @@
+{
+  "source": "Google Analytics 4",
+  "measurement_id": "G-GT3E67GPJM",
+  "updated_at": "2026-08-19T03:43:21.606317+00:00",
+  "periods": {
+    "today": {
+      "sessions": 0,
+      "users": 0,
+      "downloads": 0,
+      "vietnam": 0,
+      "abroad": 0,
+      "countries": [],
+      "software": [
+        {
+          "event": "download_secureapp",
+          "name": "SecureApp",
+          "downloads": 0
+        },
+        {
+          "event": "download_master_server",
+          "name": "Master Server Protocol",
+          "downloads": 0
+        },
+        {
+          "event": "download_der_simulator",
+          "name": "DER Simulator",
+          "downloads": 0
+        },
+        {
+          "event": "download_microgrid_simulator",
+          "name": "Microgrid Simulator",
+          "downloads": 0
+        }
+      ]
+    },
+    "7d": {
+      "sessions": 0,
+      "users": 0,
+      "downloads": 0,
+      "vietnam": 0,
+      "abroad": 0,
+      "countries": [],
+      "software": [
+        {
+          "event": "download_secureapp",
+          "name": "SecureApp",
+          "downloads": 0
+        },
+        {
+          "event": "download_master_server",
+          "name": "Master Server Protocol",
+          "downloads": 0
+        },
+        {
+          "event": "download_der_simulator",
+          "name": "DER Simulator",
+          "downloads": 0
+        },
+        {
+          "event": "download_microgrid_simulator",
+          "name": "Microgrid Simulator",
+          "downloads": 0
+        }
+      ]
+    },
+    "30d": {
+      "sessions": 0,
+      "users": 0,
+      "downloads": 0,
+      "vietnam": 0,
+      "abroad": 0,
+      "countries": [],
+      "software": [
+        {
+          "event": "download_secureapp",
+          "name": "SecureApp",
+          "downloads": 0
+        },
+        {
+          "event": "download_master_server",
+          "name": "Master Server Protocol",
+          "downloads": 0
+        },
+        {
+          "event": "download_der_simulator",
+          "name": "DER Simulator",
+          "downloads": 0
+        },
+        {
+          "event": "download_microgrid_simulator",
+          "name": "Microgrid Simulator",
+          "downloads": 0
+        }
+      ]
+    }
+  },
+  "daily": []
+}

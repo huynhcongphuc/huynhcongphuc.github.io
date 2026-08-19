@@ -1,17 +1,3 @@
-// Google Analytics 4 - Huynh Cong Phuc website
-const GA_MEASUREMENT_ID='G-GT3E67GPJM';
-window.dataLayer=window.dataLayer||[];
-function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());
-gtag('config',GA_MEASUREMENT_ID);
-
-if(!document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}"]`)){
-  const ga=document.createElement('script');
-  ga.async=true;
-  ga.src=`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
-  document.head.appendChild(ga);
-}
-
 document.addEventListener('DOMContentLoaded',()=>{
   if(window.lucide)window.lucide.createIcons();
 
@@ -57,13 +43,14 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   document.querySelectorAll('.product-download,[data-track-download]').forEach((link,index)=>{
     link.addEventListener('click',()=>{
+      if(typeof window.gtag!=='function')return;
       const href=link.href||'';
       const card=link.closest('.product-card,.research-card');
       const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||`Download ${index+1}`;
       const known=downloads.find(item=>href.includes(item.match));
       const eventName=known?.event||'download_document';
       const softwareName=known?.name||title;
-      gtag('event',eventName,{
+      window.gtag('event',eventName,{
         software_name:softwareName,
         download_type:known?.type||'document',
         link_url:href,
@@ -71,8 +58,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         page_path:location.pathname,
         page_title:document.title
       });
-      // One common event makes total-download reporting and software comparison easy.
-      gtag('event','file_download_click',{
+      window.gtag('event','file_download_click',{
         software_name:softwareName,
         download_event:eventName,
         download_type:known?.type||'document',

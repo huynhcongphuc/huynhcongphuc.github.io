@@ -2,12 +2,18 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-19T08:07:18.806205+00:00",
+  "updated_at": "2026-08-19T08:18:57.062999+00:00",
   "realtime": {
     "active_users": 0,
-    "views": 0,
+    "views": 1,
     "countries": [],
-    "pages": [],
+    "pages": [
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 0,
+        "views": 1
+      }
+    ],
     "downloads": 0,
     "software": [
       {

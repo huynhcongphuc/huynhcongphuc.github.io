@@ -27,8 +27,8 @@
     'Thống kê tổng hợp lượt truy cập và lượt tải tài liệu, phần mềm trên website.':'Aggregated statistics for website visits and document/software downloads.',
     'Thống kê tổng hợp lượt truy cập và lượt tải tài liệu, phần mềm, bài báo và nghiên cứu trên website.':'Aggregated statistics for website visits and software, paper, and research downloads.',
     'Đang hoạt động · 30 phút':'Active · 30 minutes','Lượt xem · 30 phút':'Views · 30 minutes','Hôm nay':'Today','7 ngày':'7 days','30 ngày':'30 days','Từ khi thống kê':'All time',
-    'Phiên truy cập':'Sessions','Người dùng':'Users','Việt Nam':'Vietnam','Lượt tải':'Downloads','Lượt tải phần mềm':'Software downloads','Lượt tải bài nghiên cứu':'Research downloads',
-    'Xu hướng theo ngày':'Daily trends','Người dùng, lượt xem và lượt tải trong 7 hoặc 30 ngày gần nhất.':'Users, views, and downloads over the latest 7 or 30 days.','Xu hướng người dùng':'User trend','Xu hướng lượt xem':'View trend','Xu hướng lượt tải phần mềm':'Software download trend','Xu hướng lượt tải bài nghiên cứu':'Research download trend',
+    'Phiên truy cập':'Sessions','Người dùng':'Users','Việt Nam':'Vietnam','Lượt tải':'Downloads','Lượt tải phần mềm':'Software downloads','Lượt tải bài nghiên cứu':'Research downloads','Tải phần mềm':'Software downloads','Tải nghiên cứu':'Research downloads',
+    'Xu hướng theo ngày':'Daily trends','So sánh người dùng, lượt xem, lượt tải phần mềm và lượt tải nghiên cứu trên cùng một biểu đồ.':'Compare users, views, software downloads, and research downloads on one chart.','Xu hướng người dùng, lượt xem và lượt tải':'Users, views, and download trends','Xu hướng thống kê':'Statistics trends',
     'Quốc gia truy cập':'Visitor countries','Quốc gia':'Country','Lượt tải theo phần mềm':'Downloads by software','Phần mềm':'Software','Lượt tải bài báo / nghiên cứu':'Paper / research downloads','Bài nghiên cứu':'Research paper',
     'Cập nhật dữ liệu...':'Updating data...','Dữ liệu thống kê đang được cập nhật.':'Statistics are being updated.','Thống kê website':'Website statistics','Khoảng thời gian':'Time range'
   };

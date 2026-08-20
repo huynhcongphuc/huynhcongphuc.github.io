@@ -1,82 +1,37 @@
 (()=>{
   const viToEn={
-    'Thống kê':'Statistics',
-    'Tóm tắt năng lực':'Engineering snapshot',
-    'Năm kinh nghiệm':'Years of experience',
-    'Sản phẩm phần mềm':'Software products',
-    '03 · SẢN PHẨM NỔI BẬT':'03 · FEATURED PRODUCTS',
-    'Từ bài toán kỹ thuật':'From engineering problems',
-    'đến công cụ thực tế.':'to practical tools.',
+    'Thống kê':'Statistics','Tóm tắt năng lực':'Engineering snapshot','Năm kinh nghiệm':'Years of experience','Sản phẩm phần mềm':'Software products',
+    '03 · SẢN PHẨM NỔI BẬT':'03 · FEATURED PRODUCTS','Từ bài toán kỹ thuật':'From engineering problems','đến công cụ thực tế.':'to practical tools.',
     'Một số phần mềm được phát triển cho tích hợp giao thức, mô phỏng DER/Microgrid và bảo mật dữ liệu.':'Selected software developed for protocol integration, DER/Microgrid simulation, and data security.',
     'Máy chủ đa giao thức cho IEC 60870-5-104, Modbus và IEEE 2030.5.':'A multi-protocol server for IEC 60870-5-104, Modbus, and IEEE 2030.5.',
     'Mô phỏng nguồn phân tán, phụ tải, BESS và Zero Export sát tình huống vận hành.':'Simulation of distributed generation, loads, BESS, and Zero Export for realistic operating scenarios.',
-    'Mô phỏng PV, BESS, phụ tải và máy phát điện dầu trên nền Modbus TCP/IP.':'Simulation of PV, BESS, loads, and diesel generation over Modbus TCP/IP.',
-    'Xem sản phẩm':'View product',
-    '04 · HÀNH TRÌNH':'04 · JOURNEY',
-    '05 · NGHIÊN CỨU NỔI BẬT':'05 · FEATURED RESEARCH',
-    'Tiêu chuẩn sâu.':'Standards in depth.',
-    'Triển khai thật.':'Real-world implementation.',
+    'Mô phỏng PV, BESS, phụ tải và máy phát điện dầu trên nền Modbus TCP/IP.':'Simulation of PV, BESS, loads, and diesel generation over Modbus TCP/IP.','Xem sản phẩm':'View product',
+    '04 · HÀNH TRÌNH':'04 · JOURNEY','05 · NGHIÊN CỨU NỔI BẬT':'05 · FEATURED RESEARCH','Tiêu chuẩn sâu.':'Standards in depth.','Triển khai thật.':'Real-world implementation.',
     'Nội dung nghiên cứu tập trung kết nối kiến trúc DERMS, IEEE 2030.11 và IEEE 2030.5 với bài toán triển khai thực tế.':'Research connecting DERMS architecture, IEEE 2030.11, and IEEE 2030.5 with real implementation challenges.',
-    'Tài liệu chuyên sâu về kiến trúc, giao thức, bảo mật và mô hình triển khai DERMS.':'In-depth material on DERMS architecture, protocols, cybersecurity, and deployment models.',
-    'Xem nghiên cứu':'View research',
+    'Tài liệu chuyên sâu về kiến trúc, giao thức, bảo mật và mô hình triển khai DERMS.':'In-depth material on DERMS architecture, protocols, cybersecurity, and deployment models.','Xem nghiên cứu':'View research',
     'Các nghiên cứu và tài liệu kỹ thuật về DERMS, nguồn phân tán, FLISR, lưu trữ năng lượng và vận hành lưới điện hiện đại.':'Research and technical materials on DERMS, distributed generation, FLISR, energy storage, and modern grid operation.',
-    '01 · TÀI LIỆU CHUYÊN KHẢO':'01 · TECHNICAL MONOGRAPH',
-    '03 BÀI BÁO ĐÃ CÔNG BỐ':'03 PUBLISHED PAPERS',
-    'Các công trình đồng tác giả về độ tin cậy ABESS, FLISR và vận hành lưới điện phân phối có nguồn phát phân tán.':'Co-authored publications on ABESS reliability, FLISR, and distribution-grid operation with distributed generation.',
-    '02 · BÀI BÁO KHOA HỌC':'02 · JOURNAL ARTICLE',
-    '04 · BÀI BÁO KHOA HỌC':'04 · JOURNAL ARTICLE',
+    '01 · TÀI LIỆU CHUYÊN KHẢO':'01 · TECHNICAL MONOGRAPH','03 BÀI BÁO ĐÃ CÔNG BỐ':'03 PUBLISHED PAPERS','Bài báo khoa học có thể đọc và tải trực tiếp':'Published papers available to read and download',
+    'Nội dung tóm lược bên dưới được lấy từ chính các bài báo: ABESS/Microgrid, FLISR cho lưới phân phối có nguồn phát phân tán và khôi phục cung cấp điện sau sự cố.':'The summaries below are based directly on the papers: ABESS/Microgrid reliability, FLISR for distribution networks with distributed generation, and post-fault service restoration.',
+    '02 · BÀI BÁO KHOA HỌC':'02 · JOURNAL ARTICLE','04 · BÀI BÁO KHOA HỌC':'04 · JOURNAL ARTICLE',
     'Phương pháp đánh giá độ tin cậy của hệ thống pin lưu trữ năng lượng ABESS có xem xét đến sự ảnh hưởng của các hiện tượng dao động xuất hiện trong quá trình vận hành':'Reliability assessment method for an ABESS energy storage system considering operational fluctuation effects',
-    'Nghiên cứu sử dụng phương pháp phân tích dựa trên mô hình Markov để đánh giá độ tin cậy của ABESS trong Microgrid tích hợp PV dưới các kịch bản dao động vận hành, điện áp và tổn thất công suất.':'The study uses a Markov-model-based method to assess ABESS reliability in a PV-integrated microgrid under operating fluctuations, voltage variations, and power-loss scenarios.',
-    'Tạp chí':'Journal',
-    'Đồng tác giả':'Co-authors',
-    'Huỳnh Công Phúc và cộng sự':'Huynh Cong Phuc et al.',
-    'Tải PDF bài báo':'Download paper PDF',
+    'Nghiên cứu đề xuất phương pháp đánh giá độ tin cậy của hệ thống ABESS trong Microgrid tích hợp PV. Mô hình Markov được dùng để đánh giá trạng thái hoạt động và tần suất hư hỏng khi xuất hiện các kịch bản dao động vận hành; kết quả cho thấy dao động điện áp và tổn thất công suất có thể ảnh hưởng đáng kể đến độ tin cậy của ABESS.':'The study proposes a reliability-assessment method for an ABESS in a PV-integrated microgrid. A Markov model is used to evaluate operating states and failure rates under fluctuation scenarios; the results show that voltage fluctuations and power losses can significantly affect ABESS reliability.',
+    'Tác giả:':'Authors:','Tạp chí':'Journal','Ngày đăng':'Published','Tải PDF bài báo':'Download paper PDF','PDF trên IEEE':'PDF on IEEE',
     'Minh họa hệ thống ABESS trong Microgrid và dao động vận hành':'Illustration of an ABESS in a microgrid under operating fluctuations',
-    '03 · IEEE CONFERENCE PAPER':'03 · IEEE CONFERENCE PAPER',
-    'Bài báo đề xuất phương pháp FLISR cho lưới điện phân phối tích hợp DG, kết hợp ngưỡng tác động bảo vệ quá dòng, trạng thái thiết bị đóng cắt và mất điện áp để phát hiện–định vị sự cố, sau đó xếp hạng phương án khôi phục cấp điện. Mô hình được kiểm chứng trên lưới 22 kV bằng E-Terra.':'The paper proposes a FLISR method for DG-integrated distribution networks, combining overcurrent protection thresholds, switching-device status, and loss of voltage for fault detection and location, then ranking service-restoration plans. The method is validated on a 22 kV network using E-Terra.',
-    'Hội nghị':'Conference',
-    'Cong Phuc Huynh và cộng sự':'Cong Phuc Huynh et al.',
-    'Mở bài báo / PDF':'Open paper / PDF',
-    'Minh họa FLISR trên lưới điện phân phối tích hợp nguồn phát phân tán':'Illustration of FLISR on a distribution network with distributed generators',
+    'Bài báo đề xuất FLISR cho lưới phân phối tích hợp DG. Phương pháp kết hợp ngưỡng dòng tác động của bảo vệ quá dòng, trạng thái thiết bị đóng cắt và tín hiệu mất điện áp để phát hiện và định vị sự cố; sau đó tối ưu phương án cách ly và khôi phục cấp điện. Mô phỏng lưới 22 kV trên E‑Terra cho thấy các phương án có thể được xếp hạng và xử lý trong tổng thời gian khoảng hai phút.':'The paper proposes FLISR for DG-integrated distribution networks. It combines overcurrent protection thresholds, switching-device status, and loss-of-voltage signals for fault detection and location, then optimizes isolation and service restoration. A 22 kV E-Terra simulation shows that restoration plans can be ranked and processed in about two minutes.',
+    'Hội nghị':'Conference','Minh họa FLISR trên lưới điện phân phối tích hợp nguồn phát phân tán':'Illustration of FLISR on a distribution network with distributed generators',
     'Phương pháp phát hiện, định vị, cách ly sự cố và khôi phục cung cấp điện cho lưới điện phân phối có xem xét đến sự xuất hiện của nguồn phát phân tán':'Fault detection, location, isolation, and service restoration method for distribution networks considering distributed generation',
-    'Phương pháp FLISR xem xét ảnh hưởng của DG, sử dụng tín hiệu bảo vệ, trạng thái đóng/cắt và vùng mất điện để xác định phân đoạn sự cố; việc khôi phục được tối ưu theo hai ràng buộc và sáu chỉ số hiệu quả. Kết quả trên mô hình 22 kV E-Terra cho thời gian xử lý dưới hai phút.':'The FLISR method considers DG impacts and uses protection signals, switching status, and de-energized areas to identify the faulted section; restoration is optimized using two constraints and six performance indices. Results on a 22 kV E-Terra model show a processing time below two minutes.',
+    'Nghiên cứu phát triển phương pháp FLISR có xét đến ảnh hưởng của nguồn phát phân tán. Tín hiệu bảo vệ quá dòng, trạng thái đóng/mở thiết bị và vùng mất điện được kết hợp để xác định phân đoạn sự cố; sau đó bài toán khôi phục được giải với hai ràng buộc và sáu chỉ số hiệu quả nhằm giảm số khách hàng mất điện, công suất mất và số bước thao tác. Kết quả E‑Terra trên lưới 22 kV cho thời gian xử lý dưới hai phút.':'The study develops a FLISR method that considers distributed-generation impacts. Overcurrent protection signals, switching status, and de-energized areas are combined to identify the faulted section; restoration is then solved with two constraints and six performance indices to reduce interrupted customers, lost power, and switching operations. Results on a 22 kV E-Terra model show a processing time below two minutes.',
     'Minh họa chu trình phát hiện định vị cách ly sự cố và khôi phục cung cấp điện FLISR':'Illustration of the FLISR fault detection, location, isolation, and service-restoration process',
-    'THỐNG KÊ WEBSITE':'WEBSITE STATISTICS',
-    'Dữ liệu truy cập':'Traffic data',
-    '& lượt tải.':'& downloads.',
-    'Thống kê tổng hợp lượt truy cập và lượt tải tài liệu, phần mềm trên website.':'Aggregated statistics for website visits and document/software downloads.',
-    'Đang hoạt động · 30 phút':'Active · 30 minutes',
-    'Lượt xem · 30 phút':'Views · 30 minutes',
-    'Hôm nay':'Today','7 ngày':'7 days','30 ngày':'30 days','Từ khi thống kê':'All time',
-    'Phiên truy cập':'Sessions','Người dùng':'Users','Việt Nam':'Vietnam','Lượt tải':'Downloads',
-    'Quốc gia truy cập':'Visitor countries','Quốc gia':'Country','Lượt tải theo phần mềm':'Downloads by software','Phần mềm':'Software',
-    'Cập nhật dữ liệu...':'Updating data...','Dữ liệu thống kê đang được cập nhật.':'Statistics are being updated.','Thống kê website':'Website statistics'
+    'THỐNG KÊ WEBSITE':'WEBSITE STATISTICS','Dữ liệu truy cập':'Traffic data','& lượt tải.':'& downloads.','Thống kê tổng hợp lượt truy cập và lượt tải tài liệu, phần mềm trên website.':'Aggregated statistics for website visits and document/software downloads.',
+    'Đang hoạt động · 30 phút':'Active · 30 minutes','Lượt xem · 30 phút':'Views · 30 minutes','Hôm nay':'Today','7 ngày':'7 days','30 ngày':'30 days','Từ khi thống kê':'All time','Phiên truy cập':'Sessions','Người dùng':'Users','Việt Nam':'Vietnam','Lượt tải':'Downloads','Quốc gia truy cập':'Visitor countries','Quốc gia':'Country','Lượt tải theo phần mềm':'Downloads by software','Phần mềm':'Software','Cập nhật dữ liệu...':'Updating data...','Dữ liệu thống kê đang được cập nhật.':'Statistics are being updated.','Thống kê website':'Website statistics','Khoảng thời gian':'Time range'
   };
   const enToVi=Object.fromEntries(Object.entries(viToEn).map(([vi,en])=>[en,vi]));
-
   function replaceText(root,map){
     const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode(n){return n.parentElement&&['SCRIPT','STYLE'].includes(n.parentElement.tagName)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT;}});
-    const nodes=[]; while(walker.nextNode())nodes.push(walker.currentNode);
-    nodes.forEach(node=>{
-      const raw=node.nodeValue,trim=raw.trim();
-      if(!trim||!map[trim])return;
-      const lead=raw.match(/^\s*/)?.[0]||'',tail=raw.match(/\s*$/)?.[0]||'';
-      node.nodeValue=lead+map[trim]+tail;
-    });
-    root.querySelectorAll('[aria-label],[alt],[title]').forEach(el=>{
-      ['aria-label','alt','title'].forEach(attr=>{const v=el.getAttribute(attr);if(v&&map[v])el.setAttribute(attr,map[v]);});
-    });
+    const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+    nodes.forEach(node=>{const raw=node.nodeValue,trim=raw.trim();if(!trim||!map[trim])return;const lead=raw.match(/^\s*/)?.[0]||'',tail=raw.match(/\s*$/)?.[0]||'';node.nodeValue=lead+map[trim]+tail;});
+    root.querySelectorAll('[aria-label],[alt],[title]').forEach(el=>['aria-label','alt','title'].forEach(attr=>{const v=el.getAttribute(attr);if(v&&map[v])el.setAttribute(attr,map[v]);}));
   }
-
-  function apply(){
-    const lang=(document.documentElement.lang||'vi').toLowerCase();
-    replaceText(document,lang.startsWith('en')?viToEn:enToVi);
-  }
-
-  document.addEventListener('DOMContentLoaded',()=>{
-    apply();
-    const toggle=document.querySelector('[data-language-toggle]');
-    if(toggle)toggle.addEventListener('click',()=>setTimeout(apply,30));
-    new MutationObserver(m=>{if(m.some(x=>x.type==='attributes'&&x.attributeName==='lang'))setTimeout(apply,0)}).observe(document.documentElement,{attributes:true});
-  });
+  function apply(){const lang=(document.documentElement.lang||'vi').toLowerCase();replaceText(document,lang.startsWith('en')?viToEn:enToVi);}
+  document.addEventListener('DOMContentLoaded',()=>{apply();const toggle=document.querySelector('[data-language-toggle]');if(toggle)toggle.addEventListener('click',()=>setTimeout(apply,40));new MutationObserver(m=>{if(m.some(x=>x.type==='attributes'&&x.attributeName==='lang'))setTimeout(apply,0)}).observe(document.documentElement,{attributes:true});});
 })();

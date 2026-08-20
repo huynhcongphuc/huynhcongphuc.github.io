@@ -47,9 +47,14 @@ jobs:
               assert key in d.get('periods',{}), f'Missing period {key}'
               assert 'research_downloads' in d['periods'][key], f'Missing research_downloads in {key}'
               assert 'research' in d['periods'][key], f'Missing research detail list in {key}'
+          assert isinstance(d.get('daily'), list), 'Missing daily trend list'
+          for row in d['daily']:
+              for key in ('date','users','views','software_downloads','research_downloads'):
+                  assert key in row, f'Missing daily field {key}'
           print('GA4 export OK:', d['updated_at'])
           print('Realtime research:', d['realtime']['research_downloads'], d['realtime']['research'])
           print('7d research:', d['periods']['7d']['research_downloads'], d['periods']['7d']['research'])
+          print('Daily trend rows:', len(d['daily']))
           PY
       - name: Publish refreshed statistics only
         run: |

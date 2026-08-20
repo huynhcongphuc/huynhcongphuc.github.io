@@ -1,0 +1,72 @@
+/* Dynamic UI V2 — progressive enhancement only. No SEO-critical content is hidden or injected. */
+:root{--motion-ease:cubic-bezier(.2,.75,.25,1);--pointer-x:50%;--pointer-y:50%;--scroll-progress:0%}
+
+/* Sticky header: compact state + scroll progress */
+.site-header{transition:min-height .28s var(--motion-ease),background .28s ease,box-shadow .28s ease,border-color .28s ease}
+.site-header.is-scrolled{min-height:66px;background:rgba(247,248,246,.965);border-bottom-color:rgba(27,108,168,.16);box-shadow:0 10px 34px rgba(11,31,51,.07)}
+.site-header::after{content:"";position:absolute;left:0;bottom:-1px;width:var(--scroll-progress);height:2px;background:linear-gradient(90deg,var(--blue),#65bfe5);pointer-events:none;transition:width .08s linear}
+.site-header nav>a:not(.nav-cta){position:relative;transition:color .2s ease}
+.site-header nav>a:not(.nav-cta)::after{content:"";position:absolute;right:0;bottom:-8px;left:0;height:2px;border-radius:999px;background:var(--blue);transform:scaleX(0);transform-origin:center;transition:transform .22s var(--motion-ease)}
+.site-header nav>a.is-current::after,.site-header nav>a:hover::after{transform:scaleX(1)}
+.site-header nav>a.is-current{color:var(--blue)}
+
+/* Hero depth without extra image payload */
+.hero,.product-hero,.research-hero,.memory-hero,.stats-hero{position:relative;isolation:isolate}
+.hero::before,.product-hero::before,.research-hero::before,.memory-hero::before,.stats-hero::before{content:"";position:absolute;z-index:-1;width:min(46vw,620px);height:min(46vw,620px);right:-10%;top:-18%;border-radius:50%;background:radial-gradient(circle,rgba(27,108,168,.13),rgba(27,108,168,0) 68%);filter:blur(2px);pointer-events:none;animation:ambientFloat 12s ease-in-out infinite alternate}
+.hero::after{content:"";position:absolute;z-index:-1;width:320px;height:320px;left:-12%;bottom:4%;border-radius:50%;background:radial-gradient(circle,rgba(185,219,235,.2),rgba(185,219,235,0) 70%);pointer-events:none;animation:ambientFloat 16s ease-in-out infinite alternate-reverse}
+@keyframes ambientFloat{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(-16px,18px,0) scale(1.06)}}
+
+/* Portrait: very small pointer parallax */
+.portrait-wrap{perspective:1200px}
+.portrait-card{transform:translate3d(var(--portrait-x,0),var(--portrait-y,0),0) rotateX(var(--portrait-rx,0deg)) rotateY(var(--portrait-ry,0deg));transition:transform .18s ease-out,box-shadow .3s ease;will-change:transform}
+.portrait-card:hover{box-shadow:0 32px 90px rgba(11,31,51,.17)}
+.portrait-card::after{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.12) 50%,transparent 65%);transform:translateX(-120%);transition:transform .8s var(--motion-ease);pointer-events:none}
+.portrait-card:hover::after{transform:translateX(120%)}
+
+/* Cards: restrained 3D response + light sweep */
+.motion-card{position:relative;transform-style:preserve-3d;transform:perspective(1000px) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg)) translateY(var(--lift,0));transition:transform .22s ease-out,box-shadow .28s ease,border-color .28s ease;will-change:transform}
+.motion-card:hover{--lift:-4px;border-color:rgba(27,108,168,.22);box-shadow:0 22px 54px rgba(11,31,51,.12)}
+.motion-card::before{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(360px circle at var(--card-x,50%) var(--card-y,50%),rgba(27,108,168,.10),transparent 58%);opacity:0;transition:opacity .25s ease;pointer-events:none;z-index:0}
+.motion-card:hover::before{opacity:1}
+.motion-card>*{position:relative;z-index:1}
+.product-preview{position:relative}
+.product-preview::after{content:"";position:absolute;inset:-30% -60%;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.55) 50%,transparent 58%);transform:translateX(-55%) rotate(4deg);transition:transform .75s var(--motion-ease);pointer-events:none}
+.product-card:hover .product-preview::after{transform:translateX(55%) rotate(4deg)}
+
+/* Buttons and small links */
+.button,.product-download,.research-contact,.nav-cta{position:relative;overflow:hidden;isolation:isolate}
+.button::after,.product-download::after,.research-contact::after,.nav-cta::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.18),transparent 70%);transform:translateX(-120%);transition:transform .55s var(--motion-ease);z-index:-1}
+.button:hover::after,.product-download:hover::after,.research-contact:hover::after,.nav-cta:hover::after{transform:translateX(120%)}
+.button svg,.product-download svg,.research-contact svg{transition:transform .22s var(--motion-ease)}
+.button:hover svg,.product-download:hover svg,.research-contact:hover svg{transform:translateX(3px)}
+
+/* Timeline progression */
+.timeline{position:relative}
+.timeline::after{content:"";position:absolute;left:-1px;top:0;width:2px;height:var(--timeline-progress,0%);border-radius:999px;background:linear-gradient(var(--blue),#70c9eb);box-shadow:0 0 14px rgba(27,108,168,.28);transition:height .14s linear}
+.timeline article{transition:opacity .35s ease,transform .35s var(--motion-ease)}
+.timeline article.is-past{opacity:1}
+.timeline-dot{transition:transform .25s ease,box-shadow .25s ease}
+.timeline article.is-active .timeline-dot{transform:scale(1.35);box-shadow:0 0 0 6px rgba(27,108,168,.14),0 0 0 1px var(--blue)}
+
+/* Statistics feel live */
+.realtime-card{overflow:hidden}
+.live-dot{animation:livePulse 1.8s ease-out infinite}
+@keyframes livePulse{0%,100%{box-shadow:0 0 0 0 rgba(27,158,90,.18)}50%{box-shadow:0 0 0 8px rgba(27,158,90,0)}}
+.stat-card strong{font-variant-numeric:tabular-nums;transition:transform .2s ease}
+.stat-card.is-updated strong{animation:numberPop .38s var(--motion-ease)}
+@keyframes numberPop{0%{transform:translateY(6px);opacity:.4}100%{transform:none;opacity:1}}
+.geo-bar i{transform-origin:left;animation:barGrow .65s var(--motion-ease)}
+@keyframes barGrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+/* Gallery: depth but no heavy continuous animation */
+.memory-card{transition:transform .32s var(--motion-ease),box-shadow .32s ease}
+.memory-card:hover{transform:translateY(-5px);box-shadow:0 24px 58px rgba(11,31,51,.16)}
+.memory-card figcaption{transition:transform .3s var(--motion-ease),background .3s ease}
+.memory-card:hover figcaption{transform:translateY(-4px);background:rgba(11,31,51,.9)}
+
+/* Reveal stagger is applied only after JS marks the document as enhanced. */
+.motion-ready .reveal{transition-delay:var(--reveal-delay,0ms)}
+
+@media(max-width:960px){.site-header nav>a:not(.nav-cta)::after{bottom:-3px;transform-origin:left}.motion-card{transform:none!important}.hero::before,.product-hero::before,.research-hero::before,.memory-hero::before,.stats-hero::before{right:-30%;top:-8%}}
+@media(pointer:coarse){.motion-card,.portrait-card{transform:none!important}}
+@media(prefers-reduced-motion:reduce){.site-header,.site-header::after,.site-header nav>a::after,.portrait-card,.motion-card,.memory-card,.memory-card figcaption,.button svg,.product-download svg,.research-contact svg,.timeline::after,.timeline article,.timeline-dot,.stat-card strong,.geo-bar i{transition:none!important;animation:none!important}.hero::before,.hero::after,.product-hero::before,.research-hero::before,.memory-hero::before,.stats-hero::before,.live-dot{animation:none!important}.motion-card,.portrait-card,.memory-card{transform:none!important}}

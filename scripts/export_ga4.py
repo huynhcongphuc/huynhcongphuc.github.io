@@ -17,6 +17,11 @@ SOFTWARE_EVENTS={
  'download_der_simulator':'DER Simulator',
  'download_microgrid_simulator':'Microgrid Simulator'
 }
+RESEARCH_EVENTS={
+ 'download_research_abess':'ABESS Reliability Paper',
+ 'download_research_flisr_ieee':'IEEE FLISR with DG Paper',
+ 'download_research_flisr_vn':'FLISR with Distributed Generation Paper'
+}
 
 def report(start,end,dimensions,metrics,event_filter=None):
     req=RunReportRequest(property=PROP,date_ranges=[DateRange(start_date=start,end_date=end)],dimensions=[Dimension(name=x) for x in dimensions],metrics=[Metric(name=x) for x in metrics])
@@ -31,19 +36,24 @@ def realtime_report(dimensions,metrics):
 def metric_value(resp,idx=0):
     return int(float(resp.rows[0].metric_values[idx].value)) if resp.rows else 0
 
-def realtime_download_counts():
-    counts={ev:0 for ev in SOFTWARE_EVENTS}
+def event_counts_realtime(event_map):
+    counts={ev:0 for ev in event_map}
     r=realtime_report(['eventName'],['eventCount'])
     for row in r.rows:
         ev=row.dimension_values[0].value
         if ev in counts: counts[ev]=int(float(row.metric_values[0].value))
     return counts
 
+def event_counts_period(start,end,event_map):
+    r=report(start,end,['eventName'],['eventCount'],list(event_map))
+    return {row.dimension_values[0].value:int(float(row.metric_values[0].value)) for row in r.rows}
+
 def period(start,end='today'):
     sessions=metric_value(report(start,end,[],['sessions']))
     users=metric_value(report(start,end,[],['activeUsers']))
     views=metric_value(report(start,end,[],['screenPageViews']))
     downloads=metric_value(report(start,end,[],['eventCount'],list(SOFTWARE_EVENTS)))
+    research_downloads=metric_value(report(start,end,[],['eventCount'],list(RESEARCH_EVENTS)))
     countries=[]; vn=0; abroad=0
     r=report(start,end,['country'],['activeUsers'])
     for row in r.rows:
@@ -51,10 +61,11 @@ def period(start,end='today'):
         countries.append({'country':country,'users':value})
         if country=='Vietnam': vn+=value
         else: abroad+=value
-    r=report(start,end,['eventName'],['eventCount'],list(SOFTWARE_EVENTS))
-    counts={row.dimension_values[0].value:int(float(row.metric_values[0].value)) for row in r.rows}
-    sw=[{'event':ev,'name':label,'downloads':counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
-    return {'sessions':sessions,'users':users,'views':views,'downloads':downloads,'vietnam':vn,'abroad':abroad,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'software':sw}
+    sw_counts=event_counts_period(start,end,SOFTWARE_EVENTS)
+    rs_counts=event_counts_period(start,end,RESEARCH_EVENTS)
+    sw=[{'event':ev,'name':label,'downloads':sw_counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
+    research=[{'event':ev,'name':label,'downloads':rs_counts.get(ev,0)} for ev,label in RESEARCH_EVENTS.items()]
+    return {'sessions':sessions,'users':users,'views':views,'downloads':downloads,'research_downloads':research_downloads,'vietnam':vn,'abroad':abroad,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'software':sw,'research':research}
 
 def realtime():
     active=0; views=0; countries=[]; pages=[]
@@ -65,9 +76,11 @@ def realtime():
     for row in r.rows: countries.append({'country':row.dimension_values[0].value or 'Unknown','users':int(float(row.metric_values[0].value))})
     r=realtime_report(['unifiedScreenName'],['activeUsers','screenPageViews'])
     for row in r.rows: pages.append({'page':row.dimension_values[0].value or '(not set)','users':int(float(row.metric_values[0].value)),'views':int(float(row.metric_values[1].value))})
-    download_counts=realtime_download_counts()
-    software=[{'event':ev,'name':label,'downloads':download_counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
-    return {'active_users':active,'views':views,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'pages':sorted(pages,key=lambda x:x['views'],reverse=True)[:10],'downloads':sum(download_counts.values()),'software':software}
+    sw_counts=event_counts_realtime(SOFTWARE_EVENTS)
+    rs_counts=event_counts_realtime(RESEARCH_EVENTS)
+    software=[{'event':ev,'name':label,'downloads':sw_counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
+    research=[{'event':ev,'name':label,'downloads':rs_counts.get(ev,0)} for ev,label in RESEARCH_EVENTS.items()]
+    return {'active_users':active,'views':views,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'pages':sorted(pages,key=lambda x:x['views'],reverse=True)[:10],'downloads':sum(sw_counts.values()),'research_downloads':sum(rs_counts.values()),'software':software,'research':research}
 
 daily=[]
 r=report('29daysAgo','today',['date'],['sessions','activeUsers','eventCount'])

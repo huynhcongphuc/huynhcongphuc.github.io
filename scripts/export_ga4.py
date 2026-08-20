@@ -18,6 +18,7 @@ SOFTWARE_EVENTS={
  'download_microgrid_simulator':'Microgrid Simulator'
 }
 RESEARCH_EVENTS={
+ 'download_research_ieee2030_5':'IEEE 2030.11 & IEEE 2030.5 DERMS Research',
  'download_research_abess':'ABESS Reliability Paper',
  'download_research_flisr_ieee':'IEEE FLISR with DG Paper',
  'download_research_flisr_vn':'FLISR with Distributed Generation Paper'

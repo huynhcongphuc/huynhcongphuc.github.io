@@ -2,22 +2,17 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T14:42:29.509286+00:00",
+  "updated_at": "2026-08-20T14:51:00.143307+00:00",
   "realtime": {
-    "active_users": 2,
-    "views": 9,
+    "active_users": 1,
+    "views": 8,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 2
+        "users": 1
       }
     ],
     "pages": [
-      {
-        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
-        "users": 2,
-        "views": 2
-      },
       {
         "page": "Personal Research | Huynh Cong Phuc",
         "users": 1,
@@ -39,6 +34,11 @@
         "views": 1
       },
       {
+        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
         "page": "Technology Products | Huynh Cong Phuc",
         "users": 1,
         "views": 1
@@ -47,11 +47,6 @@
         "page": "Thống kê truy cập | Huỳnh Công Phúc",
         "users": 1,
         "views": 1
-      },
-      {
-        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 0
       }
     ],
     "downloads": 0,

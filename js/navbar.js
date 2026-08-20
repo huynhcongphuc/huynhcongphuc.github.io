@@ -66,23 +66,64 @@ document.addEventListener('DOMContentLoaded',()=>{
   ['realtime-users','realtime-views','sessions','users','vietnam','downloads','research-downloads'].forEach(id=>{const node=document.getElementById(id);if(!node||!('MutationObserver' in window))return;new MutationObserver(()=>{const card=node.closest('.stat-card');if(!card||reduceMotion)return;card.classList.remove('is-updated');void card.offsetWidth;card.classList.add('is-updated');setTimeout(()=>card.classList.remove('is-updated'),450);}).observe(node,{childList:true,characterData:true,subtree:true});});
 });
 
+const GA4_MEASUREMENT_ID='G-GT3E67GPJM';
 const DOWNLOAD_MAP=[
-  {match:'IgBq6U7hVxl5RJuDTA6EJ_ahAXFAtLfmY8CHGajxg9ZjMy0',event:'download_secureapp',name:'SecureApp'},
-  {match:'IgCWzBpvcoqLT4XENDOsrvIUAU-Cq-ESSLyOE2bAD3Pwq2s',event:'download_master_server',name:'Master Server Protocol'},
-  {match:'IgApTsr0fURrQ5VzGEA222H4AZa4rPLGAMoSnHB6vAfKTdM',event:'download_der_simulator',name:'DER Simulator'},
-  {match:'IgD3GSNESb9yRphUKp21307vAbuuXWulCUgH3GJR2e8iTis',event:'download_microgrid_simulator',name:'Microgrid Simulator'},
-  {match:'/682/919',event:'download_research_abess',name:'ABESS Reliability Paper'},
-  {match:'arnumber=9314599',event:'download_research_flisr_ieee',name:'IEEE FLISR with DG Paper'},
-  {match:'/749/1044',event:'download_research_flisr_vn',name:'FLISR with Distributed Generation Paper'}
+  {match:'IgBq6U7hVxl5RJuDTA6EJ_ahAXFAtLfmY8CHGajxg9ZjMy0',event:'download_secureapp',name:'SecureApp',type:'software'},
+  {match:'IgCWzBpvcoqLT4XENDOsrvIUAU-Cq-ESSLyOE2bAD3Pwq2s',event:'download_master_server',name:'Master Server Protocol',type:'software'},
+  {match:'IgApTsr0fURrQ5VzGEA222H4AZa4rPLGAMoSnHB6vAfKTdM',event:'download_der_simulator',name:'DER Simulator',type:'software'},
+  {match:'IgD3GSNESb9yRphUKp21307vAbuuXWulCUgH3GJR2e8iTis',event:'download_microgrid_simulator',name:'Microgrid Simulator',type:'software'},
+  {match:'/682/919',event:'download_research_abess',name:'ABESS Reliability Paper',type:'research'},
+  {match:'arnumber=9314599',event:'download_research_flisr_ieee',name:'IEEE FLISR with DG Paper',type:'research'},
+  {match:'/749/1044',event:'download_research_flisr_vn',name:'FLISR with Distributed Generation Paper',type:'research'}
 ];
+
+function buildDownloadParams(link,known){
+  const href=link.href||'';
+  const card=link.closest('.product-card,.research-card');
+  const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||'Download';
+  const itemName=known?.name||title;
+  const type=known?.type||(known?.event?.startsWith('download_research_')?'research':'software');
+  return {
+    item_name:itemName,
+    software_name:type==='software'?itemName:'',
+    research_name:type==='research'?itemName:'',
+    content_type:type,
+    link_url:href,
+    link_text:link.textContent.trim(),
+    page_path:location.pathname,
+    page_title:document.title,
+    transport_type:'beacon',
+    send_to:GA4_MEASUREMENT_ID
+  };
+}
+
+function sendDownloadEvent(link,known){
+  if(typeof window.gtag!=='function')return;
+  const eventName=known?.event||'download_document';
+  const params=buildDownloadParams(link,known);
+  window.gtag('event',eventName,params);
+  window.gtag('event',known?.type==='research'?'research_download':'software_download',{...params,download_event:eventName});
+  window.gtag('event','file_download_click',{...params,download_event:eventName});
+}
+
+// Research links are sent on pointerdown so the GA4 beacon is queued before the new PDF tab opens.
+document.addEventListener('pointerdown',event=>{
+  const link=event.target.closest?.('[data-track-download]');
+  if(!link)return;
+  const href=link.href||'';
+  const known=DOWNLOAD_MAP.find(item=>item.type==='research'&&href.includes(item.match));
+  if(!known)return;
+  const now=Date.now();
+  if(Number(link.dataset.lastResearchTrack||0)>now-1200)return;
+  link.dataset.lastResearchTrack=String(now);
+  sendDownloadEvent(link,known);
+},true);
 
 document.addEventListener('click',event=>{
   const link=event.target.closest?.('.product-download,[data-track-download]');
-  if(!link || typeof window.gtag!=='function')return;
-  const href=link.href||''; const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
-  const card=link.closest('.product-card,.research-card'); const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||'Download';
-  const eventName=known?.event||'download_document'; const itemName=known?.name||title;
-  const isResearch=eventName.startsWith('download_research_');
-  const params={item_name:itemName,software_name:isResearch?'':itemName,research_name:isResearch?itemName:'',content_type:isResearch?'research':'software',link_url:href,link_text:link.textContent.trim(),page_path:location.pathname,page_title:document.title,transport_type:'beacon'};
-  window.gtag('event',eventName,params); window.gtag('event','file_download_click',{...params,download_event:eventName});
+  if(!link)return;
+  const href=link.href||'';
+  const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
+  if(known?.type==='research')return; // already sent reliably on pointerdown
+  sendDownloadEvent(link,known);
 },true);

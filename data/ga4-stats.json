@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T14:12:32.816528+00:00",
+  "updated_at": "2026-08-20T14:34:39.139670+00:00",
   "realtime": {
     "active_users": 2,
-    "views": 29,
+    "views": 13,
     "countries": [
       {
         "country": "Vietnam",
@@ -14,47 +14,57 @@
     ],
     "pages": [
       {
+        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
+        "users": 2,
+        "views": 4
+      },
+      {
+        "page": "Personal Research | Huynh Cong Phuc",
+        "users": 1,
+        "views": 2
+      },
+      {
         "page": "Thống kê truy cập | Huỳnh Công Phúc",
         "users": 1,
-        "views": 11
-      },
-      {
-        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
-        "users": 2,
-        "views": 5
-      },
-      {
-        "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 4
-      },
-      {
-        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 4
-      },
-      {
-        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 1,
         "views": 2
-      },
-      {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 1,
-        "views": 2
-      },
-      {
-        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
       },
       {
         "page": "Huynh Cong Phuc | Power Systems & Automation",
         "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Technology Products | Huynh Cong Phuc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
+        "users": 2,
+        "views": 0
+      },
+      {
+        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
+        "users": 1,
         "views": 0
       }
     ],
-    "downloads": 3,
+    "downloads": 0,
     "research_downloads": 0,
     "software": [
       {
@@ -65,17 +75,17 @@
       {
         "event": "download_master_server",
         "name": "Master Server Protocol",
-        "downloads": 1
+        "downloads": 0
       },
       {
         "event": "download_der_simulator",
         "name": "DER Simulator",
-        "downloads": 1
+        "downloads": 0
       },
       {
         "event": "download_microgrid_simulator",
         "name": "Microgrid Simulator",
-        "downloads": 1
+        "downloads": 0
       }
     ],
     "research": [
@@ -372,13 +382,17 @@
       "date": "20260819",
       "sessions": 22,
       "users": 15,
-      "events": 253
+      "views": 81,
+      "software_downloads": 6,
+      "research_downloads": 0
     },
     {
       "date": "20260820",
       "sessions": 4,
       "users": 4,
-      "events": 20
+      "views": 7,
+      "software_downloads": 0,
+      "research_downloads": 0
     }
   ]
 }

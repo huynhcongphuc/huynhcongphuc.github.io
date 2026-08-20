@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T14:34:39.139670+00:00",
+  "updated_at": "2026-08-20T14:42:29.509286+00:00",
   "realtime": {
     "active_users": 2,
-    "views": 13,
+    "views": 9,
     "countries": [
       {
         "country": "Vietnam",
@@ -16,15 +16,10 @@
       {
         "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
         "users": 2,
-        "views": 4
-      },
-      {
-        "page": "Personal Research | Huynh Cong Phuc",
-        "users": 1,
         "views": 2
       },
       {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "page": "Personal Research | Huynh Cong Phuc",
         "users": 1,
         "views": 2
       },
@@ -39,11 +34,6 @@
         "views": 1
       },
       {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 1,
-        "views": 1
-      },
-      {
         "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
         "users": 1,
         "views": 1
@@ -54,12 +44,12 @@
         "views": 1
       },
       {
-        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 2,
-        "views": 0
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
       },
       {
-        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
+        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
         "users": 1,
         "views": 0
       }

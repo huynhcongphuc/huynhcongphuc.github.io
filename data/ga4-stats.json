@@ -2,21 +2,21 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T22:01:40.957863+00:00",
+  "updated_at": "2026-08-20T22:34:42.245386+00:00",
   "realtime": {
-    "active_users": 1,
-    "views": 1,
+    "active_users": 2,
+    "views": 2,
     "countries": [
       {
         "country": "Unknown",
-        "users": 1
+        "users": 2
       }
     ],
     "pages": [
       {
         "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 1,
-        "views": 1
+        "users": 2,
+        "views": 2
       }
     ],
     "downloads": 0,
@@ -122,17 +122,17 @@
       ]
     },
     "7d": {
-      "sessions": 28,
-      "users": 20,
-      "views": 90,
+      "sessions": 29,
+      "users": 21,
+      "views": 96,
       "downloads": 6,
       "research_downloads": 0,
-      "vietnam": 12,
+      "vietnam": 13,
       "abroad": 8,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 12
+          "users": 13
         },
         {
           "country": "United States",
@@ -189,17 +189,17 @@
       ]
     },
     "30d": {
-      "sessions": 28,
-      "users": 20,
-      "views": 90,
+      "sessions": 29,
+      "users": 21,
+      "views": 96,
       "downloads": 6,
       "research_downloads": 0,
-      "vietnam": 12,
+      "vietnam": 13,
       "abroad": 8,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 12
+          "users": 13
         },
         {
           "country": "United States",
@@ -256,17 +256,17 @@
       ]
     },
     "all": {
-      "sessions": 28,
-      "users": 20,
-      "views": 90,
+      "sessions": 29,
+      "users": 21,
+      "views": 96,
       "downloads": 6,
       "research_downloads": 0,
-      "vietnam": 12,
+      "vietnam": 13,
       "abroad": 8,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 12
+          "users": 13
         },
         {
           "country": "United States",
@@ -334,9 +334,9 @@
     },
     {
       "date": "20260820",
-      "sessions": 6,
-      "users": 6,
-      "views": 9,
+      "sessions": 7,
+      "users": 7,
+      "views": 15,
       "software_downloads": 0,
       "research_downloads": 0
     }

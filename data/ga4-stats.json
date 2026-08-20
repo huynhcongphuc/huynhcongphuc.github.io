@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T20:24:23.687989+00:00",
+  "updated_at": "2026-08-20T20:52:19.086241+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -111,13 +111,13 @@
       ]
     },
     "7d": {
-      "sessions": 27,
-      "users": 19,
-      "views": 89,
+      "sessions": 28,
+      "users": 20,
+      "views": 90,
       "downloads": 6,
       "research_downloads": 0,
       "vietnam": 12,
-      "abroad": 7,
+      "abroad": 8,
       "countries": [
         {
           "country": "Vietnam",
@@ -125,7 +125,7 @@
         },
         {
           "country": "United States",
-          "users": 6
+          "users": 7
         },
         {
           "country": "(not set)",
@@ -178,13 +178,13 @@
       ]
     },
     "30d": {
-      "sessions": 27,
-      "users": 19,
-      "views": 89,
+      "sessions": 28,
+      "users": 20,
+      "views": 90,
       "downloads": 6,
       "research_downloads": 0,
       "vietnam": 12,
-      "abroad": 7,
+      "abroad": 8,
       "countries": [
         {
           "country": "Vietnam",
@@ -192,7 +192,7 @@
         },
         {
           "country": "United States",
-          "users": 6
+          "users": 7
         },
         {
           "country": "(not set)",
@@ -245,13 +245,13 @@
       ]
     },
     "all": {
-      "sessions": 27,
-      "users": 19,
-      "views": 89,
+      "sessions": 28,
+      "users": 20,
+      "views": 90,
       "downloads": 6,
       "research_downloads": 0,
       "vietnam": 12,
-      "abroad": 7,
+      "abroad": 8,
       "countries": [
         {
           "country": "Vietnam",
@@ -259,7 +259,7 @@
         },
         {
           "country": "United States",
-          "users": 6
+          "users": 7
         },
         {
           "country": "(not set)",
@@ -323,9 +323,9 @@
     },
     {
       "date": "20260820",
-      "sessions": 5,
-      "users": 5,
-      "views": 8,
+      "sessions": 6,
+      "users": 6,
+      "views": 9,
       "software_downloads": 0,
       "research_downloads": 0
     }

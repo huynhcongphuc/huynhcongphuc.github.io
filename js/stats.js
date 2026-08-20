@@ -1,22 +1,21 @@
 document.addEventListener('DOMContentLoaded',()=>{
   const nf=new Intl.NumberFormat('vi-VN');
+  const RAW_URL='https://raw.githubusercontent.com/huynhcongphuc/huynhcongphuc.github.io/main/data/ga4-stats.json';
   let stats=null,range='7d';
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
   function render(){
     if(!stats)return;
     const rt=stats.realtime||{};
     document.getElementById('realtime-users').textContent=nf.format(rt.active_users||0);
     document.getElementById('realtime-views').textContent=nf.format(rt.views||0);
-    const d=stats.periods[range];
+    const d=stats.periods?.[range]||stats.periods?.['7d']||{};
     document.getElementById('sessions').textContent=nf.format(d.sessions||0);
     document.getElementById('users').textContent=nf.format(d.users||0);
 
     const realtimeVietnam=(rt.countries||[]).find(x=>String(x.country).toLowerCase()==='vietnam')?.users||0;
-    const vietnamValue=(d.vietnam||0)>0?(d.vietnam||0):realtimeVietnam;
-    document.getElementById('vietnam').textContent=nf.format(vietnamValue);
-
-    const downloadValue=(d.downloads||0)>0?(d.downloads||0):(rt.downloads||0);
-    document.getElementById('downloads').textContent=nf.format(downloadValue);
+    document.getElementById('vietnam').textContent=nf.format((d.vietnam||0)>0?(d.vietnam||0):realtimeVietnam);
+    document.getElementById('downloads').textContent=nf.format((d.downloads||0)>0?(d.downloads||0):(rt.downloads||0));
 
     const countryData=(d.countries||[]).length?(d.countries||[]):(rt.countries||[]);
     const max=Math.max(1,...countryData.map(x=>x.users));
@@ -30,7 +29,35 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     const updated=document.getElementById('updated-at');
     if(updated&&stats.updated_at)updated.textContent=`Cập nhật lúc ${new Date(stats.updated_at).toLocaleString('vi-VN')}`;
+    const error=document.getElementById('stats-error');
+    if(error)error.style.display='none';
   }
-  document.querySelectorAll('[data-range]').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));b.classList.add('active');range=b.dataset.range;render();}));
-  fetch(`data/ga4-stats.json?t=${Date.now()}`,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(d=>{stats=d;render()}).catch(()=>{document.getElementById('stats-error').style.display='block';['realtime-users','realtime-views','sessions','users','vietnam','downloads'].forEach(id=>document.getElementById(id).textContent='—');document.getElementById('country-rows').innerHTML='<tr><td>Đang chờ dữ liệu</td><td>—</td></tr>';document.getElementById('software-rows').innerHTML='<tr><td>Đang chờ dữ liệu</td><td>—</td></tr>';});
+
+  async function loadStats(){
+    const urls=[`${RAW_URL}?t=${Date.now()}`,`data/ga4-stats.json?t=${Date.now()}`];
+    let lastError;
+    for(const url of urls){
+      try{
+        const r=await fetch(url,{cache:'no-store'});
+        if(!r.ok)throw new Error(`HTTP ${r.status}`);
+        const d=await r.json();
+        if(!d?.periods)throw new Error('Invalid stats payload');
+        stats=d;render();return;
+      }catch(err){lastError=err;}
+    }
+    console.warn('Stats refresh failed',lastError);
+    if(!stats){
+      document.getElementById('stats-error').style.display='block';
+      ['realtime-users','realtime-views','sessions','users','vietnam','downloads'].forEach(id=>document.getElementById(id).textContent='—');
+    }
+  }
+
+  document.querySelectorAll('[data-range]').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('[data-range]').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');range=b.dataset.range;render();
+  }));
+
+  loadStats();
+  setInterval(loadStats,60000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)loadStats();});
 });

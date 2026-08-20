@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: ga4-public-statistics
@@ -16,9 +14,6 @@ concurrency:
 
 jobs:
   update:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,50 +34,31 @@ jobs:
           import json
           with open('data/ga4-stats.json', encoding='utf-8') as f:
               d=json.load(f)
-          assert d.get('property_id') == '287327003', 'Wrong or missing property_id'
-          assert 'realtime' in d, 'Realtime block missing; refusing to publish stale schema'
-          assert 'active_users' in d['realtime'], 'realtime.active_users missing'
-          assert 'views' in d['realtime'], 'realtime.views missing'
+          assert d.get('property_id') == '287327003'
+          assert 'realtime' in d and 'active_users' in d['realtime'] and 'views' in d['realtime']
           print('GA4 export OK:', d['updated_at'], d['realtime'])
           PY
-      - name: Publish refreshed statistics
+      - name: Publish refreshed statistics only
         run: |
           set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp data/ga4-stats.json /tmp/ga4-stats.json
-
           for attempt in 1 2 3; do
-            echo "Publish attempt ${attempt}"
             git fetch origin main
             git reset --hard origin/main
             mkdir -p data
             cp /tmp/ga4-stats.json data/ga4-stats.json
-
             git add data/ga4-stats.json
             if git diff --cached --quiet; then
               echo "Statistics are already up to date."
-              break
+              exit 0
             fi
-
             git commit -m "Update public GA4 statistics"
             if git push origin HEAD:main; then
               echo "Statistics published successfully."
-              break
+              exit 0
             fi
             echo "Remote changed during push; retrying..."
-            if [ "$attempt" -eq 3 ]; then
-              echo "Failed to publish statistics after 3 attempts."
-              exit 1
-            fi
           done
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload current site artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: '.'
-      - name: Deploy refreshed site to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+          exit 1

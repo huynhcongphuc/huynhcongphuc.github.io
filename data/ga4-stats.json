@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T19:57:56.728901+00:00",
+  "updated_at": "2026-08-20T20:24:23.687989+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -111,17 +111,17 @@
       ]
     },
     "7d": {
-      "sessions": 26,
-      "users": 18,
-      "views": 88,
+      "sessions": 27,
+      "users": 19,
+      "views": 89,
       "downloads": 6,
       "research_downloads": 0,
-      "vietnam": 11,
+      "vietnam": 12,
       "abroad": 7,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 11
+          "users": 12
         },
         {
           "country": "United States",
@@ -178,17 +178,17 @@
       ]
     },
     "30d": {
-      "sessions": 26,
-      "users": 18,
-      "views": 88,
+      "sessions": 27,
+      "users": 19,
+      "views": 89,
       "downloads": 6,
       "research_downloads": 0,
-      "vietnam": 11,
+      "vietnam": 12,
       "abroad": 7,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 11
+          "users": 12
         },
         {
           "country": "United States",
@@ -245,17 +245,17 @@
       ]
     },
     "all": {
-      "sessions": 26,
-      "users": 18,
-      "views": 88,
+      "sessions": 27,
+      "users": 19,
+      "views": 89,
       "downloads": 6,
       "research_downloads": 0,
-      "vietnam": 11,
+      "vietnam": 12,
       "abroad": 7,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 11
+          "users": 12
         },
         {
           "country": "United States",
@@ -323,9 +323,9 @@
     },
     {
       "date": "20260820",
-      "sessions": 4,
-      "users": 4,
-      "views": 7,
+      "sessions": 5,
+      "users": 5,
+      "views": 8,
       "software_downloads": 0,
       "research_downloads": 0
     }

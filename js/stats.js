@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     const realtimeVietnam=(rt.countries||[]).find(x=>String(x.country).toLowerCase()==='vietnam')?.users||0;
     document.getElementById('vietnam').textContent=nf.format((d.vietnam||0)>0?(d.vietnam||0):realtimeVietnam);
     document.getElementById('downloads').textContent=nf.format((d.downloads||0)>0?(d.downloads||0):(rt.downloads||0));
+    const researchTotal=(d.research_downloads||0)>0?(d.research_downloads||0):(rt.research_downloads||0);
+    const researchTotalNode=document.getElementById('research-downloads');
+    if(researchTotalNode)researchTotalNode.textContent=nf.format(researchTotal);
 
     const countryData=(d.countries||[]).length?(d.countries||[]):(rt.countries||[]);
     const max=Math.max(1,...countryData.map(x=>x.users));
@@ -26,6 +29,13 @@ document.addEventListener('DOMContentLoaded',()=>{
     const hasStandard=standardSoftware.some(x=>(x.downloads||0)>0);
     const softwareData=hasStandard?standardSoftware:(realtimeSoftware.length?realtimeSoftware:standardSoftware);
     document.getElementById('software-rows').innerHTML=softwareData.map(x=>`<tr><td>${esc(x.name)}</td><td>${nf.format(x.downloads||0)}</td></tr>`).join('');
+
+    const realtimeResearch=rt.research||[];
+    const standardResearch=d.research||[];
+    const hasResearchStandard=standardResearch.some(x=>(x.downloads||0)>0);
+    const researchData=hasResearchStandard?standardResearch:(realtimeResearch.length?realtimeResearch:standardResearch);
+    const researchRows=document.getElementById('research-rows');
+    if(researchRows)researchRows.innerHTML=researchData.length?researchData.map(x=>`<tr><td>${esc(x.name)}</td><td>${nf.format(x.downloads||0)}</td></tr>`).join(''):'<tr><td>Chưa có dữ liệu</td><td>0</td></tr>';
 
     const updated=document.getElementById('updated-at');
     if(updated&&stats.updated_at)updated.textContent=`Cập nhật lúc ${new Date(stats.updated_at).toLocaleString('vi-VN')}`;
@@ -48,7 +58,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     console.warn('Stats refresh failed',lastError);
     if(!stats){
       document.getElementById('stats-error').style.display='block';
-      ['realtime-users','realtime-views','sessions','users','vietnam','downloads'].forEach(id=>document.getElementById(id).textContent='—');
+      ['realtime-users','realtime-views','sessions','users','vietnam','downloads','research-downloads'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent='—';});
     }
   }
 

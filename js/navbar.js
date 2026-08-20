@@ -11,9 +11,9 @@
   const loadExtra=()=>{
     if(!document.querySelector('script[data-i18n-extra]')){
       const extra=document.createElement('script');
-      extra.src='js/i18n-extra.js?v=3';
+      extra.src='js/i18n-extra.js?v=5';
       extra.defer=true;
-      extra.dataset.i18nExtra='v3';
+      extra.dataset.i18nExtra='v5';
       document.head.appendChild(extra);
     }
   };
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   if(nav && 'IntersectionObserver' in window){const hashLinks=[...nav.querySelectorAll('a[href^="#"],a[href^="index.html#"]')];const sectionMap=new Map();hashLinks.forEach(link=>{const hash=link.getAttribute('href').split('#')[1];const section=hash?document.getElementById(hash):null;if(section)sectionMap.set(section,link);});if(sectionMap.size){const activeObserver=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];if(!visible)return;hashLinks.forEach(l=>l.classList.remove('is-current'));sectionMap.get(visible.target)?.classList.add('is-current');},{rootMargin:'-28% 0px -58% 0px',threshold:[0,.15,.35,.6]});sectionMap.forEach((_,section)=>activeObserver.observe(section));}}
 
-  const motionCards=[...document.querySelectorAll('.expertise-card,.product-card,.research-card,.stat-card,.table-card')];motionCards.forEach(card=>card.classList.add('motion-card'));
+  const motionCards=[...document.querySelectorAll('.expertise-card,.product-card,.research-card,.stat-card,.table-card,.trend-card')];motionCards.forEach(card=>card.classList.add('motion-card'));
   if(finePointer&&!reduceMotion){motionCards.forEach(card=>{card.addEventListener('pointermove',event=>{const rect=card.getBoundingClientRect();const x=(event.clientX-rect.left)/rect.width,y=(event.clientY-rect.top)/rect.height;card.style.setProperty('--tilt-y',`${(x-.5)*3.2}deg`);card.style.setProperty('--tilt-x',`${(.5-y)*3.2}deg`);card.style.setProperty('--card-x',`${x*100}%`);card.style.setProperty('--card-y',`${y*100}%`);},{passive:true});card.addEventListener('pointerleave',()=>{card.style.setProperty('--tilt-y','0deg');card.style.setProperty('--tilt-x','0deg');card.style.setProperty('--card-x','50%');card.style.setProperty('--card-y','50%');},{passive:true});});const portrait=document.querySelector('.portrait-card');if(portrait){portrait.addEventListener('pointermove',event=>{const rect=portrait.getBoundingClientRect();const x=(event.clientX-rect.left)/rect.width-.5,y=(event.clientY-rect.top)/rect.height-.5;portrait.style.setProperty('--portrait-x',`${x*5}px`);portrait.style.setProperty('--portrait-y',`${y*5}px`);portrait.style.setProperty('--portrait-ry',`${x*1.8}deg`);portrait.style.setProperty('--portrait-rx',`${-y*1.8}deg`);},{passive:true});portrait.addEventListener('pointerleave',()=>['--portrait-x','--portrait-y','--portrait-rx','--portrait-ry'].forEach(p=>portrait.style.removeProperty(p)),{passive:true});}}
 
   ['realtime-users','realtime-views','sessions','users','vietnam','downloads','research-downloads'].forEach(id=>{const node=document.getElementById(id);if(!node||!('MutationObserver' in window))return;new MutationObserver(()=>{const card=node.closest('.stat-card');if(!card||reduceMotion)return;card.classList.remove('is-updated');void card.offsetWidth;card.classList.add('is-updated');setTimeout(()=>card.classList.remove('is-updated'),450);}).observe(node,{childList:true,characterData:true,subtree:true});});

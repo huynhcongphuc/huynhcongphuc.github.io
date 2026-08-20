@@ -1,6 +1,6 @@
 (()=>{
   const viToEn={
-    'Thống kê':'Statistics','Tóm tắt năng lực':'Engineering snapshot','Năm kinh nghiệm':'Years of experience','Sản phẩm phần mềm':'Software products',
+    'Thống kê':'Statistics','Tóm tắt năng lực':'Engineering snapshot','Năm kinh nghiệm':'Years of experience','10+ năm kinh nghiệm':'10+ years of experience','Sản phẩm phần mềm':'Software products',
     '03 · SẢN PHẨM NỔI BẬT':'03 · FEATURED PRODUCTS','Từ bài toán kỹ thuật':'From engineering problems','đến công cụ thực tế.':'to practical tools.',
     'Một số phần mềm được phát triển cho tích hợp giao thức, mô phỏng DER/Microgrid và bảo mật dữ liệu.':'Selected software developed for protocol integration, DER/Microgrid simulation, and data security.',
     'Máy chủ đa giao thức cho IEC 60870-5-104, Modbus và IEEE 2030.5.':'A multi-protocol server for IEC 60870-5-104, Modbus, and IEEE 2030.5.',

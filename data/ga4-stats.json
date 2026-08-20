@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T04:48:53.931618+00:00",
+  "updated_at": "2026-08-20T05:16:50.278530+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -34,16 +34,16 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 2,
+      "users": 2,
+      "views": 2,
       "downloads": 0,
       "vietnam": 0,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
         {
           "country": "United States",
-          "users": 1
+          "users": 2
         }
       ],
       "software": [
@@ -70,12 +70,12 @@
       ]
     },
     "7d": {
-      "sessions": 23,
-      "users": 16,
-      "views": 82,
+      "sessions": 24,
+      "users": 17,
+      "views": 83,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 5,
+      "abroad": 6,
       "countries": [
         {
           "country": "Vietnam",
@@ -83,7 +83,7 @@
         },
         {
           "country": "United States",
-          "users": 4
+          "users": 5
         },
         {
           "country": "(not set)",
@@ -114,12 +114,12 @@
       ]
     },
     "30d": {
-      "sessions": 23,
-      "users": 16,
-      "views": 82,
+      "sessions": 24,
+      "users": 17,
+      "views": 83,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 5,
+      "abroad": 6,
       "countries": [
         {
           "country": "Vietnam",
@@ -127,7 +127,7 @@
         },
         {
           "country": "United States",
-          "users": 4
+          "users": 5
         },
         {
           "country": "(not set)",
@@ -158,12 +158,12 @@
       ]
     },
     "all": {
-      "sessions": 23,
-      "users": 16,
-      "views": 82,
+      "sessions": 24,
+      "users": 17,
+      "views": 83,
       "downloads": 6,
       "vietnam": 11,
-      "abroad": 5,
+      "abroad": 6,
       "countries": [
         {
           "country": "Vietnam",
@@ -171,7 +171,7 @@
         },
         {
           "country": "United States",
-          "users": 4
+          "users": 5
         },
         {
           "country": "(not set)",
@@ -211,9 +211,9 @@
     },
     {
       "date": "20260820",
-      "sessions": 1,
-      "users": 1,
-      "events": 3
+      "sessions": 2,
+      "users": 2,
+      "events": 6
     }
   ]
 }

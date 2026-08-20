@@ -2,6 +2,11 @@ name: Update GA4 public statistics
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/export_ga4.py'
+      - '.github/workflows/update-ga4-stats.yml'
   schedule:
     - cron: '*/5 * * * *'
 
@@ -36,7 +41,15 @@ jobs:
               d=json.load(f)
           assert d.get('property_id') == '287327003'
           assert 'realtime' in d and 'active_users' in d['realtime'] and 'views' in d['realtime']
-          print('GA4 export OK:', d['updated_at'], d['realtime'])
+          assert 'research_downloads' in d['realtime'], 'Missing realtime research_downloads'
+          assert 'research' in d['realtime'], 'Missing realtime research detail list'
+          for key in ('today','7d','30d','all'):
+              assert key in d.get('periods',{}), f'Missing period {key}'
+              assert 'research_downloads' in d['periods'][key], f'Missing research_downloads in {key}'
+              assert 'research' in d['periods'][key], f'Missing research detail list in {key}'
+          print('GA4 export OK:', d['updated_at'])
+          print('Realtime research:', d['realtime']['research_downloads'], d['realtime']['research'])
+          print('7d research:', d['periods']['7d']['research_downloads'], d['periods']['7d']['research'])
           PY
       - name: Publish refreshed statistics only
         run: |

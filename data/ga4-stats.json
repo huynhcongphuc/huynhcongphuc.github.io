@@ -2,25 +2,59 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T22:34:42.245386+00:00",
+  "updated_at": "2026-08-20T22:58:21.733406+00:00",
   "realtime": {
-    "active_users": 2,
-    "views": 2,
+    "active_users": 3,
+    "views": 10,
     "countries": [
       {
-        "country": "Unknown",
+        "country": "United States",
         "users": 2
+      },
+      {
+        "country": "Vietnam",
+        "users": 1
       }
     ],
     "pages": [
       {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "page": "Huynh Cong Phuc | Power Systems & Automation",
+        "users": 1,
+        "views": 3
+      },
+      {
+        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
         "users": 2,
         "views": 2
+      },
+      {
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 2
+      },
+      {
+        "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Personal Research | Huynh Cong Phuc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Technology Products | Huynh Cong Phuc",
+        "users": 1,
+        "views": 0
       }
     ],
     "downloads": 0,
-    "research_downloads": 0,
+    "research_downloads": 2,
     "software": [
       {
         "event": "download_secureapp",
@@ -52,12 +86,12 @@
       {
         "event": "download_research_abess",
         "name": "ABESS Reliability Paper",
-        "downloads": 0
+        "downloads": 1
       },
       {
         "event": "download_research_flisr_ieee",
         "name": "IEEE FLISR with DG Paper",
-        "downloads": 0
+        "downloads": 1
       },
       {
         "event": "download_research_flisr_vn",
@@ -122,21 +156,21 @@
       ]
     },
     "7d": {
-      "sessions": 29,
-      "users": 21,
-      "views": 96,
-      "downloads": 6,
+      "sessions": 31,
+      "users": 23,
+      "views": 178,
+      "downloads": 9,
       "research_downloads": 0,
-      "vietnam": 13,
-      "abroad": 8,
+      "vietnam": 14,
+      "abroad": 9,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 13
+          "users": 14
         },
         {
           "country": "United States",
-          "users": 7
+          "users": 8
         },
         {
           "country": "(not set)",
@@ -152,17 +186,17 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 2
+          "downloads": 3
         },
         {
           "event": "download_der_simulator",
           "name": "DER Simulator",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
-          "downloads": 0
+          "downloads": 1
         }
       ],
       "research": [
@@ -189,21 +223,21 @@
       ]
     },
     "30d": {
-      "sessions": 29,
-      "users": 21,
-      "views": 96,
-      "downloads": 6,
+      "sessions": 31,
+      "users": 23,
+      "views": 178,
+      "downloads": 9,
       "research_downloads": 0,
-      "vietnam": 13,
-      "abroad": 8,
+      "vietnam": 14,
+      "abroad": 9,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 13
+          "users": 14
         },
         {
           "country": "United States",
-          "users": 7
+          "users": 8
         },
         {
           "country": "(not set)",
@@ -219,17 +253,17 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 2
+          "downloads": 3
         },
         {
           "event": "download_der_simulator",
           "name": "DER Simulator",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
-          "downloads": 0
+          "downloads": 1
         }
       ],
       "research": [
@@ -256,21 +290,21 @@
       ]
     },
     "all": {
-      "sessions": 29,
-      "users": 21,
-      "views": 96,
-      "downloads": 6,
+      "sessions": 31,
+      "users": 23,
+      "views": 178,
+      "downloads": 9,
       "research_downloads": 0,
-      "vietnam": 13,
-      "abroad": 8,
+      "vietnam": 14,
+      "abroad": 9,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 13
+          "users": 14
         },
         {
           "country": "United States",
-          "users": 7
+          "users": 8
         },
         {
           "country": "(not set)",
@@ -286,17 +320,17 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 2
+          "downloads": 3
         },
         {
           "event": "download_der_simulator",
           "name": "DER Simulator",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
-          "downloads": 0
+          "downloads": 1
         }
       ],
       "research": [
@@ -334,10 +368,10 @@
     },
     {
       "date": "20260820",
-      "sessions": 7,
-      "users": 7,
-      "views": 15,
-      "software_downloads": 0,
+      "sessions": 9,
+      "users": 9,
+      "views": 97,
+      "software_downloads": 3,
       "research_downloads": 0
     }
   ]

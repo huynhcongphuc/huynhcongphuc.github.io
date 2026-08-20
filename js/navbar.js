@@ -7,6 +7,25 @@
     link.dataset.dynamicUi='v2';
     document.head.appendChild(link);
   }
+
+  // Ensure bilingual support is available on every page, including pages that
+  // were created before the language script was added.
+  const loadExtra=()=>{
+    if(!document.querySelector('script[data-i18n-extra]')){
+      const extra=document.createElement('script');
+      extra.src='js/i18n-extra.js?v=2';
+      extra.defer=true;
+      extra.dataset.i18nExtra='v2';
+      document.head.appendChild(extra);
+    }
+  };
+  if(!document.querySelector('script[src*="js/i18n.js"]')){
+    const base=document.createElement('script');
+    base.src='js/i18n.js?v=8';
+    base.defer=true;
+    base.onload=loadExtra;
+    document.head.appendChild(base);
+  }else loadExtra();
 })();
 
 document.addEventListener('DOMContentLoaded',()=>{
@@ -29,6 +48,18 @@ document.addEventListener('DOMContentLoaded',()=>{
     else nav.appendChild(statsLink);
   }
 
+  // Some older pages (notably the statistics page) did not have a language button.
+  if(nav && !nav.querySelector('[data-language-toggle]')){
+    const langButton=document.createElement('button');
+    langButton.className='language-toggle';
+    langButton.type='button';
+    langButton.dataset.languageToggle='';
+    langButton.innerHTML='<i data-lucide="languages"></i><span>English</span>';
+    const contact=nav.querySelector('.nav-cta');
+    if(contact)nav.insertBefore(langButton,contact); else nav.appendChild(langButton);
+    if(window.lucide)window.lucide.createIcons();
+  }
+
   if(button&&nav){
     button.addEventListener('click',()=>{
       const open=nav.classList.toggle('open');
@@ -40,7 +71,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     }));
   }
 
-  // Existing reveal behavior, now with a small stagger for groups of cards.
   const revealItems=[...document.querySelectorAll('.reveal')];
   revealItems.forEach((el,index)=>el.style.setProperty('--reveal-delay',`${Math.min((index%4)*55,165)}ms`));
   if('IntersectionObserver' in window && !reduceMotion){
@@ -53,7 +83,6 @@ document.addEventListener('DOMContentLoaded',()=>{
   const year=document.querySelector('#year');
   if(year)year.textContent=new Date().getFullYear();
 
-  // Scroll progress + compact header. Uses requestAnimationFrame to avoid scroll jank.
   let ticking=false;
   const updateScrollUI=()=>{
     ticking=false;
@@ -82,7 +111,6 @@ document.addEventListener('DOMContentLoaded',()=>{
   window.addEventListener('resize',onScroll,{passive:true});
   updateScrollUI();
 
-  // Highlight the homepage section currently in view without changing URL or crawlable links.
   if(nav && 'IntersectionObserver' in window){
     const hashLinks=[...nav.querySelectorAll('a[href^="#"],a[href^="index.html#"]')];
     const sectionMap=new Map();
@@ -102,7 +130,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     }
   }
 
-  // Restrained card tilt for desktop pointer devices only.
   const motionCards=[...document.querySelectorAll('.expertise-card,.product-card,.research-card,.stat-card,.table-card')];
   motionCards.forEach(card=>card.classList.add('motion-card'));
   if(finePointer&&!reduceMotion){
@@ -141,7 +168,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     }
   }
 
-  // Animate statistic cards when asynchronous GA values change; the final DOM value remains the real value.
   const statIds=['realtime-users','realtime-views','sessions','users','vietnam','downloads'];
   statIds.forEach(id=>{
     const node=document.getElementById(id);
@@ -157,7 +183,6 @@ document.addEventListener('DOMContentLoaded',()=>{
   });
 });
 
-// Delegated tracking survives language/content DOM updates and catches every download click.
 const DOWNLOAD_MAP=[
   {match:'IgBq6U7hVxl5RJuDTA6EJ_ahAXFAtLfmY8CHGajxg9ZjMy0',event:'download_secureapp',name:'SecureApp'},
   {match:'IgCWzBpvcoqLT4XENDOsrvIUAU-Cq-ESSLyOE2bAD3Pwq2s',event:'download_master_server',name:'Master Server Protocol'},
@@ -168,7 +193,6 @@ const DOWNLOAD_MAP=[
 document.addEventListener('click',event=>{
   const link=event.target.closest?.('.product-download,[data-track-download]');
   if(!link || typeof window.gtag!=='function')return;
-
   const href=link.href||'';
   const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
   const card=link.closest('.product-card,.research-card');

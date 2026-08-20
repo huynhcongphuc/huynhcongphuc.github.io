@@ -2,59 +2,14 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T22:58:21.733406+00:00",
+  "updated_at": "2026-08-20T23:23:20.367110+00:00",
   "realtime": {
-    "active_users": 3,
-    "views": 10,
-    "countries": [
-      {
-        "country": "United States",
-        "users": 2
-      },
-      {
-        "country": "Vietnam",
-        "users": 1
-      }
-    ],
-    "pages": [
-      {
-        "page": "Huynh Cong Phuc | Power Systems & Automation",
-        "users": 1,
-        "views": 3
-      },
-      {
-        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 2,
-        "views": 2
-      },
-      {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 2
-      },
-      {
-        "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Personal Research | Huynh Cong Phuc",
-        "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Technology Products | Huynh Cong Phuc",
-        "users": 1,
-        "views": 0
-      }
-    ],
+    "active_users": 0,
+    "views": 0,
+    "countries": [],
+    "pages": [],
     "downloads": 0,
-    "research_downloads": 2,
+    "research_downloads": 0,
     "software": [
       {
         "event": "download_secureapp",
@@ -86,12 +41,12 @@
       {
         "event": "download_research_abess",
         "name": "ABESS Reliability Paper",
-        "downloads": 1
+        "downloads": 0
       },
       {
         "event": "download_research_flisr_ieee",
         "name": "IEEE FLISR with DG Paper",
-        "downloads": 1
+        "downloads": 0
       },
       {
         "event": "download_research_flisr_vn",
@@ -156,17 +111,17 @@
       ]
     },
     "7d": {
-      "sessions": 31,
-      "users": 23,
-      "views": 178,
+      "sessions": 32,
+      "users": 24,
+      "views": 181,
       "downloads": 9,
       "research_downloads": 0,
-      "vietnam": 14,
+      "vietnam": 15,
       "abroad": 9,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 14
+          "users": 15
         },
         {
           "country": "United States",
@@ -223,17 +178,17 @@
       ]
     },
     "30d": {
-      "sessions": 31,
-      "users": 23,
-      "views": 178,
+      "sessions": 32,
+      "users": 24,
+      "views": 181,
       "downloads": 9,
       "research_downloads": 0,
-      "vietnam": 14,
+      "vietnam": 15,
       "abroad": 9,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 14
+          "users": 15
         },
         {
           "country": "United States",
@@ -290,17 +245,17 @@
       ]
     },
     "all": {
-      "sessions": 31,
-      "users": 23,
-      "views": 178,
+      "sessions": 32,
+      "users": 24,
+      "views": 181,
       "downloads": 9,
       "research_downloads": 0,
-      "vietnam": 14,
+      "vietnam": 15,
       "abroad": 9,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 14
+          "users": 15
         },
         {
           "country": "United States",
@@ -368,9 +323,9 @@
     },
     {
       "date": "20260820",
-      "sessions": 9,
-      "users": 9,
-      "views": 97,
+      "sessions": 10,
+      "users": 10,
+      "views": 100,
       "software_downloads": 3,
       "research_downloads": 0
     }

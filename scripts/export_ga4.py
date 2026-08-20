@@ -83,11 +83,20 @@ def realtime():
     research=[{'event':ev,'name':label,'downloads':rs_counts.get(ev,0)} for ev,label in RESEARCH_EVENTS.items()]
     return {'active_users':active,'views':views,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'pages':sorted(pages,key=lambda x:x['views'],reverse=True)[:10],'downloads':sum(sw_counts.values()),'research_downloads':sum(rs_counts.values()),'software':software,'research':research}
 
-daily=[]
-r=report('29daysAgo','today',['date'],['sessions','activeUsers','eventCount'])
-for row in r.rows:
-    daily.append({'date':row.dimension_values[0].value,'sessions':int(float(row.metric_values[0].value)),'users':int(float(row.metric_values[1].value)),'events':int(float(row.metric_values[2].value))})
+def daily_series():
+    rows={}
+    base=report('29daysAgo','today',['date'],['sessions','activeUsers','screenPageViews'])
+    for row in base.rows:
+        date=row.dimension_values[0].value
+        rows[date]={'date':date,'sessions':int(float(row.metric_values[0].value)),'users':int(float(row.metric_values[1].value)),'views':int(float(row.metric_values[2].value)),'software_downloads':0,'research_downloads':0}
+    for key,event_map in [('software_downloads',SOFTWARE_EVENTS),('research_downloads',RESEARCH_EVENTS)]:
+        r=report('29daysAgo','today',['date'],['eventCount'],list(event_map))
+        for row in r.rows:
+            date=row.dimension_values[0].value
+            rows.setdefault(date,{'date':date,'sessions':0,'users':0,'views':0,'software_downloads':0,'research_downloads':0})
+            rows[date][key]=int(float(row.metric_values[0].value))
+    return sorted(rows.values(),key=lambda x:x['date'])
 
-out={'source':'Google Analytics 4','property_id':PROPERTY_ID,'measurement_id':'G-GT3E67GPJM','updated_at':datetime.now(timezone.utc).isoformat(),'realtime':realtime(),'periods':{'today':period('today'),'7d':period('6daysAgo'),'30d':period('29daysAgo'),'all':period(ALL_TIME_START)},'daily':sorted(daily,key=lambda x:x['date'])}
+out={'source':'Google Analytics 4','property_id':PROPERTY_ID,'measurement_id':'G-GT3E67GPJM','updated_at':datetime.now(timezone.utc).isoformat(),'realtime':realtime(),'periods':{'today':period('today'),'7d':period('6daysAgo'),'30d':period('29daysAgo'),'all':period(ALL_TIME_START)},'daily':daily_series()}
 os.makedirs('data',exist_ok=True)
 with open('data/ga4-stats.json','w',encoding='utf-8') as f: json.dump(out,f,ensure_ascii=False,indent=2)

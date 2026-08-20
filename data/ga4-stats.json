@@ -2,36 +2,36 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T14:08:38.374321+00:00",
+  "updated_at": "2026-08-20T14:12:32.816528+00:00",
   "realtime": {
-    "active_users": 1,
-    "views": 33,
+    "active_users": 2,
+    "views": 29,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 1
+        "users": 2
       }
     ],
     "pages": [
       {
         "page": "Thống kê truy cập | Huỳnh Công Phúc",
         "users": 1,
-        "views": 13
+        "views": 11
       },
       {
         "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
-        "users": 1,
+        "users": 2,
         "views": 5
       },
       {
         "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
         "users": 1,
-        "views": 5
+        "views": 4
       },
       {
         "page": "Phần mềm SCADA, DER & Microgrid | Huỳnh Công Phúc",
         "users": 1,
-        "views": 5
+        "views": 4
       },
       {
         "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
@@ -79,6 +79,11 @@
       }
     ],
     "research": [
+      {
+        "event": "download_research_ieee2030_5",
+        "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
+        "downloads": 0
+      },
       {
         "event": "download_research_abess",
         "name": "ABESS Reliability Paper",
@@ -138,6 +143,11 @@
         }
       ],
       "research": [
+        {
+          "event": "download_research_ieee2030_5",
+          "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
+          "downloads": 0
+        },
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
@@ -201,6 +211,11 @@
       ],
       "research": [
         {
+          "event": "download_research_ieee2030_5",
+          "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
+          "downloads": 0
+        },
+        {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
           "downloads": 0
@@ -263,6 +278,11 @@
       ],
       "research": [
         {
+          "event": "download_research_ieee2030_5",
+          "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
+          "downloads": 0
+        },
+        {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
           "downloads": 0
@@ -324,6 +344,11 @@
         }
       ],
       "research": [
+        {
+          "event": "download_research_ieee2030_5",
+          "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
+          "downloads": 0
+        },
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",

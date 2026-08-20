@@ -2,26 +2,21 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T15:19:37.873517+00:00",
+  "updated_at": "2026-08-20T15:52:26.549633+00:00",
   "realtime": {
     "active_users": 1,
-    "views": 0,
+    "views": 1,
     "countries": [
       {
-        "country": "Vietnam",
+        "country": "United States",
         "users": 1
       }
     ],
     "pages": [
       {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
         "users": 1,
-        "views": 0
-      },
-      {
-        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 0
+        "views": 1
       }
     ],
     "downloads": 0,

@@ -2,12 +2,38 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-20T03:28:39.861008+00:00",
+  "updated_at": "2026-08-20T04:07:56.610356+00:00",
   "realtime": {
-    "active_users": 0,
-    "views": 0,
-    "countries": [],
-    "pages": [],
+    "active_users": 1,
+    "views": 4,
+    "countries": [
+      {
+        "country": "Vietnam",
+        "users": 1
+      }
+    ],
+    "pages": [
+      {
+        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Sản phẩm công nghệ | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      }
+    ],
     "downloads": 0,
     "software": [
       {

@@ -2,29 +2,34 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-21T02:37:28.298863+00:00",
+  "updated_at": "2026-08-21T07:33:00.523837+00:00",
   "realtime": {
-    "active_users": 3,
-    "views": 7,
+    "active_users": 1,
+    "views": 3,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 3
+        "users": 1
       }
     ],
     "pages": [
       {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
         "users": 1,
-        "views": 5
+        "views": 1
+      },
+      {
+        "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
+        "users": 0,
+        "views": 1
       },
       {
         "page": "Huỳnh Công Phúc | Power Systems & Automation",
-        "users": 2,
-        "views": 2
-      },
-      {
-        "page": "Huynh Cong Phuc | Power Systems & Automation",
         "users": 1,
         "views": 0
       }
@@ -78,21 +83,25 @@
   },
   "periods": {
     "today": {
-      "sessions": 2,
-      "users": 2,
-      "views": 2,
+      "sessions": 12,
+      "users": 12,
+      "views": 42,
       "downloads": 0,
-      "research_downloads": 0,
-      "vietnam": 0,
-      "abroad": 2,
+      "research_downloads": 10,
+      "vietnam": 3,
+      "abroad": 9,
       "countries": [
         {
-          "country": "Unknown",
-          "users": 1
+          "country": "United States",
+          "users": 6
         },
         {
-          "country": "United States",
-          "users": 1
+          "country": "Unknown",
+          "users": 3
+        },
+        {
+          "country": "Vietnam",
+          "users": 3
         }
       ],
       "software": [
@@ -126,40 +135,40 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 0
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 0
+          "downloads": 4
         }
       ]
     },
     "7d": {
-      "sessions": 34,
-      "users": 26,
-      "views": 183,
+      "sessions": 44,
+      "users": 34,
+      "views": 223,
       "downloads": 9,
-      "research_downloads": 2,
-      "vietnam": 15,
-      "abroad": 11,
+      "research_downloads": 12,
+      "vietnam": 16,
+      "abroad": 18,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 15
+          "users": 16
         },
         {
           "country": "United States",
-          "users": 9
+          "users": 14
         },
         {
           "country": "Unknown",
-          "users": 1
+          "users": 3
         },
         {
           "country": "(not set)",
@@ -197,40 +206,40 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 2
+          "downloads": 5
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 0
+          "downloads": 4
         }
       ]
     },
     "30d": {
-      "sessions": 34,
-      "users": 26,
-      "views": 183,
+      "sessions": 44,
+      "users": 34,
+      "views": 223,
       "downloads": 9,
-      "research_downloads": 2,
-      "vietnam": 15,
-      "abroad": 11,
+      "research_downloads": 12,
+      "vietnam": 16,
+      "abroad": 18,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 15
+          "users": 16
         },
         {
           "country": "United States",
-          "users": 9
+          "users": 14
         },
         {
           "country": "Unknown",
-          "users": 1
+          "users": 3
         },
         {
           "country": "(not set)",
@@ -268,40 +277,40 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 2
+          "downloads": 5
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 0
+          "downloads": 4
         }
       ]
     },
     "all": {
-      "sessions": 34,
-      "users": 26,
-      "views": 183,
+      "sessions": 44,
+      "users": 34,
+      "views": 223,
       "downloads": 9,
-      "research_downloads": 2,
-      "vietnam": 15,
-      "abroad": 11,
+      "research_downloads": 12,
+      "vietnam": 16,
+      "abroad": 18,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 15
+          "users": 16
         },
         {
           "country": "United States",
-          "users": 9
+          "users": 14
         },
         {
           "country": "Unknown",
-          "users": 1
+          "users": 3
         },
         {
           "country": "(not set)",
@@ -339,17 +348,17 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 2
+          "downloads": 5
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 0
+          "downloads": 4
         }
       ]
     }
@@ -373,11 +382,11 @@
     },
     {
       "date": "20260821",
-      "sessions": 2,
-      "users": 2,
-      "views": 2,
+      "sessions": 12,
+      "users": 12,
+      "views": 42,
       "software_downloads": 0,
-      "research_downloads": 0
+      "research_downloads": 10
     }
   ]
 }

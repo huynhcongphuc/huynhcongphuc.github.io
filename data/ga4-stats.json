@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-21T02:28:33.635203+00:00",
+  "updated_at": "2026-08-21T02:37:28.298863+00:00",
   "realtime": {
     "active_users": 3,
-    "views": 9,
+    "views": 7,
     "countries": [
       {
         "country": "Vietnam",
@@ -16,7 +16,7 @@
       {
         "page": "Thống kê truy cập | Huỳnh Công Phúc",
         "users": 1,
-        "views": 7
+        "views": 5
       },
       {
         "page": "Huỳnh Công Phúc | Power Systems & Automation",
@@ -145,7 +145,7 @@
       "users": 26,
       "views": 183,
       "downloads": 9,
-      "research_downloads": 0,
+      "research_downloads": 2,
       "vietnam": 15,
       "abroad": 11,
       "countries": [
@@ -197,7 +197,7 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_ieee",
@@ -216,7 +216,7 @@
       "users": 26,
       "views": 183,
       "downloads": 9,
-      "research_downloads": 0,
+      "research_downloads": 2,
       "vietnam": 15,
       "abroad": 11,
       "countries": [
@@ -268,7 +268,7 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_ieee",
@@ -287,7 +287,7 @@
       "users": 26,
       "views": 183,
       "downloads": 9,
-      "research_downloads": 0,
+      "research_downloads": 2,
       "vietnam": 15,
       "abroad": 11,
       "countries": [
@@ -339,7 +339,7 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_ieee",
@@ -369,7 +369,7 @@
       "users": 10,
       "views": 100,
       "software_downloads": 3,
-      "research_downloads": 0
+      "research_downloads": 2
     },
     {
       "date": "20260821",

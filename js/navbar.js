@@ -11,9 +11,9 @@
   const loadExtra=()=>{
     if(!document.querySelector('script[data-i18n-extra]')){
       const extra=document.createElement('script');
-      extra.src='js/i18n-extra.js?v=5';
+      extra.src='js/i18n-extra.js?v=6';
       extra.defer=true;
-      extra.dataset.i18nExtra='v5';
+      extra.dataset.i18nExtra='v6';
       document.head.appendChild(extra);
     }
   };
@@ -36,10 +36,13 @@ document.addEventListener('DOMContentLoaded',()=>{
   const header=document.querySelector('.site-header');
 
   if(nav && !nav.querySelector('a[href="stats.html"]')){
-    const statsLink=document.createElement('a'); statsLink.href='stats.html'; statsLink.textContent='Thống kê';
+    const statsLink=document.createElement('a'); statsLink.href='stats.html';
+    const syncStatsLabel=()=>{statsLink.textContent=(document.documentElement.lang||'vi').toLowerCase().startsWith('en')?'Statistics':'Thống kê';};
+    syncStatsLabel();
     if(location.pathname.endsWith('/stats.html') || location.pathname.endsWith('stats.html')) statsLink.classList.add('active');
     const languageToggle=nav.querySelector('[data-language-toggle]');
     if(languageToggle) nav.insertBefore(statsLink,languageToggle); else nav.appendChild(statsLink);
+    if('MutationObserver' in window)new MutationObserver(syncStatsLabel).observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
   }
   if(nav && !nav.querySelector('[data-language-toggle]')){
     const langButton=document.createElement('button'); langButton.className='language-toggle'; langButton.type='button'; langButton.dataset.languageToggle='';
@@ -83,47 +86,8 @@ function buildDownloadParams(link,known){
   const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||'Download';
   const itemName=known?.name||title;
   const type=known?.type||(known?.event?.startsWith('download_research_')?'research':'software');
-  return {
-    item_name:itemName,
-    software_name:type==='software'?itemName:'',
-    research_name:type==='research'?itemName:'',
-    content_type:type,
-    link_url:href,
-    link_text:link.textContent.trim(),
-    page_path:location.pathname,
-    page_title:document.title,
-    transport_type:'beacon',
-    send_to:GA4_MEASUREMENT_ID
-  };
+  return {item_name:itemName,software_name:type==='software'?itemName:'',research_name:type==='research'?itemName:'',content_type:type,link_url:href,link_text:link.textContent.trim(),page_path:location.pathname,page_title:document.title,transport_type:'beacon',send_to:GA4_MEASUREMENT_ID};
 }
-
-function sendDownloadEvent(link,known){
-  if(typeof window.gtag!=='function')return;
-  const eventName=known?.event||'download_document';
-  const params=buildDownloadParams(link,known);
-  window.gtag('event',eventName,params);
-  window.gtag('event',known?.type==='research'?'research_download':'software_download',{...params,download_event:eventName});
-  window.gtag('event','file_download_click',{...params,download_event:eventName});
-}
-
-// Research links are sent on pointerdown so the GA4 beacon is queued before the new PDF tab opens.
-document.addEventListener('pointerdown',event=>{
-  const link=event.target.closest?.('[data-track-download]');
-  if(!link)return;
-  const href=link.href||'';
-  const known=DOWNLOAD_MAP.find(item=>item.type==='research'&&href.includes(item.match));
-  if(!known)return;
-  const now=Date.now();
-  if(Number(link.dataset.lastResearchTrack||0)>now-1200)return;
-  link.dataset.lastResearchTrack=String(now);
-  sendDownloadEvent(link,known);
-},true);
-
-document.addEventListener('click',event=>{
-  const link=event.target.closest?.('.product-download,[data-track-download]');
-  if(!link)return;
-  const href=link.href||'';
-  const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
-  if(known?.type==='research')return; // already sent reliably on pointerdown
-  sendDownloadEvent(link,known);
-},true);
+function sendDownloadEvent(link,known){if(typeof window.gtag!=='function')return;const eventName=known?.event||'download_document';const params=buildDownloadParams(link,known);window.gtag('event',eventName,params);window.gtag('event',known?.type==='research'?'research_download':'software_download',{...params,download_event:eventName});window.gtag('event','file_download_click',{...params,download_event:eventName});}
+document.addEventListener('pointerdown',event=>{const link=event.target.closest?.('[data-track-download]');if(!link)return;const href=link.href||'';const known=DOWNLOAD_MAP.find(item=>item.type==='research'&&href.includes(item.match));if(!known)return;const now=Date.now();if(Number(link.dataset.lastResearchTrack||0)>now-1200)return;link.dataset.lastResearchTrack=String(now);sendDownloadEvent(link,known);},true);
+document.addEventListener('click',event=>{const link=event.target.closest?.('.product-download,[data-track-download]');if(!link)return;const href=link.href||'';const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));if(known?.type==='research')return;sendDownloadEvent(link,known);},true);

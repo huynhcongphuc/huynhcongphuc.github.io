@@ -23,6 +23,11 @@ RESEARCH_EVENTS={
  'download_research_flisr_ieee':'IEEE FLISR with DG Paper',
  'download_research_flisr_vn':'FLISR with Distributed Generation Paper'
 }
+RESEARCH_LINKS={
+ '/682/919':'download_research_abess',
+ 'arnumber=9314599':'download_research_flisr_ieee',
+ '/749/1044':'download_research_flisr_vn'
+}
 
 def report(start,end,dimensions,metrics,event_filter=None):
     req=RunReportRequest(property=PROP,date_ranges=[DateRange(start_date=start,end_date=end)],dimensions=[Dimension(name=x) for x in dimensions],metrics=[Metric(name=x) for x in metrics])
@@ -49,12 +54,31 @@ def event_counts_period(start,end,event_map):
     r=report(start,end,['eventName'],['eventCount'],list(event_map))
     return {row.dimension_values[0].value:int(float(row.metric_values[0].value)) for row in r.rows}
 
+def research_link_fallback(start,end):
+    counts={ev:0 for ev in RESEARCH_EVENTS}
+    try:
+        r=report(start,end,['linkUrl'],['eventCount'],['research_download'])
+        for row in r.rows:
+            url=row.dimension_values[0].value or ''
+            n=int(float(row.metric_values[0].value))
+            for marker,ev in RESEARCH_LINKS.items():
+                if marker in url:
+                    counts[ev]+=n
+                    break
+    except Exception as exc:
+        print('Research link fallback unavailable:', type(exc).__name__, str(exc)[:160])
+    return counts
+
+def merged_research_counts(start,end):
+    specific=event_counts_period(start,end,RESEARCH_EVENTS)
+    fallback=research_link_fallback(start,end)
+    return {ev:max(specific.get(ev,0),fallback.get(ev,0)) for ev in RESEARCH_EVENTS}
+
 def period(start,end='today'):
     sessions=metric_value(report(start,end,[],['sessions']))
     users=metric_value(report(start,end,[],['activeUsers']))
     views=metric_value(report(start,end,[],['screenPageViews']))
     downloads=metric_value(report(start,end,[],['eventCount'],list(SOFTWARE_EVENTS)))
-    research_downloads=metric_value(report(start,end,[],['eventCount'],list(RESEARCH_EVENTS)))
     countries=[]; vn=0; abroad=0
     r=report(start,end,['country'],['activeUsers'])
     for row in r.rows:
@@ -63,7 +87,8 @@ def period(start,end='today'):
         if country=='Vietnam': vn+=value
         else: abroad+=value
     sw_counts=event_counts_period(start,end,SOFTWARE_EVENTS)
-    rs_counts=event_counts_period(start,end,RESEARCH_EVENTS)
+    rs_counts=merged_research_counts(start,end)
+    research_downloads=sum(rs_counts.values())
     sw=[{'event':ev,'name':label,'downloads':sw_counts.get(ev,0)} for ev,label in SOFTWARE_EVENTS.items()]
     research=[{'event':ev,'name':label,'downloads':rs_counts.get(ev,0)} for ev,label in RESEARCH_EVENTS.items()]
     return {'sessions':sessions,'users':users,'views':views,'downloads':downloads,'research_downloads':research_downloads,'vietnam':vn,'abroad':abroad,'countries':sorted(countries,key=lambda x:x['users'],reverse=True)[:10],'software':sw,'research':research}
@@ -89,12 +114,20 @@ def daily_series():
     for row in base.rows:
         date=row.dimension_values[0].value
         rows[date]={'date':date,'sessions':int(float(row.metric_values[0].value)),'users':int(float(row.metric_values[1].value)),'views':int(float(row.metric_values[2].value)),'software_downloads':0,'research_downloads':0}
-    for key,event_map in [('software_downloads',SOFTWARE_EVENTS),('research_downloads',RESEARCH_EVENTS)]:
-        r=report('29daysAgo','today',['date'],['eventCount'],list(event_map))
+    r=report('29daysAgo','today',['date'],['eventCount'],list(SOFTWARE_EVENTS))
+    for row in r.rows:
+        date=row.dimension_values[0].value
+        rows.setdefault(date,{'date':date,'sessions':0,'users':0,'views':0,'software_downloads':0,'research_downloads':0})
+        rows[date]['software_downloads']=int(float(row.metric_values[0].value))
+    # Daily research total uses the generic research_download event sent alongside each article-specific event.
+    try:
+        r=report('29daysAgo','today',['date'],['eventCount'],['research_download'])
         for row in r.rows:
             date=row.dimension_values[0].value
             rows.setdefault(date,{'date':date,'sessions':0,'users':0,'views':0,'software_downloads':0,'research_downloads':0})
-            rows[date][key]=int(float(row.metric_values[0].value))
+            rows[date]['research_downloads']=int(float(row.metric_values[0].value))
+    except Exception as exc:
+        print('Daily research fallback unavailable:', type(exc).__name__, str(exc)[:160])
     return sorted(rows.values(),key=lambda x:x['date'])
 
 out={'source':'Google Analytics 4','property_id':PROPERTY_ID,'measurement_id':'G-GT3E67GPJM','updated_at':datetime.now(timezone.utc).isoformat(),'realtime':realtime(),'periods':{'today':period('today'),'7d':period('6daysAgo'),'30d':period('29daysAgo'),'all':period(ALL_TIME_START)},'daily':daily_series()}

@@ -16,7 +16,6 @@ permissions:
 
 concurrency:
   group: ga4-public-statistics
-  # Do not cancel a running export when the next 5-minute trigger arrives.
   cancel-in-progress: false
 
 jobs:
@@ -31,8 +30,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: 'pip'
-      - run: pip install google-analytics-data google-auth
+      - name: Install GA4 dependencies
+        run: python -m pip install --disable-pip-version-check google-analytics-data google-auth
       - name: Export aggregate and realtime GA4 data
         env:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}

@@ -8,18 +8,21 @@ on:
       - 'scripts/export_ga4.py'
       - '.github/workflows/update-ga4-stats.yml'
   schedule:
-    - cron: '*/5 * * * *'
+    # Run every 5 minutes, offset from :00 to reduce GitHub Actions cron congestion.
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 
 permissions:
   contents: write
 
 concurrency:
   group: ga4-public-statistics
-  cancel-in-progress: true
+  # Do not cancel a running export when the next 5-minute trigger arrives.
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
         with:
@@ -28,6 +31,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: 'pip'
       - run: pip install google-analytics-data google-auth
       - name: Export aggregate and realtime GA4 data
         env:

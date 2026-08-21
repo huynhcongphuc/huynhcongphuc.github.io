@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-21T16:55:59.515269+00:00",
+  "updated_at": "2026-08-21T17:36:25.936133+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -57,27 +57,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 20,
-      "users": 18,
-      "views": 55,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
-      "research_downloads": 10,
-      "vietnam": 5,
-      "abroad": 13,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 10
-        },
-        {
-          "country": "Vietnam",
-          "users": 5
-        },
-        {
-          "country": "Unknown",
-          "users": 3
-        }
-      ],
+      "research_downloads": 0,
+      "vietnam": 0,
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -109,24 +96,24 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 3
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 3
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 4
+          "downloads": 0
         }
       ]
     },
     "7d": {
-      "sessions": 52,
+      "sessions": 53,
       "users": 39,
-      "views": 236,
+      "views": 240,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 17,
@@ -195,9 +182,9 @@
       ]
     },
     "30d": {
-      "sessions": 52,
+      "sessions": 53,
       "users": 39,
-      "views": 236,
+      "views": 240,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 17,
@@ -266,9 +253,9 @@
       ]
     },
     "all": {
-      "sessions": 52,
+      "sessions": 53,
       "users": 39,
-      "views": 236,
+      "views": 240,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 17,
@@ -356,9 +343,9 @@
     },
     {
       "date": "20260821",
-      "sessions": 20,
+      "sessions": 21,
       "users": 18,
-      "views": 55,
+      "views": 59,
       "software_downloads": 0,
       "research_downloads": 10
     }

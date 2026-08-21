@@ -69,7 +69,6 @@ document.addEventListener('DOMContentLoaded',()=>{
   ['realtime-users','realtime-views','sessions','users','vietnam','downloads','research-downloads'].forEach(id=>{const node=document.getElementById(id);if(!node||!('MutationObserver' in window))return;new MutationObserver(()=>{const card=node.closest('.stat-card');if(!card||reduceMotion)return;card.classList.remove('is-updated');void card.offsetWidth;card.classList.add('is-updated');setTimeout(()=>card.classList.remove('is-updated'),450);}).observe(node,{childList:true,characterData:true,subtree:true});});
 });
 
-const GA4_MEASUREMENT_ID='G-GT3E67GPJM';
 const DOWNLOAD_MAP=[
   {match:'IgBq6U7hVxl5RJuDTA6EJ_ahAXFAtLfmY8CHGajxg9ZjMy0',event:'download_secureapp',name:'SecureApp',type:'software'},
   {match:'IgCWzBpvcoqLT4XENDOsrvIUAU-Cq-ESSLyOE2bAD3Pwq2s',event:'download_master_server',name:'Master Server Protocol',type:'software'},
@@ -80,14 +79,36 @@ const DOWNLOAD_MAP=[
   {match:'/749/1044',event:'download_research_flisr_vn',name:'FLISR with Distributed Generation Paper',type:'research'}
 ];
 
-function buildDownloadParams(link,known){
-  const href=link.href||'';
+function downloadParams(link,known){
   const card=link.closest('.product-card,.research-card');
   const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||'Download';
   const itemName=known?.name||title;
-  const type=known?.type||(known?.event?.startsWith('download_research_')?'research':'software');
-  return {item_name:itemName,software_name:type==='software'?itemName:'',research_name:type==='research'?itemName:'',content_type:type,link_url:href,link_text:link.textContent.trim(),page_path:location.pathname,page_title:document.title,transport_type:'beacon',send_to:GA4_MEASUREMENT_ID};
+  const type=known?.type||'document';
+  return {item_name:itemName,software_name:type==='software'?itemName:'',research_name:type==='research'?itemName:'',content_type:type,link_url:link.href||'',link_text:link.textContent.trim(),page_path:location.pathname,page_title:document.title};
 }
-function sendDownloadEvent(link,known){if(typeof window.gtag!=='function')return;const eventName=known?.event||'download_document';const params=buildDownloadParams(link,known);window.gtag('event',eventName,params);window.gtag('event',known?.type==='research'?'research_download':'software_download',{...params,download_event:eventName});window.gtag('event','file_download_click',{...params,download_event:eventName});}
-document.addEventListener('pointerdown',event=>{const link=event.target.closest?.('[data-track-download]');if(!link)return;const href=link.href||'';const known=DOWNLOAD_MAP.find(item=>item.type==='research'&&href.includes(item.match));if(!known)return;const now=Date.now();if(Number(link.dataset.lastResearchTrack||0)>now-1200)return;link.dataset.lastResearchTrack=String(now);sendDownloadEvent(link,known);},true);
-document.addEventListener('click',event=>{const link=event.target.closest?.('.product-download,[data-track-download]');if(!link)return;const href=link.href||'';const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));if(known?.type==='research')return;sendDownloadEvent(link,known);},true);
+
+function trackDownload(link){
+  if(typeof window.gtag!=='function')return;
+  const href=link.href||'';
+  const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
+  const params=downloadParams(link,known);
+  const eventName=known?.event||'download_document';
+  window.gtag('event',eventName,params);
+  if(known?.type==='research'){
+    window.gtag('event','research_download',{...params,download_event:eventName});
+    window.gtag('event','file_download',{...params,file_extension:'pdf',file_name:known.name});
+  }else if(known?.type==='software'){
+    window.gtag('event','software_download',{...params,download_event:eventName});
+  }
+  window.gtag('event','file_download_click',{...params,download_event:eventName});
+}
+
+// Track on click. Research PDFs open in a new tab, so the current page remains alive while GA4 queues the event.
+document.addEventListener('click',event=>{
+  const link=event.target.closest?.('.product-download,[data-track-download]');
+  if(!link)return;
+  const now=Date.now();
+  if(Number(link.dataset.lastGaTrack||0)>now-900)return;
+  link.dataset.lastGaTrack=String(now);
+  trackDownload(link);
+},true);

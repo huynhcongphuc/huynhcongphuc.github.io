@@ -28,6 +28,7 @@ RESEARCH_LINKS={
  'arnumber=9314599':'download_research_flisr_ieee',
  '/749/1044':'download_research_flisr_vn'
 }
+RESEARCH_FALLBACK_EVENTS=['research_download','file_download','file_download_click','click']
 
 def report(start,end,dimensions,metrics,event_filter=None):
     req=RunReportRequest(property=PROP,date_ranges=[DateRange(start_date=start,end_date=end)],dimensions=[Dimension(name=x) for x in dimensions],metrics=[Metric(name=x) for x in metrics])
@@ -57,16 +58,18 @@ def event_counts_period(start,end,event_map):
 def research_link_fallback(start,end):
     counts={ev:0 for ev in RESEARCH_EVENTS}
     try:
-        r=report(start,end,['linkUrl'],['eventCount'],['research_download'])
+        r=report(start,end,['eventName','linkUrl'],['eventCount'],RESEARCH_FALLBACK_EVENTS)
         for row in r.rows:
-            url=row.dimension_values[0].value or ''
+            event_name=row.dimension_values[0].value or ''
+            url=row.dimension_values[1].value or ''
             n=int(float(row.metric_values[0].value))
             for marker,ev in RESEARCH_LINKS.items():
                 if marker in url:
                     counts[ev]+=n
                     break
+        print('Research fallback counts:', counts)
     except Exception as exc:
-        print('Research link fallback unavailable:', type(exc).__name__, str(exc)[:160])
+        print('Research link fallback unavailable:', type(exc).__name__, str(exc)[:200])
     return counts
 
 def merged_research_counts(start,end):
@@ -119,15 +122,19 @@ def daily_series():
         date=row.dimension_values[0].value
         rows.setdefault(date,{'date':date,'sessions':0,'users':0,'views':0,'software_downloads':0,'research_downloads':0})
         rows[date]['software_downloads']=int(float(row.metric_values[0].value))
-    # Daily research total uses the generic research_download event sent alongside each article-specific event.
     try:
-        r=report('29daysAgo','today',['date'],['eventCount'],['research_download'])
+        r=report('29daysAgo','today',['date','eventName','linkUrl'],['eventCount'],RESEARCH_FALLBACK_EVENTS)
+        by_date={}
         for row in r.rows:
             date=row.dimension_values[0].value
+            url=row.dimension_values[2].value or ''
+            if any(marker in url for marker in RESEARCH_LINKS):
+                by_date[date]=by_date.get(date,0)+int(float(row.metric_values[0].value))
+        for date,n in by_date.items():
             rows.setdefault(date,{'date':date,'sessions':0,'users':0,'views':0,'software_downloads':0,'research_downloads':0})
-            rows[date]['research_downloads']=int(float(row.metric_values[0].value))
+            rows[date]['research_downloads']=n
     except Exception as exc:
-        print('Daily research fallback unavailable:', type(exc).__name__, str(exc)[:160])
+        print('Daily research fallback unavailable:', type(exc).__name__, str(exc)[:200])
     return sorted(rows.values(),key=lambda x:x['date'])
 
 out={'source':'Google Analytics 4','property_id':PROPERTY_ID,'measurement_id':'G-GT3E67GPJM','updated_at':datetime.now(timezone.utc).isoformat(),'realtime':realtime(),'periods':{'today':period('today'),'7d':period('6daysAgo'),'30d':period('29daysAgo'),'all':period(ALL_TIME_START)},'daily':daily_series()}

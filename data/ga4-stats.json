@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-21T07:35:34.658013+00:00",
+  "updated_at": "2026-08-21T08:01:16.235541+00:00",
   "realtime": {
     "active_users": 1,
     "views": 3,
@@ -14,18 +14,13 @@
     ],
     "pages": [
       {
-        "page": "Bài nghiên cứu cá nhân | Huỳnh Công Phúc",
+        "page": "Huynh Cong Phuc | Power Systems & Automation",
         "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 1
+        "views": 2
       },
       {
         "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 0,
+        "users": 1,
         "views": 1
       },
       {

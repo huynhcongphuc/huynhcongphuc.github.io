@@ -82,8 +82,8 @@ const DOWNLOAD_MAP=[
 function downloadParams(link,known){
   const card=link.closest('.product-card,.research-card');
   const title=card?.querySelector('h2')?.textContent?.trim()||link.textContent.trim()||'Download';
-  const itemName=known?.name||title;
-  const type=known?.type||'document';
+  const itemName=link.dataset.downloadName||known?.name||title;
+  const type=link.dataset.downloadType||known?.type||'document';
   return {item_name:itemName,software_name:type==='software'?itemName:'',research_name:type==='research'?itemName:'',content_type:type,link_url:link.href||'',link_text:link.textContent.trim(),page_path:location.pathname,page_title:document.title};
 }
 
@@ -92,18 +92,14 @@ function trackDownload(link){
   const href=link.href||'';
   const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
   const params=downloadParams(link,known);
-  const eventName=known?.event||'download_document';
+  const eventName=link.dataset.downloadEvent||known?.event||'download_document';
+  // Primary counter: exactly one custom event per button click, same mechanism as product downloads.
   window.gtag('event',eventName,params);
-  if(known?.type==='research'){
-    window.gtag('event','research_download',{...params,download_event:eventName});
-    window.gtag('event','file_download',{...params,file_extension:'pdf',file_name:known.name});
-  }else if(known?.type==='software'){
-    window.gtag('event','software_download',{...params,download_event:eventName});
-  }
-  window.gtag('event','file_download_click',{...params,download_event:eventName});
+  // Generic category events are secondary only and are not needed for the primary per-item count.
+  if((link.dataset.downloadType||known?.type)==='research')window.gtag('event','research_download',{...params,download_event:eventName});
+  else if((link.dataset.downloadType||known?.type)==='software')window.gtag('event','software_download',{...params,download_event:eventName});
 }
 
-// Track on click. Research PDFs open in a new tab, so the current page remains alive while GA4 queues the event.
 document.addEventListener('click',event=>{
   const link=event.target.closest?.('.product-download,[data-track-download]');
   if(!link)return;

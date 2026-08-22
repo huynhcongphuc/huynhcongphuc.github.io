@@ -2,29 +2,39 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-22T03:28:08.830100+00:00",
+  "updated_at": "2026-08-22T04:09:18.798718+00:00",
   "realtime": {
-    "active_users": 1,
-    "views": 5,
+    "active_users": 3,
+    "views": 8,
     "countries": [
       {
         "country": "Vietnam",
-        "users": 1
+        "users": 3
       }
     ],
     "pages": [
       {
-        "page": "Tin tức công nghệ | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 4
+        "page": "Tin tức hệ thống điện | Huỳnh Công Phúc",
+        "users": 3,
+        "views": 7
       },
       {
-        "page": "Huynh Cong Phuc | Power Systems & Automation",
+        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
         "users": 1,
         "views": 1
       },
       {
         "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 2,
+        "views": 0
+      },
+      {
+        "page": "Huynh Cong Phuc | Power Systems & Automation",
+        "users": 1,
+        "views": 0
+      },
+      {
+        "page": "Power System News | Huynh Cong Phuc",
         "users": 1,
         "views": 0
       }

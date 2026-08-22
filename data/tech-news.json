@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22T03:24:52.435665+00:00",
+  "updated_at": "2026-08-22T03:31:21.821318+00:00",
   "mode": "10 international + 10 Vietnam | Power System / SCADA / DERMS",
   "focus": [
     "Electrical Power System",
@@ -19,7 +19,7 @@
     },
     "EVN": {
       "ok": true,
-      "available": 0,
+      "available": 1,
       "url": "https://www.evn.com.vn/"
     },
     "EVNHCMC": {

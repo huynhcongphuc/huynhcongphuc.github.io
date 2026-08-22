@@ -35,6 +35,13 @@ document.addEventListener('DOMContentLoaded',()=>{
   const nav=document.querySelector('#site-nav');
   const header=document.querySelector('.site-header');
 
+  // Keep only useful top-level destinations. These items only jumped to homepage sections.
+  if(nav){
+    ['#expertise','#journey','#highlights','index.html#expertise','index.html#journey','index.html#highlights'].forEach(href=>{
+      nav.querySelectorAll(`a[href="${href}"]`).forEach(a=>a.remove());
+    });
+  }
+
   if(nav && !nav.querySelector('a[href="stats.html"]')){
     const statsLink=document.createElement('a'); statsLink.href='stats.html';
     const syncStatsLabel=()=>{statsLink.textContent=(document.documentElement.lang||'vi').toLowerCase().startsWith('en')?'Statistics':'Thống kê';};
@@ -63,7 +70,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   if(nav && 'IntersectionObserver' in window){const hashLinks=[...nav.querySelectorAll('a[href^="#"],a[href^="index.html#"]')];const sectionMap=new Map();hashLinks.forEach(link=>{const hash=link.getAttribute('href').split('#')[1];const section=hash?document.getElementById(hash):null;if(section)sectionMap.set(section,link);});if(sectionMap.size){const activeObserver=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];if(!visible)return;hashLinks.forEach(l=>l.classList.remove('is-current'));sectionMap.get(visible.target)?.classList.add('is-current');},{rootMargin:'-28% 0px -58% 0px',threshold:[0,.15,.35,.6]});sectionMap.forEach((_,section)=>activeObserver.observe(section));}}
 
-  const motionCards=[...document.querySelectorAll('.expertise-card,.product-card,.research-card,.stat-card,.table-card,.trend-card')];motionCards.forEach(card=>card.classList.add('motion-card'));
+  const motionCards=[...document.querySelectorAll('.expertise-card,.product-card,.research-card,.stat-card,.table-card,.trend-card,.donut-card')];motionCards.forEach(card=>card.classList.add('motion-card'));
   if(finePointer&&!reduceMotion){motionCards.forEach(card=>{card.addEventListener('pointermove',event=>{const rect=card.getBoundingClientRect();const x=(event.clientX-rect.left)/rect.width,y=(event.clientY-rect.top)/rect.height;card.style.setProperty('--tilt-y',`${(x-.5)*3.2}deg`);card.style.setProperty('--tilt-x',`${(.5-y)*3.2}deg`);card.style.setProperty('--card-x',`${x*100}%`);card.style.setProperty('--card-y',`${y*100}%`);},{passive:true});card.addEventListener('pointerleave',()=>{card.style.setProperty('--tilt-y','0deg');card.style.setProperty('--tilt-x','0deg');card.style.setProperty('--card-x','50%');card.style.setProperty('--card-y','50%');},{passive:true});});const portrait=document.querySelector('.portrait-card');if(portrait){portrait.addEventListener('pointermove',event=>{const rect=portrait.getBoundingClientRect();const x=(event.clientX-rect.left)/rect.width-.5,y=(event.clientY-rect.top)/rect.height-.5;portrait.style.setProperty('--portrait-x',`${x*5}px`);portrait.style.setProperty('--portrait-y',`${y*5}px`);portrait.style.setProperty('--portrait-ry',`${x*1.8}deg`);portrait.style.setProperty('--portrait-rx',`${-y*1.8}deg`);},{passive:true});portrait.addEventListener('pointerleave',()=>['--portrait-x','--portrait-y','--portrait-rx','--portrait-ry'].forEach(p=>portrait.style.removeProperty(p)),{passive:true});}}
 
   ['realtime-users','realtime-views','sessions','users','vietnam','downloads','research-downloads'].forEach(id=>{const node=document.getElementById(id);if(!node||!('MutationObserver' in window))return;new MutationObserver(()=>{const card=node.closest('.stat-card');if(!card||reduceMotion)return;card.classList.remove('is-updated');void card.offsetWidth;card.classList.add('is-updated');setTimeout(()=>card.classList.remove('is-updated'),450);}).observe(node,{childList:true,characterData:true,subtree:true});});
@@ -93,9 +100,7 @@ function trackDownload(link){
   const known=DOWNLOAD_MAP.find(item=>href.includes(item.match));
   const params=downloadParams(link,known);
   const eventName=link.dataset.downloadEvent||known?.event||'download_document';
-  // Primary counter: exactly one custom event per button click, same mechanism as product downloads.
   window.gtag('event',eventName,params);
-  // Generic category events are secondary only and are not needed for the primary per-item count.
   if((link.dataset.downloadType||known?.type)==='research')window.gtag('event','research_download',{...params,download_event:eventName});
   else if((link.dataset.downloadType||known?.type)==='software')window.gtag('event','software_download',{...params,download_event:eventName});
 }

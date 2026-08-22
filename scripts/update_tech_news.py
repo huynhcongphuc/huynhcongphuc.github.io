@@ -11,7 +11,8 @@ from bs4 import BeautifulSoup
 OUT_PATH = 'data/tech-news.json'
 SOURCES = {
     'IEEE Spectrum': {
-        'url': 'https://spectrum.ieee.org/',
+        # Use Spectrum's News listing so the feed stays focused on current articles.
+        'url': 'https://spectrum.ieee.org/type/news/',
         'host': 'spectrum.ieee.org',
         'icon': 'radio-tower',
     },
@@ -46,22 +47,20 @@ def valid_candidate(source, url):
     if p.netloc != source['host']:
         return False
     path = p.path.rstrip('/')
-    if not path or path in ('/business/tech',):
+    if not path or path in ('/business/tech', '/type/news'):
         return False
     low = path.lower()
-    blocked = ('/about', '/contact', '/privacy', '/terms', '/newsletter', '/search', '/author/', '/topic/', '/tag/', '/type/', '/video')
+    blocked = ('/about', '/contact', '/privacy', '/terms', '/newsletter', '/search', '/author/', '/topic/', '/tag/', '/type/', '/video', '/engineering-resources', '/special-reports')
     if any(x in low for x in blocked):
         return False
     if source['host'] == 'spectrum.ieee.org':
-        # Spectrum article URLs are commonly top-level slugs; exclude magazine/category landing pages.
-        if low.startswith('/magazine/') or low.startswith('/special-reports/'):
-            return False
+        # Spectrum news articles are normally top-level slugs.
         return path.count('/') <= 2 and len(path) > 8
-    # CNN article URLs generally include dated/content paths. Exclude obvious navigation pages.
-    return len(path) > 14 and any(token in low for token in ('/tech/', '/business/', '/2026/', '/2025/'))
+    # CNN fallback must remain strictly inside /tech/, not generic business/economy/media stories.
+    return '/tech/' in low and len(path) > 20
 
 
-def discover_urls(name, source, limit=30):
+def discover_urls(name, source, limit=40):
     response = requests.get(source['url'], headers=HEADERS, timeout=TIMEOUT)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -93,7 +92,6 @@ def parse_date(value):
     if not value:
         return None
     value = value.strip()
-    # ISO-8601 is used by both publishers in article metadata.
     try:
         return datetime.fromisoformat(value.replace('Z', '+00:00'))
     except Exception:
@@ -108,13 +106,13 @@ def parse_date(value):
 
 
 def infer_tags(title, description):
-    text = f'{title} {description}'.lower()
+    text = f' {title} {description} '.lower()
     tags = []
     if any(x in text for x in (' ai ', 'artificial intelligence', 'machine learning', 'chatgpt', 'model', 'robot')):
         tags.append('ai')
     if any(x in text for x in ('energy', 'battery', 'grid', 'power', 'electric', 'solar', 'wind', 'nuclear', 'fusion')):
         tags.append('energy')
-    if any(x in text for x in ('cyber', 'security', 'chip', 'semiconductor', 'software', 'network', 'quantum', 'engineering', 'technology', 'tech')):
+    if any(x in text for x in ('cyber', 'security', 'chip', 'semiconductor', 'software', 'network', 'quantum', 'engineering', 'technology', ' tech ')):
         tags.append('engineering')
     return tags or ['engineering']
 
@@ -126,6 +124,7 @@ def article_info(source_name, source, url):
     title = meta(soup, 'og:title', 'twitter:title')
     if not title and soup.title:
         title = clean_text(soup.title.get_text(' ', strip=True))
+    title = re.sub(r'\s*\|\s*CNN(?: Business)?\s*$', '', title, flags=re.I)
     description = meta(soup, 'og:description', 'description', 'twitter:description')
     image = meta(soup, 'og:image', 'twitter:image')
     published_raw = meta(soup, 'article:published_time', 'date', 'datePublished', 'pubdate')
@@ -134,9 +133,8 @@ def article_info(source_name, source, url):
         if time_node:
             published_raw = time_node.get('datetime') or clean_text(time_node.get_text(' ', strip=True))
     published_dt = parse_date(published_raw)
-    if not title or len(title) < 10:
+    if not title or len(title) < 10 or not published_dt:
         return None
-    # Avoid landing/index pages masquerading as articles.
     if title.lower() in ('cnn', 'ieee spectrum', 'technology news'):
         return None
     return {
@@ -146,8 +144,8 @@ def article_info(source_name, source, url):
         'image': image,
         'source': source_name,
         'source_url': source['url'],
-        'published': published_dt.isoformat() if published_dt else '',
-        'published_label': published_dt.strftime('%d/%m/%Y') if published_dt else '',
+        'published': published_dt.isoformat(),
+        'published_label': published_dt.strftime('%d/%m/%Y'),
         'tags': infer_tags(title, description),
         'icon': source['icon'],
     }
@@ -157,7 +155,7 @@ def fetch_source(name, source, max_items=10):
     items = []
     seen_titles = set()
     try:
-        urls = discover_urls(name, source, limit=35)
+        urls = discover_urls(name, source, limit=40)
         for url in urls:
             try:
                 item = article_info(name, source, url)
@@ -171,14 +169,9 @@ def fetch_source(name, source, max_items=10):
                 continue
             seen_titles.add(key)
             items.append(item)
-            if len(items) >= max_items:
-                break
-        # Prefer newest dated items, but preserve discovery order for undated articles.
-        dated = [x for x in items if x['published']]
-        undated = [x for x in items if not x['published']]
-        dated.sort(key=lambda x: x['published'], reverse=True)
-        items = dated + undated
-        print(f'[{name}] collected {len(items)} articles')
+        items.sort(key=lambda x: x['published'], reverse=True)
+        items = items[:max_items]
+        print(f'[{name}] collected {len(items)} dated articles')
         return items, len(items) >= 1
     except Exception as exc:
         print(f'[{name}] source failed: {type(exc).__name__}: {exc}', file=sys.stderr)
@@ -196,19 +189,14 @@ def load_previous():
 
 
 def choose_items(spectrum, spectrum_ok, cnn, cnn_ok):
-    # Normal state: exactly 5 from each publisher.
     if spectrum_ok and cnn_ok and len(spectrum) >= 5 and len(cnn) >= 5:
         return spectrum[:5] + cnn[:5], '5+5'
-    # One publisher is unavailable: use up to 10 from the other one.
     if spectrum_ok and not cnn_ok:
         return spectrum[:10], '10 IEEE Spectrum (CNN unavailable)'
     if cnn_ok and not spectrum_ok:
         return cnn[:10], '10 CNN Tech (IEEE Spectrum unavailable)'
-    # If both respond but one parser yields fewer than 5, fill the shortfall from the healthier source.
     if spectrum_ok and cnn_ok:
-        left = spectrum[:5]
-        right = cnn[:5]
-        chosen = left + right
+        chosen = spectrum[:5] + cnn[:5]
         if len(chosen) < 10:
             used = {x['url'] for x in chosen}
             extras = [x for x in spectrum[5:] + cnn[5:] if x['url'] not in used]
@@ -227,7 +215,6 @@ def main():
             print('Both sources unavailable; preserving previous data.')
             return
         raise RuntimeError('No technology news could be collected and no previous data exists.')
-    # De-duplicate URLs globally while preserving publisher allocation/order.
     unique = []
     seen = set()
     for item in items:

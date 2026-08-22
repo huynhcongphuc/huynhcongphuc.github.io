@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-22T03:55:34.752019+00:00",
-  "mode": "0 international + 2 Vietnam | max age 3 months",
+  "updated_at": "2026-08-22T03:58:21.664185+00:00",
+  "mode": "0 international + 2 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
     "DERMS / DER / VPP / Microgrid"
   ],
-  "max_age_days": 92,
+  "max_age_days": 365,
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,

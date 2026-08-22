@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-22T02:59:46.566232+00:00",
+  "updated_at": "2026-08-22T03:01:58.332052+00:00",
   "mode": "5+5",
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
       "available": 10,
-      "url": "https://spectrum.ieee.org/"
+      "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
       "ok": true,
@@ -20,8 +20,22 @@
       "url": "https://spectrum.ieee.org/canadian-rockets",
       "image": "https://spectrum.ieee.org/media-library/two-slender-space-rockets-against-a-solid-background.jpg?id=67644822&width=1200&height=600&coordinates=0%2C159%2C0%2C91",
       "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/",
+      "source_url": "https://spectrum.ieee.org/type/news/",
       "published": "2026-08-20T12:00:01+00:00",
+      "published_label": "20/08/2026",
+      "tags": [
+        "engineering"
+      ],
+      "icon": "radio-tower"
+    },
+    {
+      "title": "Brain Implant Uses Infrared Light to Send Neural Signals",
+      "summary": "Ability Neurotech’s optical BCI will soon begin European clinical trial",
+      "url": "https://spectrum.ieee.org/ability-neurotech-bci-human-trial",
+      "image": "https://spectrum.ieee.org/media-library/close-up-of-a-brain-computer-interface-with-a-translucent-flexible-body-inductive-telemetry-coil-and-microchip.jpg?id=67644886&width=1200&height=600&coordinates=0%2C67%2C0%2C433",
+      "source": "IEEE Spectrum",
+      "source_url": "https://spectrum.ieee.org/type/news/",
+      "published": "2026-08-20T11:00:02+00:00",
       "published_label": "20/08/2026",
       "tags": [
         "engineering"
@@ -34,7 +48,7 @@
       "url": "https://spectrum.ieee.org/direct-air-carbon-capture-electric",
       "image": "https://spectrum.ieee.org/media-library/image.jpg?id=67640407&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
       "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/",
+      "source_url": "https://spectrum.ieee.org/type/news/",
       "published": "2026-08-19T16:04:32+00:00",
       "published_label": "19/08/2026",
       "tags": [
@@ -43,49 +57,36 @@
       "icon": "radio-tower"
     },
     {
-      "title": "AI Is Redefining the Concept of a Programming Language's Popularity",
-      "summary": "Python reigns supreme again, but is AI changing the game for programming languages? Find out how coding is transforming.",
-      "url": "https://spectrum.ieee.org/top-programming-languages",
-      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=61631330&width=1200&height=600&coordinates=0%2C236%2C0%2C384",
+      "title": "Spider-Like Drone Grips Steep Glaciers With Tiny Ice Spines",
+      "summary": "Using its spiny feet, Ice Dart can latch on to glaciers and drifting icebergs, allowing for long-term monitoring",
+      "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
+      "image": "https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=600&coordinates=0%2C330%2C0%2C170",
       "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/",
-      "published": "2025-09-23T17:44:36+00:00",
-      "published_label": "23/09/2025",
-      "tags": [
-        "ai"
-      ],
-      "icon": "radio-tower"
-    },
-    {
-      "title": "Engineering Resources",
-      "summary": "Learn from industry experts about the latest technology advances via our webinars and whitepapers from trusted partners",
-      "url": "https://spectrum.ieee.org/engineering-resources/",
-      "image": "https://spectrum.ieee.org/media-library/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNjg4NDUyMC9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgyNjE0MzQzOX0.N7fHdky-KEYicEarB5Y-YGrry7baoW61oxUszI23GV4/image.png?width=210",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/",
-      "published": "",
-      "published_label": "",
+      "source_url": "https://spectrum.ieee.org/type/news/",
+      "published": "2026-08-18T13:00:01+00:00",
+      "published_label": "18/08/2026",
       "tags": [
         "engineering"
       ],
       "icon": "radio-tower"
     },
     {
-      "title": "Special Reports",
-      "summary": "IEEE Spectrum’s award-winning reports, series, and investigations on how technology is shaping the world",
-      "url": "https://spectrum.ieee.org/special-reports/",
-      "image": "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy81MTE5Mzk3My9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTgzNTA2MzY3Mn0.ppZa-hSPiD7Xf92_lOMK7RTSL1CuExx9dWyUdtmRolc/img.png",
+      "title": "IEEE Presidents’ Scholarship Honors Teen Innovators",
+      "summary": "The high school students built assistive tech and robots",
+      "url": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026",
+      "image": "https://spectrum.ieee.org/media-library/three-high-school-students-posing-with-their-individual-award-plaques-next-to-a-middle-aged-white-woman.jpg?id=67634200&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
       "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/",
-      "published": "",
-      "published_label": "",
+      "source_url": "https://spectrum.ieee.org/type/news/",
+      "published": "2026-08-17T18:00:04+00:00",
+      "published_label": "17/08/2026",
       "tags": [
+        "ai",
         "engineering"
       ],
       "icon": "radio-tower"
     },
     {
-      "title": "Justice Department reaches $400 million settlement with TikTok over child privacy case | CNN Business",
+      "title": "Justice Department reaches $400 million settlement with TikTok over child privacy case",
       "summary": "TikTok and its parent company, ByteDance, reached a $400 million settlement with the US Justice Department over children’s privacy litigation on Friday, one of the largest amounts yet for a case of this kind.",
       "url": "https://edition.cnn.com/2026/08/21/tech/tiktok-settlement-justice-department-child-privacy",
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/16-tiktokapp-bej-20260122212850523.JPG?c=16x9&q=w_800,c_fill",
@@ -99,35 +100,7 @@
       "icon": "cpu"
     },
     {
-      "title": "Pentagon fires Stars and Stripes leaders amid Hegseth pressure campaign | CNN Business",
-      "summary": "In a blow to press freedoms within the US military, the Pentagon has forced out several top staffers at Stars & Stripes, the military publication with a long record of editorial independence.",
-      "url": "https://edition.cnn.com/2026/08/21/media/pentagon-stars-and-stripes-reporters-hegseth-fired",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2287253343.jpg?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-21T20:38:46.332000+00:00",
-      "published_label": "21/08/2026",
-      "tags": [
-        "engineering"
-      ],
-      "icon": "cpu"
-    },
-    {
-      "title": "Trump’s Canada trade deadline is hours away. Here’s what to know | CNN Business",
-      "summary": "With a 12:01 a.m. ET deadline looming on Saturday, the United States and Canada are racing to strike a deal that could determine whether steep tariffs on billions of dollars worth of Canadian goods take effect — a move that would mark a major escalation in the trade war.",
-      "url": "https://edition.cnn.com/2026/08/21/economy/us-canada-trade",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2286801009.jpg?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-21T20:21:53.169000+00:00",
-      "published_label": "21/08/2026",
-      "tags": [
-        "engineering"
-      ],
-      "icon": "cpu"
-    },
-    {
-      "title": "From heated rivalry to frenemies: Inside the cutthroat business of ruling tech in Asia | CNN Business",
+      "title": "From heated rivalry to frenemies: Inside the cutthroat business of ruling tech in Asia",
       "summary": "Doomscrolling on an iPhone, firing endless questions at ChatGPT, or streaming a 4K film on Netflix on your laptop – behind these modern life conveniences lies a high-stakes contest between two Asian technology powers.",
       "url": "https://edition.cnn.com/2026/08/18/tech/asia-tech-frenemy-intl-hnk",
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2215621357.jpg?c=16x9&q=w_800,c_fill",
@@ -143,7 +116,7 @@
       "icon": "cpu"
     },
     {
-      "title": "Meta is back in the courtroom to face its biggest social media addiction trial yet | CNN Business",
+      "title": "Meta is back in the courtroom to face its biggest social media addiction trial yet",
       "summary": "Meta’s business relies on hooking young people and exploiting their data and attention, a lawyer for a group of state attorneys general argued in opening statements for the latest blockbuster trial against the social media giant on Tuesday.",
       "url": "https://edition.cnn.com/2026/08/18/tech/meta-attorneys-general-addiction-trial-opening-arguments",
       "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-ap26050035832286.jpg?c=16x9&q=w_800,c_fill",
@@ -153,6 +126,34 @@
       "published_label": "18/08/2026",
       "tags": [
         "engineering"
+      ],
+      "icon": "cpu"
+    },
+    {
+      "title": "OpenAI introduces ‘ChatGPT for Teens’ experience amid scrutiny over child safety",
+      "summary": "OpenAI is rolling out a new “ChatGPT for Teens” experience that it says will provide additional safety protections for teen users. The move comes as OpenAI faces a string of lawsuits alleging that inappropriate conversations with ChatGPT contributed to the harm or deaths of young people.",
+      "url": "https://edition.cnn.com/2026/08/18/tech/openai-chatgpt-for-teens",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2148295007-20260817214614604.jpg?c=16x9&q=w_800,c_fill",
+      "source": "CNN Tech",
+      "source_url": "https://edition.cnn.com/business/tech",
+      "published": "2026-08-18T11:00:29.335000+00:00",
+      "published_label": "18/08/2026",
+      "tags": [
+        "ai"
+      ],
+      "icon": "cpu"
+    },
+    {
+      "title": "World’s top humanoid robot maker surges in blockbuster market debut in China",
+      "summary": "Shares of the world’s largest humanoid robot maker by sales Unitree jumped more than 600% in its trading debut in Shanghai on Wednesday, in a testament to its status as the poster child of China’s robotic advancement.",
+      "url": "https://edition.cnn.com/2026/08/18/tech/china-unitree-ipo-intl-hnk",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-08-10t021217z-561312062-rc2npmahp6l3-rtrmadp-3-unitree-ipo-explainer.JPG?c=16x9&q=w_800,c_fill",
+      "source": "CNN Tech",
+      "source_url": "https://edition.cnn.com/business/tech",
+      "published": "2026-08-18T06:44:37.276000+00:00",
+      "published_label": "18/08/2026",
+      "tags": [
+        "ai"
       ],
       "icon": "cpu"
     }

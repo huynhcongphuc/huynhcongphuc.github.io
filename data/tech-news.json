@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-22T04:04:47.134182+00:00",
-  "mode": "0 international + 2 Vietnam | max age 12 months",
+  "updated_at": "2026-08-22T04:14:12.850539+00:00",
+  "mode": "1 international + 6 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -10,7 +10,7 @@
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 0,
+      "available": 1,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 0,
+      "available": 5,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -46,20 +46,100 @@
   },
   "items": [
     {
-      "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",
-      "summary": "Giải pháp tự động hóa, kết nối dữ liệu, giám sát và điều khiển lưới điện thông minh.",
-      "url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
+      "title": "From Steam to Sparks: How Electric DAC Is Changing Carbon Capture",
+      "summary": "Microwaves and resistive heating make direct air capture systems more efficient",
+      "url": "https://spectrum.ieee.org/direct-air-carbon-capture-electric",
+      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=67640407&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
+      "source": "IEEE Spectrum",
+      "source_url": "https://spectrum.ieee.org/type/news/",
+      "published": "2026-08-19T16:04:32+00:00",
+      "published_label": "19/08/2026",
+      "tags": [
+        "scada"
+      ],
+      "icon": "radio-tower",
+      "region": "international",
+      "score": 7
+    },
+    {
+      "title": "EVNNPC đưa vào vận hành hệ thống pin lưu trữ năng lượng (BESS) đầu tiên tại Ninh Bình",
+      "summary": "Ngày 21/8/2026, tại Ninh Bình, Tổng công ty Điện lực miền Bắc (EVNNPC) nghiệm thu, đóng điện, chính thức đưa vào vận hành hệ thống hệ thống pin lưu tr",
+      "url": "https://nangluongvietnam.vn/evnnpc-dua-vao-van-hanh-he-thong-pin-luu-tru-nang-luong-bess-dau-tien-tai-ninh-binh-36547.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/22/07/in_social/210826-pcninhbinh-dongdienbess-2026082118051602720260822075424.jpg?randTime=1787371798",
       "source": "Tạp chí Năng lượng Việt Nam",
-      "published": "2026-08-20T01:29:00+00:00",
-      "image": "",
-      "source_url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-08-22T08:00:08+07:00",
+      "published_label": "22/08/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 17
+    },
+    {
+      "title": "EVNHCMC và NSMO mở rộng phạm vi phối hợp trong bối cảnh mới",
+      "summary": "Sáng ngày 21/8/2026 tại TP. Hồ Chí Minh, Tổng công ty Điện lực Thành phố Hồ Chí Minh (EVNHCMC) và Công ty Vận hành Hệ thống điện và Thị trường điện Qu",
+      "url": "https://nangluongvietnam.vn/evnhcmc-va-nsmo-mo-rong-pham-vi-phoi-hop-trong-boi-canh-moi-36546.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/21/14/in_social/778735464-1453638186786641-8697412153894481997-n20260821141720.jpg?randTime=1787371645",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-08-21T14:26:39+07:00",
+      "published_label": "21/08/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 24
+    },
+    {
+      "title": "Đóng điện nghiệm thu công trình Trạm biến áp 220kV Phú Quốc",
+      "summary": "Tại khu phố Rạch Hàm Hàm Ninh, đặc khu Phú Quốc, Tổng công ty Điện lực miền Nam (EVNSPC) chỉ đạo Ban Quản lý dự án Điện lực miền Nam, Công ty Điện lực",
+      "url": "https://nangluongvietnam.vn/dong-dien-nghiem-thu-cong-trinh-tram-bien-ap-220kv-phu-quoc-36538.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/21/06/1-n20260821061419.jpg?rt=20260821061507?randTime=1787371464",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-08-21T06:03:52+07:00",
+      "published_label": "21/08/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 14
+    },
+    {
+      "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",
+      "summary": "Từ thiết bị điện thông minh đến nền tảng số hóa vận hành, CHINT đang phát triển một hệ sinh thái giải pháp hướng tới tự động hóa, kết nối dữ liệu và n",
+      "url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/20/08/croped/1787127252430-5791834970405158064-5791834970405158064-6da74c4d868a9f10ef0726b9c56e6a9d20260820082121.jpg?randTime=1787371478",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-08-20T08:29:41+07:00",
       "published_label": "20/08/2026",
       "tags": [
         "power"
       ],
-      "icon": "zap",
+      "icon": "network",
       "region": "vietnam",
-      "score": 30
+      "score": 20
+    },
+    {
+      "title": "Phụ tải mới, tư duy cũ: Quy hoạch điện Việt Nam có trễ nhịp?",
+      "summary": "Kinh nghiệm từ Hoa Kỳ cho thấy, một hệ thống điện có thể không thiếu điện (theo nghĩa tổng thể), nhưng vẫn xuất hiện điểm nghẽn, nếu không thể đưa điệ",
+      "url": "https://nangluongvietnam.vn/phu-tai-moi-tu-duy-cu-quy-hoach-dien-viet-nam-co-tre-nhip-36484.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/12/08/in_social/487240800-1600611940885704-6624717563467914737-n20260812080720.jpg?randTime=1787372040",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-08-15T04:19:19+07:00",
+      "published_label": "15/08/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 8
     },
     {
       "title": "Công ty Điện lực Quảng Ninh: Đẩy mạnh chuyển đổi số và hiện đại hóa lưới điện 110kV",
@@ -76,7 +156,7 @@
       ],
       "icon": "zap",
       "region": "vietnam",
-      "score": 42
+      "score": 48
     }
   ]
 }

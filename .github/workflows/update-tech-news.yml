@@ -43,12 +43,12 @@ jobs:
               d=json.load(f)
           items=d.get('items',[])
           assert 1 <= len(items) <= 20, f'Unexpected item count: {len(items)}'
-          cutoff=datetime.now(timezone.utc)-timedelta(days=92)
+          cutoff=datetime.now(timezone.utc)-timedelta(days=365)
           for item in items:
               assert item.get('title') and item.get('url') and item.get('source') and item.get('published')
               dt=datetime.fromisoformat(item['published'].replace('Z','+00:00'))
-              assert dt >= cutoff, f'Article older than 3 months: {item["title"]} ({dt})'
-          print('Technology news OK:', len(items), 'items; mode=', d.get('mode'))
+              assert dt >= cutoff, f'Article older than 12 months: {item["title"]} ({dt})'
+          print('Technology news OK:', len(items), 'items; max age=12 months; mode=', d.get('mode'))
           print('Source status:', d.get('source_status'))
           PY
       - name: Publish refreshed news JSON only

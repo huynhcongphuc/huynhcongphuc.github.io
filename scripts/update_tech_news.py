@@ -9,12 +9,11 @@ import requests
 from bs4 import BeautifulSoup
 
 OUT_PATH='data/tech-news.json'
-HEADERS={'User-Agent':'Mozilla/5.0 (compatible; HuynhCongPhucPowerNews/2.2; +https://huynhcongphuc.github.io/news.html)','Accept-Language':'vi,en-US;q=0.9,en;q=0.8'}
-CONNECT_TIMEOUT=4
-READ_TIMEOUT=7
-REQUEST_TIMEOUT=(CONNECT_TIMEOUT,READ_TIMEOUT)
+HEADERS={'User-Agent':'Mozilla/5.0 (compatible; HuynhCongPhucPowerNews/3.0; +https://huynhcongphuc.github.io/news.html)','Accept-Language':'vi,en-US;q=0.9,en;q=0.8'}
+REQUEST_TIMEOUT=(4,7)
 MAX_CONSECUTIVE_ERRORS=3
-MAX_DISCOVERED_URLS=35
+MAX_DISCOVERED_URLS=55
+MAX_ARTICLE_FETCHES=32
 MAX_AGE_DAYS=365
 
 INTERNATIONAL=[
@@ -28,10 +27,8 @@ VIETNAM=[
  {'name':'Tạp chí Năng lượng Việt Nam','url':'https://nangluongvietnam.vn/','host':'nangluongvietnam.vn','icon':'network','region':'vietnam'},
  {'name':'ICON','url':'https://icon.com.vn/','host':'icon.com.vn','icon':'newspaper','region':'vietnam'},
 ]
-POWER_TERMS={'scada':12,'scada/ems':15,'scada/dms':15,'derms':18,'distributed energy resource':15,'distributed energy resources':15,'nguồn năng lượng phân tán':15,'nguồn điện phân tán':15,'nguồn phân tán':12,'hệ thống điện':8,'power system':8,'power grid':9,'electric grid':9,'electrical grid':9,'smart grid':10,'lưới điện':8,'lưới điện thông minh':12,'distribution grid':9,'transmission grid':9,'grid control':10,'grid automation':12,'grid modernization':9,'substation':8,'trạm biến áp':8,'điều độ':9,'dispatch':7,'ems':7,'dms':7,'microgrid':9,'vpp':9,'virtual power plant':10,'renewable integration':8,'năng lượng tái tạo':5,'energy storage':5,'battery storage':5,'bess':8,'flisr':12,'agc':9,'distribution automation':10,'tự động hóa lưới điện':12,'điều khiển lưới':10,'điều khiển hệ thống điện':12,'vận hành hệ thống điện':10,'smart substation':10,'digital substation':10,'relay protection':7,'bảo vệ rơle':7,'iec 61850':12,'iec 60870':12,'ieee 2030.5':15,'ieee 2030.11':15}
-EXCLUDE_TERMS=('smartphone','phone','gaming','game ','social media','tiktok','meta ','apple ','iphone','streaming','celebrity','film ','movie','crypto','bitcoin')
-
-# Fallback items are subject to the same 12-month freshness gate.
+POWER_TERMS={'scada':12,'scada/ems':15,'scada/dms':15,'derms':18,'distributed energy resource':15,'distributed energy resources':15,'nguồn năng lượng phân tán':15,'nguồn điện phân tán':15,'nguồn phân tán':12,'hệ thống điện':8,'power system':8,'power grid':9,'electric grid':9,'electrical grid':9,'smart grid':10,'lưới điện':8,'lưới điện thông minh':12,'distribution grid':9,'transmission grid':9,'grid control':10,'grid automation':12,'grid modernization':9,'substation':8,'trạm biến áp':8,'điều độ':9,'dispatch':7,'ems':7,'dms':7,'microgrid':9,'vpp':9,'virtual power plant':10,'renewable integration':8,'năng lượng tái tạo':5,'energy storage':5,'battery storage':5,'bess':8,'flisr':12,'agc':9,'distribution automation':10,'tự động hóa lưới điện':12,'điều khiển lưới':10,'điều khiển hệ thống điện':12,'vận hành hệ thống điện':10,'smart substation':10,'digital substation':10,'relay protection':7,'bảo vệ rơle':7,'iec 61850':12,'iec 60870':12,'ieee 2030.5':15,'ieee 2030.11':15,'electricity':4,'power':3,'grid':5,'điện lực':6,'năng lượng':3}
+EXCLUDE_TERMS=('smartphone','gaming','game ','social media','tiktok','celebrity','film ','movie','crypto','bitcoin')
 VIETNAM_SEEDS=[
  {'title':'Công ty Điện lực Quảng Ninh: Đẩy mạnh chuyển đổi số và hiện đại hóa lưới điện 110kV','summary':'Hiện đại hóa lưới điện 110 kV, trạm không người trực và giám sát, điều khiển từ xa qua SCADA/DMS.','url':'https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638','source':'EVN','published':'2026-06-23T08:47:00+00:00'},
  {'title':'CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC','summary':'Giải pháp tự động hóa, kết nối dữ liệu, giám sát và điều khiển lưới điện thông minh.','url':'https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html','source':'Tạp chí Năng lượng Việt Nam','published':'2026-08-20T01:29:00+00:00'},
@@ -48,10 +45,13 @@ def parse_date(v):
  if not v:return None
  try:return datetime.fromisoformat(v.strip().replace('Z','+00:00'))
  except:pass
- m=re.search(r'(20\d{2})[-/](\d{1,2})[-/](\d{1,2})',v)
- if m:
-  try:return datetime(int(m[1]),int(m[2]),int(m[3]),tzinfo=timezone.utc)
-  except:return None
+ for pat in (r'(20\d{2})[-/](\d{1,2})[-/](\d{1,2})',r'(\d{1,2})[-/](\d{1,2})[-/](20\d{2})'):
+  m=re.search(pat,v)
+  if m:
+   try:
+    if pat.startswith('(20'): return datetime(int(m[1]),int(m[2]),int(m[3]),tzinfo=timezone.utc)
+    return datetime(int(m[3]),int(m[2]),int(m[1]),tzinfo=timezone.utc)
+   except:return None
  return None
 def is_fresh(dt):
  if not dt:return False
@@ -65,54 +65,71 @@ def tags(title,summary):
  t=f'{title} {summary}'.lower();out=[]
  if any(x in t for x in ('scada','ems','dms','flisr','agc','điều độ')):out.append('scada')
  if any(x in t for x in ('derms','distributed energy','nguồn phân tán','nguồn điện phân tán','vpp','microgrid','ieee 2030')):out.append('derms')
- if any(x in t for x in ('grid','lưới điện','hệ thống điện','substation','trạm biến áp','power system')):out.append('power')
+ if any(x in t for x in ('grid','lưới điện','hệ thống điện','substation','trạm biến áp','power system','điện lực')):out.append('power')
  return out or ['power']
-def article_info(session,source,url):
+def likely_article(source,u):
+ p=urlparse(u);path=p.path.lower()
+ if p.netloc!=source['host'] or len(path)<8:return False
+ if any(x in path for x in ('/search','/tag/','/topic/','/author/','/privacy','/contact','/login','/video','/gallery')):return False
+ if source['name']=='CNN Tech': return '/tech/' in path
+ if source['name']=='IEEE Spectrum': return path.count('/')>=1 and not path.rstrip('/').endswith(('news','type'))
+ return path.count('/')>=2 or path.endswith('.html')
+def extract_candidates(source,soup):
+ candidates=[];seen=set()
+ for a in soup.find_all('a',href=True):
+  u=absolute(source['url'],a['href'])
+  if u in seen or not likely_article(source,u):continue
+  seen.add(u)
+  anchor=clean(a.get_text(' ',strip=True));score=relevance(anchor,'')
+  candidates.append((score,u,anchor))
+ # Relevance is only a PRIORITY now, never a discovery gate.
+ candidates.sort(key=lambda x:x[0],reverse=True)
+ return candidates[:MAX_DISCOVERED_URLS]
+def article_info(session,source,url,anchor=''):
  r=session.get(url,headers=HEADERS,timeout=REQUEST_TIMEOUT);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
- title=meta(soup,'og:title','twitter:title') or (clean(soup.title.get_text(' ',strip=True)) if soup.title else '')
- summary=meta(soup,'og:description','description','twitter:description');image=meta(soup,'og:image','twitter:image')
- raw=meta(soup,'article:published_time','date','datePublished','pubdate');dt=parse_date(raw)
+ title=meta(soup,'og:title','twitter:title') or clean(soup.find('h1').get_text(' ',strip=True) if soup.find('h1') else '') or anchor or (clean(soup.title.get_text(' ',strip=True)) if soup.title else '')
+ summary=meta(soup,'og:description','description','twitter:description')
+ if not summary:
+  p=soup.find('p');summary=clean(p.get_text(' ',strip=True)) if p else ''
+ image=meta(soup,'og:image','twitter:image')
+ raw=meta(soup,'article:published_time','date','datePublished','pubdate','parsely-pub-date')
+ dt=parse_date(raw)
  if not dt:
   tn=soup.find('time');dt=parse_date((tn.get('datetime') or clean(tn.get_text(' ',strip=True))) if tn else '')
+ if not dt:
+  scripts=soup.find_all('script',attrs={'type':'application/ld+json'})
+  for s in scripts:
+   txt=s.string or s.get_text()
+   m=re.search(r'"datePublished"\s*:\s*"([^"]+)"',txt or '')
+   if m:dt=parse_date(m.group(1));break
  score=relevance(title,summary)
- if len(title)<10 or score<8 or not is_fresh(dt):return None
+ if len(title)<10 or score<5 or not is_fresh(dt):return None
  return {'title':title[:220],'summary':summary[:420],'url':url,'image':image,'source':source['name'],'source_url':source['url'],'published':dt.isoformat(),'published_label':dt.strftime('%d/%m/%Y'),'tags':tags(title,summary),'icon':source['icon'],'region':source['region'],'score':score}
-def crawl(source,limit=MAX_DISCOVERED_URLS):
+def crawl(source):
  session=requests.Session()
  try:
-  r=session.get(source['url'],headers=HEADERS,timeout=REQUEST_TIMEOUT);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser');urls=[];seen=set()
-  for a in soup.find_all('a',href=True):
-   u=absolute(source['url'],a['href']);p=urlparse(u)
-   if p.netloc!=source['host'] or u in seen:continue
-   path=p.path.lower()
-   if len(path)<8 or any(x in path for x in ('/search','/tag/','/topic/','/author/','/privacy','/contact')):continue
-   if source['name']=='CNN Tech' and '/tech/' not in path:continue
-   anchor=clean(a.get_text(' ',strip=True))
-   if anchor and relevance(anchor,'')<5:continue
-   seen.add(u);urls.append(u)
-   if len(urls)>=limit:break
-  items=[];consecutive_errors=0
-  for u in urls:
+  r=session.get(source['url'],headers=HEADERS,timeout=REQUEST_TIMEOUT);r.raise_for_status();soup=BeautifulSoup(r.text,'html.parser')
+  candidates=extract_candidates(source,soup);items=[];consecutive_errors=0;fetched=0
+  print(f'[{source["name"]}] discovered {len(candidates)} candidate URLs')
+  for _,u,anchor in candidates:
+   if fetched>=MAX_ARTICLE_FETCHES:break
+   fetched+=1
    try:
-    x=article_info(session,source,u);consecutive_errors=0
+    x=article_info(session,source,u,anchor);consecutive_errors=0
     if x:items.append(x)
    except requests.RequestException as e:
-    consecutive_errors+=1
-    print(f'[{source["name"]}] request failed ({consecutive_errors}/{MAX_CONSECUTIVE_ERRORS}): {u} :: {type(e).__name__}: {e}',file=sys.stderr)
+    consecutive_errors+=1;print(f'[{source["name"]}] request failed ({consecutive_errors}/{MAX_CONSECUTIVE_ERRORS}): {type(e).__name__}: {u}',file=sys.stderr)
     if consecutive_errors>=MAX_CONSECUTIVE_ERRORS:
-     print(f'[{source["name"]}] circuit breaker opened; skipping remaining URLs.',file=sys.stderr)
-     break
-   except Exception as e:
-    print(f'[{source["name"]}] parse failed: {u} :: {type(e).__name__}: {e}',file=sys.stderr)
+     print(f'[{source["name"]}] circuit breaker opened.',file=sys.stderr);break
+   except Exception as e:print(f'[{source["name"]}] parse failed: {type(e).__name__}: {u}',file=sys.stderr)
   items.sort(key=lambda x:(x['published'],x['score']),reverse=True)
-  source_ok=bool(items) or consecutive_errors<MAX_CONSECUTIVE_ERRORS
-  return items,source_ok
+  print(f'[{source["name"]}] accepted {len(items)} relevant fresh articles from {fetched} fetched')
+  return items,True
  except requests.RequestException as e:
   print(f'[{source["name"]}] source unreachable: {type(e).__name__}: {e}',file=sys.stderr);return [],False
  except Exception as e:
   print(f'[{source["name"]}] source failed: {type(e).__name__}: {e}',file=sys.stderr);return [],False
- finally:
-  session.close()
+ finally:session.close()
 def seed_items():
  out=[]
  for x in VIETNAM_SEEDS:
@@ -123,8 +140,7 @@ def seed_items():
 def unique_rank(items,n):
  seen=set();out=[]
  for x in sorted(items,key=lambda z:(z.get('published',''),z.get('score',0)),reverse=True):
-  dt=parse_date(x.get('published',''))
-  if not is_fresh(dt):continue
+  if not is_fresh(parse_date(x.get('published',''))):continue
   key=x['url'].split('?')[0]
   if key in seen:continue
   seen.add(key);out.append(x)

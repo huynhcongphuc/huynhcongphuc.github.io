@@ -2,12 +2,33 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-22T01:43:59.358856+00:00",
+  "updated_at": "2026-08-22T02:42:34.372300+00:00",
   "realtime": {
-    "active_users": 0,
-    "views": 0,
-    "countries": [],
-    "pages": [],
+    "active_users": 1,
+    "views": 7,
+    "countries": [
+      {
+        "country": "Vietnam",
+        "users": 1
+      }
+    ],
+    "pages": [
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 1,
+        "views": 5
+      },
+      {
+        "page": "Kỷ niệm | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      }
+    ],
     "downloads": 0,
     "research_downloads": 0,
     "software": [
@@ -137,12 +158,8 @@
           "users": 17
         },
         {
-          "country": "Unknown",
-          "users": 3
-        },
-        {
           "country": "(not set)",
-          "users": 1
+          "users": 4
         },
         {
           "country": "United Kingdom",
@@ -212,12 +229,8 @@
           "users": 17
         },
         {
-          "country": "Unknown",
-          "users": 3
-        },
-        {
           "country": "(not set)",
-          "users": 1
+          "users": 4
         },
         {
           "country": "United Kingdom",
@@ -287,12 +300,8 @@
           "users": 17
         },
         {
-          "country": "Unknown",
-          "users": 3
-        },
-        {
           "country": "(not set)",
-          "users": 1
+          "users": 4
         },
         {
           "country": "United Kingdom",

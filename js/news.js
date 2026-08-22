@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   let feed=null;
 
   const lang=()=>String(document.documentElement.lang||'vi').toLowerCase().startsWith('en')?'en':'vi';
-  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot',"'":'&#39;'}[c]));
   const sourceClass=source=>String(source||'').toLowerCase().includes('cnn')?'cnn':'ieee';
   const sourceTag=source=>String(source||'').toLowerCase().includes('cnn')?'CNN Tech':'IEEE Spectrum';
   const iconFor=item=>item.icon||(sourceClass(item.source)==='cnn'?'cpu':'radio-tower');
@@ -54,7 +54,9 @@ document.addEventListener('DOMContentLoaded',()=>{
       const src=sourceTag(item.source);
       const sourceType=sourceClass(item.source);
       const summary=item.summary||'';
-      return `<article class="news-card reveal news-card-live source-${sourceType}" data-news-card data-tags="${esc(tags.join(','))}">
+      const image=item.image||'';
+      return `<article class="news-card news-card-live source-${sourceType}" data-news-card data-tags="${esc(tags.join(','))}">
+        ${image?`<figure class="news-image"><img src="${esc(image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></figure>`:''}
         <div class="news-card-top"><div class="news-icon"><i data-lucide="${esc(iconFor(item))}"></i></div><span class="news-source">${esc(src)}</span></div>
         <span class="news-tag">${esc(tags[0].toUpperCase())}</span>
         <h2>${esc(item.title)}</h2>
@@ -85,7 +87,6 @@ document.addEventListener('DOMContentLoaded',()=>{
         if(renderFeed(data))return;
       }catch(err){console.warn('Technology news feed unavailable:',url,err);}
     }
-    // Keep the curated static cards already in news.html as a safe fallback.
     cards=[...document.querySelectorAll('[data-news-card]')];
     apply();
   }

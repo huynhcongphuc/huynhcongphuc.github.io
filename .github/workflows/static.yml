@@ -8,6 +8,9 @@ on:
       - 'data/ga4-stats.json'
       - 'scripts/export_ga4.py'
       - '.github/workflows/update-ga4-stats.yml'
+      - 'data/tech-news.json'
+      - 'scripts/update_tech_news.py'
+      - '.github/workflows/update-tech-news.yml'
   workflow_dispatch:
 
 permissions:

@@ -38,12 +38,16 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          from datetime import datetime, timezone, timedelta
           with open('data/tech-news.json', encoding='utf-8') as f:
               d=json.load(f)
           items=d.get('items',[])
-          assert 1 <= len(items) <= 10, f'Unexpected item count: {len(items)}'
+          assert 1 <= len(items) <= 20, f'Unexpected item count: {len(items)}'
+          cutoff=datetime.now(timezone.utc)-timedelta(days=92)
           for item in items:
-              assert item.get('title') and item.get('url') and item.get('source')
+              assert item.get('title') and item.get('url') and item.get('source') and item.get('published')
+              dt=datetime.fromisoformat(item['published'].replace('Z','+00:00'))
+              assert dt >= cutoff, f'Article older than 3 months: {item["title"]} ({dt})'
           print('Technology news OK:', len(items), 'items; mode=', d.get('mode'))
           print('Source status:', d.get('source_status'))
           PY

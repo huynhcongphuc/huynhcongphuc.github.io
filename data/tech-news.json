@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-08-22T03:31:21.821318+00:00",
-  "mode": "10 international + 10 Vietnam | Power System / SCADA / DERMS",
+  "updated_at": "2026-08-22T03:55:34.752019+00:00",
+  "mode": "0 international + 2 Vietnam | max age 3 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
     "DERMS / DER / VPP / Microgrid"
   ],
+  "max_age_days": 92,
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
@@ -19,7 +20,7 @@
     },
     "EVN": {
       "ok": true,
-      "available": 1,
+      "available": 0,
       "url": "https://www.evn.com.vn/"
     },
     "EVNHCMC": {
@@ -34,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 4,
+      "available": 0,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -76,140 +77,6 @@
       "icon": "zap",
       "region": "vietnam",
       "score": 42
-    },
-    {
-      "title": "Bàn giải pháp vận hành tối ưu các nguồn năng lượng phân tán ở Việt Nam",
-      "summary": "Điều khiển điện áp, dòng công suất ngược, Volt/Var, SCADA và khả năng tiếp nhận thêm DER trên lưới phân phối.",
-      "url": "https://nangluongvietnam.vn/ban-giai-phap-van-hanh-toi-uu-cac-nguon-nang-luong-phan-tan-o-viet-nam-35861.html",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "published": "2026-04-01T00:00:00+00:00",
-      "image": "",
-      "source_url": "https://nangluongvietnam.vn/ban-giai-phap-van-hanh-toi-uu-cac-nguon-nang-luong-phan-tan-o-viet-nam-35861.html",
-      "published_label": "01/04/2026",
-      "tags": [
-        "scada"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 27
-    },
-    {
-      "title": "Báo cáo nhận định xu hướng ngành phân phối điện thế giới từ năm 2026",
-      "summary": "Xu hướng phân phối điện hai chiều, AI, lưu trữ, IoT, microgrid và điều phối lưới điện hiện đại.",
-      "url": "https://nangluongvietnam.vn/bao-cao-nhan-dinh-xu-huong-nganh-phan-phoi-dien-the-gioi-tu-nam-2026-35522.html",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "published": "2026-02-09T00:00:00+00:00",
-      "image": "",
-      "source_url": "https://nangluongvietnam.vn/bao-cao-nhan-dinh-xu-huong-nganh-phan-phoi-dien-the-gioi-tu-nam-2026-35522.html",
-      "published_label": "09/02/2026",
-      "tags": [
-        "derms",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 17
-    },
-    {
-      "title": "Chức năng nhiệm vụ, ngành nghề kinh doanh của NSMO",
-      "summary": "NSMO quản lý, vận hành SCADA/EMS, WAMPAC, DERMS và các hệ thống phục vụ vận hành hệ thống điện Việt Nam.",
-      "url": "https://evn.com.vn/d6/news/Chuc-nang-nhiem-vu-nganh-nghe-kinh-doanh-cua-NSMO-0-2025-125453.aspx",
-      "source": "EVN",
-      "published": "2024-08-01T00:00:00+00:00",
-      "image": "",
-      "source_url": "https://evn.com.vn/d6/news/Chuc-nang-nhiem-vu-nganh-nghe-kinh-doanh-cua-NSMO-0-2025-125453.aspx",
-      "published_label": "01/08/2024",
-      "tags": [
-        "scada",
-        "derms",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 70
-    },
-    {
-      "title": "EVN tổ chức hội nghị tự động hóa ngành Điện trong xu thế chuyển đổi số",
-      "summary": "Khai thác SCADA/EMS, cấu hình dữ liệu, kết nối và điều khiển hệ thống điện, trung tâm điều khiển và trạm không người trực.",
-      "url": "https://www.evn.com.vn/d6/news/EVN-to-chuc-hoi-nghi-tu-dong-hoa-nganh-Dien-trong-xu-the-chuyen-doi-so-66-142-30341.aspx",
-      "source": "EVN",
-      "published": "2022-04-01T00:00:00+00:00",
-      "image": "",
-      "source_url": "https://www.evn.com.vn/d6/news/EVN-to-chuc-hoi-nghi-tu-dong-hoa-nganh-Dien-trong-xu-the-chuyen-doi-so-66-142-30341.aspx",
-      "published_label": "01/04/2022",
-      "tags": [
-        "scada",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 54
-    },
-    {
-      "title": "OpenOTS: Bước đột phá trong ứng dụng khoa học công nghệ tại Trung tâm Điều độ Hệ thống điện Quốc gia",
-      "summary": "Ứng dụng SCADA/EMS và mô phỏng đào tạo điều độ viên trong vận hành hệ thống điện có tỷ trọng năng lượng tái tạo ngày càng cao.",
-      "url": "https://www.evn.com.vn/d6/news/OpenOTS-Buoc-dot-pha-trong-ung-dung-khoa-hoc-cong-nghe-tai-Trung-tam-Dieu-do-He-thong-dien-Quoc-gia-0-8-29704.aspx",
-      "source": "EVN",
-      "published": "2021-12-21T14:13:00+00:00",
-      "image": "",
-      "source_url": "https://www.evn.com.vn/d6/news/OpenOTS-Buoc-dot-pha-trong-ung-dung-khoa-hoc-cong-nghe-tai-Trung-tam-Dieu-do-He-thong-dien-Quoc-gia-0-8-29704.aspx",
-      "published_label": "21/12/2021",
-      "tags": [
-        "scada",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 66
-    },
-    {
-      "title": "Phát triển lưới điện thông minh tại Hà Nội",
-      "summary": "Các nền tảng quản lý lưới phân phối, nguồn phân tán, năng lượng tái tạo, GIS/OMS và hạ tầng đo đếm thông minh.",
-      "url": "https://www.evn.com.vn/d6/news/Phat-trien-luoi-dien-thong-minh-tai-Ha-Noi-0-8-28764.aspx",
-      "source": "EVN",
-      "published": "2021-06-01T00:00:00+00:00",
-      "image": "",
-      "source_url": "https://www.evn.com.vn/d6/news/Phat-trien-luoi-dien-thong-minh-tai-Ha-Noi-0-8-28764.aspx",
-      "published_label": "01/06/2021",
-      "tags": [
-        "derms",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 37
-    },
-    {
-      "title": "Phát triển lưới điện thông minh tại Việt Nam [Kỳ 1]: Giới thiệu tổng quan",
-      "summary": "Tổng quan điều khiển phân tán, DGMS, giám sát, truyền thông tích hợp và các công nghệ lưới điện thông minh.",
-      "url": "https://nangluongvietnam.vn/phat-trien-luoi-dien-thong-minh-tai-viet-nam-ky-1-gioi-thieu-tong-quan-25943.html",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "published": "2021-01-01T00:00:00+00:00",
-      "image": "",
-      "source_url": "https://nangluongvietnam.vn/phat-trien-luoi-dien-thong-minh-tai-viet-nam-ky-1-gioi-thieu-tong-quan-25943.html",
-      "published_label": "01/01/2021",
-      "tags": [
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 20
-    },
-    {
-      "title": "Tổng công ty Điện lực TP. HCM phát triển lưới điện thông minh",
-      "summary": "EVNHCMC phát triển tự động hóa, giám sát và điều khiển lưới điện, đo đếm từ xa và hạ tầng lưới điện thông minh.",
-      "url": "https://www.evn.com.vn/d6/news/Tong-cong-ty-Dien-luc-TP-HCM-phat-trien-luoi-dien-thong-minh-6-14-18349.aspx",
-      "source": "EVNHCMC",
-      "published": "2016-07-18T02:41:00+00:00",
-      "image": "",
-      "source_url": "https://www.evn.com.vn/d6/news/Tong-cong-ty-Dien-luc-TP-HCM-phat-trien-luoi-dien-thong-minh-6-14-18349.aspx",
-      "published_label": "18/07/2016",
-      "tags": [
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 30
     }
   ]
 }

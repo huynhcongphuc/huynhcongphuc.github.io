@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-22T02:49:40.973744+00:00",
+  "updated_at": "2026-08-22T03:28:08.830100+00:00",
   "realtime": {
     "active_users": 1,
-    "views": 8,
+    "views": 5,
     "countries": [
       {
         "country": "Vietnam",
@@ -14,19 +14,19 @@
     ],
     "pages": [
       {
-        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "page": "Tin tức công nghệ | Huỳnh Công Phúc",
         "users": 1,
-        "views": 5
+        "views": 4
       },
       {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 2
-      },
-      {
-        "page": "Kỷ niệm | Huỳnh Công Phúc",
+        "page": "Huynh Cong Phuc | Power Systems & Automation",
         "users": 1,
         "views": 1
+      },
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 1,
+        "views": 0
       }
     ],
     "downloads": 0,

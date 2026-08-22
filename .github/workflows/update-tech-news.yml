@@ -1,0 +1,73 @@
+name: Update technology news
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 00:20 UTC = 07:20 Vietnam time.
+    - cron: '20 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/update_tech_news.py'
+      - '.github/workflows/update-tech-news.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: technology-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install scraper dependencies
+        run: python -m pip install --disable-pip-version-check requests beautifulsoup4
+      - name: Fetch latest technology news
+        run: python scripts/update_tech_news.py
+      - name: Validate feed
+        run: |
+          python - <<'PY'
+          import json
+          with open('data/tech-news.json', encoding='utf-8') as f:
+              d=json.load(f)
+          items=d.get('items',[])
+          assert 1 <= len(items) <= 10, f'Unexpected item count: {len(items)}'
+          for item in items:
+              assert item.get('title') and item.get('url') and item.get('source')
+          print('Technology news OK:', len(items), 'items; mode=', d.get('mode'))
+          print('Source status:', d.get('source_status'))
+          PY
+      - name: Publish refreshed news JSON only
+        run: |
+          set -e
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          cp data/tech-news.json /tmp/tech-news.json
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            mkdir -p data
+            cp /tmp/tech-news.json data/tech-news.json
+            git add data/tech-news.json
+            if git diff --cached --quiet; then
+              echo "Technology news is already up to date."
+              exit 0
+            fi
+            git commit -m "Update daily technology news"
+            if git push origin HEAD:main; then
+              echo "Technology news published successfully."
+              exit 0
+            fi
+            echo "Remote changed during push; retrying..."
+          done
+          exit 1

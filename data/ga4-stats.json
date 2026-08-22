@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-22T02:42:34.372300+00:00",
+  "updated_at": "2026-08-22T02:49:40.973744+00:00",
   "realtime": {
     "active_users": 1,
-    "views": 7,
+    "views": 8,
     "countries": [
       {
         "country": "Vietnam",
@@ -19,12 +19,12 @@
         "views": 5
       },
       {
-        "page": "Kỷ niệm | Huỳnh Công Phúc",
+        "page": "Thống kê truy cập | Huỳnh Công Phúc",
         "users": 1,
-        "views": 1
+        "views": 2
       },
       {
-        "page": "Thống kê truy cập | Huỳnh Công Phúc",
+        "page": "Kỷ niệm | Huỳnh Công Phúc",
         "users": 1,
         "views": 1
       }
@@ -158,7 +158,7 @@
           "users": 17
         },
         {
-          "country": "(not set)",
+          "country": "Unknown",
           "users": 4
         },
         {
@@ -229,7 +229,7 @@
           "users": 17
         },
         {
-          "country": "(not set)",
+          "country": "Unknown",
           "users": 4
         },
         {
@@ -300,7 +300,7 @@
           "users": 17
         },
         {
-          "country": "(not set)",
+          "country": "Unknown",
           "users": 4
         },
         {

@@ -1,161 +1,215 @@
 {
-  "updated_at": "2026-08-22T03:04:27.286114+00:00",
-  "mode": "5+5",
+  "updated_at": "2026-08-22T03:24:52.435665+00:00",
+  "mode": "10 international + 10 Vietnam | Power System / SCADA / DERMS",
+  "focus": [
+    "Electrical Power System",
+    "Electrical SCADA/EMS/DMS",
+    "DERMS / DER / VPP / Microgrid"
+  ],
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 10,
+      "available": 0,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
       "ok": true,
-      "available": 10,
+      "available": 0,
       "url": "https://edition.cnn.com/business/tech"
+    },
+    "EVN": {
+      "ok": true,
+      "available": 0,
+      "url": "https://www.evn.com.vn/"
+    },
+    "EVNHCMC": {
+      "ok": false,
+      "available": 0,
+      "url": "https://www.evnhcmc.vn/"
+    },
+    "Bộ Công Thương": {
+      "ok": true,
+      "available": 0,
+      "url": "https://moit.gov.vn/"
+    },
+    "Tạp chí Năng lượng Việt Nam": {
+      "ok": true,
+      "available": 4,
+      "url": "https://nangluongvietnam.vn/"
+    },
+    "ICON": {
+      "ok": false,
+      "available": 0,
+      "url": "https://icon.com.vn/"
     }
   },
   "items": [
     {
-      "title": "Canada’s Scrappy Rocket Startups Aim for Sovereign Space Launch",
-      "summary": "Launch demand, geopolitics push Canadian rocket companies forward",
-      "url": "https://spectrum.ieee.org/canadian-rockets",
-      "image": "https://spectrum.ieee.org/media-library/two-slender-space-rockets-against-a-solid-background.jpg?id=67644822&width=1200&height=600&coordinates=0%2C159%2C0%2C91",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-08-20T12:00:01+00:00",
+      "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",
+      "summary": "Giải pháp tự động hóa, kết nối dữ liệu, giám sát và điều khiển lưới điện thông minh.",
+      "url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "published": "2026-08-20T01:29:00+00:00",
+      "image": "",
+      "source_url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
       "published_label": "20/08/2026",
       "tags": [
-        "engineering"
+        "power"
       ],
-      "icon": "radio-tower"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 30
     },
     {
-      "title": "Brain Implant Uses Infrared Light to Send Neural Signals",
-      "summary": "Ability Neurotech’s optical BCI will soon begin European clinical trial",
-      "url": "https://spectrum.ieee.org/ability-neurotech-bci-human-trial",
-      "image": "https://spectrum.ieee.org/media-library/close-up-of-a-brain-computer-interface-with-a-translucent-flexible-body-inductive-telemetry-coil-and-microchip.jpg?id=67644886&width=1200&height=600&coordinates=0%2C67%2C0%2C433",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-08-20T11:00:02+00:00",
-      "published_label": "20/08/2026",
+      "title": "Công ty Điện lực Quảng Ninh: Đẩy mạnh chuyển đổi số và hiện đại hóa lưới điện 110kV",
+      "summary": "Hiện đại hóa lưới điện 110 kV, trạm không người trực và giám sát, điều khiển từ xa qua SCADA/DMS.",
+      "url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638",
+      "source": "EVN",
+      "published": "2026-06-23T08:47:00+00:00",
+      "image": "",
+      "source_url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638",
+      "published_label": "23/06/2026",
       "tags": [
-        "engineering"
+        "scada",
+        "power"
       ],
-      "icon": "radio-tower"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 42
     },
     {
-      "title": "From Steam to Sparks: How Electric DAC Is Changing Carbon Capture",
-      "summary": "Microwaves and resistive heating make direct air capture systems more efficient",
-      "url": "https://spectrum.ieee.org/direct-air-carbon-capture-electric",
-      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=67640407&width=1200&height=600&coordinates=0%2C275%2C0%2C975",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-08-19T16:04:32+00:00",
-      "published_label": "19/08/2026",
+      "title": "Bàn giải pháp vận hành tối ưu các nguồn năng lượng phân tán ở Việt Nam",
+      "summary": "Điều khiển điện áp, dòng công suất ngược, Volt/Var, SCADA và khả năng tiếp nhận thêm DER trên lưới phân phối.",
+      "url": "https://nangluongvietnam.vn/ban-giai-phap-van-hanh-toi-uu-cac-nguon-nang-luong-phan-tan-o-viet-nam-35861.html",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "published": "2026-04-01T00:00:00+00:00",
+      "image": "",
+      "source_url": "https://nangluongvietnam.vn/ban-giai-phap-van-hanh-toi-uu-cac-nguon-nang-luong-phan-tan-o-viet-nam-35861.html",
+      "published_label": "01/04/2026",
       "tags": [
-        "energy"
+        "scada"
       ],
-      "icon": "radio-tower"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 27
     },
     {
-      "title": "Spider-Like Drone Grips Steep Glaciers With Tiny Ice Spines",
-      "summary": "Using its spiny feet, Ice Dart can latch on to glaciers and drifting icebergs, allowing for long-term monitoring",
-      "url": "https://spectrum.ieee.org/arctic-iceberg-drones",
-      "image": "https://spectrum.ieee.org/media-library/a-drone-firmly-planted-on-the-steep-slope-of-an-iceberg-after-a-successful-landing.jpg?id=67573301&width=1200&height=600&coordinates=0%2C330%2C0%2C170",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-08-18T13:00:01+00:00",
-      "published_label": "18/08/2026",
+      "title": "Báo cáo nhận định xu hướng ngành phân phối điện thế giới từ năm 2026",
+      "summary": "Xu hướng phân phối điện hai chiều, AI, lưu trữ, IoT, microgrid và điều phối lưới điện hiện đại.",
+      "url": "https://nangluongvietnam.vn/bao-cao-nhan-dinh-xu-huong-nganh-phan-phoi-dien-the-gioi-tu-nam-2026-35522.html",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "published": "2026-02-09T00:00:00+00:00",
+      "image": "",
+      "source_url": "https://nangluongvietnam.vn/bao-cao-nhan-dinh-xu-huong-nganh-phan-phoi-dien-the-gioi-tu-nam-2026-35522.html",
+      "published_label": "09/02/2026",
       "tags": [
-        "engineering"
+        "derms",
+        "power"
       ],
-      "icon": "radio-tower"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 17
     },
     {
-      "title": "IEEE Presidents’ Scholarship Honors Teen Innovators",
-      "summary": "The high school students built assistive tech and robots",
-      "url": "https://spectrum.ieee.org/ieee-presidents-scholarship-2026",
-      "image": "https://spectrum.ieee.org/media-library/three-high-school-students-posing-with-their-individual-award-plaques-next-to-a-middle-aged-white-woman.jpg?id=67634200&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-08-17T18:00:04+00:00",
-      "published_label": "17/08/2026",
+      "title": "Chức năng nhiệm vụ, ngành nghề kinh doanh của NSMO",
+      "summary": "NSMO quản lý, vận hành SCADA/EMS, WAMPAC, DERMS và các hệ thống phục vụ vận hành hệ thống điện Việt Nam.",
+      "url": "https://evn.com.vn/d6/news/Chuc-nang-nhiem-vu-nganh-nghe-kinh-doanh-cua-NSMO-0-2025-125453.aspx",
+      "source": "EVN",
+      "published": "2024-08-01T00:00:00+00:00",
+      "image": "",
+      "source_url": "https://evn.com.vn/d6/news/Chuc-nang-nhiem-vu-nganh-nghe-kinh-doanh-cua-NSMO-0-2025-125453.aspx",
+      "published_label": "01/08/2024",
       "tags": [
-        "ai",
-        "engineering"
+        "scada",
+        "derms",
+        "power"
       ],
-      "icon": "radio-tower"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 70
     },
     {
-      "title": "Justice Department reaches $400 million settlement with TikTok over child privacy case",
-      "summary": "TikTok and its parent company, ByteDance, reached a $400 million settlement with the US Justice Department over children’s privacy litigation on Friday, one of the largest amounts yet for a case of this kind.",
-      "url": "https://edition.cnn.com/2026/08/21/tech/tiktok-settlement-justice-department-child-privacy",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/16-tiktokapp-bej-20260122212850523.JPG?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-21T23:30:34.126000+00:00",
-      "published_label": "21/08/2026",
+      "title": "EVN tổ chức hội nghị tự động hóa ngành Điện trong xu thế chuyển đổi số",
+      "summary": "Khai thác SCADA/EMS, cấu hình dữ liệu, kết nối và điều khiển hệ thống điện, trung tâm điều khiển và trạm không người trực.",
+      "url": "https://www.evn.com.vn/d6/news/EVN-to-chuc-hoi-nghi-tu-dong-hoa-nganh-Dien-trong-xu-the-chuyen-doi-so-66-142-30341.aspx",
+      "source": "EVN",
+      "published": "2022-04-01T00:00:00+00:00",
+      "image": "",
+      "source_url": "https://www.evn.com.vn/d6/news/EVN-to-chuc-hoi-nghi-tu-dong-hoa-nganh-Dien-trong-xu-the-chuyen-doi-so-66-142-30341.aspx",
+      "published_label": "01/04/2022",
       "tags": [
-        "engineering"
+        "scada",
+        "power"
       ],
-      "icon": "cpu"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 54
     },
     {
-      "title": "From heated rivalry to frenemies: Inside the cutthroat business of ruling tech in Asia",
-      "summary": "Doomscrolling on an iPhone, firing endless questions at ChatGPT, or streaming a 4K film on Netflix on your laptop – behind these modern life conveniences lies a high-stakes contest between two Asian technology powers.",
-      "url": "https://edition.cnn.com/2026/08/18/tech/asia-tech-frenemy-intl-hnk",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2215621357.jpg?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-18T23:52:33.125000+00:00",
-      "published_label": "18/08/2026",
+      "title": "OpenOTS: Bước đột phá trong ứng dụng khoa học công nghệ tại Trung tâm Điều độ Hệ thống điện Quốc gia",
+      "summary": "Ứng dụng SCADA/EMS và mô phỏng đào tạo điều độ viên trong vận hành hệ thống điện có tỷ trọng năng lượng tái tạo ngày càng cao.",
+      "url": "https://www.evn.com.vn/d6/news/OpenOTS-Buoc-dot-pha-trong-ung-dung-khoa-hoc-cong-nghe-tai-Trung-tam-Dieu-do-He-thong-dien-Quoc-gia-0-8-29704.aspx",
+      "source": "EVN",
+      "published": "2021-12-21T14:13:00+00:00",
+      "image": "",
+      "source_url": "https://www.evn.com.vn/d6/news/OpenOTS-Buoc-dot-pha-trong-ung-dung-khoa-hoc-cong-nghe-tai-Trung-tam-Dieu-do-He-thong-dien-Quoc-gia-0-8-29704.aspx",
+      "published_label": "21/12/2021",
       "tags": [
-        "ai",
-        "energy",
-        "engineering"
+        "scada",
+        "power"
       ],
-      "icon": "cpu"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 66
     },
     {
-      "title": "Meta is back in the courtroom to face its biggest social media addiction trial yet",
-      "summary": "Meta’s business relies on hooking young people and exploiting their data and attention, a lawyer for a group of state attorneys general argued in opening statements for the latest blockbuster trial against the social media giant on Tuesday.",
-      "url": "https://edition.cnn.com/2026/08/18/tech/meta-attorneys-general-addiction-trial-opening-arguments",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/c-ap26050035832286.jpg?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-18T11:00:30.072000+00:00",
-      "published_label": "18/08/2026",
+      "title": "Phát triển lưới điện thông minh tại Hà Nội",
+      "summary": "Các nền tảng quản lý lưới phân phối, nguồn phân tán, năng lượng tái tạo, GIS/OMS và hạ tầng đo đếm thông minh.",
+      "url": "https://www.evn.com.vn/d6/news/Phat-trien-luoi-dien-thong-minh-tai-Ha-Noi-0-8-28764.aspx",
+      "source": "EVN",
+      "published": "2021-06-01T00:00:00+00:00",
+      "image": "",
+      "source_url": "https://www.evn.com.vn/d6/news/Phat-trien-luoi-dien-thong-minh-tai-Ha-Noi-0-8-28764.aspx",
+      "published_label": "01/06/2021",
       "tags": [
-        "engineering"
+        "derms",
+        "power"
       ],
-      "icon": "cpu"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 37
     },
     {
-      "title": "OpenAI introduces ‘ChatGPT for Teens’ experience amid scrutiny over child safety",
-      "summary": "OpenAI is rolling out a new “ChatGPT for Teens” experience that it says will provide additional safety protections for teen users. The move comes as OpenAI faces a string of lawsuits alleging that inappropriate conversations with ChatGPT contributed to the harm or deaths of young people.",
-      "url": "https://edition.cnn.com/2026/08/18/tech/openai-chatgpt-for-teens",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2148295007-20260817214614604.jpg?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-18T11:00:29.335000+00:00",
-      "published_label": "18/08/2026",
+      "title": "Phát triển lưới điện thông minh tại Việt Nam [Kỳ 1]: Giới thiệu tổng quan",
+      "summary": "Tổng quan điều khiển phân tán, DGMS, giám sát, truyền thông tích hợp và các công nghệ lưới điện thông minh.",
+      "url": "https://nangluongvietnam.vn/phat-trien-luoi-dien-thong-minh-tai-viet-nam-ky-1-gioi-thieu-tong-quan-25943.html",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "published": "2021-01-01T00:00:00+00:00",
+      "image": "",
+      "source_url": "https://nangluongvietnam.vn/phat-trien-luoi-dien-thong-minh-tai-viet-nam-ky-1-gioi-thieu-tong-quan-25943.html",
+      "published_label": "01/01/2021",
       "tags": [
-        "ai"
+        "power"
       ],
-      "icon": "cpu"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 20
     },
     {
-      "title": "World’s top humanoid robot maker surges in blockbuster market debut in China",
-      "summary": "Shares of the world’s largest humanoid robot maker by sales Unitree jumped more than 600% in its trading debut in Shanghai on Wednesday, in a testament to its status as the poster child of China’s robotic advancement.",
-      "url": "https://edition.cnn.com/2026/08/18/tech/china-unitree-ipo-intl-hnk",
-      "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-08-10t021217z-561312062-rc2npmahp6l3-rtrmadp-3-unitree-ipo-explainer.JPG?c=16x9&q=w_800,c_fill",
-      "source": "CNN Tech",
-      "source_url": "https://edition.cnn.com/business/tech",
-      "published": "2026-08-18T06:44:37.276000+00:00",
-      "published_label": "18/08/2026",
+      "title": "Tổng công ty Điện lực TP. HCM phát triển lưới điện thông minh",
+      "summary": "EVNHCMC phát triển tự động hóa, giám sát và điều khiển lưới điện, đo đếm từ xa và hạ tầng lưới điện thông minh.",
+      "url": "https://www.evn.com.vn/d6/news/Tong-cong-ty-Dien-luc-TP-HCM-phat-trien-luoi-dien-thong-minh-6-14-18349.aspx",
+      "source": "EVNHCMC",
+      "published": "2016-07-18T02:41:00+00:00",
+      "image": "",
+      "source_url": "https://www.evn.com.vn/d6/news/Tong-cong-ty-Dien-luc-TP-HCM-phat-trien-luoi-dien-thong-minh-6-14-18349.aspx",
+      "published_label": "18/07/2016",
       "tags": [
-        "ai"
+        "power"
       ],
-      "icon": "cpu"
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 30
     }
   ]
 }

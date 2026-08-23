@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-23T15:56:58.006874+00:00",
+  "updated_at": "2026-08-23T16:35:22.773822+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -57,17 +57,21 @@
   },
   "periods": {
     "today": {
-      "sessions": 3,
-      "users": 3,
-      "views": 3,
+      "sessions": 4,
+      "users": 4,
+      "views": 4,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 3,
+      "abroad": 4,
       "countries": [
         {
           "country": "United States",
           "users": 3
+        },
+        {
+          "country": "United Kingdom",
+          "users": 1
         }
       ],
       "software": [
@@ -116,13 +120,13 @@
       ]
     },
     "7d": {
-      "sessions": 72,
-      "users": 54,
-      "views": 290,
+      "sessions": 73,
+      "users": 55,
+      "views": 291,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 35,
+      "abroad": 36,
       "countries": [
         {
           "country": "United States",
@@ -137,6 +141,10 @@
           "users": 4
         },
         {
+          "country": "United Kingdom",
+          "users": 2
+        },
+        {
           "country": "France",
           "users": 1
         },
@@ -146,10 +154,6 @@
         },
         {
           "country": "Taiwan",
-          "users": 1
-        },
-        {
-          "country": "United Kingdom",
           "users": 1
         }
       ],
@@ -199,13 +203,13 @@
       ]
     },
     "30d": {
-      "sessions": 72,
-      "users": 54,
-      "views": 290,
+      "sessions": 73,
+      "users": 55,
+      "views": 291,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 35,
+      "abroad": 36,
       "countries": [
         {
           "country": "United States",
@@ -220,6 +224,10 @@
           "users": 4
         },
         {
+          "country": "United Kingdom",
+          "users": 2
+        },
+        {
           "country": "France",
           "users": 1
         },
@@ -229,10 +237,6 @@
         },
         {
           "country": "Taiwan",
-          "users": 1
-        },
-        {
-          "country": "United Kingdom",
           "users": 1
         }
       ],
@@ -282,13 +286,13 @@
       ]
     },
     "all": {
-      "sessions": 72,
-      "users": 54,
-      "views": 290,
+      "sessions": 73,
+      "users": 55,
+      "views": 291,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 35,
+      "abroad": 36,
       "countries": [
         {
           "country": "United States",
@@ -303,6 +307,10 @@
           "users": 4
         },
         {
+          "country": "United Kingdom",
+          "users": 2
+        },
+        {
           "country": "France",
           "users": 1
         },
@@ -312,10 +320,6 @@
         },
         {
           "country": "Taiwan",
-          "users": 1
-        },
-        {
-          "country": "United Kingdom",
           "users": 1
         }
       ],
@@ -400,9 +404,9 @@
     },
     {
       "date": "20260823",
-      "sessions": 3,
-      "users": 3,
-      "views": 3,
+      "sessions": 4,
+      "users": 4,
+      "views": 4,
       "software_downloads": 0,
       "research_downloads": 0
     }

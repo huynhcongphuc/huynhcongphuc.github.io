@@ -2,12 +2,33 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-24T03:01:24.968023+00:00",
+  "updated_at": "2026-08-24T03:24:13.067980+00:00",
   "realtime": {
-    "active_users": 0,
-    "views": 0,
-    "countries": [],
-    "pages": [],
+    "active_users": 1,
+    "views": 2,
+    "countries": [
+      {
+        "country": "Vietnam",
+        "users": 1
+      }
+    ],
+    "pages": [
+      {
+        "page": "Huynh Cong Phuc | Power Systems & Automation",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Phần mềm SCADA, DER, Microgrid & VPP | Huỳnh Công Phúc",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Technology Products | Huynh Cong Phuc",
+        "users": 1,
+        "views": 0
+      }
+    ],
     "downloads": 0,
     "research_downloads": 0,
     "software": [
@@ -29,6 +50,11 @@
       {
         "event": "download_microgrid_simulator",
         "name": "Microgrid Simulator",
+        "downloads": 0
+      },
+      {
+        "event": "download_vpp_platform",
+        "name": "VPP Platform",
         "downloads": 0
       }
     ],
@@ -57,14 +83,19 @@
   },
   "periods": {
     "today": {
-      "sessions": 0,
-      "users": 0,
-      "views": 0,
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
+      "abroad": 1,
+      "countries": [
+        {
+          "country": "United States",
+          "users": 1
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -84,6 +115,11 @@
         {
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
+          "downloads": 0
+        },
+        {
+          "event": "download_vpp_platform",
+          "name": "VPP Platform",
           "downloads": 0
         }
       ],
@@ -111,17 +147,17 @@
       ]
     },
     "7d": {
-      "sessions": 73,
-      "users": 55,
-      "views": 291,
+      "sessions": 74,
+      "users": 56,
+      "views": 292,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 36,
+      "abroad": 37,
       "countries": [
         {
           "country": "United States",
-          "users": 27
+          "users": 28
         },
         {
           "country": "Vietnam",
@@ -168,6 +204,11 @@
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
           "downloads": 1
+        },
+        {
+          "event": "download_vpp_platform",
+          "name": "VPP Platform",
+          "downloads": 0
         }
       ],
       "research": [
@@ -194,17 +235,17 @@
       ]
     },
     "30d": {
-      "sessions": 73,
-      "users": 55,
-      "views": 291,
+      "sessions": 74,
+      "users": 56,
+      "views": 292,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 36,
+      "abroad": 37,
       "countries": [
         {
           "country": "United States",
-          "users": 27
+          "users": 28
         },
         {
           "country": "Vietnam",
@@ -251,6 +292,11 @@
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
           "downloads": 1
+        },
+        {
+          "event": "download_vpp_platform",
+          "name": "VPP Platform",
+          "downloads": 0
         }
       ],
       "research": [
@@ -277,17 +323,17 @@
       ]
     },
     "all": {
-      "sessions": 73,
-      "users": 55,
-      "views": 291,
+      "sessions": 74,
+      "users": 56,
+      "views": 292,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 36,
+      "abroad": 37,
       "countries": [
         {
           "country": "United States",
-          "users": 27
+          "users": 28
         },
         {
           "country": "Vietnam",
@@ -334,6 +380,11 @@
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
           "downloads": 1
+        },
+        {
+          "event": "download_vpp_platform",
+          "name": "VPP Platform",
+          "downloads": 0
         }
       ],
       "research": [
@@ -398,6 +449,14 @@
       "sessions": 4,
       "users": 4,
       "views": 4,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260824",
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "software_downloads": 0,
       "research_downloads": 0
     }

@@ -2,33 +2,12 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-24T04:02:06.744749+00:00",
+  "updated_at": "2026-08-24T04:57:30.262272+00:00",
   "realtime": {
-    "active_users": 1,
-    "views": 3,
-    "countries": [
-      {
-        "country": "Vietnam",
-        "users": 1
-      }
-    ],
-    "pages": [
-      {
-        "page": "Phần mềm SCADA, DER, Microgrid & VPP | Huỳnh Công Phúc",
-        "users": 1,
-        "views": 2
-      },
-      {
-        "page": "Huynh Cong Phuc | Power Systems & Automation",
-        "users": 1,
-        "views": 1
-      },
-      {
-        "page": "Technology Products | Huynh Cong Phuc",
-        "users": 1,
-        "views": 0
-      }
-    ],
+    "active_users": 0,
+    "views": 0,
+    "countries": [],
+    "pages": [],
     "downloads": 0,
     "research_downloads": 0,
     "software": [
@@ -83,17 +62,17 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 2,
+      "users": 2,
+      "views": 2,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
         {
           "country": "United States",
-          "users": 1
+          "users": 2
         }
       ],
       "software": [
@@ -147,17 +126,17 @@
       ]
     },
     "7d": {
-      "sessions": 74,
-      "users": 56,
-      "views": 292,
+      "sessions": 75,
+      "users": 57,
+      "views": 293,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 37,
+      "abroad": 38,
       "countries": [
         {
           "country": "United States",
-          "users": 28
+          "users": 29
         },
         {
           "country": "Vietnam",
@@ -235,17 +214,17 @@
       ]
     },
     "30d": {
-      "sessions": 74,
-      "users": 56,
-      "views": 292,
+      "sessions": 75,
+      "users": 57,
+      "views": 293,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 37,
+      "abroad": 38,
       "countries": [
         {
           "country": "United States",
-          "users": 28
+          "users": 29
         },
         {
           "country": "Vietnam",
@@ -323,17 +302,17 @@
       ]
     },
     "all": {
-      "sessions": 74,
-      "users": 56,
-      "views": 292,
+      "sessions": 75,
+      "users": 57,
+      "views": 293,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 19,
-      "abroad": 37,
+      "abroad": 38,
       "countries": [
         {
           "country": "United States",
-          "users": 28
+          "users": 29
         },
         {
           "country": "Vietnam",
@@ -454,9 +433,9 @@
     },
     {
       "date": "20260824",
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 2,
+      "users": 2,
+      "views": 2,
       "software_downloads": 0,
       "research_downloads": 0
     }

@@ -2,10 +2,10 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-24T03:24:13.067980+00:00",
+  "updated_at": "2026-08-24T04:02:06.744749+00:00",
   "realtime": {
     "active_users": 1,
-    "views": 2,
+    "views": 3,
     "countries": [
       {
         "country": "Vietnam",
@@ -14,12 +14,12 @@
     ],
     "pages": [
       {
-        "page": "Huynh Cong Phuc | Power Systems & Automation",
+        "page": "Phần mềm SCADA, DER, Microgrid & VPP | Huỳnh Công Phúc",
         "users": 1,
-        "views": 1
+        "views": 2
       },
       {
-        "page": "Phần mềm SCADA, DER, Microgrid & VPP | Huỳnh Công Phúc",
+        "page": "Huynh Cong Phuc | Power Systems & Automation",
         "users": 1,
         "views": 1
       },

@@ -15,7 +15,8 @@ SOFTWARE_EVENTS={
  'download_secureapp':'SecureApp',
  'download_master_server':'Master Server Protocol',
  'download_der_simulator':'DER Simulator',
- 'download_microgrid_simulator':'Microgrid Simulator'
+ 'download_microgrid_simulator':'Microgrid Simulator',
+ 'download_vpp_platform':'VPP Platform'
 }
 RESEARCH_EVENTS={
  'download_research_ieee2030_5':'IEEE 2030.11 & IEEE 2030.5 DERMS Research',

@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-25T16:41:39.981980+00:00",
+  "updated_at": "2026-08-25T17:17:20.659806+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -62,23 +62,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 4,
-      "users": 3,
-      "views": 8,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
-      "vietnam": 1,
-      "abroad": 2,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 2
-        },
-        {
-          "country": "Vietnam",
-          "users": 1
-        }
-      ],
+      "vietnam": 0,
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -130,25 +121,25 @@
       ]
     },
     "7d": {
-      "sessions": 86,
-      "users": 62,
-      "views": 322,
-      "downloads": 9,
+      "sessions": 64,
+      "users": 49,
+      "views": 241,
+      "downloads": 3,
       "research_downloads": 12,
-      "vietnam": 20,
-      "abroad": 42,
+      "vietnam": 11,
+      "abroad": 38,
       "countries": [
         {
           "country": "United States",
-          "users": 33
+          "users": 30
         },
         {
           "country": "Vietnam",
-          "users": 20
+          "users": 11
         },
         {
           "country": "Unknown",
-          "users": 4
+          "users": 3
         },
         {
           "country": "United Kingdom",
@@ -171,12 +162,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 4
+          "downloads": 0
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 3
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",

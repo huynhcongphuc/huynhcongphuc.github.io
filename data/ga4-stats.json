@@ -2,12 +2,40 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-26T08:55:15.654161+00:00",
+  "updated_at": "2026-08-26T09:49:30.997863+00:00",
   "realtime": {
-    "active_users": 0,
-    "views": 0,
-    "countries": [],
-    "pages": [],
+    "active_users": 5,
+    "views": 5,
+    "countries": [
+      {
+        "country": "United States",
+        "users": 2
+      },
+      {
+        "country": "Belarus",
+        "users": 1
+      },
+      {
+        "country": "India",
+        "users": 1
+      },
+      {
+        "country": "Portugal",
+        "users": 1
+      }
+    ],
+    "pages": [
+      {
+        "page": "Huỳnh Công Phúc | Power Systems & Automation",
+        "users": 4,
+        "views": 3
+      },
+      {
+        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
+        "users": 2,
+        "views": 2
+      }
+    ],
     "downloads": 0,
     "research_downloads": 0,
     "software": [

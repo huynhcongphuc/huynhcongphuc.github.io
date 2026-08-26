@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-26T16:54:46.383887+00:00",
+  "updated_at": "2026-08-26T19:07:20.398611+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -62,23 +62,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 3,
-      "users": 3,
-      "views": 3,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 3,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 2
-        },
-        {
-          "country": "Portugal",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -130,21 +121,21 @@
       ]
     },
     "7d": {
-      "sessions": 67,
-      "users": 52,
-      "views": 244,
-      "downloads": 3,
-      "research_downloads": 12,
-      "vietnam": 11,
-      "abroad": 41,
+      "sessions": 61,
+      "users": 47,
+      "views": 150,
+      "downloads": 0,
+      "research_downloads": 10,
+      "vietnam": 8,
+      "abroad": 39,
       "countries": [
         {
           "country": "United States",
-          "users": 32
+          "users": 28
         },
         {
           "country": "Vietnam",
-          "users": 11
+          "users": 8
         },
         {
           "country": "Unknown",
@@ -155,7 +146,15 @@
           "users": 2
         },
         {
+          "country": "Belarus",
+          "users": 1
+        },
+        {
           "country": "France",
+          "users": 1
+        },
+        {
+          "country": "India",
           "users": 1
         },
         {
@@ -180,17 +179,17 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 1
+          "downloads": 0
         },
         {
           "event": "download_der_simulator",
           "name": "DER Simulator",
-          "downloads": 1
+          "downloads": 0
         },
         {
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
-          "downloads": 1
+          "downloads": 0
         },
         {
           "event": "download_vpp_platform",
@@ -207,7 +206,7 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 5
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_ieee",
@@ -222,17 +221,17 @@
       ]
     },
     "30d": {
-      "sessions": 89,
-      "users": 65,
-      "views": 325,
+      "sessions": 93,
+      "users": 68,
+      "views": 331,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 45,
+      "abroad": 48,
       "countries": [
         {
           "country": "United States",
-          "users": 35
+          "users": 36
         },
         {
           "country": "Vietnam",
@@ -247,7 +246,15 @@
           "users": 2
         },
         {
+          "country": "Belarus",
+          "users": 1
+        },
+        {
           "country": "France",
+          "users": 1
+        },
+        {
+          "country": "India",
           "users": 1
         },
         {
@@ -314,17 +321,17 @@
       ]
     },
     "all": {
-      "sessions": 89,
-      "users": 65,
-      "views": 325,
+      "sessions": 93,
+      "users": 68,
+      "views": 331,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 45,
+      "abroad": 48,
       "countries": [
         {
           "country": "United States",
-          "users": 35
+          "users": 36
         },
         {
           "country": "Vietnam",
@@ -339,7 +346,15 @@
           "users": 2
         },
         {
+          "country": "Belarus",
+          "users": 1
+        },
+        {
           "country": "France",
+          "users": 1
+        },
+        {
+          "country": "India",
           "users": 1
         },
         {
@@ -465,9 +480,9 @@
     },
     {
       "date": "20260826",
-      "sessions": 3,
-      "users": 3,
-      "views": 3,
+      "sessions": 7,
+      "users": 7,
+      "views": 9,
       "software_downloads": 0,
       "research_downloads": 0
     }

@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-27T13:02:55.874510+00:00",
+  "updated_at": "2026-08-27T22:56:19.034191+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -62,19 +62,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 1,
-      "countries": [
-        {
-          "country": "South Korea",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -126,25 +121,21 @@
       ]
     },
     "7d": {
-      "sessions": 65,
-      "users": 51,
-      "views": 157,
+      "sessions": 44,
+      "users": 34,
+      "views": 99,
       "downloads": 0,
-      "research_downloads": 10,
-      "vietnam": 8,
-      "abroad": 43,
+      "research_downloads": 0,
+      "vietnam": 5,
+      "abroad": 29,
       "countries": [
         {
           "country": "United States",
-          "users": 31
+          "users": 20
         },
         {
           "country": "Vietnam",
-          "users": 8
-        },
-        {
-          "country": "Unknown",
-          "users": 3
+          "users": 5
         },
         {
           "country": "United Kingdom",
@@ -172,6 +163,10 @@
         },
         {
           "country": "South Korea",
+          "users": 1
+        },
+        {
+          "country": "Taiwan",
           "users": 1
         }
       ],
@@ -211,32 +206,32 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 3
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 3
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 4
+          "downloads": 0
         }
       ]
     },
     "30d": {
-      "sessions": 97,
-      "users": 72,
-      "views": 338,
+      "sessions": 99,
+      "users": 73,
+      "views": 341,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 52,
+      "abroad": 53,
       "countries": [
         {
           "country": "United States",
-          "users": 39
+          "users": 40
         },
         {
           "country": "Vietnam",
@@ -326,17 +321,17 @@
       ]
     },
     "all": {
-      "sessions": 97,
-      "users": 72,
-      "views": 338,
+      "sessions": 99,
+      "users": 73,
+      "views": 341,
       "downloads": 9,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 52,
+      "abroad": 53,
       "countries": [
         {
           "country": "United States",
-          "users": 39
+          "users": 40
         },
         {
           "country": "Vietnam",
@@ -493,9 +488,9 @@
     },
     {
       "date": "20260827",
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 3,
+      "users": 3,
+      "views": 4,
       "software_downloads": 0,
       "research_downloads": 0
     }

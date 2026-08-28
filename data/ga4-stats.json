@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-28T06:51:30.217049+00:00",
+  "updated_at": "2026-08-28T19:12:48.430797+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -121,40 +121,28 @@
       ]
     },
     "7d": {
-      "sessions": 44,
-      "users": 34,
-      "views": 99,
-      "downloads": 0,
+      "sessions": 31,
+      "users": 24,
+      "views": 56,
+      "downloads": 1,
       "research_downloads": 0,
-      "vietnam": 5,
-      "abroad": 29,
+      "vietnam": 3,
+      "abroad": 21,
       "countries": [
         {
           "country": "United States",
-          "users": 20
+          "users": 16
         },
         {
           "country": "Vietnam",
-          "users": 5
-        },
-        {
-          "country": "United Kingdom",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Belarus",
           "users": 1
         },
         {
-          "country": "France",
-          "users": 1
-        },
-        {
           "country": "India",
-          "users": 1
-        },
-        {
-          "country": "New Zealand",
           "users": 1
         },
         {
@@ -166,7 +154,7 @@
           "users": 1
         },
         {
-          "country": "Taiwan",
+          "country": "United Kingdom",
           "users": 1
         }
       ],
@@ -179,7 +167,7 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 0
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",
@@ -221,10 +209,10 @@
       ]
     },
     "30d": {
-      "sessions": 99,
+      "sessions": 100,
       "users": 73,
-      "views": 341,
-      "downloads": 9,
+      "views": 343,
+      "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
       "abroad": 53,
@@ -279,7 +267,7 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "event": "download_der_simulator",
@@ -321,10 +309,10 @@
       ]
     },
     "all": {
-      "sessions": 99,
+      "sessions": 100,
       "users": 73,
-      "views": 341,
-      "downloads": 9,
+      "views": 343,
+      "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
       "abroad": 53,
@@ -379,7 +367,7 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "event": "download_der_simulator",
@@ -492,6 +480,14 @@
       "users": 3,
       "views": 4,
       "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260828",
+      "sessions": 1,
+      "users": 1,
+      "views": 2,
+      "software_downloads": 1,
       "research_downloads": 0
     }
   ]

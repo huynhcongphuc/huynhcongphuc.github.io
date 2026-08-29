@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-08-28T19:12:48.430797+00:00",
+  "updated_at": "2026-08-29T02:16:36.346336+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -121,13 +121,13 @@
       ]
     },
     "7d": {
-      "sessions": 31,
-      "users": 24,
-      "views": 56,
+      "sessions": 32,
+      "users": 25,
+      "views": 57,
       "downloads": 1,
       "research_downloads": 0,
       "vietnam": 3,
-      "abroad": 21,
+      "abroad": 22,
       "countries": [
         {
           "country": "United States",
@@ -136,6 +136,10 @@
         {
           "country": "Vietnam",
           "users": 3
+        },
+        {
+          "country": "United Kingdom",
+          "users": 2
         },
         {
           "country": "Belarus",
@@ -151,10 +155,6 @@
         },
         {
           "country": "South Korea",
-          "users": 1
-        },
-        {
-          "country": "United Kingdom",
           "users": 1
         }
       ],
@@ -209,13 +209,13 @@
       ]
     },
     "30d": {
-      "sessions": 100,
-      "users": 73,
-      "views": 343,
+      "sessions": 101,
+      "users": 74,
+      "views": 344,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 53,
+      "abroad": 54,
       "countries": [
         {
           "country": "United States",
@@ -231,7 +231,7 @@
         },
         {
           "country": "United Kingdom",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Belarus",
@@ -309,13 +309,13 @@
       ]
     },
     "all": {
-      "sessions": 100,
-      "users": 73,
-      "views": 343,
+      "sessions": 101,
+      "users": 74,
+      "views": 344,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 53,
+      "abroad": 54,
       "countries": [
         {
           "country": "United States",
@@ -331,7 +331,7 @@
         },
         {
           "country": "United Kingdom",
-          "users": 2
+          "users": 3
         },
         {
           "country": "Belarus",
@@ -484,9 +484,9 @@
     },
     {
       "date": "20260828",
-      "sessions": 1,
-      "users": 1,
-      "views": 2,
+      "sessions": 2,
+      "users": 2,
+      "views": 3,
       "software_downloads": 1,
       "research_downloads": 0
     }

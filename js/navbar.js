@@ -11,15 +11,15 @@
   const loadExtra=()=>{
     if(!document.querySelector('script[data-i18n-extra]')){
       const extra=document.createElement('script');
-      extra.src='js/i18n-extra.js?v=6';
+      extra.src='js/i18n-extra.js?v=7';
       extra.defer=true;
-      extra.dataset.i18nExtra='v6';
+      extra.dataset.i18nExtra='v7';
       document.head.appendChild(extra);
     }
   };
   if(!document.querySelector('script[src*="js/i18n.js"]')){
     const base=document.createElement('script');
-    base.src='js/i18n.js?v=8';
+    base.src='js/i18n.js?v=10';
     base.defer=true;
     base.onload=loadExtra;
     document.head.appendChild(base);

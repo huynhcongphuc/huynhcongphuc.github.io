@@ -32,9 +32,27 @@ document.addEventListener('DOMContentLoaded',()=>{
   const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{acceptNode:n=>n.parentElement&&['SCRIPT','STYLE'].includes(n.parentElement.tagName)?NodeFilter.FILTER_REJECT:NodeFilter.FILTER_ACCEPT});
   const nodes=[];while(walker.nextNode()){const node=walker.currentNode;if(node.nodeValue.trim()){originals.set(node,node.nodeValue);nodes.push(node);}}
   const attributes=['aria-label','alt','content'];
-  document.querySelectorAll('[aria-label],[alt],meta[name="description"],meta[property="og:title"],meta[property="og:description"]').forEach(el=>attributes.forEach(attr=>{if(el.hasAttribute(attr))el.dataset['original'+attr.replace('-','')]=el.getAttribute(attr);}));
+  document.querySelectorAll('[aria-label],[alt],meta[content]').forEach(el=>attributes.forEach(attr=>{if(el.hasAttribute(attr))el.dataset['original'+attr.replace('-','')]=el.getAttribute(attr);}));
   function translated(value){const lead=value.match(/^\s*/)[0],trail=value.match(/\s*$/)[0],core=value.trim();if(dictionary[core])return lead+dictionary[core]+trail;const moment=core.match(/^Khoảnh khắc\s+(\d+)$/);if(moment)return lead+'Moment '+moment[1]+trail;return value;}
-  function applyLanguage(lang){document.documentElement.lang=lang;nodes.forEach(node=>{const original=originals.get(node);node.nodeValue=lang==='en'?translated(original):original;});document.querySelectorAll('[aria-label],[alt],meta[name="description"],meta[property="og:title"],meta[property="og:description"]').forEach(el=>attributes.forEach(attr=>{const key='original'+attr.replace('-','');const original=el.dataset[key];if(original!==undefined)el.setAttribute(attr,lang==='en'?(dictionary[original]||original):original);}));const onMemories=location.pathname.endsWith('memories.html'),onProducts=location.pathname.endsWith('products.html'),onResearch=location.pathname.endsWith('research.html');document.title=lang==='en'?(onResearch?'Personal Research | Huynh Cong Phuc':onProducts?'Technology Products | Huynh Cong Phuc':onMemories?'Memories | Huynh Cong Phuc':'Huynh Cong Phuc | Power Systems & Automation'):(onResearch?'Bài nghiên cứu cá nhân | Huỳnh Công Phúc':onProducts?'Sản phẩm công nghệ | Huỳnh Công Phúc':onMemories?'Kỷ niệm | Huỳnh Công Phúc':'Huỳnh Công Phúc | Power Systems & Automation');document.querySelectorAll('[data-language-toggle] span').forEach(span=>span.textContent=lang==='en'?'Tiếng Việt':'English');localStorage.setItem('site-language',lang);}
+  function applyLanguage(lang){
+    document.documentElement.lang=lang;
+    nodes.forEach(node=>{const original=originals.get(node);node.nodeValue=lang==='en'?translated(original):original;});
+    document.querySelectorAll('[data-vi][data-en]').forEach(el=>{el.textContent=el.dataset[lang]||el.textContent;});
+    document.querySelectorAll('[aria-label],[alt],meta[content]').forEach(el=>attributes.forEach(attr=>{const key='original'+attr.replace('-','');const original=el.dataset[key];if(original!==undefined)el.setAttribute(attr,lang==='en'?(dictionary[original]||original):original);}));
+    const page=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+    const titles={
+      'index.html':{vi:'Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa',en:'Huynh Cong Phuc | Power Systems, SCADA & Automation Engineer'},
+      'memories.html':{vi:'Kỷ niệm nghề nghiệp | Huỳnh Công Phúc',en:'Professional Memories | Huynh Cong Phuc'},
+      'products.html':{vi:'Sản phẩm công nghệ | Huỳnh Công Phúc',en:'Technology Products | Huynh Cong Phuc'},
+      'research.html':{vi:'Nghiên cứu hệ thống điện, DERMS & IEEE 2030.5 | Huỳnh Công Phúc',en:'Power Systems, DERMS & IEEE 2030.5 Research | Huynh Cong Phuc'},
+      'news.html':{vi:'Tin tức hệ thống điện | Huỳnh Công Phúc',en:'Power System News | Huynh Cong Phuc'},
+      'stats.html':{vi:'Thống kê truy cập | Huỳnh Công Phúc',en:'Website Statistics | Huynh Cong Phuc'}
+    };
+    document.title=(titles[page]||titles['index.html'])[lang];
+    document.querySelectorAll('[data-language-toggle] span').forEach(span=>span.textContent=lang==='en'?'Tiếng Việt':'English');
+    localStorage.setItem('site-language',lang);
+    document.dispatchEvent(new CustomEvent('site-language-applied',{detail:{lang}}));
+  }
   document.querySelectorAll('[data-language-toggle]').forEach(button=>button.addEventListener('click',()=>applyLanguage(document.documentElement.lang==='en'?'vi':'en')));
   applyLanguage(localStorage.getItem('site-language')==='en'?'en':'vi');
 });

@@ -61,6 +61,7 @@
       if (!selected.length) return;
       grid.replaceChildren(...selected.map(makeCard));
       window.lucide?.createIcons();
+      document.dispatchEvent(new CustomEvent('site-content-updated'));
     })
     .catch(() => {
       // Giữ nội dung dự phòng có sẵn trong HTML khi không tải được research.html.

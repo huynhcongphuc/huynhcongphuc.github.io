@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">App Giao Việc</title>
+<desc id="desc">Minh họa bảng Kanban quản lý nhân sự, giao việc, nhắc việc qua email và xuất báo cáo PDF</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b1f33"/><stop offset="1" stop-color="#123f5d"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#33b7a0"/><stop offset="1" stop-color="#57a8ee"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-opacity=".22"/></filter>
+</defs>
+<rect width="1200" height="675" rx="28" fill="url(#bg)"/>
+<circle cx="1090" cy="80" r="190" fill="#33b7a0" opacity=".08"/>
+<circle cx="90" cy="650" r="230" fill="#57a8ee" opacity=".08"/>
+<text x="72" y="88" fill="#fff" font-family="Arial,sans-serif" font-size="38" font-weight="700">APP GIAO VIỆC</text>
+<text x="72" y="126" fill="#b9d2e5" font-family="Arial,sans-serif" font-size="20">Quản lý công việc trực quan và hiệu quả</text>
+<g transform="translate(65 168)" filter="url(#shadow)">
+  <rect width="1070" height="430" rx="22" fill="#f5f8fb"/>
+  <rect width="1070" height="62" rx="22" fill="#fff"/>
+  <rect y="40" width="1070" height="22" fill="#fff"/>
+  <circle cx="35" cy="31" r="8" fill="#ef6b69"/><circle cx="60" cy="31" r="8" fill="#f4bd4f"/><circle cx="85" cy="31" r="8" fill="#62c454"/>
+  <rect x="820" y="18" width="190" height="28" rx="14" fill="url(#accent)"/>
+  <text x="915" y="38" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="13" font-weight="700">+ GIAO VIỆC MỚI</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(28 88)">
+      <text x="0" y="20" fill="#385067" font-size="16" font-weight="700">CẦN THỰC HIỆN</text>
+      <rect y="38" width="310" height="118" rx="14" fill="#fff"/>
+      <rect x="16" y="55" width="78" height="20" rx="10" fill="#e9f3ff"/><text x="55" y="70" text-anchor="middle" fill="#347bb8" font-size="11">ƯU TIÊN</text>
+      <text x="16" y="101" fill="#20384d" font-size="16" font-weight="700">Hoàn thiện kế hoạch tuần</text>
+      <circle cx="28" cy="132" r="10" fill="#57a8ee"/><text x="48" y="137" fill="#73889a" font-size="12">Phụ trách: An</text>
+      <rect y="176" width="310" height="118" rx="14" fill="#fff"/>
+      <text x="16" y="213" fill="#20384d" font-size="16" font-weight="700">Tổng hợp báo cáo</text>
+      <text x="16" y="249" fill="#73889a" font-size="12">Hạn: 05/09/2026</text>
+    </g>
+    <g transform="translate(380 88)">
+      <text x="0" y="20" fill="#385067" font-size="16" font-weight="700">ĐANG THỰC HIỆN</text>
+      <rect y="38" width="310" height="150" rx="14" fill="#fff"/>
+      <rect x="16" y="55" width="95" height="20" rx="10" fill="#fff1d8"/><text x="63" y="70" text-anchor="middle" fill="#a56b08" font-size="11">ĐANG LÀM</text>
+      <text x="16" y="104" fill="#20384d" font-size="16" font-weight="700">Kiểm tra tiến độ dự án</text>
+      <rect x="16" y="126" width="278" height="8" rx="4" fill="#e7edf2"/><rect x="16" y="126" width="181" height="8" rx="4" fill="#f0a72f"/>
+      <text x="16" y="155" fill="#73889a" font-size="12">65% hoàn thành</text>
+    </g>
+    <g transform="translate(732 88)">
+      <text x="0" y="20" fill="#385067" font-size="16" font-weight="700">HOÀN THÀNH</text>
+      <rect y="38" width="310" height="118" rx="14" fill="#fff"/>
+      <circle cx="28" cy="68" r="12" fill="#35b88f"/><path d="m22 68 4 4 8-9" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="52" y="74" fill="#20384d" font-size="16" font-weight="700">Gửi biên bản đánh giá</text>
+      <text x="16" y="111" fill="#73889a" font-size="12">Đã xuất báo cáo PDF</text>
+    </g>
+  </g>
+</g>
+<g font-family="Arial,sans-serif" font-size="15" font-weight="700" fill="#dceaf4">
+  <text x="72" y="636">NHÂN SỰ</text><text x="236" y="636">KANBAN</text><text x="398" y="636">EMAIL NHẮC VIỆC</text><text x="642" y="636">BÁO CÁO PDF</text>
+</g>
+</svg>

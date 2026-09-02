@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-02T04:32:02.460106+00:00",
+  "updated_at": "2026-09-02T08:59:50.358887+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -121,24 +121,24 @@
       ]
     },
     "7d": {
-      "sessions": 5,
-      "users": 4,
-      "views": 7,
+      "sessions": 8,
+      "users": 5,
+      "views": 18,
       "downloads": 1,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 3,
+      "abroad": 4,
       "countries": [
+        {
+          "country": "United States",
+          "users": 2
+        },
         {
           "country": "South Korea",
           "users": 1
         },
         {
           "country": "United Kingdom",
-          "users": 1
-        },
-        {
-          "country": "United States",
           "users": 1
         },
         {
@@ -197,17 +197,17 @@
       ]
     },
     "30d": {
-      "sessions": 101,
-      "users": 74,
-      "views": 344,
+      "sessions": 104,
+      "users": 75,
+      "views": 355,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 54,
+      "abroad": 55,
       "countries": [
         {
           "country": "United States",
-          "users": 40
+          "users": 41
         },
         {
           "country": "Vietnam",
@@ -297,17 +297,17 @@
       ]
     },
     "all": {
-      "sessions": 101,
-      "users": 74,
-      "views": 344,
+      "sessions": 104,
+      "users": 75,
+      "views": 355,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 54,
+      "abroad": 55,
       "countries": [
         {
           "country": "United States",
-          "users": 40
+          "users": 41
         },
         {
           "country": "Vietnam",
@@ -476,6 +476,14 @@
       "users": 2,
       "views": 3,
       "software_downloads": 1,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260901",
+      "sessions": 3,
+      "users": 2,
+      "views": 11,
+      "software_downloads": 0,
       "research_downloads": 0
     }
   ]

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-02T04:36:26.634584+00:00",
-  "mode": "1 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-09-03T04:35:25.461997+00:00",
+  "mode": "2 international + 7 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -10,7 +10,7 @@
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 1,
+      "available": 2,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
@@ -46,6 +46,22 @@
   },
   "items": [
     {
+      "title": "China’s Quantum Teleportation Grid Sends 100 Channels at Once",
+      "summary": "The technique increases the number of simultaneous channels to improve quantum communications",
+      "url": "https://spectrum.ieee.org/quantum-teleportation-networks-communications-china",
+      "image": "https://spectrum.ieee.org/media-library/side-by-side-comparison-of-the-input-and-output-of-optical-arrays-encoding-the-letter-q-the-input-is-covered-in-pixelated-noi.jpg?id=67707174&width=1200&height=600&coordinates=0%2C145%2C0%2C105",
+      "source": "IEEE Spectrum",
+      "source_url": "https://spectrum.ieee.org/type/news/",
+      "published": "2026-09-02T12:00:04+00:00",
+      "published_label": "02/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "radio-tower",
+      "region": "international",
+      "score": 5
+    },
+    {
       "title": "Spain’s Nuclear Phase-out Pause Buys Time for a Smarter Grid",
       "summary": "A significant policy reversal buys time for battery buildup",
       "url": "https://spectrum.ieee.org/spain-nuclear-power-reactor-shutdowns",
@@ -62,10 +78,26 @@
       "score": 5
     },
     {
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án mở rộng Nhà máy Thủy điện Sê San 4",
+      "summary": "UBND tỉnh Gia Lai vừa ban hành Quyết định chấp thuận chủ trương đầu tư; đồng thời chấp thuận Tập đoàn Điện lực Việt Nam (EVN) là nhà đầu tư dự án Nhà",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-mo-rong-nha-may-thuy-dien-se-san-4-36583.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/in_social/1jpg20260903101427.jpg?randTime=1788409604",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-09-03T10:17:54+07:00",
+      "published_label": "03/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
       "title": "Kết nối điện mặt trời mái nhà, pin lưu trữ, xe điện... thành nhà máy điện ảo (VPP) và nền tảng của Việt Nam",
       "summary": "Sau thời gian giá điện được tính theo thời gian sử dụng (Time of Use - TOU) và cơ chế điều chỉnh phụ tải (Demand Response - DR), nhiều quốc gia đang b",
       "url": "https://nangluongvietnam.vn/ket-noi-dien-mat-troi-mai-nha-pin-luu-tru-xe-dien-thanh-nha-may-dien-ao-vpp-va-nen-tang-cua-viet-nam-36461.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/07/11/in_social/1-vpp20260807111138.jpg?randTime=1788323344",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/07/11/in_social/1-vpp20260807111138.jpg?randTime=1788409685",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-01T04:50:55+07:00",
@@ -81,7 +113,7 @@
       "title": "Hoàn thành dự án Trạm biến áp 220kV Năm Căn và đường dây 220kV Năm Căn - Cà Mau 2",
       "summary": "Vào lúc 2 giờ 55 phút, ngày 28/8/2026, Ban QLDA các công trình điện miền Nam - SPMB (thuộc Tổng công ty Truyền tải điện Quốc gia - EVNNPT) phối hợp vớ",
       "url": "https://nangluongvietnam.vn/hoan-thanh-du-an-tram-bien-ap-220kv-nam-can-va-duong-day-220kv-nam-can-ca-mau-2-36574.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/20/croped/anh2dongdiennamcan288202620260828203051.jpg?randTime=1788323448",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/20/croped/anh2dongdiennamcan288202620260828203051.jpg?randTime=1788409767",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-28T20:33:17+07:00",
@@ -97,7 +129,7 @@
       "title": "Tổng công ty Điện lực miền Nam sẵn sàng các phương án đảm bảo điện dịp lễ Quốc khánh 2/9",
       "summary": "Nhằm đảm bảo cung cấp điện an toàn, ổn định trong dịp lễ Quốc khánh 2/9, Tổng công ty Điện lực miền Nam (EVNSPC) đã sẵn sàng các phương án, trong đó t",
       "url": "https://nangluongvietnam.vn/tong-cong-ty-dien-luc-mien-nam-san-sang-cac-phuong-an-dam-bao-dien-dip-le-quoc-khanh-29-36577.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/21/in_social/evn-01-277320260828213331.jpg?randTime=1788323448",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/21/in_social/evn-01-277320260828213331.jpg?randTime=1788409891",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-28T20:00:09+07:00",
@@ -110,26 +142,10 @@
       "score": 6
     },
     {
-      "title": "Tình hình đầu tư phát triển hệ thống truyền tải điện khu vực Cà Mau (cập nhật 26/8/2026)",
-      "summary": "Báo cáo của Tổng công ty Truyền tải điện Quốc gia (EVNNPT) cho thấy, trong năm 2025 và những tháng đầu năm 2026, lưới điện truyền tải trên địa bàn tỉn",
-      "url": "https://nangluongvietnam.vn/tinh-hinh-dau-tu-phat-trien-he-thong-truyen-tai-dien-khu-vuc-ca-mau-cap-nhat-2682026-36560.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/26/06/987-n20260826065807.jpg?rt=20260826065811?randTime=1788323448",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-08-26T06:53:14+07:00",
-      "published_label": "26/08/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 8
-    },
-    {
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu hợp tác chuyển dịch năng lượng của Việt Nam",
       "summary": "Cục Điện lực - EAV (trực thuộc Bộ Công Thương) và Liên minh Năng lượng Toàn cầu vì Con người và Hành tinh (gọi tắt là Liên minh Năng lượng Toàn cầu) m",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-hop-tac-chuyen-dich-nang-luong-cua-viet-nam-36559.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1788323445",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1788409888",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-25T13:49:21+07:00",

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-03T04:35:25.461997+00:00",
-  "mode": "2 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-09-04T04:36:11.060817+00:00",
+  "mode": "2 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 5,
+      "available": 6,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -78,10 +78,26 @@
       "score": 5
     },
     {
+      "title": "Tăng cường độ ổn định lưới điện trong bối cảnh năng lượng tái tạo gia tăng - Góc nhìn từ chuyên gia",
+      "summary": "Sự gia tăng nhanh chóng của điện gió, điện mặt trời và các nguồn năng lượng tái tạo đang từng bước thay đổi cấu trúc của hệ thống điện. Trong bối cảnh",
+      "url": "https://nangluongvietnam.vn/tang-cuong-do-on-dinh-luoi-dien-trong-boi-canh-nang-luong-tai-tao-gia-tang-goc-nhin-tu-chuyen-gia-36585.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1788496419",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-09-03T14:23:12+07:00",
+      "published_label": "03/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 24
+    },
+    {
       "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án mở rộng Nhà máy Thủy điện Sê San 4",
       "summary": "UBND tỉnh Gia Lai vừa ban hành Quyết định chấp thuận chủ trương đầu tư; đồng thời chấp thuận Tập đoàn Điện lực Việt Nam (EVN) là nhà đầu tư dự án Nhà",
       "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-mo-rong-nha-may-thuy-dien-se-san-4-36583.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/in_social/1jpg20260903101427.jpg?randTime=1788409604",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/in_social/1jpg20260903101427.jpg?randTime=1788496264",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-03T10:17:54+07:00",
@@ -97,7 +113,7 @@
       "title": "Kết nối điện mặt trời mái nhà, pin lưu trữ, xe điện... thành nhà máy điện ảo (VPP) và nền tảng của Việt Nam",
       "summary": "Sau thời gian giá điện được tính theo thời gian sử dụng (Time of Use - TOU) và cơ chế điều chỉnh phụ tải (Demand Response - DR), nhiều quốc gia đang b",
       "url": "https://nangluongvietnam.vn/ket-noi-dien-mat-troi-mai-nha-pin-luu-tru-xe-dien-thanh-nha-may-dien-ao-vpp-va-nen-tang-cua-viet-nam-36461.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/07/11/in_social/1-vpp20260807111138.jpg?randTime=1788409685",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/07/11/in_social/1-vpp20260807111138.jpg?randTime=1788496559",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-01T04:50:55+07:00",
@@ -113,7 +129,7 @@
       "title": "Hoàn thành dự án Trạm biến áp 220kV Năm Căn và đường dây 220kV Năm Căn - Cà Mau 2",
       "summary": "Vào lúc 2 giờ 55 phút, ngày 28/8/2026, Ban QLDA các công trình điện miền Nam - SPMB (thuộc Tổng công ty Truyền tải điện Quốc gia - EVNNPT) phối hợp vớ",
       "url": "https://nangluongvietnam.vn/hoan-thanh-du-an-tram-bien-ap-220kv-nam-can-va-duong-day-220kv-nam-can-ca-mau-2-36574.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/20/croped/anh2dongdiennamcan288202620260828203051.jpg?randTime=1788409767",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/20/croped/anh2dongdiennamcan288202620260828203051.jpg?randTime=1788496035",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-28T20:33:17+07:00",
@@ -129,7 +145,7 @@
       "title": "Tổng công ty Điện lực miền Nam sẵn sàng các phương án đảm bảo điện dịp lễ Quốc khánh 2/9",
       "summary": "Nhằm đảm bảo cung cấp điện an toàn, ổn định trong dịp lễ Quốc khánh 2/9, Tổng công ty Điện lực miền Nam (EVNSPC) đã sẵn sàng các phương án, trong đó t",
       "url": "https://nangluongvietnam.vn/tong-cong-ty-dien-luc-mien-nam-san-sang-cac-phuong-an-dam-bao-dien-dip-le-quoc-khanh-29-36577.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/21/in_social/evn-01-277320260828213331.jpg?randTime=1788409891",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/28/21/in_social/evn-01-277320260828213331.jpg?randTime=1788496264",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-28T20:00:09+07:00",
@@ -145,7 +161,7 @@
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu hợp tác chuyển dịch năng lượng của Việt Nam",
       "summary": "Cục Điện lực - EAV (trực thuộc Bộ Công Thương) và Liên minh Năng lượng Toàn cầu vì Con người và Hành tinh (gọi tắt là Liên minh Năng lượng Toàn cầu) m",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-hop-tac-chuyen-dich-nang-luong-cua-viet-nam-36559.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1788409888",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1788496038",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-25T13:49:21+07:00",

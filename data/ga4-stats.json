@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-04T00:24:06.831458+00:00",
+  "updated_at": "2026-09-04T04:57:26.108957+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -121,20 +121,20 @@
       ]
     },
     "7d": {
-      "sessions": 7,
-      "users": 3,
-      "views": 23,
+      "sessions": 8,
+      "users": 4,
+      "views": 24,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 2,
+      "abroad": 3,
       "countries": [
         {
-          "country": "India",
-          "users": 1
+          "country": "United States",
+          "users": 2
         },
         {
-          "country": "United States",
+          "country": "India",
           "users": 1
         },
         {
@@ -193,17 +193,17 @@
       ]
     },
     "30d": {
-      "sessions": 108,
-      "users": 76,
-      "views": 367,
+      "sessions": 109,
+      "users": 77,
+      "views": 368,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 56,
+      "abroad": 57,
       "countries": [
         {
           "country": "United States",
-          "users": 41
+          "users": 42
         },
         {
           "country": "Vietnam",
@@ -293,17 +293,17 @@
       ]
     },
     "all": {
-      "sessions": 108,
-      "users": 76,
-      "views": 367,
+      "sessions": 109,
+      "users": 77,
+      "views": 368,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 56,
+      "abroad": 57,
       "countries": [
         {
           "country": "United States",
-          "users": 41
+          "users": 42
         },
         {
           "country": "Vietnam",
@@ -487,6 +487,14 @@
       "sessions": 3,
       "users": 1,
       "views": 11,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260903",
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "software_downloads": 0,
       "research_downloads": 0
     }

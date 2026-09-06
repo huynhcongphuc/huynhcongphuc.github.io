@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-06T04:29:17.185601+00:00",
+  "updated_at": "2026-09-06T08:51:03.350516+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -62,14 +62,19 @@
   },
   "periods": {
     "today": {
-      "sessions": 0,
-      "users": 0,
-      "views": 0,
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "downloads": 0,
       "research_downloads": 0,
-      "vietnam": 0,
+      "vietnam": 1,
       "abroad": 0,
-      "countries": [],
+      "countries": [
+        {
+          "country": "Vietnam",
+          "users": 1
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -121,9 +126,9 @@
       ]
     },
     "7d": {
-      "sessions": 8,
+      "sessions": 9,
       "users": 4,
-      "views": 24,
+      "views": 25,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
@@ -193,9 +198,9 @@
       ]
     },
     "30d": {
-      "sessions": 109,
+      "sessions": 110,
       "users": 77,
-      "views": 368,
+      "views": 369,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
@@ -293,9 +298,9 @@
       ]
     },
     "all": {
-      "sessions": 109,
+      "sessions": 110,
       "users": 77,
-      "views": 368,
+      "views": 369,
       "downloads": 10,
       "research_downloads": 12,
       "vietnam": 20,
@@ -492,6 +497,14 @@
     },
     {
       "date": "20260903",
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260906",
       "sessions": 1,
       "users": 1,
       "views": 1,

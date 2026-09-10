@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-09T04:44:53.205371+00:00",
-  "mode": "0 international + 9 Vietnam | max age 12 months",
+  "updated_at": "2026-09-10T04:45:22.728415+00:00",
+  "mode": "0 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 7,
+      "available": 6,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -46,10 +46,26 @@
   },
   "items": [
     {
+      "title": "Trung tâm Năng lượng Tái tạo (RE Hub) - Thông điệp định hướng chiến lược và triển khai thực tiễn tại Việt Nam",
+      "summary": "Nhằm góp phần tuyên truyền thúc đẩy phát triển Trung tâm Năng lượng Tái tạo tại Việt Nam (Renewable Energy Hubs - RE Hub), chuyên gia Tạp chí Năng lượ",
+      "url": "https://nangluongvietnam.vn/trung-tam-nang-luong-tai-tao-re-hub-thong-diep-dinh-huong-chien-luoc-va-trien-khai-thuc-tien-tai-viet-nam-36611.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/09/21/in_social/dsc05342crdownload20260909211540.jpg?randTime=1789015480",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-09-10T06:28:14+07:00",
+      "published_label": "10/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 8
+    },
+    {
       "title": "Chấp thuận nhà đầu tư dự án Trạm biến áp 220kV Đồng Văn và đường dây rẽ Hà Đông - Phủ Lý",
       "summary": "UBND tỉnh Ninh Bình vừa ban hành Quyết định chấp thuận Tổng công ty Điện lực miền Bắc (EVNNPC) là nhà đầu tư dự án Trạm biến áp 220 kV Đồng Văn và đườ",
       "url": "https://nangluongvietnam.vn/chap-thuan-nha-dau-tu-du-an-tram-bien-ap-220kv-dong-van-va-duong-day-re-ha-dong-phu-ly-36602.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/08/05/020260908055834.jpg?rt=20260908055944?randTime=1788928491",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/08/05/020260908055834.jpg?rt=20260908055944?randTime=1789015495",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-08T06:03:04+07:00",
@@ -65,7 +81,7 @@
       "title": "Kết quả nghiên cứu kinh nghiệm phát triển năng lượng tái tạo của Đan Mạch, đề xuất bài học cho Việt Nam",
       "summary": "Là một hình mẫu chuyển đổi sang phát triển năng lượng và kinh tế xanh bền vững, Đan Mạch đã tạo nên một hệ thống năng lượng tái tạo (NLTT) hoàn chỉnh",
       "url": "https://nangluongvietnam.vn/ket-qua-nghien-cuu-kinh-nghiem-phat-trien-nang-luong-tai-tao-cua-dan-mach-de-xuat-bai-hoc-cho-viet-nam-36595.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/in_social/15438120260907093022.jpg?randTime=1788929074",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/in_social/15438120260907093022.jpg?randTime=1789015501",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-08T05:08:10+07:00",
@@ -81,7 +97,7 @@
       "title": "Vì sao phải thông báo trước 10 ngày khi lắp điện mặt trời mái nhà (có đấu nối với hệ thống điện quốc gia)?",
       "summary": "Theo quan điểm của Bộ Công Thương: Quy định phải thông báo trước ít nhất 10 ngày làm việc khi lắp đặt điện mặt trời mái nhà (tự sản xuất, tự tiêu thụ)",
       "url": "https://nangluongvietnam.vn/vi-sao-phai-thong-bao-truoc-10-ngay-khi-lap-dien-mat-troi-mai-nha-co-dau-noi-voi-he-thong-dien-quoc-gia-36598.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1788929069",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1789015496",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-07T09:10:27+07:00",
@@ -97,7 +113,7 @@
       "title": "Tăng cường độ ổn định lưới điện trong bối cảnh năng lượng tái tạo gia tăng - Góc nhìn từ chuyên gia",
       "summary": "Sự gia tăng nhanh chóng của điện gió, điện mặt trời và các nguồn năng lượng tái tạo đang từng bước thay đổi cấu trúc của hệ thống điện. Trong bối cảnh",
       "url": "https://nangluongvietnam.vn/tang-cuong-do-on-dinh-luoi-dien-trong-boi-canh-nang-luong-tai-tao-gia-tang-goc-nhin-tu-chuyen-gia-36585.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1788929066",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1789015214",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-03T14:23:12+07:00",
@@ -110,42 +126,10 @@
       "score": 24
     },
     {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án mở rộng Nhà máy Thủy điện Sê San 4",
-      "summary": "UBND tỉnh Gia Lai vừa ban hành Quyết định chấp thuận chủ trương đầu tư; đồng thời chấp thuận Tập đoàn Điện lực Việt Nam (EVN) là nhà đầu tư dự án Nhà",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-mo-rong-nha-may-thuy-dien-se-san-4-36583.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/in_social/1jpg20260903101427.jpg?randTime=1788929078",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-03T10:17:54+07:00",
-      "published_label": "03/09/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
-      "title": "Kết nối điện mặt trời mái nhà, pin lưu trữ, xe điện... thành nhà máy điện ảo (VPP) và nền tảng của Việt Nam",
-      "summary": "Sau thời gian giá điện được tính theo thời gian sử dụng (Time of Use - TOU) và cơ chế điều chỉnh phụ tải (Demand Response - DR), nhiều quốc gia đang b",
-      "url": "https://nangluongvietnam.vn/ket-noi-dien-mat-troi-mai-nha-pin-luu-tru-xe-dien-thanh-nha-may-dien-ao-vpp-va-nen-tang-cua-viet-nam-36461.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/07/11/in_social/1-vpp20260807111138.jpg?randTime=1788929076",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-01T04:50:55+07:00",
-      "published_label": "01/09/2026",
-      "tags": [
-        "derms"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 9
-    },
-    {
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu hợp tác chuyển dịch năng lượng của Việt Nam",
       "summary": "Cục Điện lực - EAV (trực thuộc Bộ Công Thương) và Liên minh Năng lượng Toàn cầu vì Con người và Hành tinh (gọi tắt là Liên minh Năng lượng Toàn cầu) m",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-hop-tac-chuyen-dich-nang-luong-cua-viet-nam-36559.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1788929067",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1789015494",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-25T13:49:21+07:00",

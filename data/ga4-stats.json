@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-15T12:29:01.683537+00:00",
+  "updated_at": "2026-09-15T17:14:02.545856+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -151,21 +151,25 @@
       ]
     },
     "7d": {
-      "sessions": 4,
-      "users": 4,
-      "views": 11,
+      "sessions": 3,
+      "users": 3,
+      "views": 4,
       "downloads": 1,
       "research_downloads": 0,
-      "vietnam": 2,
+      "vietnam": 1,
       "abroad": 2,
       "countries": [
         {
+          "country": "United Kingdom",
+          "users": 1
+        },
+        {
           "country": "United States",
-          "users": 2
+          "users": 1
         },
         {
           "country": "Vietnam",
-          "users": 2
+          "users": 1
         }
       ],
       "software": [
@@ -234,13 +238,13 @@
       ]
     },
     "30d": {
-      "sessions": 121,
-      "users": 81,
-      "views": 388,
+      "sessions": 122,
+      "users": 82,
+      "views": 389,
       "downloads": 12,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 61,
+      "abroad": 62,
       "countries": [
         {
           "country": "United States",
@@ -256,7 +260,7 @@
         },
         {
           "country": "United Kingdom",
-          "users": 3
+          "users": 4
         },
         {
           "country": "India",
@@ -349,13 +353,13 @@
       ]
     },
     "all": {
-      "sessions": 121,
-      "users": 81,
-      "views": 388,
+      "sessions": 122,
+      "users": 82,
+      "views": 389,
       "downloads": 12,
       "research_downloads": 12,
       "vietnam": 20,
-      "abroad": 61,
+      "abroad": 62,
       "countries": [
         {
           "country": "United States",
@@ -371,7 +375,7 @@
         },
         {
           "country": "United Kingdom",
-          "users": 3
+          "users": 4
         },
         {
           "country": "India",
@@ -603,6 +607,14 @@
     },
     {
       "date": "20260912",
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260915",
       "sessions": 1,
       "users": 1,
       "views": 1,

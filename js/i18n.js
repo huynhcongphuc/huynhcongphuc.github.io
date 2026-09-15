@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   const dictionary={
     'Đi đến nội dung':'Skip to content','Trang chủ Huỳnh Công Phúc':'Huynh Cong Phuc home','Mở menu':'Open menu','Điều hướng chính':'Main navigation',
     'Giới thiệu':'About','Chuyên môn':'Expertise','Hành trình':'Journey','Dấu ấn':'Highlights','Kỷ niệm':'Memories','Sản phẩm công nghệ':'Technology Products','Liên hệ':'Contact',
-    'Xây dựng hệ thống':'Building reliable','tin cậy':'systems','bằng kỹ thuật và công nghệ.':'through engineering and technology.',
+    'Xây dựng hệ thống':'Building reliable','tin cậy':'systems','bằng quy trình, kỹ thuật và công nghệ.':'through processes, engineering, and technology.',
     'Tôi kết nối kiến thức hệ thống điện, tự động hóa và phát triển phần mềm để tạo ra những giải pháp thiết thực cho công việc kỹ thuật.':'I connect power systems, automation, and software engineering to create practical solutions for technical work.',
     'Khám phá chuyên môn':'Explore expertise','Trao đổi':'Get in touch','TP. Hồ Chí Minh':'Ho Chi Minh City','8+ năm kinh nghiệm':'8+ years of experience','Kỹ sư ASEAN':'ASEAN Engineer',
     '01 · GIỚI THIỆU':'01 · ABOUT','Kỹ thuật vững vàng.':'Sound engineering.','Giải pháp rõ ràng.':'Clear solutions.',
@@ -56,4 +56,3 @@ document.addEventListener('DOMContentLoaded',()=>{
   document.querySelectorAll('[data-language-toggle]').forEach(button=>button.addEventListener('click',()=>applyLanguage(document.documentElement.lang==='en'?'vi':'en')));
   applyLanguage(localStorage.getItem('site-language')==='en'?'en':'vi');
 });
-

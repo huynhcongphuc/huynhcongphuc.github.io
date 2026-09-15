@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-15T20:17:24.373611+00:00",
+  "updated_at": "2026-09-15T22:58:37.090125+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -151,24 +151,24 @@
       ]
     },
     "7d": {
-      "sessions": 4,
-      "users": 3,
-      "views": 6,
-      "downloads": 1,
+      "sessions": 5,
+      "users": 4,
+      "views": 12,
+      "downloads": 2,
       "research_downloads": 0,
-      "vietnam": 1,
+      "vietnam": 2,
       "abroad": 2,
       "countries": [
+        {
+          "country": "Vietnam",
+          "users": 2
+        },
         {
           "country": "United Kingdom",
           "users": 1
         },
         {
           "country": "United States",
-          "users": 1
-        },
-        {
-          "country": "Vietnam",
           "users": 1
         }
       ],
@@ -211,7 +211,7 @@
         {
           "event": "download_flisr_log_analyzer",
           "name": "FLISR Log Analyzer",
-          "downloads": 1
+          "downloads": 2
         }
       ],
       "research": [
@@ -238,12 +238,12 @@
       ]
     },
     "30d": {
-      "sessions": 123,
-      "users": 82,
-      "views": 391,
-      "downloads": 12,
+      "sessions": 124,
+      "users": 83,
+      "views": 397,
+      "downloads": 13,
       "research_downloads": 12,
-      "vietnam": 20,
+      "vietnam": 21,
       "abroad": 62,
       "countries": [
         {
@@ -252,7 +252,7 @@
         },
         {
           "country": "Vietnam",
-          "users": 20
+          "users": 21
         },
         {
           "country": "Unknown",
@@ -326,7 +326,7 @@
         {
           "event": "download_flisr_log_analyzer",
           "name": "FLISR Log Analyzer",
-          "downloads": 1
+          "downloads": 2
         }
       ],
       "research": [
@@ -353,12 +353,12 @@
       ]
     },
     "all": {
-      "sessions": 123,
-      "users": 82,
-      "views": 391,
-      "downloads": 12,
+      "sessions": 124,
+      "users": 83,
+      "views": 397,
+      "downloads": 13,
       "research_downloads": 12,
-      "vietnam": 20,
+      "vietnam": 21,
       "abroad": 62,
       "countries": [
         {
@@ -367,7 +367,7 @@
         },
         {
           "country": "Vietnam",
-          "users": 20
+          "users": 21
         },
         {
           "country": "Unknown",
@@ -441,7 +441,7 @@
         {
           "event": "download_flisr_log_analyzer",
           "name": "FLISR Log Analyzer",
-          "downloads": 1
+          "downloads": 2
         }
       ],
       "research": [
@@ -615,10 +615,10 @@
     },
     {
       "date": "20260915",
-      "sessions": 2,
-      "users": 2,
-      "views": 3,
-      "software_downloads": 0,
+      "sessions": 3,
+      "users": 3,
+      "views": 9,
+      "software_downloads": 1,
       "research_downloads": 0
     }
   ]

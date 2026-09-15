@@ -2,12 +2,28 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-15T06:53:00.740255+00:00",
+  "updated_at": "2026-09-15T09:33:03.143596+00:00",
   "realtime": {
-    "active_users": 0,
-    "views": 0,
-    "countries": [],
-    "pages": [],
+    "active_users": 1,
+    "views": 2,
+    "countries": [
+      {
+        "country": "Vietnam",
+        "users": 1
+      }
+    ],
+    "pages": [
+      {
+        "page": "Huynh Cong Phuc | Power Systems, SCADA & Automation Engineer",
+        "users": 1,
+        "views": 1
+      },
+      {
+        "page": "Website Statistics | Huynh Cong Phuc",
+        "users": 1,
+        "views": 1
+      }
+    ],
     "downloads": 0,
     "research_downloads": 0,
     "software": [
@@ -34,6 +50,21 @@
       {
         "event": "download_vpp_platform",
         "name": "VPP Platform",
+        "downloads": 0
+      },
+      {
+        "event": "download_task_assignment_app",
+        "name": "App Giao Việc",
+        "downloads": 0
+      },
+      {
+        "event": "download_scan_network",
+        "name": "Scan Network",
+        "downloads": 0
+      },
+      {
+        "event": "download_flisr_log_analyzer",
+        "name": "FLISR Log Analyzer",
         "downloads": 0
       }
     ],
@@ -95,6 +126,21 @@
           "event": "download_vpp_platform",
           "name": "VPP Platform",
           "downloads": 0
+        },
+        {
+          "event": "download_task_assignment_app",
+          "name": "App Giao Việc",
+          "downloads": 0
+        },
+        {
+          "event": "download_scan_network",
+          "name": "Scan Network",
+          "downloads": 0
+        },
+        {
+          "event": "download_flisr_log_analyzer",
+          "name": "FLISR Log Analyzer",
+          "downloads": 0
         }
       ],
       "research": [
@@ -124,7 +170,7 @@
       "sessions": 4,
       "users": 4,
       "views": 11,
-      "downloads": 0,
+      "downloads": 1,
       "research_downloads": 0,
       "vietnam": 2,
       "abroad": 2,
@@ -163,6 +209,21 @@
           "event": "download_vpp_platform",
           "name": "VPP Platform",
           "downloads": 0
+        },
+        {
+          "event": "download_task_assignment_app",
+          "name": "App Giao Việc",
+          "downloads": 0
+        },
+        {
+          "event": "download_scan_network",
+          "name": "Scan Network",
+          "downloads": 0
+        },
+        {
+          "event": "download_flisr_log_analyzer",
+          "name": "FLISR Log Analyzer",
+          "downloads": 1
         }
       ],
       "research": [
@@ -192,7 +253,7 @@
       "sessions": 121,
       "users": 81,
       "views": 388,
-      "downloads": 10,
+      "downloads": 12,
       "research_downloads": 12,
       "vietnam": 20,
       "abroad": 61,
@@ -263,6 +324,21 @@
           "event": "download_vpp_platform",
           "name": "VPP Platform",
           "downloads": 0
+        },
+        {
+          "event": "download_task_assignment_app",
+          "name": "App Giao Việc",
+          "downloads": 0
+        },
+        {
+          "event": "download_scan_network",
+          "name": "Scan Network",
+          "downloads": 1
+        },
+        {
+          "event": "download_flisr_log_analyzer",
+          "name": "FLISR Log Analyzer",
+          "downloads": 1
         }
       ],
       "research": [
@@ -292,7 +368,7 @@
       "sessions": 121,
       "users": 81,
       "views": 388,
-      "downloads": 10,
+      "downloads": 12,
       "research_downloads": 12,
       "vietnam": 20,
       "abroad": 61,
@@ -363,6 +439,21 @@
           "event": "download_vpp_platform",
           "name": "VPP Platform",
           "downloads": 0
+        },
+        {
+          "event": "download_task_assignment_app",
+          "name": "App Giao Việc",
+          "downloads": 0
+        },
+        {
+          "event": "download_scan_network",
+          "name": "Scan Network",
+          "downloads": 1
+        },
+        {
+          "event": "download_flisr_log_analyzer",
+          "name": "FLISR Log Analyzer",
+          "downloads": 1
         }
       ],
       "research": [
@@ -483,7 +574,7 @@
       "sessions": 3,
       "users": 1,
       "views": 11,
-      "software_downloads": 0,
+      "software_downloads": 1,
       "research_downloads": 0
     },
     {
@@ -523,7 +614,7 @@
       "sessions": 1,
       "users": 1,
       "views": 2,
-      "software_downloads": 0,
+      "software_downloads": 1,
       "research_downloads": 0
     },
     {

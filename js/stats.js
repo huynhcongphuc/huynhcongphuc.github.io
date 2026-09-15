@@ -6,7 +6,16 @@ document.addEventListener('DOMContentLoaded',()=>{
     {event:'download_research_flisr_ieee',vi:'Bài báo IEEE FLISR với nguồn phân tán',en:'IEEE FLISR with DG Paper'},
     {event:'download_research_flisr_vn',vi:'Bài báo FLISR có nguồn phát phân tán',en:'FLISR with Distributed Generation Paper'}
   ];
-  const SOFTWARE_NAMES={'SecureApp':{vi:'SecureApp',en:'SecureApp'},'Master Server Protocol':{vi:'Master Server Protocol',en:'Master Server Protocol'},'DER Simulator':{vi:'Giả lập nguồn phân tán (DER Simulator)',en:'DER Simulator'},'Microgrid Simulator':{vi:'Giả lập Microgrid',en:'Microgrid Simulator'}};
+  const SOFTWARE_NAMES={
+    'SecureApp':{vi:'SecureApp',en:'SecureApp'},
+    'Master Server Protocol':{vi:'Master Server Protocol',en:'Master Server Protocol'},
+    'DER Simulator':{vi:'Giả lập nguồn phân tán (DER Simulator)',en:'DER Simulator'},
+    'Microgrid Simulator':{vi:'Giả lập Microgrid',en:'Microgrid Simulator'},
+    'VPP Platform':{vi:'Virtual Power Plant (VPP Platform)',en:'Virtual Power Plant (VPP Platform)'},
+    'App Giao Việc':{vi:'App Giao Việc',en:'Task Assignment App'},
+    'Scan Network':{vi:'Scan Network',en:'Scan Network'},
+    'FLISR Log Analyzer':{vi:'App đọc log FLISR',en:'FLISR Log Analyzer'}
+  };
   const TEXT={
     vi:{noData:'Chưa có dữ liệu',updated:'Cập nhật lúc',unknown:'Không xác định',vietnam:'Việt Nam',users:'Người dùng',software:'Tải phần mềm',research:'Tải nghiên cứu',sessions:'Phiên truy cập',total:'Tổng',all:'Tất cả',countryTitle:'1. Phân bố truy cập theo quốc gia',activityTitle:'2. Tổng hợp lượt truy cập và tải xuống',countryNote:'Dữ liệu quốc gia được tổng hợp từ toàn bộ thời gian thống kê.',activityNote:'Bao gồm tổng phiên truy cập, lượt tải phần mềm và lượt tải bài nghiên cứu.',justNow:'vừa cập nhật',minuteAgo:'1 phút trước',minutesAgo:n=>`${n} phút trước`,hourAgo:'1 giờ trước',hoursAgo:n=>`${n} giờ trước`},
     en:{noData:'No data',updated:'Updated at',unknown:'Unknown',vietnam:'Vietnam',users:'Users',software:'Software downloads',research:'Research downloads',sessions:'Sessions',total:'Total',all:'All',countryTitle:'1. Access distribution by country',activityTitle:'2. Sessions and downloads summary',countryNote:'Country data is aggregated from the full statistics history.',activityNote:'Includes total sessions, software downloads and research downloads.',justNow:'just now',minuteAgo:'1 minute ago',minutesAgo:n=>`${n} minutes ago`,hourAgo:'1 hour ago',hoursAgo:n=>`${n} hours ago`}

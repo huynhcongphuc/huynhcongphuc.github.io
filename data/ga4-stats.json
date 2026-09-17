@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-17T15:05:12.917781+00:00",
+  "updated_at": "2026-09-17T19:00:03.007467+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,23 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 2,
-      "users": 2,
-      "views": 3,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 2,
-      "countries": [
-        {
-          "country": "Russia",
-          "users": 1
-        },
-        {
-          "country": "United States",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -251,29 +242,29 @@
       ]
     },
     "30d": {
-      "sessions": 127,
-      "users": 86,
-      "views": 402,
-      "downloads": 13,
+      "sessions": 105,
+      "users": 73,
+      "views": 321,
+      "downloads": 7,
       "research_downloads": 12,
-      "vietnam": 21,
-      "abroad": 65,
+      "vietnam": 12,
+      "abroad": 61,
       "countries": [
         {
           "country": "United States",
-          "users": 48
+          "users": 45
         },
         {
           "country": "Vietnam",
-          "users": 21
-        },
-        {
-          "country": "Unknown",
-          "users": 4
+          "users": 12
         },
         {
           "country": "United Kingdom",
           "users": 4
+        },
+        {
+          "country": "Unknown",
+          "users": 3
         },
         {
           "country": "India",
@@ -304,12 +295,12 @@
         {
           "event": "download_secureapp",
           "name": "SecureApp",
-          "downloads": 4
+          "downloads": 0
         },
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 4
+          "downloads": 2
         },
         {
           "event": "download_der_simulator",
@@ -482,14 +473,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20260819",
-      "sessions": 22,
-      "users": 15,
-      "views": 81,
-      "software_downloads": 6,
-      "research_downloads": 0
-    },
     {
       "date": "20260820",
       "sessions": 10,

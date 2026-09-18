@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-18T13:45:35.068199+00:00",
+  "updated_at": "2026-09-18T17:17:41.209494+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,19 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 1,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -156,17 +151,17 @@
       ]
     },
     "7d": {
-      "sessions": 8,
-      "users": 8,
-      "views": 16,
+      "sessions": 7,
+      "users": 7,
+      "views": 15,
       "downloads": 1,
       "research_downloads": 0,
       "vietnam": 2,
-      "abroad": 6,
+      "abroad": 5,
       "countries": [
         {
           "country": "United States",
-          "users": 4
+          "users": 3
         },
         {
           "country": "Vietnam",
@@ -247,21 +242,21 @@
       ]
     },
     "30d": {
-      "sessions": 106,
-      "users": 74,
-      "views": 322,
-      "downloads": 7,
-      "research_downloads": 12,
-      "vietnam": 12,
-      "abroad": 62,
+      "sessions": 96,
+      "users": 66,
+      "views": 222,
+      "downloads": 4,
+      "research_downloads": 10,
+      "vietnam": 9,
+      "abroad": 57,
       "countries": [
         {
           "country": "United States",
-          "users": 46
+          "users": 41
         },
         {
           "country": "Vietnam",
-          "users": 12
+          "users": 9
         },
         {
           "country": "United Kingdom",
@@ -305,17 +300,17 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 2
+          "downloads": 1
         },
         {
           "event": "download_der_simulator",
           "name": "DER Simulator",
-          "downloads": 1
+          "downloads": 0
         },
         {
           "event": "download_microgrid_simulator",
           "name": "Microgrid Simulator",
-          "downloads": 1
+          "downloads": 0
         },
         {
           "event": "download_vpp_platform",
@@ -347,7 +342,7 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 5
+          "downloads": 3
         },
         {
           "event": "download_research_flisr_ieee",
@@ -478,14 +473,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20260820",
-      "sessions": 10,
-      "users": 10,
-      "views": 100,
-      "software_downloads": 3,
-      "research_downloads": 2
-    },
     {
       "date": "20260821",
       "sessions": 23,

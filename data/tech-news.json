@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-17T04:55:22.207611+00:00",
-  "mode": "0 international + 10 Vietnam | max age 12 months",
+  "updated_at": "2026-09-18T04:45:55.886837+00:00",
+  "mode": "1 international + 10 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -15,7 +15,7 @@
     },
     "CNN Tech": {
       "ok": true,
-      "available": 0,
+      "available": 1,
       "url": "https://edition.cnn.com/business/tech"
     },
     "EVN": {
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 10,
+      "available": 9,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -46,10 +46,42 @@
   },
   "items": [
     {
+      "title": "Why is China less worried about an AI dystopia than the US? | CNN Business",
+      "summary": "Unlike in the United States, no one in China seems to be openly fretting over the prospect of humanity being destroyed by artificial intelligence soon.",
+      "url": "https://edition.cnn.com/2026/09/17/tech/china-ai-debate-intl-hnk",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/01-gettyimages-2292375174.JPG?c=16x9&q=w_800,c_fill",
+      "source": "CNN Tech",
+      "source_url": "https://edition.cnn.com/business/tech",
+      "published": "2026-09-17T05:47:53.083000+00:00",
+      "published_label": "17/09/2026",
+      "tags": [
+        "scada"
+      ],
+      "icon": "cpu",
+      "region": "international",
+      "score": 7
+    },
+    {
+      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Thủy điện Sê San 3 (mở rộng)",
+      "summary": "UBND tỉnh Gia Lai đã chấp thuận chủ trương đầu tư; đồng thời chấp thuận Tập đoàn Điện lực Việt Nam (EVN) là nhà đầu tư thực hiện dự án Nhà máy Thủy đi",
+      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-thuy-dien-se-san-3-mo-rong-36652.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/18/08/in_social/1-san20260918081910.jpg?randTime=1789706745",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-09-18T08:21:02+07:00",
+      "published_label": "18/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
       "title": "Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc làm việc với Tập đoàn Điện lực Việt Nam",
       "summary": "Ủy viên Bộ Chính trị, Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc vừa có buổi làm việc với Tập đoàn Điện lực Việt Nam (EVN) về kết quả thực hiện",
       "url": "https://nangluongvietnam.vn/pho-thu-tuong-thuong-truc-chinh-phu-pham-gia-tuc-lam-viec-voi-tap-doan-dien-luc-viet-nam-36635.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/16/06/in_social/15926pttglv2-2026091512203933920260916064003.jpg?randTime=1789620463",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/16/06/in_social/15926pttglv2-2026091512203933920260916064003.jpg?randTime=1789706568",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-16T06:51:12+07:00",
@@ -65,7 +97,7 @@
       "title": "Cập nhật tình hình hoạt động sản xuất của EVN tháng 8 và mục tiêu, nhiệm vụ tháng 9/2026",
       "summary": "Trong tháng 8/2026, Tập đoàn Điện lực Việt Nam (EVN) đã đảm bảo cung cấp điện an toàn, liên tục, phục vụ phát triển kinh tế, xã hội, đáp ứng nhu cầu s",
       "url": "https://nangluongvietnam.vn/cap-nhat-tinh-hinh-hoat-dong-san-xuat-cua-evn-thang-8-va-muc-tieu-nhiem-vu-thang-92026-36637.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/16/07/in_social/20720260916073314.jpg?randTime=1789620463",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/16/07/in_social/20720260916073314.jpg?randTime=1789706525",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-16T06:00:11+07:00",
@@ -78,26 +110,10 @@
       "score": 6
     },
     {
-      "title": "EVNNPT và EVNHCMC đồng bộ đầu tư, bảo đảm điện cho TP. Hồ Chí Minh giai đoạn 2026-2030",
-      "summary": "Ngày 14/9/2026, tại TP. Hồ Chí Minh, Tổng công ty Truyền tải điện Quốc gia (EVNNPT) và Tổng công ty Điện lực TP. Hồ Chí Minh (EVNHCMC) tổ chức hội ngh",
-      "url": "https://nangluongvietnam.vn/evnnpt-va-evnhcmc-dong-bo-dau-tu-bao-dam-dien-cho-tp-ho-chi-minh-giai-doan-2026-2030-36631.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/15/07/croped/anh2nptlamviechcmc149202620260915074547.jpg?randTime=1789620439",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-15T07:53:15+07:00",
-      "published_label": "15/09/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
       "title": "Lợi nhuận của EVN đã phục hồi, nhưng bài toán tài chính chưa khép lại",
       "summary": "Kết quả kinh doanh 6 tháng đầu năm 2026 cho thấy tình hình tài chính của Tập đoàn Điện lực Việt Nam (EVN) tiếp tục cải thiện đáng kể. Tuy nhiên, những",
       "url": "https://nangluongvietnam.vn/loi-nhuan-cua-evn-da-phuc-hoi-nhung-bai-toan-tai-chinh-chua-khep-lai-36615.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/10/11/10-n20260910111840.jpg?rt=20260910111846?randTime=1789620428",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/10/11/10-n20260910111840.jpg?rt=20260910111846?randTime=1789706213",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-15T05:54:40+07:00",
@@ -113,7 +129,7 @@
       "title": "PV GAS và TotalEnergies Gas & Power Activities bàn hợp tác về LNG, LPG, hạ tầng và chuyển dịch năng lượng",
       "summary": "Các cuộc trao đổi giữa Tổng công ty Khí Việt Nam (PV GAS) và TotalEnergies Gas & Power Activities trong tháng 9/2026 đã mở rộng nền tảng hợp tác từ ki",
       "url": "https://nangluongvietnam.vn/pv-gas-va-totalenergies-gas-power-activities-ban-hop-tac-ve-lng-lpg-ha-tang-va-chuyen-dich-nang-luong-36627.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/14/16/croped/h1-2420260914160427.jpg?randTime=1789620650",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/14/16/croped/h1-2420260914160427.jpg?randTime=1789706197",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-14T16:08:01+07:00",
@@ -129,7 +145,7 @@
       "title": "Rà soát, điều chỉnh cập nhật Quy hoạch điện VIII (năm 2026) và vấn đề cân bằng cung - cầu điện giai đoạn 2030-2035",
       "summary": "Quy hoạch điện VIII điều chỉnh đã tạo lập khung phát triển nguồn và lưới điện quan trọng cho giai đoạn đến năm 2030, tầm nhìn 2050. Tuy nhiên, cấu trú",
       "url": "https://nangluongvietnam.vn/ra-soat-dieu-chinh-cap-nhat-quy-hoach-dien-viii-nam-2026-va-van-de-can-bang-cung-cau-dien-giai-doan-2030-2035-36587.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/04/07/in_social/404032116-1261572684789633-7467851718756393715-n20260904072619.jpg?randTime=1789620492",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/04/07/in_social/404032116-1261572684789633-7467851718756393715-n20260904072619.jpg?randTime=1789706236",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-13T06:12:11+07:00",
@@ -142,26 +158,10 @@
       "score": 8
     },
     {
-      "title": "Trung tâm Năng lượng Tái tạo (RE Hub) - Thông điệp định hướng chiến lược và triển khai thực tiễn tại Việt Nam",
-      "summary": "Nhằm góp phần tuyên truyền thúc đẩy phát triển Trung tâm Năng lượng Tái tạo tại Việt Nam (Renewable Energy Hubs - RE Hub), chuyên gia Tạp chí Năng lượ",
-      "url": "https://nangluongvietnam.vn/trung-tam-nang-luong-tai-tao-re-hub-thong-diep-dinh-huong-chien-luoc-va-trien-khai-thuc-tien-tai-viet-nam-36611.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/09/21/in_social/dsc05342crdownload20260909211540.jpg?randTime=1789620400",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-10T06:28:14+07:00",
-      "published_label": "10/09/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 8
-    },
-    {
       "title": "Vì sao phải thông báo trước 10 ngày khi lắp điện mặt trời mái nhà (có đấu nối với hệ thống điện quốc gia)?",
       "summary": "Theo quan điểm của Bộ Công Thương: Quy định phải thông báo trước ít nhất 10 ngày làm việc khi lắp đặt điện mặt trời mái nhà (tự sản xuất, tự tiêu thụ)",
       "url": "https://nangluongvietnam.vn/vi-sao-phai-thong-bao-truoc-10-ngay-khi-lap-dien-mat-troi-mai-nha-co-dau-noi-voi-he-thong-dien-quoc-gia-36598.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1789620650",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1789706223",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-07T09:10:27+07:00",
@@ -177,7 +177,7 @@
       "title": "Tăng cường độ ổn định lưới điện trong bối cảnh năng lượng tái tạo gia tăng - Góc nhìn từ chuyên gia",
       "summary": "Sự gia tăng nhanh chóng của điện gió, điện mặt trời và các nguồn năng lượng tái tạo đang từng bước thay đổi cấu trúc của hệ thống điện. Trong bối cảnh",
       "url": "https://nangluongvietnam.vn/tang-cuong-do-on-dinh-luoi-dien-trong-boi-canh-nang-luong-tai-tao-gia-tang-goc-nhin-tu-chuyen-gia-36585.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1789620650",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1789706385",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-03T14:23:12+07:00",
@@ -193,7 +193,7 @@
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu hợp tác chuyển dịch năng lượng của Việt Nam",
       "summary": "Cục Điện lực - EAV (trực thuộc Bộ Công Thương) và Liên minh Năng lượng Toàn cầu vì Con người và Hành tinh (gọi tắt là Liên minh Năng lượng Toàn cầu) m",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-hop-tac-chuyen-dich-nang-luong-cua-viet-nam-36559.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1789620650",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/082026/25/13/in_social/energy-storage20260825134708.jpg?randTime=1789706187",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-08-25T13:49:21+07:00",
@@ -204,6 +204,22 @@
       "icon": "network",
       "region": "vietnam",
       "score": 9
+    },
+    {
+      "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",
+      "summary": "Giải pháp tự động hóa, kết nối dữ liệu, giám sát và điều khiển lưới điện thông minh.",
+      "url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "published": "2026-08-20T01:29:00+00:00",
+      "image": "",
+      "source_url": "https://nangluongvietnam.vn/chint-gioi-thieu-he-sinh-thai-giai-phap-luoi-dien-thong-minh-mo-rong-hop-tac-ky-thuat-voi-evnnpc-36533.html",
+      "published_label": "20/08/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "zap",
+      "region": "vietnam",
+      "score": 30
     }
   ]
 }

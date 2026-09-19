@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-19T16:26:45.806913+00:00",
+  "updated_at": "2026-09-19T18:47:43.583424+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,19 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 2,
-      "users": 2,
-      "views": 2,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 2,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 2
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -247,29 +242,25 @@
       ]
     },
     "30d": {
-      "sessions": 98,
-      "users": 68,
-      "views": 224,
+      "sessions": 75,
+      "users": 50,
+      "views": 163,
       "downloads": 4,
-      "research_downloads": 10,
-      "vietnam": 9,
-      "abroad": 59,
+      "research_downloads": 0,
+      "vietnam": 6,
+      "abroad": 44,
       "countries": [
         {
           "country": "United States",
-          "users": 43
+          "users": 31
         },
         {
           "country": "Vietnam",
-          "users": 9
+          "users": 6
         },
         {
           "country": "United Kingdom",
           "users": 4
-        },
-        {
-          "country": "Unknown",
-          "users": 3
         },
         {
           "country": "India",
@@ -293,6 +284,10 @@
         },
         {
           "country": "Russia",
+          "users": 1
+        },
+        {
+          "country": "South Korea",
           "users": 1
         }
       ],
@@ -347,17 +342,17 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 3
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 3
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 4
+          "downloads": 0
         }
       ]
     },
@@ -478,14 +473,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20260821",
-      "sessions": 23,
-      "users": 20,
-      "views": 61,
-      "software_downloads": 0,
-      "research_downloads": 10
-    },
     {
       "date": "20260822",
       "sessions": 14,

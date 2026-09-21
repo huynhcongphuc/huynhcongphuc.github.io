@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-21T00:18:50.271471+00:00",
+  "updated_at": "2026-09-21T05:10:13.026362+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,14 +77,19 @@
   },
   "periods": {
     "today": {
-      "sessions": 0,
-      "users": 0,
-      "views": 0,
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
+      "abroad": 1,
+      "countries": [
+        {
+          "country": "United States",
+          "users": 1
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -151,17 +156,17 @@
       ]
     },
     "7d": {
-      "sessions": 10,
-      "users": 10,
-      "views": 18,
+      "sessions": 11,
+      "users": 11,
+      "views": 19,
       "downloads": 1,
       "research_downloads": 0,
       "vietnam": 2,
-      "abroad": 8,
+      "abroad": 9,
       "countries": [
         {
           "country": "United States",
-          "users": 6
+          "users": 7
         },
         {
           "country": "Vietnam",
@@ -242,17 +247,17 @@
       ]
     },
     "30d": {
-      "sessions": 62,
-      "users": 41,
-      "views": 119,
+      "sessions": 63,
+      "users": 42,
+      "views": 120,
       "downloads": 4,
       "research_downloads": 0,
       "vietnam": 4,
-      "abroad": 37,
+      "abroad": 38,
       "countries": [
         {
           "country": "United States",
-          "users": 28
+          "users": 29
         },
         {
           "country": "Vietnam",
@@ -349,17 +354,17 @@
       ]
     },
     "all": {
-      "sessions": 131,
-      "users": 90,
-      "views": 406,
+      "sessions": 132,
+      "users": 91,
+      "views": 407,
       "downloads": 13,
       "research_downloads": 12,
       "vietnam": 21,
-      "abroad": 69,
+      "abroad": 70,
       "countries": [
         {
           "country": "United States",
-          "users": 52
+          "users": 53
         },
         {
           "country": "Vietnam",
@@ -619,6 +624,14 @@
     },
     {
       "date": "20260920",
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20260921",
       "sessions": 1,
       "users": 1,
       "views": 1,

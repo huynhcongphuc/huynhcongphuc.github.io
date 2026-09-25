@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T04:53:31.784641+00:00",
+  "updated_at": "2026-09-25T04:59:52.138947+00:00",
   "mode": "1 international + 10 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 7,
+      "available": 8,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -62,10 +62,26 @@
       "score": 7
     },
     {
+      "title": "Bí thư Tỉnh ủy và Chủ tịch UBND tỉnh Quảng Trị kiểm tra tiến độ các dự án tại Trung tâm Điện lực Quảng Trạch",
+      "summary": "Sáng ngày 24/9/2026, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy Quảng Trị Vương Quốc Tuấn cùng Ủy viên dự khuyết Ban Chấp hành Trung ương Đ",
+      "url": "https://nangluongvietnam.vn/bi-thu-tinh-uy-va-chu-tich-ubnd-tinh-quang-tri-kiem-tra-tien-do-cac-du-an-tai-trung-tam-dien-luc-quang-trach-36677.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/15/croped/2492026bithutinhuyquangtri1-20260924093347668-copy20260924153845.jpg?randTime=1790312093",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-09-24T15:42:16+07:00",
+      "published_label": "24/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
       "title": "GG Power và Mai Sơn Solar: Hợp lực thúc đẩy xu hướng tự chủ năng lượng xanh",
       "summary": "GG Power và Mai Sơn Solar chính thức ký kết hợp tác chiến lược trong lĩnh vực phân phối pin lưu trữ năng lượng (BESS), đẩy mạnh xu hướng sử dụng điện",
       "url": "https://nangluongvietnam.vn/gg-power-va-mai-son-solar-hop-luc-thuc-day-xu-huong-tu-chu-nang-luong-xanh-36671.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/08/tvt0693120260924085905.jpg?randTime=1790225231",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/08/tvt0693120260924085905.jpg?randTime=1790312099",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-24T09:05:30+07:00",
@@ -81,7 +97,7 @@
       "title": "Cảnh báo nguy cơ mất an toàn từ vi phạm hành lang lưới điện truyền tải",
       "summary": "Từ đầu năm 2026 đến nay, lưới điện truyền tải đã xảy ra 8 sự cố liên quan đến các vi phạm hành lang an toàn lưới điện. Các sự cố cho thấy những hoạt đ",
       "url": "https://nangluongvietnam.vn/canh-bao-nguy-co-mat-an-toan-tu-vi-pham-hanh-lang-luoi-dien-truyen-tai-36669.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/15/in_social/anh1tuyentruyenthadieu229202620260923151220.jpg?randTime=1790225127",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/15/in_social/anh1tuyentruyenthadieu229202620260923151220.jpg?randTime=1790312318",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-23T15:16:03+07:00",
@@ -97,7 +113,7 @@
       "title": "Điều chỉnh, cập nhật Quy hoạch điện VIII trên địa bàn tỉnh Điện Biên",
       "summary": "Bộ Công Thương vừa ban hành văn bản số 7522/BCT-DL gửi UNND tỉnh Điện Biên về việc điều chỉnh, cập nhật Quy hoạch phát triển điện lực quốc gia thời kỳ",
       "url": "https://nangluongvietnam.vn/dieu-chinh-cap-nhat-quy-hoach-dien-viii-tren-dia-ban-tinh-dien-bien-36664.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/10/in_social/1-o-220260923101027.jpg?randTime=1790225039",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/10/in_social/1-o-220260923101027.jpg?randTime=1790311869",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-23T10:11:24+07:00",
@@ -129,7 +145,7 @@
       "title": "Trung tâm Năng lượng Tái tạo (RE Hub) - Các mô hình quốc tế và điều kiện cần có của Việt Nam",
       "summary": "Việt Nam đang nghiên cứu mô hình Trung tâm Năng lượng Tái tạo (Renewable Energy Hubs - RE Hubs), không chỉ nhằm phát triển các nguồn điện gió, điện mặ",
       "url": "https://nangluongvietnam.vn/trung-tam-nang-luong-tai-tao-re-hub-cac-mo-hinh-quoc-te-va-dieu-kien-can-co-cua-viet-nam-36609.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/09/13/120260909134205.jpg?rt=20260909134232?randTime=1790225125",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/09/13/120260909134205.jpg?rt=20260909134232?randTime=1790312088",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-22T06:58:42+07:00",
@@ -145,7 +161,7 @@
       "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Thủy điện Sê San 3 (mở rộng)",
       "summary": "UBND tỉnh Gia Lai đã chấp thuận chủ trương đầu tư; đồng thời chấp thuận Tập đoàn Điện lực Việt Nam (EVN) là nhà đầu tư thực hiện dự án Nhà máy Thủy đi",
       "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-thuy-dien-se-san-3-mo-rong-36652.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/18/08/in_social/1-san20260918081910.jpg?randTime=1790225126",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/18/08/in_social/1-san20260918081910.jpg?randTime=1790312380",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-18T08:21:02+07:00",
@@ -161,7 +177,7 @@
       "title": "Vì sao phải thông báo trước 10 ngày khi lắp điện mặt trời mái nhà (có đấu nối với hệ thống điện quốc gia)?",
       "summary": "Theo quan điểm của Bộ Công Thương: Quy định phải thông báo trước ít nhất 10 ngày làm việc khi lắp đặt điện mặt trời mái nhà (tự sản xuất, tự tiêu thụ)",
       "url": "https://nangluongvietnam.vn/vi-sao-phai-thong-bao-truoc-10-ngay-khi-lap-dien-mat-troi-mai-nha-co-dau-noi-voi-he-thong-dien-quoc-gia-36598.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1790225091",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1790312373",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-07T09:10:27+07:00",
@@ -177,7 +193,7 @@
       "title": "Tăng cường độ ổn định lưới điện trong bối cảnh năng lượng tái tạo gia tăng - Góc nhìn từ chuyên gia",
       "summary": "Sự gia tăng nhanh chóng của điện gió, điện mặt trời và các nguồn năng lượng tái tạo đang từng bước thay đổi cấu trúc của hệ thống điện. Trong bối cảnh",
       "url": "https://nangluongvietnam.vn/tang-cuong-do-on-dinh-luoi-dien-trong-boi-canh-nang-luong-tai-tao-gia-tang-goc-nhin-tu-chuyen-gia-36585.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1790225091",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/03/10/croped/h320260903103320.jpg?randTime=1790312310",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-03T14:23:12+07:00",
@@ -204,23 +220,6 @@
       "icon": "zap",
       "region": "vietnam",
       "score": 30
-    },
-    {
-      "title": "Công ty Điện lực Quảng Ninh: Đẩy mạnh chuyển đổi số và hiện đại hóa lưới điện 110kV",
-      "summary": "Hiện đại hóa lưới điện 110 kV, trạm không người trực và giám sát, điều khiển từ xa qua SCADA/DMS.",
-      "url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638",
-      "source": "EVN",
-      "published": "2026-06-23T08:47:00+00:00",
-      "image": "",
-      "source_url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638",
-      "published_label": "23/06/2026",
-      "tags": [
-        "scada",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 48
     }
   ]
 }

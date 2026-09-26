@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-26T16:39:22.769023+00:00",
+  "updated_at": "2026-09-26T19:25:08.491419+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -151,17 +151,17 @@
       ]
     },
     "7d": {
-      "sessions": 3,
-      "users": 3,
-      "views": 4,
+      "sessions": 2,
+      "users": 2,
+      "views": 3,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 2,
+      "abroad": 1,
       "countries": [
         {
           "country": "United States",
-          "users": 2
+          "users": 1
         },
         {
           "country": "Vietnam",
@@ -234,13 +234,13 @@
       ]
     },
     "30d": {
-      "sessions": 34,
-      "users": 20,
-      "views": 68,
-      "downloads": 4,
+      "sessions": 32,
+      "users": 19,
+      "views": 65,
+      "downloads": 3,
       "research_downloads": 0,
       "vietnam": 3,
-      "abroad": 17,
+      "abroad": 16,
       "countries": [
         {
           "country": "United States",
@@ -251,15 +251,15 @@
           "users": 3
         },
         {
-          "country": "United Kingdom",
-          "users": 2
-        },
-        {
           "country": "India",
           "users": 1
         },
         {
           "country": "Russia",
+          "users": 1
+        },
+        {
+          "country": "United Kingdom",
           "users": 1
         }
       ],
@@ -272,7 +272,7 @@
         {
           "event": "download_master_server",
           "name": "Master Server Protocol",
-          "downloads": 1
+          "downloads": 0
         },
         {
           "event": "download_der_simulator",
@@ -445,14 +445,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20260828",
-      "sessions": 2,
-      "users": 2,
-      "views": 3,
-      "software_downloads": 1,
-      "research_downloads": 0
-    },
     {
       "date": "20260901",
       "sessions": 4,

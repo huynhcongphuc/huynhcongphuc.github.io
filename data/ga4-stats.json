@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-09-27T05:46:06.429734+00:00",
+  "updated_at": "2026-09-27T10:50:42.691109+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,14 +77,18 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 7,
+      "sessions": 2,
+      "users": 2,
+      "views": 8,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 0,
+      "abroad": 1,
       "countries": [
+        {
+          "country": "Russia",
+          "users": 1
+        },
         {
           "country": "Vietnam",
           "users": 1
@@ -156,14 +160,18 @@
       ]
     },
     "7d": {
-      "sessions": 3,
-      "users": 2,
-      "views": 10,
+      "sessions": 4,
+      "users": 3,
+      "views": 11,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 1,
+      "abroad": 2,
       "countries": [
+        {
+          "country": "Russia",
+          "users": 1
+        },
         {
           "country": "United States",
           "users": 1
@@ -239,13 +247,13 @@
       ]
     },
     "30d": {
-      "sessions": 33,
-      "users": 19,
-      "views": 72,
+      "sessions": 34,
+      "users": 20,
+      "views": 73,
       "downloads": 3,
       "research_downloads": 0,
       "vietnam": 3,
-      "abroad": 16,
+      "abroad": 17,
       "countries": [
         {
           "country": "United States",
@@ -256,11 +264,11 @@
           "users": 3
         },
         {
-          "country": "India",
-          "users": 1
+          "country": "Russia",
+          "users": 2
         },
         {
-          "country": "Russia",
+          "country": "India",
           "users": 1
         },
         {
@@ -334,13 +342,13 @@
       ]
     },
     "all": {
-      "sessions": 134,
-      "users": 91,
-      "views": 416,
+      "sessions": 135,
+      "users": 92,
+      "views": 417,
       "downloads": 13,
       "research_downloads": 12,
       "vietnam": 21,
-      "abroad": 70,
+      "abroad": 71,
       "countries": [
         {
           "country": "United States",
@@ -363,6 +371,10 @@
           "users": 2
         },
         {
+          "country": "Russia",
+          "users": 2
+        },
+        {
           "country": "Belarus",
           "users": 1
         },
@@ -376,10 +388,6 @@
         },
         {
           "country": "Portugal",
-          "users": 1
-        },
-        {
-          "country": "Russia",
           "users": 1
         }
       ],
@@ -580,9 +588,9 @@
     },
     {
       "date": "20260927",
-      "sessions": 1,
-      "users": 1,
-      "views": 7,
+      "sessions": 2,
+      "users": 2,
+      "views": 8,
       "software_downloads": 0,
       "research_downloads": 0
     }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-28T05:26:12.676422+00:00",
-  "mode": "1 international + 8 Vietnam | max age 12 months",
+  "updated_at": "2026-09-29T05:46:02.547065+00:00",
+  "mode": "1 international + 7 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 6,
+      "available": 5,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -62,10 +62,26 @@
       "score": 7
     },
     {
+      "title": "Tổ máy 2 Nhà máy Nhiệt điện Quảng Trạch 1 hoà đồng bộ vào hệ thống điện quốc gia",
+      "summary": "Thông tin từ Ban quản lý Dự án Điện 2 (EVNPMB2) cho biết: Vào lúc 16h45 ngày 28/9/2026, tại công trường Nhà máy Nhiệt điện Quảng Trạch 1, tổ máy số 2",
+      "url": "https://nangluongvietnam.vn/to-may-2-nha-may-nhiet-dien-quang-trach-1-hoa-dong-bo-vao-he-thong-dien-quoc-gia-36690.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/28/19/croped/img-565320260928193711.jpg?randTime=1790660368",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-09-28T19:41:26+07:00",
+      "published_label": "28/09/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 8
+    },
+    {
       "title": "Cảnh báo nguy cơ mất an toàn từ vi phạm hành lang lưới điện truyền tải",
       "summary": "Từ đầu năm 2026 đến nay, lưới điện truyền tải đã xảy ra 8 sự cố liên quan đến các vi phạm hành lang an toàn lưới điện. Các sự cố cho thấy những hoạt đ",
       "url": "https://nangluongvietnam.vn/canh-bao-nguy-co-mat-an-toan-tu-vi-pham-hanh-lang-luoi-dien-truyen-tai-36669.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/15/in_social/anh1tuyentruyenthadieu229202620260923151220.jpg?randTime=1790572960",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/15/in_social/anh1tuyentruyenthadieu229202620260923151220.jpg?randTime=1790660668",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-25T13:39:31+07:00",
@@ -81,7 +97,7 @@
       "title": "Bí thư Tỉnh ủy và Chủ tịch UBND tỉnh Quảng Trị kiểm tra tiến độ các dự án tại Trung tâm Điện lực Quảng Trạch",
       "summary": "Sáng ngày 24/9/2026, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy Quảng Trị Vương Quốc Tuấn cùng Ủy viên dự khuyết Ban Chấp hành Trung ương Đ",
       "url": "https://nangluongvietnam.vn/bi-thu-tinh-uy-va-chu-tich-ubnd-tinh-quang-tri-kiem-tra-tien-do-cac-du-an-tai-trung-tam-dien-luc-quang-trach-36677.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/15/croped/2492026bithutinhuyquangtri1-20260924093347668-copy20260924153845.jpg?randTime=1790572956",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/15/croped/2492026bithutinhuyquangtri1-20260924093347668-copy20260924153845.jpg?randTime=1790660641",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-24T15:42:16+07:00",
@@ -97,7 +113,7 @@
       "title": "GG Power và Mai Sơn Solar: Hợp lực thúc đẩy xu hướng tự chủ năng lượng xanh",
       "summary": "GG Power và Mai Sơn Solar chính thức ký kết hợp tác chiến lược trong lĩnh vực phân phối pin lưu trữ năng lượng (BESS), đẩy mạnh xu hướng sử dụng điện",
       "url": "https://nangluongvietnam.vn/gg-power-va-mai-son-solar-hop-luc-thuc-day-xu-huong-tu-chu-nang-luong-xanh-36671.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/08/tvt0693120260924085905.jpg?randTime=1790572662",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/24/08/tvt0693120260924085905.jpg?randTime=1790660644",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-24T09:05:30+07:00",
@@ -110,42 +126,10 @@
       "score": 14
     },
     {
-      "title": "Điều chỉnh, cập nhật Quy hoạch điện VIII trên địa bàn tỉnh Điện Biên",
-      "summary": "Bộ Công Thương vừa ban hành văn bản số 7522/BCT-DL gửi UNND tỉnh Điện Biên về việc điều chỉnh, cập nhật Quy hoạch phát triển điện lực quốc gia thời kỳ",
-      "url": "https://nangluongvietnam.vn/dieu-chinh-cap-nhat-quy-hoach-dien-viii-tren-dia-ban-tinh-dien-bien-36664.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/23/10/in_social/1-o-220260923101027.jpg?randTime=1790572820",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-23T10:11:24+07:00",
-      "published_label": "23/09/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
-      "title": "Chấp thuận chủ trương đầu tư, nhà đầu tư dự án Nhà máy Thủy điện Sê San 3 (mở rộng)",
-      "summary": "UBND tỉnh Gia Lai đã chấp thuận chủ trương đầu tư; đồng thời chấp thuận Tập đoàn Điện lực Việt Nam (EVN) là nhà đầu tư thực hiện dự án Nhà máy Thủy đi",
-      "url": "https://nangluongvietnam.vn/chap-thuan-chu-truong-dau-tu-nha-dau-tu-du-an-nha-may-thuy-dien-se-san-3-mo-rong-36652.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/18/08/in_social/1-san20260918081910.jpg?randTime=1790572914",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-18T08:21:02+07:00",
-      "published_label": "18/09/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
       "title": "Vì sao phải thông báo trước 10 ngày khi lắp điện mặt trời mái nhà (có đấu nối với hệ thống điện quốc gia)?",
       "summary": "Theo quan điểm của Bộ Công Thương: Quy định phải thông báo trước ít nhất 10 ngày làm việc khi lắp đặt điện mặt trời mái nhà (tự sản xuất, tự tiêu thụ)",
       "url": "https://nangluongvietnam.vn/vi-sao-phai-thong-bao-truoc-10-ngay-khi-lap-dien-mat-troi-mai-nha-co-dau-noi-voi-he-thong-dien-quoc-gia-36598.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1790572958",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/07/09/588d01df9a784780a3d9a921609114b4-1587520260907091652.jpg?rt=20260907091657?randTime=1790660660",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-07T09:10:27+07:00",

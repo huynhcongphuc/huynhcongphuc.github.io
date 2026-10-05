@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-04T05:55:34.122316+00:00",
-  "mode": "0 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-10-05T05:43:00.585553+00:00",
+  "mode": "0 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 5,
+      "available": 6,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -46,10 +46,26 @@
   },
   "items": [
     {
+      "title": "“Không tăng giá điện” theo yêu cầu của Thủ tướng và bài toán mới sau khi EVN phục hồi tài chính",
+      "summary": "Sau giai đoạn khó khăn kéo dài, Tập đoàn Điện lực Việt Nam (EVN) đã có bước phục hồi đáng chú ý về tài chính. Đến cuối tháng 6/2026, Công ty mẹ EVN đã",
+      "url": "https://nangluongvietnam.vn/khong-tang-gia-dien-theo-yeu-cau-cua-thu-tuong-va-bai-toan-moi-sau-khi-evn-phuc-hoi-tai-chinh-36721.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/05/07/in_social/37320261005072710.jpg?randTime=1791178631",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-05T08:39:50+07:00",
+      "published_label": "05/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu thúc đẩy hiện đại hóa lưới điện và phát triển BESS tại Việt Nam",
       "summary": "Ngày 1/10/2026, tại Hà Nội, tiếp nối Tọa đàm “Xây dựng Lưới điện Tương lai” diễn ra ngày 30/9 - nơi các chuyên gia và đối tác phát triển trao đổi với",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-thuc-day-hien-dai-hoa-luoi-dien-va-phat-trien-bess-tai-viet-nam-36712.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/h120261002074213.jpg?randTime=1791092981",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/h120261002074213.jpg?randTime=1791178641",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-02T07:54:11+07:00",
@@ -65,7 +81,7 @@
       "title": "Phân bổ rủi ro và yêu cầu hoàn thiện Luật Điện lực đối với nguồn điện sử dụng nhiên liệu LNG",
       "summary": "Kiến nghị của nhóm các nhà đầu tư Nhật Bản và Hàn Quốc đối với dự thảo Luật sửa đổi, bổ sung một số điều của Luật Điện lực đang đặt ra một vấn đề khôn",
       "url": "https://nangluongvietnam.vn/phan-bo-rui-ro-va-yeu-cau-hoan-thien-luat-dien-luc-doi-voi-nguon-dien-su-dung-nhien-lieu-lng-36711.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/1220261002070003.jpg?randTime=1791092978",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/1220261002070003.jpg?randTime=1791178631",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-02T07:02:29+07:00",
@@ -81,7 +97,7 @@
       "title": "GG Power ra mắt pin lưu trữ ‘quốc dân’ ENERGY HUB S16 NEW",
       "summary": "Mới đây, GG Power ra mắt pin lưu trữ năng lượng (BESS) dân dụng ENERGY HUB S16 NEW, hướng tới giải bài toán “lệch pha” giữa thời điểm sản xuất và tiêu",
       "url": "https://nangluongvietnam.vn/gg-power-ra-mat-pin-luu-tru-quoc-dan-energy-hub-s16-new-36708.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/01/13/in_social/s16-new-16-920261001131807.jpg?randTime=1791093318",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/01/13/in_social/s16-new-16-920261001131807.jpg?randTime=1791178965",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-01T13:20:48+07:00",
@@ -97,7 +113,7 @@
       "title": "Trung tâm Năng lượng Tái tạo ở Việt Nam - Cần tầm nhìn dài hạn, hạ tầng đồng bộ và danh mục dự án ổn định",
       "summary": "Hà Nội, tháng 9 năm 2026 - những kinh nghiệm được chia sẻ tại Hội thảo “Thúc đẩy phát triển Trung tâm Năng lượng Tái tạo tại Việt Nam” cho thấy một Tr",
       "url": "https://nangluongvietnam.vn/trung-tam-nang-luong-tai-tao-o-viet-nam-can-tam-nhin-dai-han-ha-tang-dong-bo-va-danh-muc-du-an-on-dinh-36700.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/30/09/in_social/1-yyyy-copy20260930090343.jpg?randTime=1791092979",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/30/09/in_social/1-yyyy-copy20260930090343.jpg?randTime=1791178632",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-30T09:13:01+07:00",
@@ -113,7 +129,7 @@
       "title": "EVNNPC đóng điện 5 dự án lắp đặt hệ thống pin lưu trữ năng lượng (BESS) tại Lạng Sơn",
       "summary": "Trong tháng 9/2026, Ban Quản lý dự án Xây dựng điện miền Bắc - BA3 (đơn vị thành viên của Tổng công ty Điện lực miền Bắc - EVNNPC) tiếp tục ghi dấu ấn",
       "url": "https://nangluongvietnam.vn/evnnpc-dong-dien-5-du-an-lap-dat-he-thong-pin-luu-tru-nang-luong-bess-tai-lang-son-36698.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/29/15/in_social/825279961-1735161508619657-6780357915080017157-n20260929150702.jpg?randTime=1791092980",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/29/15/in_social/825279961-1735161508619657-6780357915080017157-n20260929150702.jpg?randTime=1791178636",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-09-29T15:11:42+07:00",

@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-10-07T08:53:06.603902+00:00",
+  "updated_at": "2026-10-07T16:07:31.539086+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,92 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 0,
-      "users": 0,
-      "views": 0,
+      "sessions": 1,
+      "users": 1,
+      "views": 3,
       "downloads": 0,
-      "research_downloads": 0,
-      "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
-      "software": [
-        {
-          "event": "download_secureapp",
-          "name": "SecureApp",
-          "downloads": 0
-        },
-        {
-          "event": "download_master_server",
-          "name": "Master Server Protocol",
-          "downloads": 0
-        },
-        {
-          "event": "download_der_simulator",
-          "name": "DER Simulator",
-          "downloads": 0
-        },
-        {
-          "event": "download_microgrid_simulator",
-          "name": "Microgrid Simulator",
-          "downloads": 0
-        },
-        {
-          "event": "download_vpp_platform",
-          "name": "VPP Platform",
-          "downloads": 0
-        },
-        {
-          "event": "download_task_assignment_app",
-          "name": "App Giao Việc",
-          "downloads": 0
-        },
-        {
-          "event": "download_scan_network",
-          "name": "Scan Network",
-          "downloads": 0
-        },
-        {
-          "event": "download_flisr_log_analyzer",
-          "name": "FLISR Log Analyzer",
-          "downloads": 0
-        }
-      ],
-      "research": [
-        {
-          "event": "download_research_ieee2030_5",
-          "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
-          "downloads": 0
-        },
-        {
-          "event": "download_research_abess",
-          "name": "ABESS Reliability Paper",
-          "downloads": 0
-        },
-        {
-          "event": "download_research_flisr_ieee",
-          "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
-        },
-        {
-          "event": "download_research_flisr_vn",
-          "name": "FLISR with Distributed Generation Paper",
-          "downloads": 0
-        }
-      ]
-    },
-    "7d": {
-      "sessions": 2,
-      "users": 2,
-      "views": 6,
-      "downloads": 0,
-      "research_downloads": 0,
+      "research_downloads": 6,
       "vietnam": 1,
-      "abroad": 1,
+      "abroad": 0,
       "countries": [
-        {
-          "country": "United States",
-          "users": 1
-        },
         {
           "country": "Vietnam",
           "users": 1
@@ -219,27 +141,110 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
+          "downloads": 2
+        }
+      ]
+    },
+    "7d": {
+      "sessions": 3,
+      "users": 3,
+      "views": 9,
+      "downloads": 0,
+      "research_downloads": 6,
+      "vietnam": 2,
+      "abroad": 1,
+      "countries": [
+        {
+          "country": "Vietnam",
+          "users": 2
+        },
+        {
+          "country": "United States",
+          "users": 1
+        }
+      ],
+      "software": [
+        {
+          "event": "download_secureapp",
+          "name": "SecureApp",
           "downloads": 0
+        },
+        {
+          "event": "download_master_server",
+          "name": "Master Server Protocol",
+          "downloads": 0
+        },
+        {
+          "event": "download_der_simulator",
+          "name": "DER Simulator",
+          "downloads": 0
+        },
+        {
+          "event": "download_microgrid_simulator",
+          "name": "Microgrid Simulator",
+          "downloads": 0
+        },
+        {
+          "event": "download_vpp_platform",
+          "name": "VPP Platform",
+          "downloads": 0
+        },
+        {
+          "event": "download_task_assignment_app",
+          "name": "App Giao Việc",
+          "downloads": 0
+        },
+        {
+          "event": "download_scan_network",
+          "name": "Scan Network",
+          "downloads": 0
+        },
+        {
+          "event": "download_flisr_log_analyzer",
+          "name": "FLISR Log Analyzer",
+          "downloads": 0
+        }
+      ],
+      "research": [
+        {
+          "event": "download_research_ieee2030_5",
+          "name": "IEEE 2030.11 & IEEE 2030.5 DERMS Research",
+          "downloads": 0
+        },
+        {
+          "event": "download_research_abess",
+          "name": "ABESS Reliability Paper",
+          "downloads": 2
+        },
+        {
+          "event": "download_research_flisr_ieee",
+          "name": "IEEE FLISR with DG Paper",
+          "downloads": 2
+        },
+        {
+          "event": "download_research_flisr_vn",
+          "name": "FLISR with Distributed Generation Paper",
+          "downloads": 2
         }
       ]
     },
     "30d": {
-      "sessions": 21,
-      "users": 16,
-      "views": 48,
+      "sessions": 22,
+      "users": 17,
+      "views": 51,
       "downloads": 2,
-      "research_downloads": 0,
-      "vietnam": 3,
+      "research_downloads": 6,
+      "vietnam": 4,
       "abroad": 13,
       "countries": [
         {
@@ -248,7 +253,7 @@
         },
         {
           "country": "Vietnam",
-          "users": 3
+          "users": 4
         },
         {
           "country": "Russia",
@@ -310,27 +315,27 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 0
+          "downloads": 2
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 0
+          "downloads": 2
         }
       ]
     },
     "all": {
-      "sessions": 138,
-      "users": 93,
-      "views": 425,
+      "sessions": 139,
+      "users": 94,
+      "views": 428,
       "downloads": 13,
-      "research_downloads": 12,
-      "vietnam": 21,
+      "research_downloads": 18,
+      "vietnam": 22,
       "abroad": 72,
       "countries": [
         {
@@ -339,7 +344,7 @@
         },
         {
           "country": "Vietnam",
-          "users": 21
+          "users": 22
         },
         {
           "country": "Unknown",
@@ -425,17 +430,17 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 5
+          "downloads": 7
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 3
+          "downloads": 5
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 4
+          "downloads": 6
         }
       ]
     }
@@ -560,6 +565,14 @@
       "views": 4,
       "software_downloads": 0,
       "research_downloads": 0
+    },
+    {
+      "date": "20261007",
+      "sessions": 1,
+      "users": 1,
+      "views": 3,
+      "software_downloads": 0,
+      "research_downloads": 6
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-07T06:02:38.303161+00:00",
-  "mode": "1 international + 10 Vietnam | max age 12 months",
+  "updated_at": "2026-10-08T06:06:47.060651+00:00",
+  "mode": "1 international + 9 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 8,
+      "available": 7,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -62,10 +62,26 @@
       "score": 7
     },
     {
+      "title": "Ngành điện miền Nam sẵn sàng hạ tầng điện thu hút đầu tư vào các khu công nghiệp",
+      "summary": "Thực hiện Nghị quyết 70-NQ/TW của Bộ Chính trị về bảo đảm an ninh năng lượng quốc gia, Tổng công ty Điện lực miền Nam (EVNSPC) đã và đang chủ động đầu",
+      "url": "https://nangluongvietnam.vn/nganh-dien-mien-nam-san-sang-ha-tang-dien-thu-hut-dau-tu-vao-cac-khu-cong-nghiep-36745.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/08/12/croped/220261008123046.jpg?randTime=1791439050",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-08T12:37:17+07:00",
+      "published_label": "08/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 9
+    },
+    {
       "title": "Kết quả hoạt động sản xuất của EVN 9 tháng và nhiệm vụ trọng tâm 3 tháng cuối năm 2026",
       "summary": "Trong tháng 9/2026 và 9 tháng đầu năm, Tập đoàn Điện lực Việt Nam (EVN) và các đơn vị đã đảm bảo cung cấp điện phục vụ phát triển kinh tế - xã hội của",
       "url": "https://nangluongvietnam.vn/ket-qua-hoat-dong-san-xuat-cua-evn-9-thang-va-nhiem-vu-trong-tam-3-thang-cuoi-nam-2026-36735.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/14/in_social/763701019-27779575738377614-5479587764512396721-n20261006140134.jpg?randTime=1791352733",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/14/in_social/763701019-27779575738377614-5479587764512396721-n20261006140134.jpg?randTime=1791439576",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-06T14:17:18+07:00",
@@ -81,7 +97,7 @@
       "title": "Tổng công ty Điện lực miền Bắc - 57 năm xây dựng và phát triển",
       "summary": "57 năm xây dựng và phát triển, Tổng công ty Điện lực miền Bắc (EVNNPC) đã đi qua một hành trình gắn chặt với những bước chuyển mình của miền Bắc và đấ",
       "url": "https://nangluongvietnam.vn/tong-cong-ty-dien-luc-mien-bac-57-nam-xay-dung-va-phat-trien-36733.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/09/croped/3a3-12026051715224320261006095848.jpg?randTime=1791352733",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/09/croped/3a3-12026051715224320261006095848.jpg?randTime=1791439583",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-06T10:00:03+07:00",
@@ -94,26 +110,10 @@
       "score": 6
     },
     {
-      "title": "Bộ trưởng Công Thương Lê Mạnh Hùng kiểm tra tình hình triển khai các dự án tại Trung tâm Điện lực Quảng Trạch",
-      "summary": "Tại tỉnh Quảng Trị, Bộ trưởng Bộ Công Thương Lê Mạnh Hùng và đoàn công tác đã kiểm tra tình hình vận hành chạy thử Nhà máy Nhiệt điện Quảng Trạch 1; c",
-      "url": "https://nangluongvietnam.vn/bo-truong-cong-thuong-le-manh-hung-kiem-tra-tinh-hinh-trien-khai-cac-du-an-tai-trung-tam-dien-luc-quang-trach-36726.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/05/14/in_social/4102026botruongbocongthuongquangtrach1-2026100412295755520261005143302.jpg?randTime=1791352459",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-05T14:45:02+07:00",
-      "published_label": "05/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
       "title": "“Không tăng giá điện” theo yêu cầu của Thủ tướng và bài toán mới sau khi EVN phục hồi tài chính",
       "summary": "Sau giai đoạn khó khăn kéo dài, Tập đoàn Điện lực Việt Nam (EVN) đã có bước phục hồi đáng chú ý về tài chính. Đến cuối tháng 6/2026, Công ty mẹ EVN đã",
       "url": "https://nangluongvietnam.vn/khong-tang-gia-dien-theo-yeu-cau-cua-thu-tuong-va-bai-toan-moi-sau-khi-evn-phuc-hoi-tai-chinh-36721.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/05/07/in_social/37320261005072710.jpg?randTime=1791352732",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/05/07/in_social/37320261005072710.jpg?randTime=1791439347",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-05T08:39:50+07:00",
@@ -129,7 +129,7 @@
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu thúc đẩy hiện đại hóa lưới điện và phát triển BESS tại Việt Nam",
       "summary": "Ngày 1/10/2026, tại Hà Nội, tiếp nối Tọa đàm “Xây dựng Lưới điện Tương lai” diễn ra ngày 30/9 - nơi các chuyên gia và đối tác phát triển trao đổi với",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-thuc-day-hien-dai-hoa-luoi-dien-va-phat-trien-bess-tai-viet-nam-36712.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/h120261002074213.jpg?randTime=1791352533",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/h120261002074213.jpg?randTime=1791439581",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-02T07:54:11+07:00",
@@ -145,7 +145,7 @@
       "title": "Phân bổ rủi ro và yêu cầu hoàn thiện Luật Điện lực đối với nguồn điện sử dụng nhiên liệu LNG",
       "summary": "Kiến nghị của nhóm các nhà đầu tư Nhật Bản và Hàn Quốc đối với dự thảo Luật sửa đổi, bổ sung một số điều của Luật Điện lực đang đặt ra một vấn đề khôn",
       "url": "https://nangluongvietnam.vn/phan-bo-rui-ro-va-yeu-cau-hoan-thien-luat-dien-luc-doi-voi-nguon-dien-su-dung-nhien-lieu-lng-36711.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/1220261002070003.jpg?randTime=1791352947",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/1220261002070003.jpg?randTime=1791439560",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-02T07:02:29+07:00",
@@ -161,7 +161,7 @@
       "title": "GG Power ra mắt pin lưu trữ ‘quốc dân’ ENERGY HUB S16 NEW",
       "summary": "Mới đây, GG Power ra mắt pin lưu trữ năng lượng (BESS) dân dụng ENERGY HUB S16 NEW, hướng tới giải bài toán “lệch pha” giữa thời điểm sản xuất và tiêu",
       "url": "https://nangluongvietnam.vn/gg-power-ra-mat-pin-luu-tru-quoc-dan-energy-hub-s16-new-36708.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/01/13/in_social/s16-new-16-920261001131807.jpg?randTime=1791352506",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/01/13/in_social/s16-new-16-920261001131807.jpg?randTime=1791439584",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-01T13:20:48+07:00",
@@ -172,22 +172,6 @@
       "icon": "network",
       "region": "vietnam",
       "score": 14
-    },
-    {
-      "title": "Trung tâm Năng lượng Tái tạo ở Việt Nam - Cần tầm nhìn dài hạn, hạ tầng đồng bộ và danh mục dự án ổn định",
-      "summary": "Hà Nội, tháng 9 năm 2026 - những kinh nghiệm được chia sẻ tại Hội thảo “Thúc đẩy phát triển Trung tâm Năng lượng Tái tạo tại Việt Nam” cho thấy một Tr",
-      "url": "https://nangluongvietnam.vn/trung-tam-nang-luong-tai-tao-o-viet-nam-can-tam-nhin-dai-han-ha-tang-dong-bo-va-danh-muc-du-an-on-dinh-36700.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/30/09/in_social/1-yyyy-copy20260930090343.jpg?randTime=1791352733",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-09-30T09:13:01+07:00",
-      "published_label": "30/09/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 8
     },
     {
       "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",

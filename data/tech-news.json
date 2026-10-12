@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T05:49:17.971037+00:00",
+  "updated_at": "2026-10-12T06:00:35.120383+00:00",
   "mode": "1 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
@@ -62,10 +62,26 @@
       "score": 8
     },
     {
+      "title": "PV Power ký thỏa thuận hợp tác với PSGC (Thái Lan) về vận hành, bảo dưỡng nhà máy điện tại Lào",
+      "summary": "Tại Hội nghị xúc tiến đầu tư Việt Nam - Lào, Tổng công ty Điện lực Dầu khí Việt Nam - CTCP (PV Power) và PSG Corporation Public Company Limited - PSGC",
+      "url": "https://nangluongvietnam.vn/pv-power-ky-thoa-thuan-hop-tac-voi-psgc-thai-lan-ve-van-hanh-bao-duong-nha-may-dien-tai-lao-36750.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/12/08/croped/pf20261012082323.jpg?randTime=1791784692",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-12T08:50:17+07:00",
+      "published_label": "12/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 9
+    },
+    {
       "title": "Ngành điện miền Nam sẵn sàng hạ tầng điện thu hút đầu tư vào các khu công nghiệp",
       "summary": "Thực hiện Nghị quyết 70-NQ/TW của Bộ Chính trị về bảo đảm an ninh năng lượng quốc gia, Tổng công ty Điện lực miền Nam (EVNSPC) đã và đang chủ động đầu",
       "url": "https://nangluongvietnam.vn/nganh-dien-mien-nam-san-sang-ha-tang-dien-thu-hut-dau-tu-vao-cac-khu-cong-nghiep-36745.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/08/12/croped/220261008123046.jpg?randTime=1791697465",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/08/12/croped/220261008123046.jpg?randTime=1791784339",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-08T12:37:17+07:00",
@@ -81,7 +97,7 @@
       "title": "Kết quả hoạt động sản xuất của EVN 9 tháng và nhiệm vụ trọng tâm 3 tháng cuối năm 2026",
       "summary": "Trong tháng 9/2026 và 9 tháng đầu năm, Tập đoàn Điện lực Việt Nam (EVN) và các đơn vị đã đảm bảo cung cấp điện phục vụ phát triển kinh tế - xã hội của",
       "url": "https://nangluongvietnam.vn/ket-qua-hoat-dong-san-xuat-cua-evn-9-thang-va-nhiem-vu-trong-tam-3-thang-cuoi-nam-2026-36735.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/14/in_social/763701019-27779575738377614-5479587764512396721-n20261006140134.jpg?randTime=1791697738",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/14/in_social/763701019-27779575738377614-5479587764512396721-n20261006140134.jpg?randTime=1791784820",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-06T14:17:18+07:00",
@@ -94,26 +110,10 @@
       "score": 6
     },
     {
-      "title": "Tổng công ty Điện lực miền Bắc - 57 năm xây dựng và phát triển",
-      "summary": "57 năm xây dựng và phát triển, Tổng công ty Điện lực miền Bắc (EVNNPC) đã đi qua một hành trình gắn chặt với những bước chuyển mình của miền Bắc và đấ",
-      "url": "https://nangluongvietnam.vn/tong-cong-ty-dien-luc-mien-bac-57-nam-xay-dung-va-phat-trien-36733.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/06/09/croped/3a3-12026051715224320261006095848.jpg?randTime=1791697729",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-06T10:00:03+07:00",
-      "published_label": "06/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
       "title": "“Không tăng giá điện” theo yêu cầu của Thủ tướng và bài toán mới sau khi EVN phục hồi tài chính",
       "summary": "Sau giai đoạn khó khăn kéo dài, Tập đoàn Điện lực Việt Nam (EVN) đã có bước phục hồi đáng chú ý về tài chính. Đến cuối tháng 6/2026, Công ty mẹ EVN đã",
       "url": "https://nangluongvietnam.vn/khong-tang-gia-dien-theo-yeu-cau-cua-thu-tuong-va-bai-toan-moi-sau-khi-evn-phuc-hoi-tai-chinh-36721.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/05/07/in_social/37320261005072710.jpg?randTime=1791697735",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/05/07/in_social/37320261005072710.jpg?randTime=1791784549",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-05T08:39:50+07:00",
@@ -129,7 +129,7 @@
       "title": "Cục Điện lực và Liên minh Năng lượng Toàn cầu thúc đẩy hiện đại hóa lưới điện và phát triển BESS tại Việt Nam",
       "summary": "Ngày 1/10/2026, tại Hà Nội, tiếp nối Tọa đàm “Xây dựng Lưới điện Tương lai” diễn ra ngày 30/9 - nơi các chuyên gia và đối tác phát triển trao đổi với",
       "url": "https://nangluongvietnam.vn/cuc-dien-luc-va-lien-minh-nang-luong-toan-cau-thuc-day-hien-dai-hoa-luoi-dien-va-phat-trien-bess-tai-viet-nam-36712.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/h120261002074213.jpg?randTime=1791697728",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/02/07/in_social/h120261002074213.jpg?randTime=1791784549",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-02T07:54:11+07:00",
@@ -145,7 +145,7 @@
       "title": "GG Power ra mắt pin lưu trữ ‘quốc dân’ ENERGY HUB S16 NEW",
       "summary": "Mới đây, GG Power ra mắt pin lưu trữ năng lượng (BESS) dân dụng ENERGY HUB S16 NEW, hướng tới giải bài toán “lệch pha” giữa thời điểm sản xuất và tiêu",
       "url": "https://nangluongvietnam.vn/gg-power-ra-mat-pin-luu-tru-quoc-dan-energy-hub-s16-new-36708.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/01/13/in_social/s16-new-16-920261001131807.jpg?randTime=1791697731",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/01/13/in_social/s16-new-16-920261001131807.jpg?randTime=1791784549",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-01T13:20:48+07:00",

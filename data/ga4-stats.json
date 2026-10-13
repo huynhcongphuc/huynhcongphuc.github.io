@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-10-13T15:14:25.461319+00:00",
+  "updated_at": "2026-10-13T20:44:01.622259+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -151,17 +151,17 @@
       ]
     },
     "7d": {
-      "sessions": 2,
-      "users": 2,
-      "views": 4,
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "downloads": 0,
-      "research_downloads": 6,
-      "vietnam": 2,
+      "research_downloads": 0,
+      "vietnam": 1,
       "abroad": 0,
       "countries": [
         {
           "country": "Vietnam",
-          "users": 2
+          "users": 1
         }
       ],
       "software": [
@@ -215,17 +215,17 @@
         {
           "event": "download_research_abess",
           "name": "ABESS Reliability Paper",
-          "downloads": 2
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_ieee",
           "name": "IEEE FLISR with DG Paper",
-          "downloads": 2
+          "downloads": 0
         },
         {
           "event": "download_research_flisr_vn",
           "name": "FLISR with Distributed Generation Paper",
-          "downloads": 2
+          "downloads": 0
         }
       ]
     },

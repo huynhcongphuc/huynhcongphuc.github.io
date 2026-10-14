@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-10-14T14:42:35.464191+00:00",
+  "updated_at": "2026-10-14T18:57:55.682598+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -230,13 +230,13 @@
       ]
     },
     "30d": {
-      "sessions": 19,
-      "users": 15,
-      "views": 41,
-      "downloads": 1,
+      "sessions": 16,
+      "users": 14,
+      "views": 32,
+      "downloads": 0,
       "research_downloads": 6,
       "vietnam": 4,
-      "abroad": 11,
+      "abroad": 10,
       "countries": [
         {
           "country": "United States",
@@ -249,10 +249,6 @@
         {
           "country": "Russia",
           "users": 2
-        },
-        {
-          "country": "United Kingdom",
-          "users": 1
         }
       ],
       "software": [
@@ -294,7 +290,7 @@
         {
           "event": "download_flisr_log_analyzer",
           "name": "FLISR Log Analyzer",
-          "downloads": 1
+          "downloads": 0
         }
       ],
       "research": [
@@ -437,14 +433,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20260915",
-      "sessions": 3,
-      "users": 3,
-      "views": 9,
-      "software_downloads": 1,
-      "research_downloads": 0
-    },
     {
       "date": "20260916",
       "sessions": 1,

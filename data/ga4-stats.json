@@ -2,18 +2,12 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-10-16T14:04:03.873439+00:00",
+  "updated_at": "2026-10-16T18:00:17.913408+00:00",
   "realtime": {
     "active_users": 0,
-    "views": 1,
+    "views": 0,
     "countries": [],
-    "pages": [
-      {
-        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 0,
-        "views": 1
-      }
-    ],
+    "pages": [],
     "downloads": 0,
     "research_downloads": 0,
     "software": [
@@ -83,19 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 1,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -245,17 +234,17 @@
       ]
     },
     "30d": {
-      "sessions": 16,
-      "users": 14,
-      "views": 31,
+      "sessions": 14,
+      "users": 12,
+      "views": 28,
       "downloads": 0,
       "research_downloads": 6,
       "vietnam": 4,
-      "abroad": 10,
+      "abroad": 8,
       "countries": [
         {
           "country": "United States",
-          "users": 8
+          "users": 7
         },
         {
           "country": "Vietnam",
@@ -263,7 +252,7 @@
         },
         {
           "country": "Russia",
-          "users": 2
+          "users": 1
         }
       ],
       "software": [
@@ -448,14 +437,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20260917",
-      "sessions": 2,
-      "users": 2,
-      "views": 3,
-      "software_downloads": 0,
-      "research_downloads": 0
-    },
     {
       "date": "20260918",
       "sessions": 1,

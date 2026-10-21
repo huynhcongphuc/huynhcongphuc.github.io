@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-20T04:53:06.464917+00:00",
-  "mode": "3 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-10-21T04:50:36.323505+00:00",
+  "mode": "2 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -10,7 +10,7 @@
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 3,
+      "available": 2,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 5,
+      "available": 6,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -78,26 +78,58 @@
       "score": 8
     },
     {
-      "title": "Why a Niche Steel Could Stall Europe’s Electrification Plans",
-      "summary": "Grid transformers remain in short supply",
-      "url": "https://spectrum.ieee.org/transformer-shortage-europe-goes-steel",
-      "image": "https://spectrum.ieee.org/media-library/a-large-alstom-power-transformer-with-ceramic-bushings-radiators-and-high-voltage-connections-in-an-electrical-substation.jpg?id=68423002&width=1200&height=600&coordinates=0%2C739%2C0%2C511",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-10-14T12:00:03+00:00",
-      "published_label": "14/10/2026",
+      "title": "Tờ trình và Báo cáo thẩm tra nội dung sửa đổi, bổ sung một số điều của Luật Điện lực (năm 2026)",
+      "summary": "Tiếp tục chương trình Kỳ họp thứ Hai, Quốc hội khóa XVI (chiều ngày 20/10/2026), Quốc hội nghe Tờ trình và Báo cáo thẩm tra về Dự án Luật sửa đổi, bổ",
+      "url": "https://nangluongvietnam.vn/to-trinh-va-bao-cao-tham-tra-noi-dung-sua-doi-bo-sung-mot-so-dieu-cua-luat-dien-luc-nam-2026-36795.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/21/07/in_social/6320261021070807.jpg?randTime=1792557781",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-21T07:17:01+07:00",
+      "published_label": "21/10/2026",
       "tags": [
         "power"
       ],
-      "icon": "radio-tower",
-      "region": "international",
-      "score": 5
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
+      "title": "Dịch vụ phụ trợ - Mảnh ghép còn thiếu của thị trường điện cạnh tranh Việt Nam",
+      "summary": "Sau gần hai năm, Công ty Vận hành Hệ thống điện và Thị trường điện Quốc gia (NSMO) hoạt động theo mô hình độc lập, cải cách thị trường điện Việt Nam đ",
+      "url": "https://nangluongvietnam.vn/dich-vu-phu-tro-manh-ghep-con-thieu-cua-thi-truong-dien-canh-tranh-viet-nam-36623.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/21/10/in_social/42-h2026102109205620261021101836.jpg?randTime=1792557647",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-21T06:26:23+07:00",
+      "published_label": "21/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 18
+    },
+    {
+      "title": "Khởi công dự án Nhiệt điện LNG Quảng Trạch 2 và công bố phát điện Nhiệt điện Quảng Trạch 1 lên lưới quốc gia",
+      "summary": "Ngày 20/10/2026, tại Trung tâm Điện lực Quảng Trạch, khu kinh tế Hòn La, xã Phú Trạch, tỉnh Quảng Trị, Tập đoàn Điện lực Việt Nam (EVN), Ban Quản lý D",
+      "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nhiet-dien-lng-quang-trach-2-va-cong-bo-phat-dien-nhiet-dien-quang-trach-1-len-luoi-quoc-gia-36793.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/20/13/in_social/520261020134134.jpg?randTime=1792557839",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-20T12:36:35+07:00",
+      "published_label": "20/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
     },
     {
       "title": "PV GAS - PV Power ký thỏa thuận cung cấp khí cho các nhà máy điện và phát triển chuỗi dự án LNG tại Hải Phòng",
       "summary": "Tại Hà Nội, Tổng công ty Khí Việt Nam (PV GAS) và Tổng công ty Điện lực Dầu khí Việt Nam (PV Power) vừa ký kết các thỏa thuận hợp tác về cung cấp khí",
       "url": "https://nangluongvietnam.vn/pv-gas-pv-power-ky-thoa-thuan-cung-cap-khi-cho-cac-nha-may-dien-va-phat-trien-chuoi-du-an-lng-tai-hai-phong-36779.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/14/in_social/3-h2-5520261016140356.jpg?randTime=1792471491",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/14/in_social/3-h2-5520261016140356.jpg?randTime=1792558216",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-16T14:12:32+07:00",
@@ -113,7 +145,7 @@
       "title": "Lãnh đạo EVN làm việc với EVNGENCO3 về sản xuất điện năm 2026 và mùa khô 2027",
       "summary": "Tại TP. Hồ Chí Minh, đoàn công tác của Tập đoàn Điện lực Việt Nam (EVN) có buổi làm việc với Tổng công ty Phát điện 3 (EVNGENCO3) về tình hình sản xuấ",
       "url": "https://nangluongvietnam.vn/lanh-dao-evn-lam-viec-voi-evngenco3-ve-san-xuat-dien-nam-2026-va-mua-kho-2027-36775.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/08/croped/141026genco3-2026101514433063420261016081422.jpg?randTime=1792471896",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/08/croped/141026genco3-2026101514433063420261016081422.jpg?randTime=1792558222",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-16T08:48:18+07:00",
@@ -126,13 +158,13 @@
       "score": 6
     },
     {
-      "title": "Tiến độ thi công dự án Thủy điện Trị An mở rộng (cập nhật ngày 14/10/2026)",
-      "summary": "Báo cáo của Tập đoàn Điện lực Việt Nam (EVN) cho biết: Mặc dù gặp nhiều khó khăn về bồi thường, giải phóng mặt bằng, thời tiết không thuận lợi và nguồ",
-      "url": "https://nangluongvietnam.vn/tien-do-thi-cong-du-an-thuy-dien-tri-an-mo-rong-cap-nhat-ngay-14102026-36757.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/14/06/131026cuanhannuoc2-11zon-2026101319173417920261014062526.jpg?rt=20261014062859?randTime=1792471975",
+      "title": "Lợi nhuận của EVN đã phục hồi, nhưng bài toán tài chính chưa khép lại",
+      "summary": "Sau giai đoạn khó khăn kéo dài, tình hình tài chính của Tập đoàn Điện lực Việt Nam (EVN) đang có sự cải thiện rõ rệt. Tuy nhiên, nếu nhìn về phía trướ",
+      "url": "https://nangluongvietnam.vn/loi-nhuan-cua-evn-da-phuc-hoi-nhung-bai-toan-tai-chinh-chua-khep-lai-36615.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/10/11/10-n20260910111840.jpg?rt=20260910111846?randTime=1792558213",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-14T06:31:49+07:00",
+      "published": "2026-10-14T09:00:08+07:00",
       "published_label": "14/10/2026",
       "tags": [
         "power"
@@ -140,38 +172,6 @@
       "icon": "network",
       "region": "vietnam",
       "score": 6
-    },
-    {
-      "title": "Khi dự báo thời tiết trở thành dữ liệu của hệ thống điện Việt Nam",
-      "summary": "Thời tiết không còn chỉ là yếu tố bên ngoài tác động đến hệ thống điện. Trong bối cảnh El Niño 2026-2027 được dự báo duy trì ở cường độ mạnh, đến rất",
-      "url": "https://nangluongvietnam.vn/khi-du-bao-thoi-tiet-tro-thanh-du-lieu-cua-he-thong-dien-viet-nam-36642.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/092026/28/07/in_social/471160331-896230486022451-5853501984256502798-n20260928070725.jpg?randTime=1792471897",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-14T05:43:22+07:00",
-      "published_label": "14/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 8
-    },
-    {
-      "title": "PV Power ký thỏa thuận hợp tác với PSGC (Thái Lan) về vận hành, bảo dưỡng nhà máy điện tại Lào",
-      "summary": "Tại Hội nghị xúc tiến đầu tư Việt Nam - Lào, Tổng công ty Điện lực Dầu khí Việt Nam - CTCP (PV Power) và PSG Corporation Public Company Limited - PSGC",
-      "url": "https://nangluongvietnam.vn/pv-power-ky-thoa-thuan-hop-tac-voi-psgc-thai-lan-ve-van-hanh-bao-duong-nha-may-dien-tai-lao-36750.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/12/08/croped/pf20261012082323.jpg?randTime=1792471720",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-12T08:50:17+07:00",
-      "published_label": "12/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 9
     },
     {
       "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",

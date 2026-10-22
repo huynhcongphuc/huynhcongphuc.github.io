@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-10-22T11:42:07.390669+00:00",
+  "updated_at": "2026-10-22T16:04:14.842954+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,13 +77,13 @@
   },
   "periods": {
     "today": {
-      "sessions": 4,
-      "users": 4,
-      "views": 4,
+      "sessions": 5,
+      "users": 5,
+      "views": 5,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 4,
+      "abroad": 5,
       "countries": [
         {
           "country": "United States",
@@ -91,6 +91,10 @@
         },
         {
           "country": "Japan",
+          "users": 1
+        },
+        {
+          "country": "Malaysia",
           "users": 1
         }
       ],
@@ -160,13 +164,13 @@
       ]
     },
     "7d": {
-      "sessions": 8,
-      "users": 7,
-      "views": 10,
+      "sessions": 9,
+      "users": 8,
+      "views": 11,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 6,
+      "abroad": 7,
       "countries": [
         {
           "country": "United States",
@@ -174,6 +178,10 @@
         },
         {
           "country": "Japan",
+          "users": 1
+        },
+        {
+          "country": "Malaysia",
           "users": 1
         },
         {
@@ -251,13 +259,13 @@
       ]
     },
     "30d": {
-      "sessions": 16,
-      "users": 12,
-      "views": 32,
+      "sessions": 17,
+      "users": 13,
+      "views": 33,
       "downloads": 0,
       "research_downloads": 6,
       "vietnam": 4,
-      "abroad": 8,
+      "abroad": 9,
       "countries": [
         {
           "country": "United States",
@@ -273,6 +281,10 @@
         },
         {
           "country": "Japan",
+          "users": 1
+        },
+        {
+          "country": "Malaysia",
           "users": 1
         }
       ],
@@ -342,13 +354,13 @@
       ]
     },
     "all": {
-      "sessions": 148,
-      "users": 101,
-      "views": 439,
+      "sessions": 149,
+      "users": 102,
+      "views": 440,
       "downloads": 13,
       "research_downloads": 18,
       "vietnam": 23,
-      "abroad": 78,
+      "abroad": 79,
       "countries": [
         {
           "country": "United States",
@@ -387,7 +399,7 @@
           "users": 1
         },
         {
-          "country": "New Zealand",
+          "country": "Malaysia",
           "users": 1
         }
       ],
@@ -532,9 +544,9 @@
     },
     {
       "date": "20261022",
-      "sessions": 4,
-      "users": 4,
-      "views": 4,
+      "sessions": 5,
+      "users": 5,
+      "views": 5,
       "software_downloads": 0,
       "research_downloads": 0
     }

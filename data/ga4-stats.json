@@ -2,23 +2,12 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-10-22T00:58:56.086915+00:00",
+  "updated_at": "2026-10-22T06:01:20.374454+00:00",
   "realtime": {
-    "active_users": 2,
-    "views": 2,
-    "countries": [
-      {
-        "country": "United States",
-        "users": 2
-      }
-    ],
-    "pages": [
-      {
-        "page": "Huỳnh Công Phúc | Kỹ sư Hệ thống điện, SCADA & Tự động hóa",
-        "users": 2,
-        "views": 2
-      }
-    ],
+    "active_users": 0,
+    "views": 0,
+    "countries": [],
+    "pages": [],
     "downloads": 0,
     "research_downloads": 0,
     "software": [
@@ -88,14 +77,19 @@
   },
   "periods": {
     "today": {
-      "sessions": 0,
-      "users": 0,
-      "views": 0,
+      "sessions": 3,
+      "users": 3,
+      "views": 3,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 0,
-      "countries": [],
+      "abroad": 3,
+      "countries": [
+        {
+          "country": "United States",
+          "users": 3
+        }
+      ],
       "software": [
         {
           "event": "download_secureapp",
@@ -162,20 +156,20 @@
       ]
     },
     "7d": {
-      "sessions": 4,
-      "users": 3,
-      "views": 6,
+      "sessions": 7,
+      "users": 6,
+      "views": 9,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 2,
+      "abroad": 5,
       "countries": [
         {
-          "country": "Russia",
-          "users": 1
+          "country": "United States",
+          "users": 4
         },
         {
-          "country": "United States",
+          "country": "Russia",
           "users": 1
         },
         {
@@ -249,24 +243,24 @@
       ]
     },
     "30d": {
-      "sessions": 12,
-      "users": 8,
-      "views": 28,
+      "sessions": 15,
+      "users": 11,
+      "views": 31,
       "downloads": 0,
       "research_downloads": 6,
       "vietnam": 4,
-      "abroad": 4,
+      "abroad": 7,
       "countries": [
+        {
+          "country": "United States",
+          "users": 5
+        },
         {
           "country": "Vietnam",
           "users": 4
         },
         {
           "country": "Russia",
-          "users": 2
-        },
-        {
-          "country": "United States",
           "users": 2
         }
       ],
@@ -336,17 +330,17 @@
       ]
     },
     "all": {
-      "sessions": 144,
-      "users": 97,
-      "views": 435,
+      "sessions": 147,
+      "users": 100,
+      "views": 438,
       "downloads": 13,
       "research_downloads": 18,
       "vietnam": 23,
-      "abroad": 74,
+      "abroad": 77,
       "countries": [
         {
           "country": "United States",
-          "users": 55
+          "users": 58
         },
         {
           "country": "Vietnam",
@@ -521,6 +515,14 @@
       "sessions": 1,
       "users": 1,
       "views": 2,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20261022",
+      "sessions": 3,
+      "users": 3,
+      "views": 3,
       "software_downloads": 0,
       "research_downloads": 0
     }

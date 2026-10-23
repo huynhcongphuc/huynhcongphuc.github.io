@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-22T04:49:24.119482+00:00",
-  "mode": "2 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-10-23T04:51:57.169769+00:00",
+  "mode": "1 international + 7 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -10,7 +10,7 @@
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 2,
+      "available": 1,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
@@ -62,26 +62,26 @@
       "score": 17
     },
     {
-      "title": "This Hidden Device in Buildings Could Free Up Gigawatts On the Grid",
-      "summary": "Variable frequency drives can slash motors’ power use",
-      "url": "https://spectrum.ieee.org/variable-frequency-drives",
-      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68442945&width=1200&height=600&coordinates=0%2C355%2C0%2C356",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-10-17T13:00:02+00:00",
-      "published_label": "17/10/2026",
+      "title": "Giá điện sinh hoạt theo thời gian sử dụng - Bài toán hiệu quả hệ thống, nhưng công bằng với người dân",
+      "summary": "Giá điện sinh hoạt theo thời gian sử dụng có thể góp phần giảm áp lực phụ tải giờ cao điểm, nâng cao hiệu quả vận hành hệ thống điện và sử dụng hợp lý",
+      "url": "https://nangluongvietnam.vn/gia-dien-sinh-hoat-theo-thoi-gian-su-dung-bai-toan-hieu-qua-he-thong-nhung-cong-bang-voi-nguoi-dan-36800.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1792731103",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-23T10:50:20+07:00",
+      "published_label": "23/10/2026",
       "tags": [
         "power"
       ],
-      "icon": "radio-tower",
-      "region": "international",
-      "score": 8
+      "icon": "network",
+      "region": "vietnam",
+      "score": 18
     },
     {
       "title": "Tờ trình và Báo cáo thẩm tra nội dung sửa đổi, bổ sung một số điều của Luật Điện lực (năm 2026)",
       "summary": "Tiếp tục chương trình Kỳ họp thứ Hai, Quốc hội khóa XVI (chiều ngày 20/10/2026), Quốc hội nghe Tờ trình và Báo cáo thẩm tra về Dự án Luật sửa đổi, bổ",
       "url": "https://nangluongvietnam.vn/to-trinh-va-bao-cao-tham-tra-noi-dung-sua-doi-bo-sung-mot-so-dieu-cua-luat-dien-luc-nam-2026-36795.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/21/07/in_social/6320261021070807.jpg?randTime=1792644541",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/21/07/in_social/6320261021070807.jpg?randTime=1792731098",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-21T07:17:01+07:00",
@@ -97,7 +97,7 @@
       "title": "Dịch vụ phụ trợ - Mảnh ghép còn thiếu của thị trường điện cạnh tranh Việt Nam",
       "summary": "Sau gần hai năm, Công ty Vận hành Hệ thống điện và Thị trường điện Quốc gia (NSMO) hoạt động theo mô hình độc lập, cải cách thị trường điện Việt Nam đ",
       "url": "https://nangluongvietnam.vn/dich-vu-phu-tro-manh-ghep-con-thieu-cua-thi-truong-dien-canh-tranh-viet-nam-36623.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/21/10/in_social/42-h2026102109205620261021101836.jpg?randTime=1792644546",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/21/10/in_social/42-h2026102109205620261021101836.jpg?randTime=1792730537",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-21T06:26:23+07:00",
@@ -113,7 +113,7 @@
       "title": "Khởi công dự án Nhiệt điện LNG Quảng Trạch 2 và công bố phát điện Nhiệt điện Quảng Trạch 1 lên lưới quốc gia",
       "summary": "Ngày 20/10/2026, tại Trung tâm Điện lực Quảng Trạch, khu kinh tế Hòn La, xã Phú Trạch, tỉnh Quảng Trị, Tập đoàn Điện lực Việt Nam (EVN), Ban Quản lý D",
       "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nhiet-dien-lng-quang-trach-2-va-cong-bo-phat-dien-nhiet-dien-quang-trach-1-len-luoi-quoc-gia-36793.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/20/13/in_social/520261020134134.jpg?randTime=1792644052",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/20/13/in_social/520261020134134.jpg?randTime=1792731106",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-20T12:36:35+07:00",
@@ -129,7 +129,7 @@
       "title": "PV GAS - PV Power ký thỏa thuận cung cấp khí cho các nhà máy điện và phát triển chuỗi dự án LNG tại Hải Phòng",
       "summary": "Tại Hà Nội, Tổng công ty Khí Việt Nam (PV GAS) và Tổng công ty Điện lực Dầu khí Việt Nam (PV Power) vừa ký kết các thỏa thuận hợp tác về cung cấp khí",
       "url": "https://nangluongvietnam.vn/pv-gas-pv-power-ky-thoa-thuan-cung-cap-khi-cho-cac-nha-may-dien-va-phat-trien-chuoi-du-an-lng-tai-hai-phong-36779.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/14/in_social/3-h2-5520261016140356.jpg?randTime=1792644168",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/14/in_social/3-h2-5520261016140356.jpg?randTime=1792731100",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-16T14:12:32+07:00",
@@ -140,22 +140,6 @@
       "icon": "network",
       "region": "vietnam",
       "score": 9
-    },
-    {
-      "title": "Lãnh đạo EVN làm việc với EVNGENCO3 về sản xuất điện năm 2026 và mùa khô 2027",
-      "summary": "Tại TP. Hồ Chí Minh, đoàn công tác của Tập đoàn Điện lực Việt Nam (EVN) có buổi làm việc với Tổng công ty Phát điện 3 (EVNGENCO3) về tình hình sản xuấ",
-      "url": "https://nangluongvietnam.vn/lanh-dao-evn-lam-viec-voi-evngenco3-ve-san-xuat-dien-nam-2026-va-mua-kho-2027-36775.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/16/08/croped/141026genco3-2026101514433063420261016081422.jpg?randTime=1792644550",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-16T08:48:18+07:00",
-      "published_label": "16/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
     },
     {
       "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",

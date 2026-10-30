@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-29T05:51:03.113217+00:00",
-  "mode": "1 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-10-30T05:52:02.275775+00:00",
+  "mode": "1 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 5,
+      "available": 6,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -46,26 +46,58 @@
   },
   "items": [
     {
-      "title": "New Rules Push Power Grids Toward Domestic Inverter Tech",
-      "summary": "Concerns over grid security are driving new rules around components",
-      "url": "https://spectrum.ieee.org/power-grid-security-china-inverters",
-      "image": "https://spectrum.ieee.org/media-library/a-man-opening-an-inverter-panel-outdoors.jpg?id=68453268&width=1200&height=600&coordinates=0%2C241%2C0%2C384",
+      "title": "Can Tiny Blimps Replace Helicopters for Grid Checks?",
+      "summary": "French startup HyLight goes up against helicopters and drones",
+      "url": "https://spectrum.ieee.org/infrastructure-inspection-airship-hylight",
+      "image": "https://spectrum.ieee.org/media-library/image.jpg?id=68511314&width=1200&height=600&coordinates=0%2C306%2C0%2C306",
       "source": "IEEE Spectrum",
       "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-10-19T11:00:03+00:00",
-      "published_label": "19/10/2026",
+      "published": "2026-10-29T14:00:02+00:00",
+      "published_label": "29/10/2026",
       "tags": [
         "power"
       ],
       "icon": "radio-tower",
       "region": "international",
-      "score": 17
+      "score": 5
+    },
+    {
+      "title": "EVNNPT và EVNCPC đồng bộ đầu tư lưới điện, bảo đảm cung cấp điện khu vực miền Trung - Tây Nguyên",
+      "summary": "Ngày 29/10/2026, tại Đà Nẵng, Tổng công ty Truyền tải điện Quốc gia (EVNNPT) và Tổng công ty Điện lực miền Trung (EVNCPC) đã có buổi họp trao đổi và k",
+      "url": "https://nangluongvietnam.vn/evnnpt-va-evncpc-dong-bo-dau-tu-luoi-dien-bao-dam-cung-cap-dien-khu-vuc-mien-trung-tay-nguyen-36843.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/30/07/croped/anh1lamvieccpc2910220620261030075739.jpg?randTime=1793339497",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-30T08:05:02+07:00",
+      "published_label": "30/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 14
+    },
+    {
+      "title": "Nguyên tắc minh bạch giá, phân bổ rủi ro, bảo vệ quyền lợi của các bên khi sửa đổi Luật Điện lực (năm 2026)",
+      "summary": "Việc sửa đổi, bổ sung một số điều của Luật Điện lực là cơ hội tháo gỡ vướng mắc đầu tư, phát triển nguồn, lưới điện, đáp ứng nhu cầu điện ngày càng tă",
+      "url": "https://nangluongvietnam.vn/nguyen-tac-minh-bach-gia-phan-bo-rui-ro-bao-ve-quyen-loi-cua-cac-ben-khi-sua-doi-luat-dien-luc-nam-2026-36825.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/07/720261028071327.jpg?rt=20261028071339?randTime=1793339472",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-10-30T05:44:19+07:00",
+      "published_label": "30/10/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 14
     },
     {
       "title": "Điện lực Vinh (PC Nghệ An) chỉnh trang hệ thống cáp viễn thông và công xưởng hóa công tơ, từng bước chuẩn hóa lưới điện",
       "summary": "Trong thời gian qua tình trạng cáp viễn thông, dây thuê bao của các đơn vị viễn thông, truyền hình cáp treo trên cột điện tại nhiều tuyến phố trên địa",
       "url": "https://nangluongvietnam.vn/dien-luc-vinh-pc-nghe-an-chinh-trang-he-thong-cap-vien-thong-va-cong-xuong-hoa-cong-to-tung-buoc-chuan-hoa-luoi-dien-36831.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/08/in_social/1793094337548-9078851273602567982-9078851273602567982-d9bdeb612f656cdf79cf4a8c554a152a20261028085045.jpg?randTime=1793253037",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/08/in_social/1793094337548-9078851273602567982-9078851273602567982-d9bdeb612f656cdf79cf4a8c554a152a20261028085045.jpg?randTime=1793339495",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-28T08:55:12+07:00",
@@ -81,7 +113,7 @@
       "title": "Giá điện sinh hoạt theo thời gian sử dụng - Bài toán hiệu quả hệ thống, nhưng công bằng với người dân",
       "summary": "Giá điện sinh hoạt theo thời gian sử dụng có thể góp phần giảm áp lực phụ tải giờ cao điểm, nâng cao hiệu quả vận hành hệ thống điện và sử dụng hợp lý",
       "url": "https://nangluongvietnam.vn/gia-dien-sinh-hoat-theo-thoi-gian-su-dung-bai-toan-hieu-qua-he-thong-nhung-cong-bang-voi-nguoi-dan-36800.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1793253043",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1793339503",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-27T06:19:58+07:00",
@@ -94,26 +126,10 @@
       "score": 18
     },
     {
-      "title": "Ký hợp đồng cung cấp thiết bị cơ điện dự án Thủy điện Tích năng Bác Ái",
-      "summary": "Ngày 26/10/2026 tại Hà Nội, Tập đoàn Điện lực Việt Nam (EVN) và Liên danh Voith Hydro Shanghai and Powerchina Zhongnan (gồm 2 thành viên: Voith Hydro",
-      "url": "https://nangluongvietnam.vn/ky-hop-dong-cung-cap-thiet-bi-co-dien-du-an-thuy-dien-tich-nang-bac-ai-36822.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/26/15/in_social/le-ky-ket20261026150755.jpg?randTime=1793253048",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-26T15:13:00+07:00",
-      "published_label": "26/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 9
-    },
-    {
       "title": "Chấp thuận có điều kiện dự án xuất khẩu điện năng lượng tái tạo từ Việt Nam sang Malaysia và Singapore",
       "summary": "Ngày 26/10/2026, tại Singapore, dự án xuất khẩu điện năng lượng tái tạo từ Việt Nam sang Malaysia và Singapore (Dự án VMS) đánh dấu một cột mốc quan t",
       "url": "https://nangluongvietnam.vn/chap-thuan-co-dieu-kien-du-an-xuat-khau-dien-nang-luong-tai-tao-tu-viet-nam-sang-malaysia-va-singapore-36817.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/27/07/in_social/620261027072345.jpg?randTime=1793253038",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/27/07/in_social/620261027072345.jpg?randTime=1793339498",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-26T11:44:33+07:00",
@@ -129,7 +145,7 @@
       "title": "Ai sẽ bán dịch vụ phụ trợ cho Công ty Vận hành Hệ thống điện và Thị trường điện Quốc gia?",
       "summary": "Khi thị trường dịch vụ phụ trợ được hình thành, câu hỏi tiếp theo là: Ai sẽ cung cấp các dịch vụ điều tần, dự phòng công suất, điều chỉnh điện áp, hay",
       "url": "https://nangluongvietnam.vn/ai-se-ban-dich-vu-phu-tro-cho-cong-ty-van-hanh-he-thong-dien-va-thi-truong-dien-quoc-gia-36625.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/11/in_social/100002013520261023114211.jpg?randTime=1793253045",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/11/in_social/100002013520261023114211.jpg?randTime=1793339505",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-25T09:55:57+07:00",

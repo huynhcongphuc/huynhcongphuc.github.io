@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-11-01T14:28:05.539532+00:00",
+  "updated_at": "2026-11-01T19:07:52.510090+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -151,20 +151,16 @@
       ]
     },
     "7d": {
-      "sessions": 3,
-      "users": 2,
-      "views": 3,
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
       "downloads": 0,
       "research_downloads": 0,
-      "vietnam": 1,
+      "vietnam": 0,
       "abroad": 1,
       "countries": [
         {
           "country": "France",
-          "users": 1
-        },
-        {
-          "country": "Vietnam",
           "users": 1
         }
       ],
@@ -234,9 +230,9 @@
       ]
     },
     "30d": {
-      "sessions": 16,
+      "sessions": 15,
       "users": 12,
-      "views": 23,
+      "views": 19,
       "downloads": 0,
       "research_downloads": 6,
       "vietnam": 3,
@@ -453,14 +449,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20261003",
-      "sessions": 1,
-      "users": 1,
-      "views": 4,
-      "software_downloads": 0,
-      "research_downloads": 0
-    },
     {
       "date": "20261007",
       "sessions": 1,

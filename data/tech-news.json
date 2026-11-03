@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-02T06:07:12.485917+00:00",
-  "mode": "1 international + 8 Vietnam | max age 12 months",
+  "updated_at": "2026-11-03T06:50:08.531428+00:00",
+  "mode": "1 international + 9 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 6,
+      "available": 7,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -62,10 +62,42 @@
       "score": 5
     },
     {
+      "title": "Tình hình hoạt động sản xuất, kinh doanh của EVN tháng 10 và nhiệm vụ tháng 11/2026",
+      "summary": "Tập đoàn Điện lực Việt Nam (EVN) cho biết: Trong tháng 10 năm 2026, EVN đã đảm bảo cung cấp điện an toàn, liên tục, phục vụ phát triển kinh tế - xã hộ",
+      "url": "https://nangluongvietnam.vn/tinh-hinh-hoat-dong-san-xuat-kinh-doanh-cua-evn-thang-10-va-nhiem-vu-thang-112026-36857.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/10/in_social/1793676181580-8144223617286110166-8144223617286110166-de1e27123245cf29a5fe76c2dcf2ed5720261103102352.jpg?randTime=1793688489",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-03T10:30:19+07:00",
+      "published_label": "03/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
+      "title": "EVNHCMC bổ sung tiện ích cho khách hàng tra cứu thông tin phát triển điện mặt trời mái nhà",
+      "summary": "Tổng công ty Điện lực TP. HCM (EVNHCMC) vừa bổ sung tiện ích “Tra cứu thông tin phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ” trên",
+      "url": "https://nangluongvietnam.vn/evnhcmc-bo-sung-tien-ich-cho-khach-hang-tra-cuu-thong-tin-phat-trien-dien-mat-troi-mai-nha-36854.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1793688130",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-03T09:44:24+07:00",
+      "published_label": "03/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
       "title": "Điều chỉnh giá bán lẻ điện bình quân giảm 2% từ ngày 1/11/2026",
       "summary": "Tập đoàn Điện lực Việt Nam (EVN) cho biết: Từ ngày 1 tháng 11 năm 2026, giá bán lẻ điện bình quân là 2.159,9037 đồng/kWh (chưa bao gồm thuế giá trị gi",
       "url": "https://nangluongvietnam.vn/dieu-chinh-gia-ban-le-dien-binh-quan-giam-2-tu-ngay-1112026-36845.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/02/06/in_social/100002031420261102065639.jpg?randTime=1793599615",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/02/06/in_social/100002031420261102065639.jpg?randTime=1793688378",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-01T06:50:46+07:00",
@@ -78,26 +110,10 @@
       "score": 6
     },
     {
-      "title": "EVNNPT và EVNCPC đồng bộ đầu tư lưới điện, bảo đảm cung cấp điện khu vực miền Trung - Tây Nguyên",
-      "summary": "Ngày 29/10/2026, tại Đà Nẵng, Tổng công ty Truyền tải điện Quốc gia (EVNNPT) và Tổng công ty Điện lực miền Trung (EVNCPC) đã có buổi họp trao đổi và k",
-      "url": "https://nangluongvietnam.vn/evnnpt-va-evncpc-dong-bo-dau-tu-luoi-dien-bao-dam-cung-cap-dien-khu-vuc-mien-trung-tay-nguyen-36843.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/30/07/croped/anh1lamvieccpc2910220620261030075739.jpg?randTime=1793599607",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-30T08:05:02+07:00",
-      "published_label": "30/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 14
-    },
-    {
       "title": "Nguyên tắc minh bạch giá, phân bổ rủi ro, bảo vệ quyền lợi của các bên khi sửa đổi Luật Điện lực (năm 2026)",
       "summary": "Việc sửa đổi, bổ sung một số điều của Luật Điện lực là cơ hội tháo gỡ vướng mắc đầu tư, phát triển nguồn, lưới điện, đáp ứng nhu cầu điện ngày càng tă",
       "url": "https://nangluongvietnam.vn/nguyen-tac-minh-bach-gia-phan-bo-rui-ro-bao-ve-quyen-loi-cua-cac-ben-khi-sua-doi-luat-dien-luc-nam-2026-36825.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/07/720261028071327.jpg?rt=20261028071339?randTime=1793599611",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/07/720261028071327.jpg?rt=20261028071339?randTime=1793688589",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-30T05:44:19+07:00",
@@ -113,7 +129,7 @@
       "title": "Điện lực Vinh (PC Nghệ An) chỉnh trang hệ thống cáp viễn thông và công xưởng hóa công tơ, từng bước chuẩn hóa lưới điện",
       "summary": "Trong thời gian qua tình trạng cáp viễn thông, dây thuê bao của các đơn vị viễn thông, truyền hình cáp treo trên cột điện tại nhiều tuyến phố trên địa",
       "url": "https://nangluongvietnam.vn/dien-luc-vinh-pc-nghe-an-chinh-trang-he-thong-cap-vien-thong-va-cong-xuong-hoa-cong-to-tung-buoc-chuan-hoa-luoi-dien-36831.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/08/in_social/1793094337548-9078851273602567982-9078851273602567982-d9bdeb612f656cdf79cf4a8c554a152a20261028085045.jpg?randTime=1793599606",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/08/in_social/1793094337548-9078851273602567982-9078851273602567982-d9bdeb612f656cdf79cf4a8c554a152a20261028085045.jpg?randTime=1793688583",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-28T08:55:12+07:00",
@@ -129,7 +145,7 @@
       "title": "Giá điện sinh hoạt theo thời gian sử dụng - Bài toán hiệu quả hệ thống, nhưng công bằng với người dân",
       "summary": "Giá điện sinh hoạt theo thời gian sử dụng có thể góp phần giảm áp lực phụ tải giờ cao điểm, nâng cao hiệu quả vận hành hệ thống điện và sử dụng hợp lý",
       "url": "https://nangluongvietnam.vn/gia-dien-sinh-hoat-theo-thoi-gian-su-dung-bai-toan-hieu-qua-he-thong-nhung-cong-bang-voi-nguoi-dan-36800.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1793599613",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1793688590",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-27T06:19:58+07:00",
@@ -145,7 +161,7 @@
       "title": "Chấp thuận có điều kiện dự án xuất khẩu điện năng lượng tái tạo từ Việt Nam sang Malaysia và Singapore",
       "summary": "Ngày 26/10/2026, tại Singapore, dự án xuất khẩu điện năng lượng tái tạo từ Việt Nam sang Malaysia và Singapore (Dự án VMS) đánh dấu một cột mốc quan t",
       "url": "https://nangluongvietnam.vn/chap-thuan-co-dieu-kien-du-an-xuat-khau-dien-nang-luong-tai-tao-tu-viet-nam-sang-malaysia-va-singapore-36817.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/27/07/in_social/620261027072345.jpg?randTime=1793599607",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/27/07/in_social/620261027072345.jpg?randTime=1793688177",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-26T11:44:33+07:00",

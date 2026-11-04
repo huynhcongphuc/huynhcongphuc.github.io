@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-03T06:50:08.531428+00:00",
-  "mode": "1 international + 9 Vietnam | max age 12 months",
+  "updated_at": "2026-11-04T06:25:13.845852+00:00",
+  "mode": "1 international + 10 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 7,
+      "available": 9,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -62,10 +62,58 @@
       "score": 5
     },
     {
+      "title": "Đóng góp ý kiến sửa đổi Luật Điện lực của TS. Nguyễn Thị Thanh Bình - ĐBQH, Phó chủ tịch Hiệp hội Năng lượng Việt Nam",
+      "summary": "Ngày 3/11/2026, thảo luận tại hội trường về dự án Luật sửa đổi, bổ sung một số điều của Luật Điện lực, TS. Nguyễn Thị Thanh Bình - ĐBQH tỉnh Hưng Yên",
+      "url": "https://nangluongvietnam.vn/dong-gop-y-kien-sua-doi-luat-dien-luc-cua-ts-nguyen-thi-thanh-binh-dbqh-pho-chu-tich-hiep-hoi-nang-luong-viet-nam-36865.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/04/08/in_social/1793753972656-2506566542781171755-2506566542781171755-h20261104084013.jpg?randTime=1793773218",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-04T08:57:43+07:00",
+      "published_label": "04/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 9
+    },
+    {
+      "title": "Bộ trưởng Công Thương giải trình ý kiến đại biểu Quốc hội quan tâm về Luật Điện lực (sửa đổi năm 2026)",
+      "summary": "Ngày 3/11/2026, Bộ trưởng Bộ Công Thương Lê Mạnh Hùng đã tiếp thu, giải trình ý kiến đại biểu Quốc hội quan tâm về dự án Luật sửa đổi, bổ sung một số",
+      "url": "https://nangluongvietnam.vn/bo-truong-cong-thuong-giai-trinh-y-kien-dai-bieu-quoc-hoi-quan-tam-ve-luat-dien-luc-sua-doi-nam-2026-36861.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/04/07/in_social/2434720261104070018.jpg?randTime=1793773080",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-04T07:06:29+07:00",
+      "published_label": "04/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
+      "title": "Chấp thuận nhà đầu tư dự án Trạm biến áp 220kV Thống Nhất (Đồng Nai) và đường dây đấu nối",
+      "summary": "UBND TP. Đồng Nai vừa ban hành Quyết định số 3764/QĐ-UBND ngày 1/11/2026, chấp thuận Tổng công ty Truyền tải điện Quốc gia (EVNNPT) là nhà đầu tư thực",
+      "url": "https://nangluongvietnam.vn/chap-thuan-nha-dau-tu-du-an-tram-bien-ap-220kv-thong-nhat-dong-nai-va-duong-day-dau-noi-36863.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/04/07/in_social/anh1tbathongnhat311202620261104074645.jpg?randTime=1793773148",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-04T06:34:54+07:00",
+      "published_label": "04/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 8
+    },
+    {
       "title": "Tình hình hoạt động sản xuất, kinh doanh của EVN tháng 10 và nhiệm vụ tháng 11/2026",
       "summary": "Tập đoàn Điện lực Việt Nam (EVN) cho biết: Trong tháng 10 năm 2026, EVN đã đảm bảo cung cấp điện an toàn, liên tục, phục vụ phát triển kinh tế - xã hộ",
       "url": "https://nangluongvietnam.vn/tinh-hinh-hoat-dong-san-xuat-kinh-doanh-cua-evn-thang-10-va-nhiem-vu-thang-112026-36857.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/10/in_social/1793676181580-8144223617286110166-8144223617286110166-de1e27123245cf29a5fe76c2dcf2ed5720261103102352.jpg?randTime=1793688489",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/10/in_social/1793676181580-8144223617286110166-8144223617286110166-de1e27123245cf29a5fe76c2dcf2ed5720261103102352.jpg?randTime=1793773148",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-03T10:30:19+07:00",
@@ -81,7 +129,7 @@
       "title": "EVNHCMC bổ sung tiện ích cho khách hàng tra cứu thông tin phát triển điện mặt trời mái nhà",
       "summary": "Tổng công ty Điện lực TP. HCM (EVNHCMC) vừa bổ sung tiện ích “Tra cứu thông tin phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ” trên",
       "url": "https://nangluongvietnam.vn/evnhcmc-bo-sung-tien-ich-cho-khach-hang-tra-cuu-thong-tin-phat-trien-dien-mat-troi-mai-nha-36854.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1793688130",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1793772913",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-03T09:44:24+07:00",
@@ -94,26 +142,10 @@
       "score": 6
     },
     {
-      "title": "Điều chỉnh giá bán lẻ điện bình quân giảm 2% từ ngày 1/11/2026",
-      "summary": "Tập đoàn Điện lực Việt Nam (EVN) cho biết: Từ ngày 1 tháng 11 năm 2026, giá bán lẻ điện bình quân là 2.159,9037 đồng/kWh (chưa bao gồm thuế giá trị gi",
-      "url": "https://nangluongvietnam.vn/dieu-chinh-gia-ban-le-dien-binh-quan-giam-2-tu-ngay-1112026-36845.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/02/06/in_social/100002031420261102065639.jpg?randTime=1793688378",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-01T06:50:46+07:00",
-      "published_label": "01/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
       "title": "Nguyên tắc minh bạch giá, phân bổ rủi ro, bảo vệ quyền lợi của các bên khi sửa đổi Luật Điện lực (năm 2026)",
       "summary": "Việc sửa đổi, bổ sung một số điều của Luật Điện lực là cơ hội tháo gỡ vướng mắc đầu tư, phát triển nguồn, lưới điện, đáp ứng nhu cầu điện ngày càng tă",
       "url": "https://nangluongvietnam.vn/nguyen-tac-minh-bach-gia-phan-bo-rui-ro-bao-ve-quyen-loi-cua-cac-ben-khi-sua-doi-luat-dien-luc-nam-2026-36825.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/07/720261028071327.jpg?rt=20261028071339?randTime=1793688589",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/07/720261028071327.jpg?rt=20261028071339?randTime=1793773149",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-30T05:44:19+07:00",
@@ -129,7 +161,7 @@
       "title": "Điện lực Vinh (PC Nghệ An) chỉnh trang hệ thống cáp viễn thông và công xưởng hóa công tơ, từng bước chuẩn hóa lưới điện",
       "summary": "Trong thời gian qua tình trạng cáp viễn thông, dây thuê bao của các đơn vị viễn thông, truyền hình cáp treo trên cột điện tại nhiều tuyến phố trên địa",
       "url": "https://nangluongvietnam.vn/dien-luc-vinh-pc-nghe-an-chinh-trang-he-thong-cap-vien-thong-va-cong-xuong-hoa-cong-to-tung-buoc-chuan-hoa-luoi-dien-36831.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/08/in_social/1793094337548-9078851273602567982-9078851273602567982-d9bdeb612f656cdf79cf4a8c554a152a20261028085045.jpg?randTime=1793688583",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/28/08/in_social/1793094337548-9078851273602567982-9078851273602567982-d9bdeb612f656cdf79cf4a8c554a152a20261028085045.jpg?randTime=1793773148",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-28T08:55:12+07:00",
@@ -145,7 +177,7 @@
       "title": "Giá điện sinh hoạt theo thời gian sử dụng - Bài toán hiệu quả hệ thống, nhưng công bằng với người dân",
       "summary": "Giá điện sinh hoạt theo thời gian sử dụng có thể góp phần giảm áp lực phụ tải giờ cao điểm, nâng cao hiệu quả vận hành hệ thống điện và sử dụng hợp lý",
       "url": "https://nangluongvietnam.vn/gia-dien-sinh-hoat-theo-thoi-gian-su-dung-bai-toan-hieu-qua-he-thong-nhung-cong-bang-voi-nguoi-dan-36800.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1793688590",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/23/10/420261023102612.jpg?rt=20261023102637?randTime=1793773148",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-27T06:19:58+07:00",
@@ -161,7 +193,7 @@
       "title": "Chấp thuận có điều kiện dự án xuất khẩu điện năng lượng tái tạo từ Việt Nam sang Malaysia và Singapore",
       "summary": "Ngày 26/10/2026, tại Singapore, dự án xuất khẩu điện năng lượng tái tạo từ Việt Nam sang Malaysia và Singapore (Dự án VMS) đánh dấu một cột mốc quan t",
       "url": "https://nangluongvietnam.vn/chap-thuan-co-dieu-kien-du-an-xuat-khau-dien-nang-luong-tai-tao-tu-viet-nam-sang-malaysia-va-singapore-36817.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/27/07/in_social/620261027072345.jpg?randTime=1793688177",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/102026/27/07/in_social/620261027072345.jpg?randTime=1793772947",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-26T11:44:33+07:00",
@@ -188,23 +220,6 @@
       "icon": "zap",
       "region": "vietnam",
       "score": 30
-    },
-    {
-      "title": "Công ty Điện lực Quảng Ninh: Đẩy mạnh chuyển đổi số và hiện đại hóa lưới điện 110kV",
-      "summary": "Hiện đại hóa lưới điện 110 kV, trạm không người trực và giám sát, điều khiển từ xa qua SCADA/DMS.",
-      "url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638",
-      "source": "EVN",
-      "published": "2026-06-23T08:47:00+00:00",
-      "image": "",
-      "source_url": "https://www.evn.com.vn/d/vi-VN/news/Cong-ty-Dien-luc-Quang-Ninh-Day-manh-chuyen-doi-so-va-hien-dai-hoa-luoi-dien-110kV--60-3557-508638",
-      "published_label": "23/06/2026",
-      "tags": [
-        "scada",
-        "power"
-      ],
-      "icon": "zap",
-      "region": "vietnam",
-      "score": 48
     }
   ]
 }

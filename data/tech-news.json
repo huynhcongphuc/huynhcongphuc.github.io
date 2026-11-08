@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-07T06:00:35.976192+00:00",
-  "mode": "1 international + 7 Vietnam | max age 12 months",
+  "updated_at": "2026-11-08T06:03:08.781302+00:00",
+  "mode": "1 international + 8 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 5,
+      "available": 6,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -62,10 +62,26 @@
       "score": 5
     },
     {
+      "title": "Khởi công dự án Nhà máy Điện gió Vân Canh 2 (tỉnh Gia Lai)",
+      "summary": "Sáng ngày 7/11/2026, tại xã Vân Canh, tỉnh Gia Lai, Công ty TNHH Năng lượng Tái tạo Vững Bền đã tổ chức lễ khởi công dự án Nhà máy Điện gió Vân Canh 2",
+      "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nha-may-dien-gio-van-canh-2-tinh-gia-lai-36884.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/07/14/in_social/38dea0991a4c9a12c35d-1120261107145416.jpg?randTime=1794117192",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-07T14:59:59+07:00",
+      "published_label": "07/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 8
+    },
+    {
       "title": "Tình hình sản xuất 10 tháng năm 2026 và chuẩn bị điện mùa khô 2027 của Nhiệt điện Nghi Sơn",
       "summary": "Sáng ngày 6/11/2026, đoàn công tác của Tập đoàn Điện lực Việt Nam (EVN) do ông Đinh Thế Phúc - Thành viên Hội đồng thành viên làm Trưởng đoàn đã có bu",
       "url": "https://nangluongvietnam.vn/tinh-hinh-san-xuat-10-thang-nam-2026-va-chuan-bi-dien-mua-kho-2027-cua-nhiet-dien-nghi-son-36881.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/06/14/croped/nhiet-dien-nghi-son-2020091410484793520261106143854.jpg?randTime=1794031079",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/06/14/croped/nhiet-dien-nghi-son-2020091410484793520261106143854.jpg?randTime=1794117777",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-06T14:44:00+07:00",
@@ -81,7 +97,7 @@
       "title": "Giá điện không chỉ giảm 2%, mà đi cùng nhiều thay đổi về cơ cấu giá",
       "summary": "Ngày 4/11/2026, tại trụ sở Tập đoàn Điện lực Việt Nam (EVN), ông Nguyễn Đình Phước - Phó Tổng giám đốc EVN chủ trì cuộc họp trao đổi thông tin về thực",
       "url": "https://nangluongvietnam.vn/gia-dien-khong-chi-giam-2-ma-di-cung-nhieu-thay-doi-ve-co-cau-gia-36868.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/06/887051727-1700871894988860-5245907871144545469-n20261105064121.jpg?rt=20261105064607?randTime=1794031184",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/06/887051727-1700871894988860-5245907871144545469-n20261105064121.jpg?rt=20261105064607?randTime=1794117648",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-05T06:48:04+07:00",
@@ -97,7 +113,7 @@
       "title": "Đóng góp ý kiến sửa đổi Luật Điện lực của TS. Nguyễn Thị Thanh Bình - ĐBQH, Phó chủ tịch Hiệp hội Năng lượng Việt Nam",
       "summary": "Ngày 3/11/2026, thảo luận tại hội trường về dự án Luật sửa đổi, bổ sung một số điều của Luật Điện lực, TS. Nguyễn Thị Thanh Bình - ĐBQH tỉnh Hưng Yên",
       "url": "https://nangluongvietnam.vn/dong-gop-y-kien-sua-doi-luat-dien-luc-cua-ts-nguyen-thi-thanh-binh-dbqh-pho-chu-tich-hiep-hoi-nang-luong-viet-nam-36865.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/04/08/in_social/1793753972656-2506566542781171755-2506566542781171755-h20261104084013.jpg?randTime=1794031166",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/04/08/in_social/1793753972656-2506566542781171755-2506566542781171755-h20261104084013.jpg?randTime=1794117190",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-04T08:57:43+07:00",
@@ -113,7 +129,7 @@
       "title": "EVNHCMC bổ sung tiện ích cho khách hàng tra cứu thông tin phát triển điện mặt trời mái nhà",
       "summary": "Tổng công ty Điện lực TP. HCM (EVNHCMC) vừa bổ sung tiện ích “Tra cứu thông tin phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ” trên",
       "url": "https://nangluongvietnam.vn/evnhcmc-bo-sung-tien-ich-cho-khach-hang-tra-cuu-thong-tin-phat-trien-dien-mat-troi-mai-nha-36854.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1794031065",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1794117193",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-03T09:44:24+07:00",
@@ -129,7 +145,7 @@
       "title": "Nguyên tắc minh bạch giá, phân bổ rủi ro, bảo vệ quyền lợi của các bên khi sửa đổi Luật Điện lực (năm 2026)",
       "summary": "Việc sửa đổi, bổ sung một số điều của Luật Điện lực là cơ hội tháo gỡ vướng mắc đầu tư, phát triển nguồn, lưới điện, đáp ứng nhu cầu điện ngày càng tă",
       "url": "https://nangluongvietnam.vn/nguyen-tac-minh-bach-gia-phan-bo-rui-ro-bao-ve-quyen-loi-cua-cac-ben-khi-sua-doi-luat-dien-luc-nam-2026-36825.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/05/in_social/220261105055638.jpg?randTime=1794031223",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/05/in_social/220261105055638.jpg?randTime=1794117190",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-10-30T05:44:19+07:00",

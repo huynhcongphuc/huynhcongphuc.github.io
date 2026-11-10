@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-09T06:32:48.242160+00:00",
-  "mode": "0 international + 9 Vietnam | max age 12 months",
+  "updated_at": "2026-11-10T07:20:51.448616+00:00",
+  "mode": "1 international + 9 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -10,7 +10,7 @@
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 0,
+      "available": 1,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
@@ -46,10 +46,74 @@
   },
   "items": [
     {
+      "title": "Are We Ready for Robots That Code Their Own Skills?",
+      "summary": "AI agents use simulation to solve tough robotics problems with code, not data",
+      "url": "https://spectrum.ieee.org/agentic-robotics",
+      "image": "https://spectrum.ieee.org/media-library/3d-rendering-of-a-scara-robotic-arm-carefully-dropping-a-syringe-into-a-sharps-box.jpg?id=68618830&width=1200&height=600&coordinates=0%2C346%2C0%2C673",
+      "source": "IEEE Spectrum",
+      "source_url": "https://spectrum.ieee.org/type/news/",
+      "published": "2026-11-09T14:00:02+00:00",
+      "published_label": "09/11/2026",
+      "tags": [
+        "scada"
+      ],
+      "icon": "radio-tower",
+      "region": "international",
+      "score": 7
+    },
+    {
+      "title": "Hội nghị phối hợp công tác đầu tư xây dựng lưới điện giữa EVNNPT và EVNNPC",
+      "summary": "Ngày 10/11/2026, tại Hà Nội, Tổng công ty Truyền tải điện Quốc gia (EVNNPT) và Tổng công ty Điện lực miền Bắc (EVNNPC) tổ chức Hội nghị phối hợp công",
+      "url": "https://nangluongvietnam.vn/hoi-nghi-phoi-hop-cong-tac-dau-tu-xay-dung-luoi-dien-giua-evnnpt-va-evnnpc-36897.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/13/croped/anh0npcvanpt1011202620261110135051.jpg?randTime=1794295096",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-10T13:55:30+07:00",
+      "published_label": "10/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 14
+    },
+    {
+      "title": "“Năng lượng cho AI và AI cho năng lượng” - Thông điệp của đại diện Việt Nam tại Hội thảo APEC ở Singapore",
+      "summary": "Tại Hội thảo APEC về chủ đề “Energy for SI and SI for Energy: Powering and Optimizing APEC’s Digital Future” (“Năng lượng cho SI và SI cho Năng lượng:",
+      "url": "https://nangluongvietnam.vn/nang-luong-cho-ai-va-ai-cho-nang-luong-thong-diep-cua-dai-dien-viet-nam-tai-hoi-thao-apec-o-singapore-36895.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/10/in_social/7a1b3b5a-1be0-40ff-9719-582ffda2977e20261110100856.jpg?randTime=1794295064",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-10T09:46:10+07:00",
+      "published_label": "10/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
+      "title": "Rà soát nguồn lực, xác định thứ tự ưu tiên trong đầu tư điện truyền tải đến năm 2030",
+      "summary": "Trước khối lượng đầu tư lưới điện truyền tải lớn trong giai đoạn đến năm 2030, lãnh đạo Tập đoàn Điện lực Việt Nam (EVN) yêu cầu Tổng công ty Truyền t",
+      "url": "https://nangluongvietnam.vn/ra-soat-nguon-luc-xac-dinh-thu-tu-uu-tien-trong-dau-tu-dien-truyen-tai-den-nam-2030-36892.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/06/in_social/404994146-1262627118017523-8510184191347798132-n20261110060919.jpg?randTime=1794295087",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-10T06:12:50+07:00",
+      "published_label": "10/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 14
+    },
+    {
       "title": "Cung ứng điện năm 2027-2028 - Nhìn từ kết luận Hội nghị của Bộ Công Thương (ngày 7/11/2026)",
       "summary": "Năm 2026, hệ thống điện cơ bản đáp ứng được nhu cầu, dù phụ tải tăng cao trong bối cảnh thời tiết cực đoan và nguồn cung nhiên liệu có những thời điểm",
       "url": "https://nangluongvietnam.vn/cung-ung-dien-nam-2027-2028-nhin-tu-ket-luan-hoi-nghi-cua-bo-cong-thuong-ngay-7112026-36885.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/08/1794188008550-6558776899276045799-6558776899276045799-h20261109083454.jpg?rt=20261109083500?randTime=1794205957",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/08/1794188008550-6558776899276045799-6558776899276045799-h20261109083454.jpg?rt=20261109083500?randTime=1794295237",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-09T06:51:41+07:00",
@@ -65,7 +129,7 @@
       "title": "Khởi công dự án Nhà máy Điện gió Vân Canh 2 (tỉnh Gia Lai)",
       "summary": "Sáng ngày 7/11/2026, tại xã Vân Canh, tỉnh Gia Lai, Công ty TNHH Năng lượng Tái tạo Vững Bền đã tổ chức lễ khởi công dự án Nhà máy Điện gió Vân Canh 2",
       "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nha-may-dien-gio-van-canh-2-tinh-gia-lai-36884.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/07/14/in_social/38dea0991a4c9a12c35d-1120261107145416.jpg?randTime=1794205764",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/07/14/in_social/38dea0991a4c9a12c35d-1120261107145416.jpg?randTime=1794295195",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-07T14:59:59+07:00",
@@ -81,7 +145,7 @@
       "title": "Tình hình sản xuất 10 tháng năm 2026 và chuẩn bị điện mùa khô 2027 của Nhiệt điện Nghi Sơn",
       "summary": "Sáng ngày 6/11/2026, đoàn công tác của Tập đoàn Điện lực Việt Nam (EVN) do ông Đinh Thế Phúc - Thành viên Hội đồng thành viên làm Trưởng đoàn đã có bu",
       "url": "https://nangluongvietnam.vn/tinh-hinh-san-xuat-10-thang-nam-2026-va-chuan-bi-dien-mua-kho-2027-cua-nhiet-dien-nghi-son-36881.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/06/14/croped/nhiet-dien-nghi-son-2020091410484793520261106143854.jpg?randTime=1794205766",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/06/14/croped/nhiet-dien-nghi-son-2020091410484793520261106143854.jpg?randTime=1794294644",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-06T14:44:00+07:00",
@@ -94,42 +158,10 @@
       "score": 6
     },
     {
-      "title": "Giá điện không chỉ giảm 2%, mà đi cùng nhiều thay đổi về cơ cấu giá",
-      "summary": "Ngày 4/11/2026, tại trụ sở Tập đoàn Điện lực Việt Nam (EVN), ông Nguyễn Đình Phước - Phó Tổng giám đốc EVN chủ trì cuộc họp trao đổi thông tin về thực",
-      "url": "https://nangluongvietnam.vn/gia-dien-khong-chi-giam-2-ma-di-cung-nhieu-thay-doi-ve-co-cau-gia-36868.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/06/887051727-1700871894988860-5245907871144545469-n20261105064121.jpg?rt=20261105064607?randTime=1794205415",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-05T06:48:04+07:00",
-      "published_label": "05/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 6
-    },
-    {
-      "title": "Đóng góp ý kiến sửa đổi Luật Điện lực của TS. Nguyễn Thị Thanh Bình - ĐBQH, Phó chủ tịch Hiệp hội Năng lượng Việt Nam",
-      "summary": "Ngày 3/11/2026, thảo luận tại hội trường về dự án Luật sửa đổi, bổ sung một số điều của Luật Điện lực, TS. Nguyễn Thị Thanh Bình - ĐBQH tỉnh Hưng Yên",
-      "url": "https://nangluongvietnam.vn/dong-gop-y-kien-sua-doi-luat-dien-luc-cua-ts-nguyen-thi-thanh-binh-dbqh-pho-chu-tich-hiep-hoi-nang-luong-viet-nam-36865.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/04/08/in_social/1793753972656-2506566542781171755-2506566542781171755-h20261104084013.jpg?randTime=1794205851",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-04T08:57:43+07:00",
-      "published_label": "04/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 9
-    },
-    {
       "title": "EVNHCMC bổ sung tiện ích cho khách hàng tra cứu thông tin phát triển điện mặt trời mái nhà",
       "summary": "Tổng công ty Điện lực TP. HCM (EVNHCMC) vừa bổ sung tiện ích “Tra cứu thông tin phát triển nguồn điện mặt trời mái nhà tự sản xuất, tự tiêu thụ” trên",
       "url": "https://nangluongvietnam.vn/evnhcmc-bo-sung-tien-ich-cho-khach-hang-tra-cuu-thong-tin-phat-trien-dien-mat-troi-mai-nha-36854.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1794205763",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/03/09/in_social/460580323-538540888548206-5885931679237967617-n20261103093847.jpg?randTime=1794294648",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-03T09:44:24+07:00",
@@ -140,22 +172,6 @@
       "icon": "network",
       "region": "vietnam",
       "score": 6
-    },
-    {
-      "title": "Nguyên tắc minh bạch giá, phân bổ rủi ro, bảo vệ quyền lợi của các bên khi sửa đổi Luật Điện lực (năm 2026)",
-      "summary": "Việc sửa đổi, bổ sung một số điều của Luật Điện lực là cơ hội tháo gỡ vướng mắc đầu tư, phát triển nguồn, lưới điện, đáp ứng nhu cầu điện ngày càng tă",
-      "url": "https://nangluongvietnam.vn/nguyen-tac-minh-bach-gia-phan-bo-rui-ro-bao-ve-quyen-loi-cua-cac-ben-khi-sua-doi-luat-dien-luc-nam-2026-36825.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/05/in_social/220261105055638.jpg?randTime=1794205766",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-10-30T05:44:19+07:00",
-      "published_label": "30/10/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 14
     },
     {
       "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",

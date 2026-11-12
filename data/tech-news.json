@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T06:24:15.812397+00:00",
-  "mode": "1 international + 8 Vietnam | max age 12 months",
+  "updated_at": "2026-11-12T07:13:19.135867+00:00",
+  "mode": "1 international + 7 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -35,7 +35,7 @@
     },
     "Tạp chí Năng lượng Việt Nam": {
       "ok": true,
-      "available": 6,
+      "available": 5,
       "url": "https://nangluongvietnam.vn/"
     },
     "ICON": {
@@ -65,7 +65,7 @@
       "title": "Các nhà máy điện của PV Power luôn sẵn sàng phát điện khi hệ thống cần huy động công suất",
       "summary": "Trong 9 tháng năm 2026, sản lượng điện tại các nhà máy của Tổng công ty Điện lực Dầu khí Việt Nam (PV Power) đạt 14.955 triệu kWh, tăng 55,3% so với c",
       "url": "https://nangluongvietnam.vn/cac-nha-may-dien-cua-pv-power-luon-san-sang-phat-dien-khi-he-thong-can-huy-dong-cong-suat-36902.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/11/09/in_social/h03202512121145152026072719471720261111093724.jpg?randTime=1794377977",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/11/09/in_social/h03202512121145152026072719471720261111093724.jpg?randTime=1794467574",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-11T09:40:17+07:00",
@@ -81,7 +81,7 @@
       "title": "Hội nghị phối hợp công tác đầu tư xây dựng lưới điện giữa EVNNPT và EVNNPC",
       "summary": "Ngày 10/11/2026, tại Hà Nội, Tổng công ty Truyền tải điện Quốc gia (EVNNPT) và Tổng công ty Điện lực miền Bắc (EVNNPC) tổ chức Hội nghị phối hợp công",
       "url": "https://nangluongvietnam.vn/hoi-nghi-phoi-hop-cong-tac-dau-tu-xay-dung-luoi-dien-giua-evnnpt-va-evnnpc-36897.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/13/croped/anh0npcvanpt1011202620261110135051.jpg?randTime=1794377751",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/13/croped/anh0npcvanpt1011202620261110135051.jpg?randTime=1794467573",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-10T13:55:30+07:00",
@@ -97,7 +97,7 @@
       "title": "“Năng lượng cho AI và AI cho năng lượng” - Thông điệp của đại diện Việt Nam tại Hội thảo APEC ở Singapore",
       "summary": "Tại Hội thảo APEC về chủ đề “Energy for SI and SI for Energy: Powering and Optimizing APEC’s Digital Future” (“Năng lượng cho SI và SI cho Năng lượng:",
       "url": "https://nangluongvietnam.vn/nang-luong-cho-ai-va-ai-cho-nang-luong-thong-diep-cua-dai-dien-viet-nam-tai-hoi-thao-apec-o-singapore-36895.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/10/in_social/7a1b3b5a-1be0-40ff-9719-582ffda2977e20261110100856.jpg?randTime=1794378245",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/10/in_social/7a1b3b5a-1be0-40ff-9719-582ffda2977e20261110100856.jpg?randTime=1794467579",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-10T09:46:10+07:00",
@@ -110,26 +110,10 @@
       "score": 6
     },
     {
-      "title": "Rà soát nguồn lực, xác định thứ tự ưu tiên trong đầu tư điện truyền tải đến năm 2030",
-      "summary": "Trước khối lượng đầu tư lưới điện truyền tải lớn trong giai đoạn đến năm 2030, lãnh đạo Tập đoàn Điện lực Việt Nam (EVN) yêu cầu Tổng công ty Truyền t",
-      "url": "https://nangluongvietnam.vn/ra-soat-nguon-luc-xac-dinh-thu-tu-uu-tien-trong-dau-tu-dien-truyen-tai-den-nam-2030-36892.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/06/in_social/404994146-1262627118017523-8510184191347798132-n20261110060919.jpg?randTime=1794377821",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-10T06:12:50+07:00",
-      "published_label": "10/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 14
-    },
-    {
       "title": "Cung ứng điện năm 2027-2028 - Nhìn từ kết luận Hội nghị của Bộ Công Thương (ngày 7/11/2026)",
       "summary": "Năm 2026, hệ thống điện cơ bản đáp ứng được nhu cầu, dù phụ tải tăng cao trong bối cảnh thời tiết cực đoan và nguồn cung nhiên liệu có những thời điểm",
       "url": "https://nangluongvietnam.vn/cung-ung-dien-nam-2027-2028-nhin-tu-ket-luan-hoi-nghi-cua-bo-cong-thuong-ngay-7112026-36885.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/08/1794188008550-6558776899276045799-6558776899276045799-h20261109083454.jpg?rt=20261109083500?randTime=1794377823",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/08/1794188008550-6558776899276045799-6558776899276045799-h20261109083454.jpg?rt=20261109083500?randTime=1794467580",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-09T06:51:41+07:00",
@@ -145,7 +129,7 @@
       "title": "Khởi công dự án Nhà máy Điện gió Vân Canh 2 (tỉnh Gia Lai)",
       "summary": "Sáng ngày 7/11/2026, tại xã Vân Canh, tỉnh Gia Lai, Công ty TNHH Năng lượng Tái tạo Vững Bền đã tổ chức lễ khởi công dự án Nhà máy Điện gió Vân Canh 2",
       "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nha-may-dien-gio-van-canh-2-tinh-gia-lai-36884.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/07/14/in_social/38dea0991a4c9a12c35d-1120261107145416.jpg?randTime=1794378063",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/07/14/in_social/38dea0991a4c9a12c35d-1120261107145416.jpg?randTime=1794467593",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-07T14:59:59+07:00",

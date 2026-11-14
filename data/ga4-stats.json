@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-11-14T15:11:36.178626+00:00",
+  "updated_at": "2026-11-14T19:57:39.767790+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,27 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 34,
-      "users": 34,
-      "views": 34,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 34,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 29
-        },
-        {
-          "country": "Unknown",
-          "users": 4
-        },
-        {
-          "country": "United Kingdom",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -164,17 +151,17 @@
       ]
     },
     "7d": {
-      "sessions": 39,
-      "users": 39,
-      "views": 49,
+      "sessions": 38,
+      "users": 38,
+      "views": 48,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 1,
-      "abroad": 38,
+      "abroad": 37,
       "countries": [
         {
           "country": "United States",
-          "users": 32
+          "users": 31
         },
         {
           "country": "Unknown",
@@ -259,17 +246,17 @@
       ]
     },
     "30d": {
-      "sessions": 57,
-      "users": 54,
-      "views": 70,
+      "sessions": 54,
+      "users": 53,
+      "views": 66,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 4,
-      "abroad": 50,
+      "abroad": 49,
       "countries": [
         {
           "country": "United States",
-          "users": 39
+          "users": 38
         },
         {
           "country": "Unknown",
@@ -490,14 +477,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20261016",
-      "sessions": 3,
-      "users": 2,
-      "views": 4,
-      "software_downloads": 0,
-      "research_downloads": 0
-    },
     {
       "date": "20261020",
       "sessions": 1,

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T07:57:16.564382+00:00",
+  "updated_at": "2026-11-18T07:31:06.968599+00:00",
   "mode": "1 international + 9 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
@@ -46,14 +46,14 @@
   },
   "items": [
     {
-      "title": "Are We Ready for Robots That Code Their Own Skills?",
-      "summary": "AI agents use simulation to solve tough robotics problems with code, not data",
-      "url": "https://spectrum.ieee.org/agentic-robotics",
-      "image": "https://spectrum.ieee.org/media-library/3d-rendering-of-a-scara-robotic-arm-carefully-dropping-a-syringe-into-a-sharps-box.jpg?id=68618830&width=1200&height=600&coordinates=0%2C346%2C0%2C673",
+      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
+      "summary": "Standards and certifications foster socially responsible products",
+      "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
+      "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?id=68699342&width=1200&height=600&coordinates=0%2C287%2C0%2C287",
       "source": "IEEE Spectrum",
       "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-11-09T14:00:02+00:00",
-      "published_label": "09/11/2026",
+      "published": "2026-11-17T19:00:03+00:00",
+      "published_label": "17/11/2026",
       "tags": [
         "scada"
       ],
@@ -62,10 +62,58 @@
       "score": 7
     },
     {
+      "title": "PTSC M&C và SEMCO Maritime ký hợp đồng EPC trạm biến áp ngoài khơi thuộc dự án điện gió Fengmiao 2 tại Đài Loan",
+      "summary": "Công ty Dịch vụ Cơ khí Hàng hải PTSC (PTSC M&C) cùng Liên danh SEMCO Maritime A/S vừa ký kết Hợp đồng thiết kế, mua sắm và thi công (EPC) trạm biến áp",
+      "url": "https://nangluongvietnam.vn/ptsc-mc-va-semco-maritime-ky-hop-dong-epc-tram-bien-ap-ngoai-khoi-thuoc-du-an-dien-gio-fengmiao-2-tai-dai-loan-36935.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/18/08/in_social/hinh-120261118085221.jpg?randTime=1794987049",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-18T09:05:12+07:00",
+      "published_label": "18/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 8
+    },
+    {
+      "title": "Dự báo tiêu thụ điện miền Bắc trong năm 2027 và các giải pháp đáp ứng của EVNNPC",
+      "summary": "Dự báo công suất cực đại trên địa bàn quản lý có thể tăng tới 13,7% trong năm 2027, Tổng công ty Điện lực miền Bắc (EVNNPC) đang tập trung triển khai",
+      "url": "https://nangluongvietnam.vn/du-bao-tieu-thu-dien-mien-bac-trong-nam-2027-va-cac-giai-phap-dap-ung-cua-evnnpc-36934.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/18/07/728783659-1537436667763838-6314974051306865993-n20261118071420.jpg?rt=20261118071633?randTime=1794986719",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-18T07:17:34+07:00",
+      "published_label": "18/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
+      "title": "Trường Cao đẳng Điện lực Thành phố Hồ Chí Minh nửa thế kỷ thắp sáng tri thức",
+      "summary": "Năm 2026 đánh dấu mốc son lịch sử quan trọng - kỷ niệm 50 năm Ngày thành lập Trường Cao đẳng Điện lực Thành phố Hồ Chí Minh (1976-2026). Trải qua nửa",
+      "url": "https://nangluongvietnam.vn/truong-cao-dang-dien-luc-thanh-pho-ho-chi-minh-nua-the-ky-thap-sang-tri-thuc-36890.html",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/14/in_social/1794129064220-200172383762900517-1189833300089024609-h20261109141409.jpg?randTime=1794987050",
+      "source": "Tạp chí Năng lượng Việt Nam",
+      "source_url": "https://nangluongvietnam.vn/",
+      "published": "2026-11-18T05:59:59+07:00",
+      "published_label": "18/11/2026",
+      "tags": [
+        "power"
+      ],
+      "icon": "network",
+      "region": "vietnam",
+      "score": 6
+    },
+    {
       "title": "Tập đoàn Điện lực Việt Nam tổ chức diễn tập định kỳ về phòng cháy chữa cháy và cứu hộ cứu nạn",
       "summary": "Tập đoàn Điện lực Việt Nam (EVN) thông báo về việc tổ chức diễn tập định kỳ năm 2026 về công tác phòng cháy chữa cháy và cứu hộ cứu nạn tại tòa nhà EV",
       "url": "https://nangluongvietnam.vn/tap-doan-dien-luc-viet-nam-to-chuc-dien-tap-dinh-ky-ve-phong-chay-chua-chay-va-cuu-ho-cuu-nan-36927.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/13/in_social/thongbaodientap151126tcbc-2026111517391343320261116134819.jpg?randTime=1794901703",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/13/in_social/thongbaodientap151126tcbc-2026111517391343320261116134819.jpg?randTime=1794986721",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-16T13:54:13+07:00",
@@ -78,26 +126,10 @@
       "score": 6
     },
     {
-      "title": "CRRC và SEV ký thỏa thuận hợp tác trong lĩnh vực năng lượng tái tạo tại Việt Nam",
-      "summary": "Mới đây tại Hà Nội, CRRC (Trung Quốc) và Công ty Solar Electric Vietnam (SEV) đã ký kết thỏa thuận hợp tác chiến lược trong lĩnh vực năng lượng tái tạ",
-      "url": "https://nangluongvietnam.vn/crrc-va-sev-ky-thoa-thuan-hop-tac-trong-linh-vuc-nang-luong-tai-tao-tai-viet-nam-36925.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/11/in_social/1794800433874-5091934029290168442-5091934029290168442-aea402a43f25d04ff1634d4d75006e6720261116110944.jpg?randTime=1794901701",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-16T11:14:33+07:00",
-      "published_label": "16/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 8
-    },
-    {
       "title": "Khởi công dư án Nhà máy Điện gió Buôn Hồ 3 (giai đoạn 1)",
       "summary": "Sáng 15/11/2026, Công ty Cổ phần Năng lượng Tái tạo Đắk Lắk tổ chức lễ khởi công dư án Nhà máy Điện gió Buôn Hồ 3 tại phường Cư Bao (thị xã Buôn Hồ tr",
       "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nha-may-dien-gio-buon-ho-3-giai-doan-1-36922.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/08/in_social/5-n20261116082411.jpg?randTime=1794901702",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/08/in_social/5-n20261116082411.jpg?randTime=1794986719",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-16T08:30:46+07:00",
@@ -110,26 +142,10 @@
       "score": 8
     },
     {
-      "title": "Phê duyệt khung giá phát điện loại hình hệ thống pin lưu trữ năng lượng (BESS) năm 2026",
-      "summary": "Bộ Công Thương vừa ban hành Quyết định phê duyệt khung giá phát điện loại hình hệ thống pin lưu trữ năng lượng (BESS) năm 2026. Quyết định này được că",
-      "url": "https://nangluongvietnam.vn/phe-duyet-khung-gia-phat-dien-loai-hinh-he-thong-pin-luu-tru-nang-luong-bess-nam-2026-36920.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/07/in_social/min00462-12026100113175020261116074157.jpg?randTime=1794901700",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-16T07:45:16+07:00",
-      "published_label": "16/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 11
-    },
-    {
       "title": "Dự báo xu hướng chuyển dịch năng lượng năm 2027 trong Báo cáo Năng lượng Tái tạo 2026 của IEA",
       "summary": "Liệu quá trình chuyển dịch năng lượng đang tăng tốc, hay chững lại trong năm 2027? Câu trả lời là cả hai. Năng lượng sạch đang được phát triển với tốc",
       "url": "https://nangluongvietnam.vn/du-bao-xu-huong-chuyen-dich-nang-luong-nam-2027-trong-bao-cao-nang-luong-tai-tao-2026-cua-iea-36910.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/13/07/in_social/520261113072616.jpg?randTime=1794901876",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/13/07/in_social/520261113072616.jpg?randTime=1794986997",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-16T05:10:36+07:00",
@@ -145,7 +161,7 @@
       "title": "“Năng lượng cho AI và AI cho năng lượng” - Thông điệp của đại diện Việt Nam tại Hội thảo APEC ở Singapore",
       "summary": "Tại Hội thảo APEC về chủ đề “Energy for SI and SI for Energy: Powering and Optimizing APEC’s Digital Future” (“Năng lượng cho SI và SI cho Năng lượng:",
       "url": "https://nangluongvietnam.vn/nang-luong-cho-ai-va-ai-cho-nang-luong-thong-diep-cua-dai-dien-viet-nam-tai-hoi-thao-apec-o-singapore-36895.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/10/in_social/7a1b3b5a-1be0-40ff-9719-582ffda2977e20261110100856.jpg?randTime=1794901700",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/10/10/in_social/7a1b3b5a-1be0-40ff-9719-582ffda2977e20261110100856.jpg?randTime=1794987054",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-10T09:46:10+07:00",
@@ -156,22 +172,6 @@
       "icon": "network",
       "region": "vietnam",
       "score": 6
-    },
-    {
-      "title": "Khởi công dự án Nhà máy Điện gió Vân Canh 2 (tỉnh Gia Lai)",
-      "summary": "Sáng ngày 7/11/2026, tại xã Vân Canh, tỉnh Gia Lai, Công ty TNHH Năng lượng Tái tạo Vững Bền đã tổ chức lễ khởi công dự án Nhà máy Điện gió Vân Canh 2",
-      "url": "https://nangluongvietnam.vn/khoi-cong-du-an-nha-may-dien-gio-van-canh-2-tinh-gia-lai-36884.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/07/14/in_social/38dea0991a4c9a12c35d-1120261107145416.jpg?randTime=1794901702",
-      "source": "Tạp chí Năng lượng Việt Nam",
-      "source_url": "https://nangluongvietnam.vn/",
-      "published": "2026-11-07T14:59:59+07:00",
-      "published_label": "07/11/2026",
-      "tags": [
-        "power"
-      ],
-      "icon": "network",
-      "region": "vietnam",
-      "score": 8
     },
     {
       "title": "CHINT giới thiệu hệ sinh thái giải pháp lưới điện thông minh, mở rộng hợp tác kỹ thuật với EVNNPC",

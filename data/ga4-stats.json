@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-11-19T08:45:19.986410+00:00",
+  "updated_at": "2026-11-19T17:44:05.398173+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -153,7 +153,7 @@
     "7d": {
       "sessions": 36,
       "users": 36,
-      "views": 46,
+      "views": 36,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
@@ -161,15 +161,11 @@
       "countries": [
         {
           "country": "United States",
-          "users": 30
+          "users": 31
         },
         {
           "country": "Unknown",
           "users": 4
-        },
-        {
-          "country": "Australia",
-          "users": 1
         },
         {
           "country": "United Kingdom",
@@ -242,17 +238,17 @@
       ]
     },
     "30d": {
-      "sessions": 54,
-      "users": 53,
-      "views": 65,
+      "sessions": 55,
+      "users": 54,
+      "views": 66,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 4,
-      "abroad": 49,
+      "abroad": 50,
       "countries": [
         {
           "country": "United States",
-          "users": 39
+          "users": 40
         },
         {
           "country": "Unknown",
@@ -353,17 +349,17 @@
       ]
     },
     "all": {
-      "sessions": 197,
-      "users": 149,
-      "views": 500,
+      "sessions": 198,
+      "users": 150,
+      "views": 501,
       "downloads": 13,
       "research_downloads": 18,
       "vietnam": 26,
-      "abroad": 123,
+      "abroad": 124,
       "countries": [
         {
           "country": "United States",
-          "users": 94
+          "users": 95
         },
         {
           "country": "Vietnam",
@@ -567,6 +563,14 @@
     },
     {
       "date": "20261117",
+      "sessions": 1,
+      "users": 1,
+      "views": 1,
+      "software_downloads": 0,
+      "research_downloads": 0
+    },
+    {
+      "date": "20261119",
       "sessions": 1,
       "users": 1,
       "views": 1,

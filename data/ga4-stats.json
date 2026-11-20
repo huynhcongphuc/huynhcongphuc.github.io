@@ -2,7 +2,7 @@
   "source": "Google Analytics 4",
   "property_id": "287327003",
   "measurement_id": "G-GT3E67GPJM",
-  "updated_at": "2026-11-20T15:44:56.945635+00:00",
+  "updated_at": "2026-11-20T22:23:00.056598+00:00",
   "realtime": {
     "active_users": 0,
     "views": 0,
@@ -77,19 +77,14 @@
   },
   "periods": {
     "today": {
-      "sessions": 1,
-      "users": 1,
-      "views": 1,
+      "sessions": 0,
+      "users": 0,
+      "views": 0,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 1,
-      "countries": [
-        {
-          "country": "United States",
-          "users": 1
-        }
-      ],
+      "abroad": 0,
+      "countries": [],
       "software": [
         {
           "event": "download_secureapp",
@@ -156,25 +151,17 @@
       ]
     },
     "7d": {
-      "sessions": 37,
-      "users": 37,
-      "views": 37,
+      "sessions": 3,
+      "users": 3,
+      "views": 3,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 0,
-      "abroad": 37,
+      "abroad": 3,
       "countries": [
         {
           "country": "United States",
-          "users": 32
-        },
-        {
-          "country": "Unknown",
-          "users": 4
-        },
-        {
-          "country": "United Kingdom",
-          "users": 1
+          "users": 3
         }
       ],
       "software": [
@@ -243,17 +230,17 @@
       ]
     },
     "30d": {
-      "sessions": 56,
-      "users": 55,
-      "views": 67,
+      "sessions": 51,
+      "users": 50,
+      "views": 62,
       "downloads": 0,
       "research_downloads": 0,
       "vietnam": 4,
-      "abroad": 51,
+      "abroad": 46,
       "countries": [
         {
           "country": "United States",
-          "users": 41
+          "users": 38
         },
         {
           "country": "Unknown",
@@ -273,14 +260,6 @@
         },
         {
           "country": "Germany",
-          "users": 1
-        },
-        {
-          "country": "Japan",
-          "users": 1
-        },
-        {
-          "country": "Malaysia",
           "users": 1
         },
         {
@@ -470,14 +449,6 @@
     }
   },
   "daily": [
-    {
-      "date": "20261022",
-      "sessions": 5,
-      "users": 5,
-      "views": 5,
-      "software_downloads": 0,
-      "research_downloads": 0
-    },
     {
       "date": "20261024",
       "sessions": 1,

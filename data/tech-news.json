@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-23T07:41:25.157533+00:00",
-  "mode": "4 international + 10 Vietnam | max age 12 months",
+  "updated_at": "2026-11-24T09:56:40.169159+00:00",
+  "mode": "3 international + 10 Vietnam | max age 12 months",
   "focus": [
     "Electrical Power System",
     "Electrical SCADA/EMS/DMS",
@@ -10,7 +10,7 @@
   "source_status": {
     "IEEE Spectrum": {
       "ok": true,
-      "available": 2,
+      "available": 1,
       "url": "https://spectrum.ieee.org/type/news/"
     },
     "CNN Tech": {
@@ -94,26 +94,10 @@
       "score": 7
     },
     {
-      "title": "IEEE Celebrates 10 Years of Incorporating Ethics Into AI Systems",
-      "summary": "Standards and certifications foster socially responsible products",
-      "url": "https://spectrum.ieee.org/ieee-ethics-ai-systems",
-      "image": "https://spectrum.ieee.org/media-library/illustration-of-floating-hands-inspecting-the-use-of-ai-features-across-a-laptop-computer-academic-paper-and-the-world-wide-web.jpg?id=68699342&width=1200&height=600&coordinates=0%2C287%2C0%2C287",
-      "source": "IEEE Spectrum",
-      "source_url": "https://spectrum.ieee.org/type/news/",
-      "published": "2026-11-17T19:00:03+00:00",
-      "published_label": "17/11/2026",
-      "tags": [
-        "scada"
-      ],
-      "icon": "radio-tower",
-      "region": "international",
-      "score": 7
-    },
-    {
       "title": "Đóng điện Trạm biến áp 220kV Lai Uyên và đấu nối, tăng cường cấp điện cho TP. Hồ Chí Minh",
       "summary": "Vào lúc 21h53 phút, ngày 21/11/2026, Tổng công ty Truyền tải điện Quốc gia (EVNNPT), Ban QLDA các công trình điện miền Nam phối hợp với Trung tâm Điều",
       "url": "https://nangluongvietnam.vn/dong-dien-tram-bien-ap-220kv-lai-uyen-va-dau-noi-tang-cuong-cap-dien-cho-tp-ho-chi-minh-36948.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/22/11/in_social/anh1dongdienlaiuyen2111202620261122111137.jpg?randTime=1795419667",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/22/11/in_social/anh1dongdienlaiuyen2111202620261122111137.jpg?randTime=1795514172",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-22T11:17:37+07:00",
@@ -129,7 +113,7 @@
       "title": "Cung ứng điện giai đoạn 2027-2030: Vì sao quản lý nhu cầu phải trở thành một nguồn lực của hệ thống?",
       "summary": "Nhu cầu điện tiếp tục tăng trong khi nhiều dự án nguồn và lưới điện còn đối mặt với khó khăn về tiến độ. Vì thế, bảo đảm điện giai đoạn 2027-2030 khôn",
       "url": "https://nangluongvietnam.vn/cung-ung-dien-giai-doan-2027-2030-vi-sao-quan-ly-nhu-cau-phai-tro-thanh-mot-nguon-luc-cua-he-thong-36870.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/10/in_social/423120261105103839.jpg?randTime=1795419249",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/05/10/in_social/423120261105103839.jpg?randTime=1795514181",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-22T05:45:18+07:00",
@@ -145,7 +129,7 @@
       "title": "Tổng công ty Điện lực TP. Hồ Chí Minh bảo đảm điện ổn định cho sản xuất cuối năm 2026",
       "summary": "Những tháng cuối năm là thời điểm nhiều doanh nghiệp tăng tốc hoàn thành kế hoạch sản xuất, chuẩn bị đơn hàng xuất khẩu và nguồn hàng phục vụ thị trườ",
       "url": "https://nangluongvietnam.vn/tong-cong-ty-dien-luc-tp-ho-chi-minh-bao-dam-dien-on-dinh-cho-san-xuat-cuoi-nam-2026-36945.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/20/14/croped/420261120141928.9942520.jpg?randTime=1795419669",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/20/14/croped/420261120141928.9942520.jpg?randTime=1795514175",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-20T14:40:55+07:00",
@@ -161,7 +145,7 @@
       "title": "Nhà máy điện hạt nhân đầu tiên của Bangladesh chính thức kết nối với lưới điện quốc gia",
       "summary": "Ngày 17/11/2026, Rooppur 1 - Nhà máy điện hạt nhân đầu tiên của Bangladesh, được kết nối với lưới điện quốc gia và cung cấp những kWh đầu tiên. Sự kiệ",
       "url": "https://nangluongvietnam.vn/nha-may-dien-hat-nhan-dau-tien-cua-bangladesh-chinh-thuc-ket-noi-voi-luoi-dien-quoc-gia-36941.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/19/07/in_social/1020261119073631.jpg?randTime=1795419577",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/19/07/in_social/1020261119073631.jpg?randTime=1795514173",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-19T07:39:32+07:00",
@@ -177,7 +161,7 @@
       "title": "Nhà máy Điện gió Công Hải 1 (giai đoạn 2) chính thức hòa lưới điện quốc gia",
       "summary": "Vào lúc 18h15 ngày 15/11/2026, Nhà máy Điện gió Công Hải 1 (giai đoạn 2) tại xã Công Hải, tỉnh Khánh Hòa, đã chính thức hòa lưới điện quốc gia. Nhà má",
       "url": "https://nangluongvietnam.vn/nha-may-dien-gio-cong-hai-1-giai-doan-2-chinh-thuc-hoa-luoi-dien-quoc-gia-36939.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/18/19/croped/181126hoaluoi1-2026111817350132120261118195816.jpg?randTime=1795419577",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/18/19/croped/181126hoaluoi1-2026111817350132120261118195816.jpg?randTime=1795514173",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-18T20:02:38+07:00",
@@ -193,7 +177,7 @@
       "title": "PTSC M&C và SEMCO Maritime ký hợp đồng EPC trạm biến áp ngoài khơi thuộc dự án điện gió Fengmiao 2 tại Đài Loan",
       "summary": "Công ty Dịch vụ Cơ khí Hàng hải PTSC (PTSC M&C) cùng Liên danh SEMCO Maritime A/S vừa ký kết Hợp đồng thiết kế, mua sắm và thi công (EPC) trạm biến áp",
       "url": "https://nangluongvietnam.vn/ptsc-mc-va-semco-maritime-ky-hop-dong-epc-tram-bien-ap-ngoai-khoi-thuoc-du-an-dien-gio-fengmiao-2-tai-dai-loan-36935.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/18/08/in_social/hinh-120261118085221.jpg?randTime=1795419578",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/18/08/in_social/hinh-120261118085221.jpg?randTime=1795514174",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-18T09:05:12+07:00",
@@ -209,7 +193,7 @@
       "title": "Trường Cao đẳng Điện lực Thành phố Hồ Chí Minh nửa thế kỷ thắp sáng tri thức",
       "summary": "Năm 2026 đánh dấu mốc son lịch sử quan trọng - kỷ niệm 50 năm Ngày thành lập Trường Cao đẳng Điện lực Thành phố Hồ Chí Minh (1976-2026). Trải qua nửa",
       "url": "https://nangluongvietnam.vn/truong-cao-dang-dien-luc-thanh-pho-ho-chi-minh-nua-the-ky-thap-sang-tri-thuc-36890.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/14/in_social/1794129064220-200172383762900517-1189833300089024609-h20261109141409.jpg?randTime=1795419578",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/09/14/in_social/1794129064220-200172383762900517-1189833300089024609-h20261109141409.jpg?randTime=1795514176",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-18T05:59:59+07:00",
@@ -225,7 +209,7 @@
       "title": "Tập đoàn Điện lực Việt Nam tổ chức diễn tập định kỳ về phòng cháy chữa cháy và cứu hộ cứu nạn",
       "summary": "Tập đoàn Điện lực Việt Nam (EVN) thông báo về việc tổ chức diễn tập định kỳ năm 2026 về công tác phòng cháy chữa cháy và cứu hộ cứu nạn tại tòa nhà EV",
       "url": "https://nangluongvietnam.vn/tap-doan-dien-luc-viet-nam-to-chuc-dien-tap-dinh-ky-ve-phong-chay-chua-chay-va-cuu-ho-cuu-nan-36927.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/13/in_social/thongbaodientap151126tcbc-2026111517391343320261116134819.jpg?randTime=1795419578",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/16/13/in_social/thongbaodientap151126tcbc-2026111517391343320261116134819.jpg?randTime=1795514176",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-16T13:54:13+07:00",
@@ -241,7 +225,7 @@
       "title": "Dự báo xu hướng chuyển dịch năng lượng năm 2027 trong Báo cáo Năng lượng Tái tạo 2026 của IEA",
       "summary": "Liệu quá trình chuyển dịch năng lượng đang tăng tốc, hay chững lại trong năm 2027? Câu trả lời là cả hai. Năng lượng sạch đang được phát triển với tốc",
       "url": "https://nangluongvietnam.vn/du-bao-xu-huong-chuyen-dich-nang-luong-nam-2027-trong-bao-cao-nang-luong-tai-tao-2026-cua-iea-36910.html",
-      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/13/07/in_social/520261113072616.jpg?randTime=1795419174",
+      "image": "https://nangluongvietnam.vn/stores/news_dataimages/2026/112026/13/07/in_social/520261113072616.jpg?randTime=1795514184",
       "source": "Tạp chí Năng lượng Việt Nam",
       "source_url": "https://nangluongvietnam.vn/",
       "published": "2026-11-16T05:10:36+07:00",
